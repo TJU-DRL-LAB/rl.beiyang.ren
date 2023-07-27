@@ -42,7 +42,7 @@ section#poster {
     height: 100%;
     width: calc(100vw - var(--left-part-width));
     background-size: cover;
-    background: #1E2C30 url('image/materail.png') no-repeat;
+    background: #1E2C30 url('../image/materail.png') no-repeat;
     background-blend-mode: luminosity;
     transition: all .25s ease-in-out;
 }
@@ -154,7 +154,7 @@ section#poster {
 
     .slogan {
         background-size: cover;
-        background: #EBF3F5 url('image/materail.png');
+        background: #EBF3F5 url('../image/materail.png');
         background-blend-mode: luminosity;
     }
 
@@ -164,5 +164,11 @@ section#poster {
 
     .slogan-area {
         left: 50%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .slogan-title {
+        font-size: 40px;
     }
 }
