@@ -12,20 +12,26 @@
           href="https://fonts.loli.net/css?family=Playfair+Display:400,900">
     <style>
         body {
+            cursor: default;
             padding: 0;
             margin: 0;
+            user-select: none;
             background-color: #f0f0f0;
         }
     </style>
-    <link rel="stylesheet" href="default/default-header.css">
-    <link rel="stylesheet" href="default/main-poster.css">
-    <link rel="stylesheet" href="default/news.css">
+    <link rel="stylesheet" href="../assets/css/default-header.css">
+    {% if page.custom_css %}
+        {% for css_file in page.custom_css %}
+            <link rel="stylesheet" href="{{ site.baseurl }}{{ css_file }}">
+        {% endfor %}
+    {% endif %}
+    <link rel="stylesheet" href="../assets/css/footer.css">
 </head>
 <body>
 <section id="header">
     <header>
         <div class="logo">
-            <img src="default/logo.png" alt=""/>
+            <img src="../assets/image/logo.png" alt=""/>
         </div>
         <div class="action">
             <div class="tab">
@@ -49,81 +55,70 @@
         </div>
     </header>
 </section>
-<section id="poster">
-    <div class="slogan">
-        <div class="slogan-area">
-            <div class="slogan-title">
-                <span>Tianjin University</span>
-                <div style="white-space: nowrap">
-                    <span class="strong">
-                        <strong class="blue">Deep</strong> Reinforcement-
-                    </span>
-                </div>
-                <div>
-                    <span class="strong">Learning</span>
+{{content}}
+<section id="footer">
+    <div class="footer-body">
+        <div class="footer-body-holder">
+            <div class="logos">
+                <div class="logo"></div>
+                <div class="text">
+                <span class="strong">
+                    <span class="light-blue">Deep</span>
+                    Reinforcement- Learning
+                </span>
                     Laboratory
                 </div>
             </div>
-            <div class="slogan-content">
-                There are many variation of passages are Ipsum available, majority have suffered alteration in some
-                form.
+            <div class="footer-divider"></div>
+            <div class="footer-actions">
+                <div class="action-item sm-hidden">
+                    <div class="action-title">
+                        Explore
+                    </div>
+                    <div class="action-body action-item">
+                        <span>Home</span>
+                        <span>Publications</span>
+                        <span>Research</span>
+                        <span>Team</span>
+                        <span>IBBB</span>
+                        <span>Photos</span>
+                    </div>
+                </div>
+                <div class="action-item extra-margin">
+                    <div class="action-title">
+                        Contact Us
+                    </div>
+                    <div class="action-body action-item">
+                        <table style="border-spacing: 14px;border-collapse: collapse;user-select: text">
+                            <tr>
+                                <td style="width: 120px;vertical-align: top">Address:</td>
+                                <td style="width: 300px;vertical-align: top">
+                                    天津市津南区海河教育园区雅观路135号天津大学软件学院55号楼A区
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Mail:</td>
+                                <td>
+                                    <a class="hover-blue" href="mailto:jianye.hao@tju.edu.cn"
+                                       style="color: white;text-decoration: underline;">
+                                        jianye.hao@tju.edu.cn
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Phone:</td>
+                                <td>(+22) 123 - 4567 - 900</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="poster-background">
-        <div class="poster-background-box">
-            <div class="poster-image"
-                 style="background-image: url('./default/poster.png')"></div>
-        </div>
+    <div class="copyright">
+        <span>©️ TIANJIN UNIVERSITY-DEEP REINFORCEMENT LEARNING LAB</span>
+        <span style="margin-left: 25px;">ALL RIGHTS RESERVED</span>
     </div>
 </section>
-<section id="news">
-    <div class="news-title">
-        <span>News</span>
-    </div>
-    <div class="news-content">
-        <div class="news-item">
-            <div class="news-icon">
-                <div class="news-image" style="background-image: url('https://via.placeholder.com/82x37')"></div>
-            </div>
-            <div class="news-text">
-                <div class="news-text-title">
-                    May 5 2023 - Three papers accepted by ICML 2023:
-                </div>
-                <div class="news-text-desc">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend semper quam, eu pharetra mi
-                    congue a. Aenean gravida velit vitae diam rhoncus, at auctor justo sagittis. Nam a odio mi. Nullam
-                    cursus nisi nec tincidunt eleifend. In rhoncus gravida metus, in lobortis neque bibendum a.
-                    Suspendisse dictum blandit velit, nec tincidunt sem fringilla ut. Curabitur maximus tellus vitae
-                    nunc rutrum, non dictum felis auctor. Duis fringilla ut nisi vel luctus. In hac habitasse platea
-                    dictumst.
-                </div>
-            </div>
-        </div>
-        <div class="news-divider"></div>
-        <div class="news-item">
-            <div class="news-icon">
-                <div class="news-image" style="background-image: url('https://via.placeholder.com/82x37')"></div>
-            </div>
-            <div class="news-text">
-                <div class="news-text-title">
-                    May 5 2023 - Three papers accepted by ICML 2023:
-                </div>
-                <div class="news-text-desc">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend semper quam, eu pharetra mi
-                    congue a. Aenean gravida velit vitae diam rhoncus, at auctor justo sagittis. Nam a odio mi. Nullam
-                    cursus nisi nec tincidunt eleifend. In rhoncus gravida metus, in lobortis neque bibendum a.
-                    Suspendisse dictum blandit velit, nec tincidunt sem fringilla ut. Curabitur maximus tellus vitae
-                    nunc rutrum, non dictum felis auctor. Duis fringilla ut nisi vel luctus. In hac habitasse platea
-                    dictumst.
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="news-more">
-        READ MORE
-    </div>
-</section>
-<div style="height:300px;width:150px;"></div>
 </body>
 </html>
