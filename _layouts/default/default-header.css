@@ -34,6 +34,7 @@ header {
     background: #7A9CA5;
     cursor: pointer;
     transition: all .25s ease-in-out;
+    border-radius: 2px;
 }
 
 .contact:hover {

@@ -19,7 +19,20 @@ section#poster {
     height: 100%;
     width: var(--left-part-width);
     background-color: #EBF3F5;
+    transition: all .25s ease-in-out;
 }
+
+@keyframes zoomIn {
+    from {
+        transform: scale(.5);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
 
 .poster-background {
     position: absolute;
@@ -30,6 +43,7 @@ section#poster {
     background-size: cover;
     background: #1E2C30 url('materail.png') no-repeat;
     background-blend-mode: luminosity;
+    transition: all .25s ease-in-out;
 }
 
 .poster-background-box {
@@ -43,6 +57,7 @@ section#poster {
     box-shadow: 0 20px 60px 0 rgba(47, 68, 73, 0.46);
     border-left: none;
     padding: var(--image-padding);
+    transition: all .25s ease-in-out;
 }
 
 .poster-image {
@@ -55,6 +70,7 @@ section#poster {
     width: var(--image-size);
     transform: translate(calc(var(--image-padding) * -1), 0);
     box-shadow: 0 20px 60px 0 rgba(47, 68, 73, 0.46);
+    transition: all .25s ease-in-out;
 }
 
 .slogan-area {
@@ -74,6 +90,7 @@ section#poster {
     font-style: normal;
     font-weight: 400;
     line-height: 170%;
+    animation: zoomIn .75s ease-in-out;
 }
 
 .slogan-title {
@@ -81,6 +98,7 @@ section#poster {
     font-size: 70px;
     font-weight: 400;
     letter-spacing: -0.7px;
+    animation: zoomIn .5s;
 }
 
 .strong {
@@ -131,6 +149,12 @@ section#poster {
 @media screen and (max-width: 1120px) {
     :root {
         --left-part-width: 100vw;
+    }
+
+    .slogan {
+        background-size: cover;
+        background: #EBF3F5 url('materail.png');
+        background-blend-mode: luminosity;
     }
 
     .poster-background {

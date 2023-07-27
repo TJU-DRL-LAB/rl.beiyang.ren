@@ -19,12 +19,19 @@ section#news {
 }
 
 .news-item {
+    cursor: pointer;
+    padding: 20px;
     width: 100%;
     height: 100%;
     justify-content: flex-start;
     align-items: center;
     gap: 32px;
     display: inline-flex;
+    transition: all .25s ease-in-out;
+}
+
+.news-item:hover {
+    background-color: rgba(0, 0, 0, .05);
 }
 
 .news-text {
@@ -60,8 +67,62 @@ section#news {
     text-overflow: ellipsis;
 }
 
+.news-icon {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background: #F2FCFF;
+    border: 1px #1E2C30 solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-image {
+    --margin-out: 10px;
+    height: calc(100% - var(--margin-out));
+    width: calc(100% - var(--margin-out));
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.news-divider {
+    height: 1px;
+    width: 100%;
+    background: #D3D3D3;
+    margin: 36px 0;
+}
+
 .news-content {
     margin-top: 50px;
     width: 80%;
     max-width: 1200px;
+}
+
+.news-more {
+    margin-top: 50px;
+    display: flex;
+    padding: 23px 34px 24px 34px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #5C8692;
+    color: #141414;
+    text-align: center;
+    font-family: Manrope, ui-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 125%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all .25s ease-in-out;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+
+.news-more:hover {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
 }
