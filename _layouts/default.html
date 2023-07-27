@@ -21,9 +21,9 @@
     </style>
     <link rel="stylesheet" href="assets/css/default-header.css">
     {% if page.custom_css %}
-        {% for css_file in page.custom_css %}
-            <link rel="stylesheet" href="{{ site.baseurl }}{{ css_file }}">
-        {% endfor %}
+    {% for css_file in page.custom_css %}
+    <link rel="stylesheet" href="{{ site.baseurl }}{{ css_file }}">
+    {% endfor %}
     {% endif %}
     <link rel="stylesheet" href="assets/css/footer.css">
 </head>
@@ -60,7 +60,7 @@
     <div class="footer-body">
         <div class="footer-body-holder">
             <div class="logos">
-                <div class="logo"></div>
+                <div class="logo" style="background-image: url('assets/image/logo-white.png');"></div>
                 <div class="text">
                 <span class="strong">
                     <span class="light-blue">Deep</span>
