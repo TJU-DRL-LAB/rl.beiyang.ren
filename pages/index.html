@@ -71,7 +71,7 @@ custom_css:
     <div class="research-cards">
         {% assign sorted_post = site.posts | sort: 'data' %}
         {% for post in sorted_post limit: site.data.config.main_page.post %}
-            <div class="research-card" onclick="window.open('{{ post.url }}')">
+            <div class="research-card" onclick="window.open('{{ site.baseurl }}{{ post.url }}')">
                 <div class="research-image"
                      style="background-image: url('{{ post.poster }}')">
                 </div>
