@@ -69,6 +69,10 @@ section#news {
     text-overflow: ellipsis;
 }
 
+.invert{
+    filter: invert(1);
+}
+
 .news-icon {
     width: 100px;
     height: 100px;

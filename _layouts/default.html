@@ -5,9 +5,15 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{{page.title}}</title>
+    <title>{{ page.title }}</title>
+    {% if page.materializedCss %}
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    {% endif %}
     <link rel="stylesheet"
           href="https://fonts.loli.net/css?family=Manrope">
+    <link href="https://fonts.loli.net/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet"
           href="https://fonts.loli.net/css?family=Playfair+Display:400,900">
     <style>
@@ -19,48 +25,81 @@
             background-color: #f0f0f0;
         }
     </style>
-    <link rel="stylesheet" href="assets/css/default-header.css">
+    <link rel="stylesheet" href="/assets/css/header.css">
     {% if page.custom_css %}
-    {% for css_file in page.custom_css %}
-    <link rel="stylesheet" href="{{ site.baseurl }}{{ css_file }}">
-    {% endfor %}
+        {% for css_file in page.custom_css %}
+            <link rel="stylesheet" href="{{ site.baseurl }}{{ css_file }}">
+        {% endfor %}
     {% endif %}
-    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
+    {% if page.layout == 'post' %}
+        <link rel="stylesheet" href="/assets/css/post.css">
+    {% endif %}
+
 </head>
 <body>
+<script>
+  // Wait for the DOM to fully load
+  document.addEventListener("DOMContentLoaded", () => {
+    // JavaScript code to select all <a> tags with class != "inner"
+    const anchorTagsWithoutInnerClass = document.querySelectorAll('a:not(.inner)');
+
+    // Loop through the selected anchor tags and add the target="_blank" attribute
+    anchorTagsWithoutInnerClass.forEach(anchor => {
+      anchor.setAttribute('target', '_blank');
+    });
+  });
+
+</script>
 <section id="header">
     <header>
         <div class="logo">
-            <img src="assets/image/logo.png" alt=""/>
+            <img src="/assets/image/logo.png" alt=""/>
         </div>
         <div class="action">
             <div class="tab">
-                <a class="tab-item" href="/">Home</a>
+                <a class="tab-item inner" href="/">Home</a>
                 <div class="dropdown-menu">
-                    <span class=" text">Publications</span>
+                    <span class="text">Publications</span>
                     <div class="content">
-                        <div class="tab-item item">Conference</div>
+                        <div onclick="window.location.href ='/conference'" class="tab-item item">Conference</div>
                         <div class="divider"></div>
-                        <div class="tab-item item">Journey</div>
+                        <div onclick="window.location.href ='/journey'" class="tab-item item">Journey</div>
                     </div>
                 </div>
-                <a class="tab-item" href="/research">Research</a>
-                <a class="tab-item" href="/team">Team</a>
-                <a class="tab-item" href="/ibbb">IBBB</a>
-                <a class="tab-item" href="/photos">Photos</a>
+                <a class="tab-item inner" href="/research">Research</a>
+                <a class="tab-item inner" href="/team">Team</a>
+                <a class="tab-item inner" href="/ibbb">IBBB</a>
+                <a class="tab-item inner" href="/photos">Photos</a>
             </div>
-            <div class="contact">
+            <div class="contact" onclick="window.location.href='/contact'">
                 <span>Contact Us</span>
+            </div>
+            <div class="thin-menu">
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="menu-btn">
+                    <i class="material-icons">menu</i>
+                </label>
+                <ul class="menu">
+                    <li><a class="inner" href="/">Home</a></li>
+                    <li><a class="inner" href="/conference">Conference</a></li>
+                    <li><a class="inner" href="/journey">Journey</a></li>
+                    <li><a class="inner" href="/research">Research</a></li>
+                    <li><a class="inner" href="/team">Team</a></li>
+                    <li><a class="inner" href="/ibbb">IBBB</a></li>
+                    <li><a class="inner" href="/photos">Photos</a></li>
+                    <li><a class="inner" href="/contact">Contact</a></li>
+                </ul>
             </div>
         </div>
     </header>
 </section>
-{{content}}
+{{ content }}
 <section id="footer">
     <div class="footer-body">
         <div class="footer-body-holder">
             <div class="logos">
-                <div class="logo" style="background-image: url('assets/image/logo-white.png');"></div>
+                <div class="logo" style="background-image: url('/assets/image/logo-white.png');"></div>
                 <div class="text">
                 <span class="strong">
                     <span class="light-blue">Deep</span>

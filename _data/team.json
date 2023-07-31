@@ -1,0 +1,136 @@
+[
+  {
+    "type": "Professor",
+    "item": [
+      {
+        "name": "YAN ZHENG",
+        "desc": "Associate Professor, College of Intelligence and Computing, Tianjin University",
+        "img": "https://source.unsplash.com/random/800x800?id=0",
+        "link": "https://example.com/professor/yan-zheng",
+        "area": "Multiagent Systems; Deep Reinforcement Learning; Evolutionary Algorithm; Opponent Modeling; GAIL"
+      },
+      {
+        "name": "JULIA MARTIN",
+        "desc": "Senior Researcher, Center for Artificial Intelligence, Stanford University",
+        "img": "https://source.unsplash.com/random/800x800?id=1",
+        "link": "https://example.com/professor/julia-martin",
+        "area": "Natural Language Processing; Computer Vision; Robotics; Machine Learning"
+      },
+      {
+        "name": "ROBERT JONES",
+        "desc": "Professor of Machine Learning, Carnegie Mellon University",
+        "img": "https://source.unsplash.com/random/800x800?id=6",
+        "link": "https://example.com/professor/robert-jones",
+        "area": "Reinforcement Learning; Computer Vision; Robotics"
+      }
+    ]
+  },
+  {
+    "type": "PhD",
+    "item": [
+      {
+        "name": "JOHN SMITH",
+        "desc": "Ph.D. in Computer Science, Institute of Artificial Intelligence, MIT",
+        "img": "https://source.unsplash.com/random/800x800?id=2",
+        "link": "https://example.com/phd/john-smith",
+        "area": "Machine Learning; Computer Vision; Autonomous Systems"
+      },
+      {
+        "name": "SARAH JOHNSON",
+        "desc": "Ph.D. Candidate, Department of Computer Science, University of California, Berkeley",
+        "img": "https://source.unsplash.com/random/800x800?id=3",
+        "link": "https://example.com/phd/sarah-johnson",
+        "area": "Natural Language Processing; Human-AI Interaction"
+      },
+      {
+        "name": "DAVID MILLER",
+        "desc": "Ph.D. Candidate in Computer Science, Stanford University",
+        "img": "https://source.unsplash.com/random/800x800?id=8",
+        "link": "https://example.com/phd/david-miller",
+        "area": "Human-Robot Interaction; Explainable AI"
+      },
+      {
+        "name": "ANNA GARCIA",
+        "desc": "Ph.D. Candidate in Machine Learning, University of Toronto",
+        "img": "https://source.unsplash.com/random/800x800?id=9",
+        "link": "https://example.com/phd/anna-garcia",
+        "area": "Generative Models; Bayesian Deep Learning"
+      },
+      {
+        "name": "MICHAEL PARK",
+        "desc": "Ph.D. Candidate, School of Computer Science, Carnegie Mellon University",
+        "img": "https://source.unsplash.com/random/800x800?id=12",
+        "link": "https://example.com/phd/michael-park",
+        "area": "Computer Graphics; Virtual Reality"
+      },
+      {
+        "name": "EMILY LEE",
+        "desc": "Ph.D. Candidate, Department of Artificial Intelligence, MIT",
+        "img": "https://source.unsplash.com/random/800x800?id=13",
+        "link": "https://example.com/phd/emily-lee",
+        "area": "Machine Translation; Cross-Lingual Learning"
+      },
+      {
+        "name": "MATTHEW BROWN",
+        "desc": "Ph.D. Candidate, Computer Vision Lab, University of Oxford",
+        "img": "https://source.unsplash.com/random/800x800?id=14",
+        "link": "https://example.com/phd/matthew-brown",
+        "area": "3D Reconstruction; Object Detection"
+      }
+    ]
+  },
+  {
+    "type": "Master",
+    "item": [
+      {
+        "name": "MICHAEL BROWN",
+        "desc": "Data Science Master's, AnalyticsTech Solutions",
+        "img": "https://source.unsplash.com/random/800x800?id=4",
+        "link": "https://example.com/master/michael-brown",
+        "area": "Predictive Analytics; Data Mining; Time Series Analysis"
+      },
+      {
+        "name": "OLIVIA GREEN",
+        "desc": "Master's in Artificial Intelligence, Data Insights Group",
+        "img": "https://source.unsplash.com/random/800x800?id=5",
+        "link": "https://example.com/master/olivia-green",
+        "area": "Machine Learning; Deep Learning; Recommender Systems"
+      },
+      {
+        "name": "WILLIAM WHITE",
+        "desc": "Master's in Data Science, AnalyticsTech Solutions",
+        "img": "https://source.unsplash.com/random/800x800?id=10",
+        "link": "https://example.com/master/william-white",
+        "area": "Big Data Analytics; Business Intelligence"
+      },
+      {
+        "name": "SOPHIA ANDERSON",
+        "desc": "Master's in Artificial Intelligence, Data Insights Group",
+        "img": "https://source.unsplash.com/random/800x800?id=11",
+        "link": "https://example.com/master/sophia-anderson",
+        "area": "Computer Vision; Image Recognition"
+      },
+      {
+        "name": "ANDREW WILSON",
+        "desc": "Master's in Robotics and Autonomous Systems, Carnegie Mellon University",
+        "img": "https://source.unsplash.com/random/800x800?id=15",
+        "link": "https://example.com/master/andrew-wilson",
+        "area": "Autonomous Navigation; Robot Perception"
+      },
+      {
+        "name": "GRACE THOMAS",
+        "desc": "Master's in Natural Language Processing, University of Washington",
+        "img": "https://source.unsplash.com/random/800x800?id=16",
+        "link": "https://example.com/master/grace-thomas",
+        "area": "Sentiment Analysis; Named Entity Recognition"
+      },
+      {
+        "name": "JACKSON LEE",
+        "desc": "Master's in Computer Graphics, Stanford University",
+        "img": "https://source.unsplash.com/random/800x800?id=17",
+        "link": "https://example.com/master/jackson-lee",
+        "area": "Virtual Reality; Animation"
+      }
+    ]
+  }
+]

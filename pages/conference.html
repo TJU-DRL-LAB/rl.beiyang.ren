@@ -1,0 +1,22 @@
+---
+layout: default
+title: conference
+permalink: /conference/
+custom_css:
+- /assets/css/publications.css
+- /assets/css/news.css
+---
+
+<div class="content" style="padding: 20px 20%;">
+    <div class="news-title">
+        <span>Conference</span>
+    </div>
+    {% for journey in site.data.conference %}
+        <div onclick="window.open('{{ journey.url }}')" class="journey-item"
+             style="background-color: #f9f9f9; padding: 20px; margin: 10px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+            <h3 style="margin: 10px 0;">{{ forloop.index }}. {{ journey.name }}</h3>
+            <span style="display: block; margin-bottom: 5px;">{{ journey.from }}</span>
+            <span style="display: block;">Authors: {{ journey.authors }}</span>
+        </div>
+    {% endfor %}
+</div>

@@ -1,0 +1,35 @@
+---
+layout: default
+title: Research
+permalink: /research
+custom_css:
+ - /assets/css/research.css
+---
+<section id="research">
+    <div class="research-title">
+        Recent Research
+    </div>
+    <div class="research-cards">
+        {% assign sorted_post = site.posts | sort: 'data' %}
+        {% for post in sorted_post%}
+            <div class="research-card" onclick="window.open('{{ post.url }}')">
+                <div class="research-image"
+                     style="background-image: url('{{ post.poster }}')">
+                </div>
+                <div class="research-body">
+                    <div class="research-card-title">
+                        {{ post.title }}
+                    </div>
+                    <div class="research-card-desc">
+                        {{ post.date | date: "%Y-%m-%d" }}: {{ post.excerpt }}
+                    </div>
+                    <div class="research-card-action">
+                        {% for link in post.links %}
+                            <a target="_blank" href="{{ link.link }}" class="banner">{{ link.name }}</a>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>

@@ -1,0 +1,9 @@
+{
+  "main_page": {
+    "desc": "Lrem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. ",
+    "balance_wrap": true,
+    "poster": "assets/image/poster.png",
+    "news": 3,
+    "post": 3
+  }
+}

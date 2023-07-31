@@ -1,0 +1,97 @@
+---
+title: 天津大学深度强化学习实验室
+layout: default
+permalink: /
+custom_css:
+- /assets/css/main-poster.css
+- /assets/css/news.css
+- /assets/css/research.css
+---
+<section id="poster">
+    <div class="slogan">
+        <div class="slogan-area">
+            <div class="slogan-title">
+                <span>Tianjin University</span>
+                <div style="white-space: nowrap">
+                    <span class="strong">
+                        <strong class="blue">Deep</strong> Reinforcement-
+                    </span>
+                </div>
+                <div>
+                    <span class="strong">Learning</span>
+                    Laboratory
+                </div>
+            </div>
+            <div class="slogan-content {% if site.data.config.main_page.balance_wrap %}balance-warp{% endif %}">
+                {{ site.data.config.main_page.desc }}
+            </div>
+        </div>
+    </div>
+    <div class="poster-background">
+        <div class="poster-background-box">
+            <div class="poster-image"
+                 style="background-image: url('{{ site.data.config.main_page.poster }}')"></div>
+        </div>
+    </div>
+</section>
+<section id="news">
+    <div class="news-title">
+        <span>News</span>
+    </div>
+    <div class="news-content">
+        {% assign sorted_news = site.data.news | sort: 'date' | reverse %}
+        {% for news in sorted_news limit: site.data.config.main_page.news %}
+            <div class="news-item">
+                <div class="news-icon">
+                    <div class="news-image {% if news.invert %}invert{% endif %}"
+                         style="background-image: url('{{ news.icon }}')"></div>
+                </div>
+                <div class="news-text">
+                    <div class="news-text-title">
+                        {{ news.date | date: "%b %e, %Y" }} - {{ news.title }}
+                    </div>
+                    <div class="news-text-desc">
+                        {{ news.desc }}
+                    </div>
+                </div>
+            </div>
+            {% unless forloop.last %}
+                <div class="news-divider"></div>
+            {% endunless %}
+        {% endfor %}
+    </div>
+    <div class="news-more" onclick="window.location.href='/news'">
+        READ MORE
+    </div>
+</section>
+<section id="research">
+    <div class="research-title">
+        Recent Research
+    </div>
+    <div class="research-cards">
+        {% assign sorted_post = site.posts | sort: 'data' %}
+        {% for post in sorted_post limit: site.data.config.main_page.post %}
+            <div class="research-card" onclick="window.open('{{ post.url }}')">
+                <div class="research-image"
+                     style="background-image: url('{{ post.poster }}')">
+                </div>
+                <div class="research-body">
+                    <div class="research-card-title">
+                        {{ post.title }}
+                    </div>
+                    <div class="research-card-desc">
+                        {{ post.date | date: "%Y-%m-%d" }}: {{ post.excerpt }}
+                    </div>
+                    <div class="research-card-action">
+                        {% for link in post.links %}
+                            <a target="_blank" href="{{ link.link }}" class="banner">{{ link.name }}</a>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    <div class="research-more" onclick="window.location.href='/research'">
+        READ MORE
+    </div>
+</section>

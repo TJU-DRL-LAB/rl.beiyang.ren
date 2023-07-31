@@ -1,0 +1,25 @@
+---
+layout: default
+title: team
+permalink: /team
+custom_css:
+- /assets/css/team.css
+---
+<div class="content">
+    {% for categry in site.data.team %}
+        <div class="categry">
+            {{ categry.type }}
+        </div>
+        <div class="grid-container">
+            {% for person in categry.item %}
+                <div class="person-card">
+                    <img src="{{ person.img }}" alt="desc">
+                    <h3>Person {{ person.name }}</h3>
+                    <p>{{ person.desc }}</p>
+                    <p class="area">{{ person.area }}</p>
+                    <a href="{{ person.link }}">Learn More</a>
+                </div>
+            {% endfor %}
+        </div>
+    {% endfor %}
+</div>

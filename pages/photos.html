@@ -1,0 +1,43 @@
+---
+layout: default
+title: photos
+permalink: /photos
+materializedCss: true
+custom_css:
+- /assets/css/photos.css
+- /assets/css/team.css
+---
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var elems = document.querySelectorAll('.photo');
+    var instances = M.Materialbox.init(elems);
+  });
+</script>
+<div class="content">
+    <div class="photo-wall">
+        <div class="column">
+            {% for photo_url in site.data.photos.column1 %}
+                <img class="photo" src="{{ photo_url }}" alt="照片{{ forloop.index }}">
+            {% endfor %}
+        </div>
+
+        <div class="column">
+            {% for photo_url in site.data.photos.column2 %}
+                <img class="photo" src="{{ photo_url }}" alt="照片{{ forloop.index }}">
+            {% endfor %}
+        </div>
+
+        <div class="column">
+            {% for photo_url in site.data.photos.column3 %}
+                <img class="photo" src="{{ photo_url }}" alt="照片{{ forloop.index }}">
+            {% endfor %}
+        </div>
+
+        <div class="column">
+            {% for photo_url in site.data.photos.column4 %}
+                <img class="photo" src="{{ photo_url }}" alt="照片{{ forloop.index }}">
+            {% endfor %}
+        </div>
+
+    </div>
+</div>

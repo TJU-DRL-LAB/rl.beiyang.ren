@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<section id="post">
+    <div class="post-body">
+        <div class="post-title">{{ page.title }}</div>
+        <div class="post-subtitle">{{ page.date | date: "%B %d, %Y" }} {{ page.auth }}</div>
+        <!-- for links -->
+        <div class="post-links">
+            <span style="margin-right: 10px;">Download: </span>
+            {% for link in page.links %}
+                <a href="{{ link.url }}" target="_blank" class="banner">{{ link.name }}</a>
+            {% endfor %}
+        </div>
+        <div class="post-poster">
+            <img style="width: 100%; height: auto" src="{{ page.poster }}" alt="poster">
+        </div>
+
+        {{ content }}
+    </div>
+</section>

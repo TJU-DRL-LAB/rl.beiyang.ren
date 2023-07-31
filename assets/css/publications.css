@@ -1,0 +1,19 @@
+.journey-item:hover {
+    transform: scale(1.05);
+}
+
+.journey-item {
+    cursor: pointer;
+    transition: all .25s ease-in-out;
+}
+
+
+.content {
+    transition: all .25s ease-in-out;
+}
+
+@media (max-width: 768px) {
+    .content {
+        padding: 20px !important;
+    }
+}

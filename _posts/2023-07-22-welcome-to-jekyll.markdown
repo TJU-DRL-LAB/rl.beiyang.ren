@@ -1,8 +1,23 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2023-07-22 21:53:35 +0800
-categories: jekyll update
+title: "Welcome to Jekyll!"
+date: 2023-07-22 21:53:35
+auth: "Yueyang Feng"
+poster: http://rl.beiyang.ren/images/work_pic/yyf.png
+excerpt: Unsupervised reinforcement learning (URL) poses a promising paradigm to learn useful behaviors
+  in a
+  task-agnostic environment without the guidance of extrinsic rewards to facilitate the fast
+  adaptation of various downstream tasks. Previous works focused on the pre-training in a
+  model-free
+  manner while lacking the study of transition dynamics modeling that leaves a large space for the
+  improvement of sample efficiency in downstream tasks.
+links:
+  - name: PDF
+    link: http://rl.beiyang.ren/images/work_pic/yyf.png
+  - name: CVPR
+    link: https://cn.bing.com
+  - name: Github
+    link: https://github.com
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

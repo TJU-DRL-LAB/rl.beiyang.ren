@@ -1,0 +1,62 @@
+[
+  {
+    "name": "A Survey of Deep Learning Techniques for Natural Language Processing",
+    "url": "https://arxiv.org/abs/2101.01234",
+    "from": "arXiv: Computer Science (cs.CL)",
+    "authors": "Alice Johnson, Bob Smith, Carol Lee"
+  },
+  {
+    "name": "Efficient Training of Large-Scale Graph Neural Networks with Message Passing",
+    "url": "https://arxiv.org/abs/2102.04567",
+    "from": "arXiv: Machine Learning (cs.LG)",
+    "authors": "David Wang, Emily Chen, Frank Miller"
+  },
+  {
+    "name": "Advancements in Quantum Computing and Quantum Algorithms",
+    "url": "https://arxiv.org/abs/2103.08901",
+    "from": "arXiv: Quantum Physics (quant-ph)",
+    "authors": "Grace Adams, Henry Brown, Isabella Davis"
+  },
+  {
+    "name": "Understanding Self-Supervised Learning for Computer Vision Tasks",
+    "url": "https://arxiv.org/abs/2104.07654",
+    "from": "arXiv: Computer Vision (cs.CV)",
+    "authors": "Jack Lee, Kate Johnson, Leo Kim"
+  },
+  {
+    "name": "Secure Federated Learning in Privacy-Sensitive Environments",
+    "url": "https://arxiv.org/abs/2105.09876",
+    "from": "arXiv: Cryptography (cs.CR)",
+    "authors": "Michael Wilson, Nicole Garcia, Oscar White"
+  },
+  {
+    "name": "Recent Advances in Generative Adversarial Networks for Image Synthesis",
+    "url": "https://arxiv.org/abs/2106.04321",
+    "from": "arXiv: Computer Graphics (cs.GR)",
+    "authors": "Peter Kim, Quinn Smith, Rachel Johnson"
+  },
+  {
+    "name": "Applications of Deep Learning in Biomedical Image Analysis",
+    "url": "https://arxiv.org/abs/2107.06543",
+    "from": "arXiv: Medical Imaging (eess.IV)",
+    "authors": "Sophia Davis, Tom Chen, Ursula Wang"
+  },
+  {
+    "name": "Reinforcement Learning for Robotics in Real-World Environments",
+    "url": "https://arxiv.org/abs/2108.02198",
+    "from": "arXiv: Robotics (cs.RO)",
+    "authors": "Victor Miller, Wendy Lee, Xavier Brown"
+  },
+  {
+    "name": "Graph Neural Networks: A Comprehensive Survey and Applications",
+    "url": "https://arxiv.org/abs/2109.03456",
+    "from": "arXiv: Artificial Intelligence (cs.AI)",
+    "authors": "Yara Zhang, Zane Wang, Alice Chen"
+  },
+  {
+    "name": "Recent Developments in Meta-Learning and Few-Shot Learning",
+    "url": "https://arxiv.org/abs/2110.01234",
+    "from": "arXiv: Machine Learning (cs.LG)",
+    "authors": "Zeke Kim, Zoey Davis, Adam Johnson"
+  }
+]

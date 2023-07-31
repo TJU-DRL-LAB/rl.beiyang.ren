@@ -1,0 +1,35 @@
+---
+layout: default
+title: "news"
+permalink: /news
+custom_css:
+ - /assets/css/news.css
+---
+
+<section id="news" style="background-color: #f0f0f0;margin-bottom: 50px;">
+    <div class="news-title">
+        <span>News</span>
+    </div>
+    <div class="news-content">
+        {% assign sorted_news = site.data.news | sort: 'date' | reverse %}
+        {% for news in sorted_news%}
+            <div class="news-item">
+                <div class="news-icon">
+                    <div class="news-image {% if news.invert %}invert{% endif %}"
+                         style="background-image: url('{{ news.icon }}')"></div>
+                </div>
+                <div class="news-text">
+                    <div class="news-text-title">
+                        {{ news.date | date: "%b %e, %Y" }} - {{ news.title }}
+                    </div>
+                    <div class="news-text-desc">
+                        {{ news.desc }}
+                    </div>
+                </div>
+            </div>
+            {% unless forloop.last %}
+                <div class="news-divider"></div>
+            {% endunless %}
+        {% endfor %}
+    </div>
+</section>

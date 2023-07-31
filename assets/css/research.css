@@ -26,6 +26,7 @@ section#research {
 }
 
 .research-card {
+    cursor: pointer;
     margin-bottom: 30px;
     border-radius: 5px;
     max-width: 1400px;
@@ -150,26 +151,26 @@ section#research {
 
 
 @media screen and (max-width: 1040px) {
-    .research-card{
+    .research-card {
         flex-direction: column;
         width: 70%;
     }
 
-    .research-card-title{
+    .research-card-title {
         font-size: 22px;
     }
 
-    .research-card-desc{
+    .research-card-desc {
         font-size: 15px;
     }
 }
 
 @media screen and (max-width: 800px) {
-    .research-card-title{
+    .research-card-title {
         font-size: 18px;
     }
 
-    .research-card-desc{
+    .research-card-desc {
         font-size: 15px;
     }
 }

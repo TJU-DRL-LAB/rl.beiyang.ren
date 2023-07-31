@@ -13,6 +13,7 @@ section#poster {
 
 
 .slogan {
+    max-width: 100%;
     user-select: none;
     position: absolute;
     top: 0;
@@ -80,6 +81,11 @@ section#poster {
     left: 45%;
     transform: translate(-50%, -50%);
 
+}
+
+.balance-warp {
+    word-wrap: break-word;
+    text-align: justify;
 }
 
 .slogan-content {
@@ -168,6 +174,13 @@ section#poster {
 }
 
 @media screen and (max-width: 750px) {
+
+    .slogan {
+        max-width: 100%;
+        padding: 1vw;
+    }
+
+
     .slogan-title {
         font-size: 40px;
     }

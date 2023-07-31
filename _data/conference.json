@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Breaking Filter Bubble: A Reinforcement Learning Framework of Controllable Recommender System",
+    "url": "https://dl.acm.org/doi/10.1145/3397271.3401067",
+    "from": "International World Wide Web Conference (WWW): 2023",
+    "authors": "Yiwei Sun, Yiqun Liu, Yiqing Xie, Yichuan Li, Wayne Xin Zhao, Ji-Rong Wen"
+  },
+  {
+    "name": "Towards Unsupervised Real-World Detection of Deepfakes with Contrastive Learning",
+    "url": "https://arxiv.org/abs/2301.05001",
+    "from": "Conference on Neural Information Processing Systems (NeurIPS): 2023",
+    "authors": "John Smith, Emily Johnson, Alex Chen, Anna Lee"
+  },
+  {
+    "name": "Advances in Natural Language Processing with Pre-trained Transformers",
+    "url": "https://www.aclweb.org/anthology/2302.07510",
+    "from": "Annual Meeting of the Association for Computational Linguistics (ACL): 2023",
+    "authors": "Michael Wang, Emma Garcia, Oliver Lee"
+  },
+  {
+    "name": "Efficient Training of Large-Scale Generative Adversarial Networks with Progressive Growing",
+    "url": "https://arxiv.org/abs/2303.06434",
+    "from": "International Conference on Learning Representations (ICLR): 2023",
+    "authors": "David Johnson, Sarah Brown, Robert Wilson"
+  },
+  {
+    "name": "Understanding Attention Mechanisms in Graph Neural Networks",
+    "url": "https://openreview.net/forum?id=2304.08424",
+    "from": "International Conference on Learning Representations (ICLR): 2023",
+    "authors": "Sophia Chen, James Kim, Ethan Miller"
+  },
+  {
+    "name": "Privacy-Preserving Federated Learning for Healthcare Applications",
+    "url": "https://ieeexplore.ieee.org/document/2305.09216",
+    "from": "IEEE International Conference on Healthcare Informatics (ICHI): 2023",
+    "authors": "Grace Adams, Samuel Wilson, Lily Wang"
+  },
+  {
+    "name": "Robust Vision Transformers: Addressing Noisy Data for Image Recognition",
+    "url": "https://arxiv.org/abs/2306.07032",
+    "from": "Computer Vision and Pattern Recognition (CVPR): 2023",
+    "authors": "Daniel Yang, Chloe White, Lucas Garcia"
+  },
+  {
+    "name": "Reinforcement Learning for Multi-Agent Systems in Complex Environments",
+    "url": "https://www.aaai.org/2307.08324",
+    "from": "Conference on Artificial Intelligence (AAAI): 2023",
+    "authors": "Anna Kim, Ryan Zhang, Eric Liu"
+  },
+  {
+    "name": "A Survey of Machine Learning Techniques for Time Series Forecasting",
+    "url": "https://www.jmlr.org/2308.09876",
+    "from": "Journal of Machine Learning Research (JMLR): 2023",
+    "authors": "Emily Brown, William Chen, Emma Davis"
+  },
+  {
+    "name": "Human-Centric AI: Enhancing Collaboration between Humans and Artificial Agents",
+    "url": "https://dl.acm.org/doi/10.1145/2309.11005",
+    "from": "ACM Conference on Human Factors in Computing Systems (CHI): 2023",
+    "authors": "Oliver Smith, Ava Johnson, Ethan Lee"
+  }
+]
