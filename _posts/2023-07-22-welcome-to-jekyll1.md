@@ -3,7 +3,8 @@ layout: post
 title: "Welcome to Jekyll!"
 date: 2023-07-22 21:53:35
 auth: "Yueyang Feng"
-poster: http://rl.beiyang.ren/images/work_pic/yyf.png
+internal: true
+poster: /assets/image/yyf.png
 excerpt: Unsupervised reinforcement learning (URL) poses a promising paradigm to learn useful behaviors
   in a
   task-agnostic environment without the guidance of extrinsic rewards to facilitate the fast

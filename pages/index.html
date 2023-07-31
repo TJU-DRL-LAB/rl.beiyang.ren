@@ -73,7 +73,7 @@ custom_css:
         {% for post in sorted_post limit: site.data.config.main_page.post %}
             <div class="research-card" onclick="window.open('{{ site.baseurl }}{{ post.url }}')">
                 <div class="research-image"
-                     style="background-image: url('{{ post.poster }}')">
+                     style="background-image: url('{% if page.internal %}{{ site.baseurl }}{% endif %} {{ post.poster }}')">
                 </div>
                 <div class="research-body">
                     <div class="research-card-title">
