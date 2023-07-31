@@ -10,8 +10,8 @@
     "title": "Vestibulum ante ipsum primis in faucibus",
     "desc": "Duis aliquam purus sit amet luctus venenatis lectus magna. Nulla posuere sollicitudin aliquam ultrices sagittis orci. Et malesuada fames ac turpis egestas maecenas. Ut porttitor leo a diam sollicitudin tempor. ",
     "date": "2023-09-28",
-    "icon": "https://static.arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg",
-    "invert": true
+    "icon": "http://rl.beiyang.ren/images/logo2.png",
+    "invert": false
   },
   {
     "title": "Quisque non tellus orci ac auctor",
