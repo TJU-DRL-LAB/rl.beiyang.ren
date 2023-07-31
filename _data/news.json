@@ -11,7 +11,7 @@
     "desc": "Duis aliquam purus sit amet luctus venenatis lectus magna. Nulla posuere sollicitudin aliquam ultrices sagittis orci. Et malesuada fames ac turpis egestas maecenas. Ut porttitor leo a diam sollicitudin tempor. ",
     "date": "2023-09-28",
     "icon": "https://static.arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg",
-    "invert": false
+    "invert": true
   },
   {
     "title": "Quisque non tellus orci ac auctor",
@@ -25,7 +25,7 @@
     "desc": "Integer quis auctor elit sed vulputate mi. Sed adipiscing diam donec adipiscing tristique risus. Suspendisse in est ante in nibh mauris cursus. Cursus in hac habitasse platea dictumst quisque sagittis.",
     "date": "2023-09-21",
     "icon": "https://static.arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg",
-    "invert": false
+    "invert": true
   },
   {
     "title": "Pellentesque dignissim enim sit amet",
@@ -39,7 +39,7 @@
     "desc": "Lobortis feugiat vivamus at augue eget arcu. Vel quam elementum pulvinar etiam non quam. Consequat interdum varius sit amet mattis. Magna fermentum iaculis eu non diam phasellus vestibulum.",
     "date": "2023-09-12",
     "icon": "https://static.arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg",
-    "invert": false
+    "invert": true
   },
   {
     "title": "Fusce pharetra convallis posuere morbi",
@@ -53,7 +53,7 @@
     "desc": "Vestibulum lectus mauris ultrices eros in. Tincidunt dui ut ornare lectus. Ac turpis egestas sed tempus urna et. Magna sit amet purus gravida quis blandit turpis cursus. ",
     "date": "2023-09-04",
     "icon": "https://static.arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg",
-    "invert": false
+    "invert": true
   },
   {
     "title": "Sed faucibus turpis in eu",
@@ -67,6 +67,6 @@
     "desc": "Cras tincidunt lobortis feugiat vivamus at augue eget arcu. Tortor vitae purus faucibus ornare suspendisse sed nisi. Sed egestas egestas fringilla phasellus. Lectus mauris ultrices eros in.",
     "date": "2023-08-27",
     "icon": "https://static.arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg",
-    "invert": false
+    "invert": true
   }
 ]
