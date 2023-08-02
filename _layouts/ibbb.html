@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="content">
+    <div class="news-title" style="font-family:'Microsoft YaHei UI',serif;">
+        <span>
+            {{ page.title }}
+        </span>
+    </div>
+    {% for item in site.data.ibbb %}
+        {% if item.permalink == page.permalink %}
+            {% for article in item.item %}
+                <div class="journey-item" onclick="window.open('{{ article.link }}')">
+                    <h3 class="publication-title">
+                        {{ forloop.index }}. {{ article.name }}
+                    </h3>
+                    <span class="publication-source">{{ article.from }}</span>
+                    <span class="publication-authors">{{ article.authors }}</span>
+                </div>
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
+</div>

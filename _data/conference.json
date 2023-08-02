@@ -1,62 +1,110 @@
 [
   {
-    "name": "Breaking Filter Bubble: A Reinforcement Learning Framework of Controllable Recommender System",
-    "url": "https://dl.acm.org/doi/10.1145/3397271.3401067",
-    "from": "International World Wide Web Conference (WWW): 2023",
-    "authors": "Yiwei Sun, Yiqun Liu, Yiqing Xie, Yichuan Li, Wayne Xin Zhao, Ji-Rong Wen"
+    "name": "A Study on Natural Language Generation",
+    "from": "International Conference on Artificial Intelligence (ICAI): 2023",
+    "date": "2023-07-15",
+    "authors": "John Smith, Sarah Johnson, Michael Lee, Emily Wang, Jessica Liu",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://example.com/papers/icai2023/nlg.pdf"
+      },
+      {
+        "name": "Github",
+        "url": "https://github.com/nlgresearch/icai2023"
+      },
+      {
+        "name": "Video Presentation",
+        "url": "https://example.com/icai2023/nlg_presentation.mp4"
+      }
+    ]
   },
   {
-    "name": "Towards Unsupervised Real-World Detection of Deepfakes with Contrastive Learning",
-    "url": "https://arxiv.org/abs/2301.05001",
-    "from": "Conference on Neural Information Processing Systems (NeurIPS): 2023",
-    "authors": "John Smith, Emily Johnson, Alex Chen, Anna Lee"
+    "name": "Advances in Computer Vision: A Deep Learning Approach",
+    "from": "International Conference on Computer Vision (ICCV): 2023",
+    "date": "2023-08-10",
+    "authors": "David Brown, Jennifer Lee, Kevin Johnson, Laura Smith, Robert Wang",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://example.com/papers/iccv2023/cv_approach.pdf"
+      },
+      {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2305.04001"
+      },
+      {
+        "name": "Github",
+        "url": "https://github.com/cv_research/iccv2023"
+      },
+      {
+        "name": "Demo",
+        "url": "https://example.com/iccv2023/cv_approach_demo"
+      }
+    ]
   },
   {
-    "name": "Advances in Natural Language Processing with Pre-trained Transformers",
-    "url": "https://www.aclweb.org/anthology/2302.07510",
-    "from": "Annual Meeting of the Association for Computational Linguistics (ACL): 2023",
-    "authors": "Michael Wang, Emma Garcia, Oliver Lee"
+    "name": "Exploring Autonomous Vehicles: Challenges and Solutions",
+    "from": "International Conference on Robotics (ICR): 2023",
+    "date": "2023-09-05",
+    "authors": "Alex Johnson, Emily Davis, Sophia Kim, Daniel Wang, Michael Brown",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://example.com/papers/icr2023/autonomous_vehicles.pdf"
+      },
+      {
+        "name": "Survey",
+        "url": "https://example.com/icr2023/autonomous_vehicles_survey"
+      }
+    ]
   },
   {
-    "name": "Efficient Training of Large-Scale Generative Adversarial Networks with Progressive Growing",
-    "url": "https://arxiv.org/abs/2303.06434",
-    "from": "International Conference on Learning Representations (ICLR): 2023",
-    "authors": "David Johnson, Sarah Brown, Robert Wilson"
+    "name": "Advancements in Quantum Computing",
+    "from": "International Conference on Quantum Physics (ICQP): 2023",
+    "date": "2023-11-20",
+    "authors": "Andrew Lee, Sophia Johnson, Ryan Davis, Emma Kim, Olivia Smith",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://example.com/papers/icqp2023/quantum_computing.pdf"
+      },
+      {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2303.07001"
+      },
+      {
+        "name": "Github",
+        "url": "https://github.com/quantum_research/icqp2023"
+      },
+      {
+        "name": "Website",
+        "url": "https://example.com/icqp2023/quantum_computing_info"
+      }
+    ]
   },
   {
-    "name": "Understanding Attention Mechanisms in Graph Neural Networks",
-    "url": "https://openreview.net/forum?id=2304.08424",
-    "from": "International Conference on Learning Representations (ICLR): 2023",
-    "authors": "Sophia Chen, James Kim, Ethan Miller"
-  },
-  {
-    "name": "Privacy-Preserving Federated Learning for Healthcare Applications",
-    "url": "https://ieeexplore.ieee.org/document/2305.09216",
-    "from": "IEEE International Conference on Healthcare Informatics (ICHI): 2023",
-    "authors": "Grace Adams, Samuel Wilson, Lily Wang"
-  },
-  {
-    "name": "Robust Vision Transformers: Addressing Noisy Data for Image Recognition",
-    "url": "https://arxiv.org/abs/2306.07032",
-    "from": "Computer Vision and Pattern Recognition (CVPR): 2023",
-    "authors": "Daniel Yang, Chloe White, Lucas Garcia"
-  },
-  {
-    "name": "Reinforcement Learning for Multi-Agent Systems in Complex Environments",
-    "url": "https://www.aaai.org/2307.08324",
-    "from": "Conference on Artificial Intelligence (AAAI): 2023",
-    "authors": "Anna Kim, Ryan Zhang, Eric Liu"
-  },
-  {
-    "name": "A Survey of Machine Learning Techniques for Time Series Forecasting",
-    "url": "https://www.jmlr.org/2308.09876",
-    "from": "Journal of Machine Learning Research (JMLR): 2023",
-    "authors": "Emily Brown, William Chen, Emma Davis"
-  },
-  {
-    "name": "Human-Centric AI: Enhancing Collaboration between Humans and Artificial Agents",
-    "url": "https://dl.acm.org/doi/10.1145/2309.11005",
-    "from": "ACM Conference on Human Factors in Computing Systems (CHI): 2023",
-    "authors": "Oliver Smith, Ava Johnson, Ethan Lee"
+    "name": "Human-Robot Interaction: An Ethical Perspective",
+    "from": "International Conference on Human-Robot Interaction (ICHRI): 2023",
+    "date": "2023-12-02",
+    "authors": "Sophia Johnson, Andrew Davis, Emily Smith, Michael Lee, Jennifer Wang",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://example.com/papers/ichri2023/human_robot_interaction.pdf"
+      },
+      {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2302.08001"
+      },
+      {
+        "name": "Demo",
+        "url": "https://example.com/ichri2023/hri_demo"
+      },
+      {
+        "name": "Blog Post",
+        "url": "https://example.com/ichri2023/hri_ethics_blog"
+      }
+    ]
   }
 ]

@@ -5,6 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/assets/favicon.ico">
     <title>{{ page.title }}</title>
     {% if page.materializedCss %}
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -23,7 +24,6 @@
             cursor: default;
             padding: 0;
             margin: 0;
-            user-select: none;
             background-color: #f0f0f0;
         }
     </style>
@@ -36,6 +36,11 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/footer.css">
     {% if page.layout == 'post' %}
         <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/post.css">
+    {% endif %}
+
+    {% if page.layout == 'ibbb' %}
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/news.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/publications.css">
     {% endif %}
 
 </head>
@@ -60,21 +65,23 @@
         </div>
         <div class="action">
             <div class="tab">
-                <a class="tab-item inner" href="{{ site.baseurl }}/">Home</a>
+                <a class="tab-item inner" href="{{ site.baseurl }}/">HOME</a>
                 <div class="dropdown-menu">
-                    <span class="text">Publications</span>
+                    <span class="text">PUBLICATIONS</span>
                     <div class="content">
-                        <div onclick="window.location.href ='{{ site.baseurl }}/conference'" class="tab-item item">Conference</div>
+                        <div onclick="window.location.href ='{{ site.baseurl }}/conference'" class="tab-item item">CONFERENCE</div>
                         <div class="divider"></div>
-                        <div onclick="window.location.href ='{{ site.baseurl }}/journey'" class="tab-item item">Journey</div>
+                        <div onclick="window.location.href ='{{ site.baseurl }}/journey'" class="tab-item item">JOURNEY</div>
                     </div>
                 </div>
-                <a class="tab-item inner" href="{{ site.baseurl }}/research">Research</a>
-                <a class="tab-item inner" href="{{ site.baseurl }}/team">Team</a>
+                <a class="tab-item inner" href="{{ site.baseurl }}/research">RESEARCH</a>
+                <a class="tab-item inner" href="{{ site.baseurl }}/software">SOFTWARE</a>
+                <a class="tab-item inner" href="{{ site.baseurl }}/team">TEAM</a>
                 <a class="tab-item inner" href="{{ site.baseurl }}/ibbb">IBBB</a>
-                <a class="tab-item inner" href="{{ site.baseurl }}/photos">Events</a>
+                <a class="tab-item inner" href="{{ site.baseurl }}/events">EVENTS</a>
+                <a class="tab-item inner" href="{{ site.baseurl }}/contact">CONTACT</a>
             </div>
-            <div class="contact" onclick="window.location.href='{{ site.baseurl }}/contact'">
+            <div style="display: none" class="contact" onclick="window.location.href='{{ site.baseurl }}/contact'">
                 <span>Contact Us</span>
             </div>
             <div class="thin-menu">
@@ -83,14 +90,15 @@
                     <i class="material-icons">menu</i>
                 </label>
                 <ul class="menu">
-                    <li><a class="inner" href="{{ site.baseurl }}/">Home</a></li>
-                    <li><a class="inner" href="{{ site.baseurl }}/conference">Conference</a></li>
-                    <li><a class="inner" href="{{ site.baseurl }}/journey">Journey</a></li>
-                    <li><a class="inner" href="{{ site.baseurl }}/research">Research</a></li>
-                    <li><a class="inner" href="{{ site.baseurl }}/team">Team</a></li>
+                    <li><a class="inner" href="{{ site.baseurl }}/">HOME</a></li>
+                    <li><a class="inner" href="{{ site.baseurl }}/conference">CONFERENCE</a></li>
+                    <li><a class="inner" href="{{ site.baseurl }}/journey">JOURNEY</a></li>
+                    <li><a class="inner" href="{{ site.baseurl }}/research">RESEARCH</a></li>
+                    <li><a class="inner" href="{{ site.baseurl }}/software">SOFTWARE</a></li>
+                    <li><a class="inner" href="{{ site.baseurl }}/team">TEAM</a></li>
                     <li><a class="inner" href="{{ site.baseurl }}/ibbb">IBBB</a></li>
-                    <li><a class="inner" href="{{ site.baseurl }}/photos">Events</a></li>
-                    <li><a class="inner" href="{{ site.baseurl }}/contact">Contact</a></li>
+                    <li><a class="inner" href="{{ site.baseurl }}/events">EVENTS</a></li>
+                    <li><a class="inner" href="{{ site.baseurl }}/contact">CONTACT</a></li>
                 </ul>
             </div>
         </div>

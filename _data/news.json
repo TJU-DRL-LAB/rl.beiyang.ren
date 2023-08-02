@@ -2,30 +2,25 @@
   {
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     "desc": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Euismod in pellentesque massa placerat duis ultricies. Habitant morbi tristique",
-    "date": "2023-10-3",
-    "icon": "https://static.arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg",
-    "invert": true
+    "date": "2023-10-3"
   },
   {
     "title": "Vestibulum ante ipsum primis in faucibus",
     "desc": "Duis aliquam purus sit amet luctus venenatis lectus magna. Nulla posuere sollicitudin aliquam ultrices sagittis orci. Et malesuada fames ac turpis egestas maecenas. Ut porttitor leo a diam sollicitudin tempor. ",
     "date": "2023-09-28",
-    "icon": "https://static.arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg",
-    "invert": false
+    "google_icon": "schedule"
   },
   {
     "title": "Quisque non tellus orci ac auctor",
     "desc": "Nam aliquet odio a bibendum facilisis arcu. Etiam congue leo a diam sollicitudin tempor id eu. Ut lectus arcu bibendum at varius vel pharetra vel turpis. ",
     "date": "2023-09-25",
-    "icon": "https://static.arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg",
-    "invert": true
+    "google_icon": "celebration"
   },
   {
     "title": "Suspendisse potenti nullam ac tortor vitae",
     "desc": "Integer quis auctor elit sed vulputate mi. Sed adipiscing diam donec adipiscing tristique risus. Suspendisse in est ante in nibh mauris cursus. Cursus in hac habitasse platea dictumst quisque sagittis.",
     "date": "2023-09-21",
-    "icon": "https://static.arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg",
-    "invert": true
+    "google_icon": "check_circle_outline"
   },
   {
     "title": "Pellentesque dignissim enim sit amet",

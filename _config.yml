@@ -29,8 +29,6 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
-# Build settings
-theme: minima
 plugins:
   - jekyll-feed
 
@@ -42,7 +40,8 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+exclude:
+  - readme.md
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/

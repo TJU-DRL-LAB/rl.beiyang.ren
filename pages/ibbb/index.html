@@ -1,0 +1,35 @@
+---
+layout: default
+title: IBBB
+permalink: /ibbb
+custom_css:
+ - /assets/css/team.css
+ - /assets/css/news.css
+ - /assets/css/footer.css
+---
+<div class="content">
+
+    <div style="background-color: #f9f9f9; padding: 50px; border-radius: 5px; box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);">
+
+        <div class="news-title" style="margin-bottom: 50px;">
+        <span>
+            {{ page.title }}
+        </span>
+        </div>
+        <h2 style="margin-top: 0;">IBBB简介</h2>
+        <p>
+            北洋智基宴会(IBBB) 是一个非营利性组织，于2017年在天津成立，用于科学和教育目的，包括在宴会上传播有关人工智能的信息。IBBB
+            提供了尖端的科学感悟，猜想以及有趣的成果，并在宴会中以会议录、 书籍、 录像和其他教育材料的形式进行有效传播。
+        </p>
+        <p>
+            北洋智基宴会是新世纪智能研究人员和从业人员的主要国际宴会，自2018年以来每年举办一次。
+        </p>
+        <h3>历年录用文章</h3>
+        <ul style="line-height: 2rem">
+            {% for item in site.data.ibbb %}
+            <li><a href="{{ site.baseurl }}/{{ item.permalink }}">{{ item.name }}</a></li>
+            {% endfor %}
+            <!-- Add more years' articles here if needed -->
+        </ul>
+    </div>
+</div>

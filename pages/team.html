@@ -14,7 +14,7 @@ custom_css:
             {% for person in categry.item %}
                 <div class="person-card">
                     <img src="{{ person.img }}" alt="desc">
-                    <h3>Person {{ person.name }}</h3>
+                    <h3>{{ person.name }}</h3>
                     <p>{{ person.desc }}</p>
                     <p class="area">{{ person.area }}</p>
                     <a href="{{ person.link }}">Learn More</a>

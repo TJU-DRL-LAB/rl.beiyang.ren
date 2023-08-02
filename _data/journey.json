@@ -1,62 +1,146 @@
 [
   {
-    "name": "A Survey of Deep Learning Techniques for Natural Language Processing",
-    "url": "https://arxiv.org/abs/2101.01234",
-    "from": "arXiv: Computer Science (cs.CL)",
-    "authors": "Alice Johnson, Bob Smith, Carol Lee"
+    "name": "Breaking Filter Bubble: A Reinforcement Learning Framework of Controllable Recommender System",
+    "from": "International World Wide Web Conference (WWW): 2023",
+    "date": "2023-06-30",
+    "authors": "Yiwei Sun, Yiqun Liu, Yiqing Xie, Yichuan Li, Wayne Xin Zhao, Ji-Rong Wen",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://example.com/papers/www2023/recommender_system.pdf"
+      },
+      {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2301.05001"
+      },
+      {
+        "name": "Github",
+        "url": "https://github.com/sunyiwei1991/Reinforcement-Learning-for-Controllable-Recommendation"
+      }
+    ]
   },
   {
-    "name": "Efficient Training of Large-Scale Graph Neural Networks with Message Passing",
-    "url": "https://arxiv.org/abs/2102.04567",
-    "from": "arXiv: Machine Learning (cs.LG)",
-    "authors": "David Wang, Emily Chen, Frank Miller"
+    "name": "Exploring Autonomous Vehicles: Challenges and Solutions",
+    "from": "International Conference on Robotics (ICR): 2023",
+    "date": "2023-09-05",
+    "authors": "Alex Johnson, Emily Davis, Sophia Kim, Daniel Wang, Michael Brown",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://example.com/papers/icr2023/autonomous_vehicles.pdf"
+      },
+      {
+        "name": "Survey",
+        "url": "https://example.com/icr2023/autonomous_vehicles_survey"
+      }
+    ]
   },
   {
-    "name": "Advancements in Quantum Computing and Quantum Algorithms",
-    "url": "https://arxiv.org/abs/2103.08901",
-    "from": "arXiv: Quantum Physics (quant-ph)",
-    "authors": "Grace Adams, Henry Brown, Isabella Davis"
+    "name": "Advancements in Natural Language Processing",
+    "from": "Conference on Language and Linguistics (CLL): 2023",
+    "date": "2023-03-18",
+    "authors": "Michael Johnson, Emma Lee, Ryan Davis, Olivia Smith, David Wang",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://example.com/papers/cll2023/nlp_advancements.pdf"
+      },
+      {
+        "name": "Github",
+        "url": "https://github.com/nlp_research/cll2023"
+      }
+    ]
   },
   {
-    "name": "Understanding Self-Supervised Learning for Computer Vision Tasks",
-    "url": "https://arxiv.org/abs/2104.07654",
-    "from": "arXiv: Computer Vision (cs.CV)",
-    "authors": "Jack Lee, Kate Johnson, Leo Kim"
+    "name": "Advances in Computer Vision: A Deep Learning Approach",
+    "from": "International Conference on Computer Vision (ICCV): 2022",
+    "date": "2022-08-10",
+    "authors": "David Brown, Jennifer Lee, Kevin Johnson, Laura Smith, Robert Wang",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://example.com/papers/iccv2022/cv_approach.pdf"
+      },
+      {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2205.04001"
+      },
+      {
+        "name": "Github",
+        "url": "https://github.com/cv_research/iccv2022"
+      },
+      {
+        "name": "Demo",
+        "url": "https://example.com/iccv2022/cv_approach_demo"
+      }
+    ]
   },
   {
-    "name": "Secure Federated Learning in Privacy-Sensitive Environments",
-    "url": "https://arxiv.org/abs/2105.09876",
-    "from": "arXiv: Cryptography (cs.CR)",
-    "authors": "Michael Wilson, Nicole Garcia, Oscar White"
+    "name": "Human-Robot Interaction: An Ethical Perspective",
+    "from": "International Conference on Human-Robot Interaction (ICHRI): 2022",
+    "date": "2022-12-02",
+    "authors": "Sophia Johnson, Andrew Davis, Emily Smith, Michael Lee, Jennifer Wang",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://example.com/papers/ichri2022/human_robot_interaction.pdf"
+      },
+      {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2212.08001"
+      },
+      {
+        "name": "Demo",
+        "url": "https://example.com/ichri2022/hri_demo"
+      },
+      {
+        "name": "Blog Post",
+        "url": "https://example.com/ichri2022/hri_ethics_blog"
+      }
+    ]
   },
   {
-    "name": "Recent Advances in Generative Adversarial Networks for Image Synthesis",
-    "url": "https://arxiv.org/abs/2106.04321",
-    "from": "arXiv: Computer Graphics (cs.GR)",
-    "authors": "Peter Kim, Quinn Smith, Rachel Johnson"
+    "name": "A Study on Natural Language Generation",
+    "from": "International Conference on Artificial Intelligence (ICAI): 2021",
+    "date": "2021-07-15",
+    "authors": "John Smith, Sarah Johnson, Michael Lee, Emily Wang, Jessica Liu",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://example.com/papers/icai2021/nlg.pdf"
+      },
+      {
+        "name": "Github",
+        "url": "https://github.com/nlgresearch/icai2021"
+      },
+      {
+        "name": "Video Presentation",
+        "url": "https://example.com/icai2021/nlg_presentation.mp4"
+      }
+    ]
   },
   {
-    "name": "Applications of Deep Learning in Biomedical Image Analysis",
-    "url": "https://arxiv.org/abs/2107.06543",
-    "from": "arXiv: Medical Imaging (eess.IV)",
-    "authors": "Sophia Davis, Tom Chen, Ursula Wang"
-  },
-  {
-    "name": "Reinforcement Learning for Robotics in Real-World Environments",
-    "url": "https://arxiv.org/abs/2108.02198",
-    "from": "arXiv: Robotics (cs.RO)",
-    "authors": "Victor Miller, Wendy Lee, Xavier Brown"
-  },
-  {
-    "name": "Graph Neural Networks: A Comprehensive Survey and Applications",
-    "url": "https://arxiv.org/abs/2109.03456",
-    "from": "arXiv: Artificial Intelligence (cs.AI)",
-    "authors": "Yara Zhang, Zane Wang, Alice Chen"
-  },
-  {
-    "name": "Recent Developments in Meta-Learning and Few-Shot Learning",
-    "url": "https://arxiv.org/abs/2110.01234",
-    "from": "arXiv: Machine Learning (cs.LG)",
-    "authors": "Zeke Kim, Zoey Davis, Adam Johnson"
+    "name": "Advancements in Quantum Computing",
+    "from": "International Conference on Quantum Physics (ICQP): 2021",
+    "date": "2021-11-20",
+    "authors": "Andrew Lee, Sophia Johnson, Ryan Davis, Emma Kim, Olivia Smith",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://example.com/papers/icqp2021/quantum_computing.pdf"
+      },
+      {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2103.07001"
+      },
+      {
+        "name": "Github",
+        "url": "https://github.com/quantum_research/icqp2021"
+      },
+      {
+        "name": "Website",
+        "url": "https://example.com/icqp2021/quantum_computing_info"
+      }
+    ]
   }
 ]

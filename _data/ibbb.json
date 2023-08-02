@@ -1,0 +1,50 @@
+[
+  {
+    "name": "2018年IBBB录用文章列表",
+    "permalink": "/ibbb/2018",
+    "item": [
+      {
+        "name": "Breaking Filter Bubble: A Reinforcement Learning Framework of Controllable Recommender System",
+        "from": "International World Wide Web Conference (WWW): 2023",
+        "authors": "Yiwei Sun, Yiqun Liu, Yiqing Xie, Yichuan Li, Wayne Xin Zhao, Ji-Rong Wen",
+        "link": "https://example.com/example.pdf"
+      },
+      {
+        "name": "Breaking Filter Bubble: A Reinforcement Learning Framework of Controllable Recommender System",
+        "from": "International World Wide Web Conference (WWW): 2023",
+        "authors": "Yiwei Sun, Yiqun Liu, Yiqing Xie, Yichuan Li, Wayne Xin Zhao, Ji-Rong Wen",
+        "link": "https://example.com/example.pdf"
+      },
+      {
+        "name": "Breaking Filter Bubble: A Reinforcement Learning Framework of Controllable Recommender System",
+        "from": "International World Wide Web Conference (WWW): 2023",
+        "authors": "Yiwei Sun, Yiqun Liu, Yiqing Xie, Yichuan Li, Wayne Xin Zhao, Ji-Rong Wen",
+        "link": "https://example.com/example.pdf"
+      }
+    ]
+  },
+  {
+    "name": "2019年IBBB录用文章列表",
+    "permalink": "/ibbb/2019",
+    "item": [
+      {
+        "name": "Breaking Filter Bubble: A Reinforcement Learning Framework of Controllable Recommender System",
+        "from": "International World Wide Web Conference (WWW): 2023",
+        "authors": "Yiwei Sun, Yiqun Liu, Yiqing Xie, Yichuan Li, Wayne Xin Zhao, Ji-Rong Wen",
+        "link": "https://example.com/example.pdf"
+      },
+      {
+        "name": "Breaking Filter Bubble: A Reinforcement Learning Framework of Controllable Recommender System",
+        "from": "International World Wide Web Conference (WWW): 2023",
+        "authors": "Yiwei Sun, Yiqun Liu, Yiqing Xie, Yichuan Li, Wayne Xin Zhao, Ji-Rong Wen",
+        "link": "https://example.com/example.pdf"
+      },
+      {
+        "name": "Breaking Filter Bubble: A Reinforcement Learning Framework of Controllable Recommender System",
+        "from": "International World Wide Web Conference (WWW): 2023",
+        "authors": "Yiwei Sun, Yiqun Liu, Yiqing Xie, Yichuan Li, Wayne Xin Zhao, Ji-Rong Wen",
+        "link": "https://example.com/example.pdf"
+      }
+    ]
+  }
+]

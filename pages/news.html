@@ -3,7 +3,7 @@ layout: default
 title: "news"
 permalink: /news
 custom_css:
- - /assets/css/news.css
+- /assets/css/news.css
 ---
 
 <section id="news" style="background-color: #f0f0f0;margin-bottom: 50px;">
@@ -12,11 +12,17 @@ custom_css:
     </div>
     <div class="news-content">
         {% assign sorted_news = site.data.news | sort: 'date' | reverse %}
-        {% for news in sorted_news%}
+        {% for news in sorted_news %}
             <div class="news-item">
                 <div class="news-icon">
-                    <div class="news-image {% if news.invert %}invert{% endif %}"
-                         style="background-image: url('{{ news.icon }}')"></div>
+                    {% if news.google_icon %}
+                        <i class="material-icons" style="font-size: 3rem">{{ news.google_icon }}</i>
+                    {% elsif news.icon %}
+                        <div class="news-image {% if news.invert %}invert{% endif %}"
+                             style="background-image: url('{{ news.icon }}')"></div>
+                    {% else %}
+                        <i class="material-icons" style="font-size: 3rem">event</i>
+                    {% endif %}
                 </div>
                 <div class="news-text">
                     <div class="news-text-title">

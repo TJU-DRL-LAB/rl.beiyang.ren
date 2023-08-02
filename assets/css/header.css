@@ -155,15 +155,28 @@ a:link {
     }
 }
 
+
 @media screen and (max-width: 1300px) {
+
+    .tab {
+        margin-right: 0;
+    }
+
     header {
         width: 95%;
     }
 }
 
-@media screen and (max-width: 1140px) {
+
+@media screen and (max-width: 1190px) {
     section#header {
         height: 10vh;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    header {
+        width: 100%;
     }
 }
 
@@ -173,7 +186,15 @@ a:link {
     position: relative;
 }
 
-@media screen and (max-width: 1000px) {
+a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1065px) {
+    header {
+        width: 95%;
+    }
+
     .tab {
         display: none;
     }

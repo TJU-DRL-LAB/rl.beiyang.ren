@@ -1,0 +1,71 @@
+[
+  {
+    "title": "AwesomeApp",
+    "date": "2023-08-01 10:15:22",
+    "auth": "John Smith",
+    "internal": false,
+    "contain_poster": false,
+    "poster": "https://source.unsplash.com/random/800x800?id=1",
+    "excerpt": "AwesomeApp is a powerful and user-friendly software that helps you organize and manage your tasks efficiently. It comes with a variety of features and a sleek user interface to enhance your productivity.",
+    "links": [
+      {
+        "name": "Website",
+        "link": "http://www.awesomeapp.com"
+      },
+      {
+        "name": "Download",
+        "link": "http://www.awesomeapp.com/download"
+      },
+      {
+        "name": "GitHub",
+        "link": "https://github.com/awesomeapp"
+      }
+    ]
+  },
+  {
+    "title": "PhotoMaster",
+    "date": "2023-08-02 14:30:11",
+    "auth": "Emily Johnson",
+    "internal": false,
+    "contain_poster": false,
+    "poster": "https://source.unsplash.com/random/800x800?id=2",
+    "excerpt": "PhotoMaster is an advanced image editing software designed for professional photographers and graphic designers. With a wide range of tools and filters, it offers unmatched precision and creativity in photo editing.",
+    "links": [
+      {
+        "name": "Website",
+        "link": "http://www.photomaster.com"
+      },
+      {
+        "name": "Download",
+        "link": "http://www.photomaster.com/download"
+      },
+      {
+        "name": "Support",
+        "link": "http://www.photomaster.com/support"
+      }
+    ]
+  },
+  {
+    "title": "CodeWizard",
+    "date": "2023-08-03 09:45:18",
+    "auth": "Michael Lee",
+    "internal": false,
+    "contain_poster": false,
+    "poster": "https://source.unsplash.com/random/800x800?id=3",
+    "excerpt": "CodeWizard is an intelligent code editor with smart code completion and syntax highlighting. It supports multiple programming languages and offers a seamless coding experience to developers.",
+    "links": [
+      {
+        "name": "Website",
+        "link": "http://www.codewizard.com"
+      },
+      {
+        "name": "Download",
+        "link": "http://www.codewizard.com/download"
+      },
+      {
+        "name": "GitHub",
+        "link": "https://github.com/codewizard"
+      }
+    ]
+  }
+]

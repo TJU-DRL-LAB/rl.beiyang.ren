@@ -132,5 +132,113 @@
         "area": "Virtual Reality; Animation"
       }
     ]
+  },
+  {
+    "type": "Graduated 2022",
+    "item": [
+      {
+        "name": "MICHAEL BROWN",
+        "desc": "Data Science Master's, AnalyticsTech Solutions",
+        "img": "https://source.unsplash.com/random/800x800?id=51",
+        "link": "https://example.com/master/michael-brown",
+        "area": "Predictive Analytics; Data Mining; Time Series Analysis"
+      },
+      {
+        "name": "OLIVIA GREEN",
+        "desc": "Master's in Artificial Intelligence, Data Insights Group",
+        "img": "https://source.unsplash.com/random/800x800?id=52",
+        "link": "https://example.com/master/olivia-green",
+        "area": "Machine Learning; Deep Learning; Recommender Systems"
+      },
+      {
+        "name": "WILLIAM WHITE",
+        "desc": "Master's in Data Science, AnalyticsTech Solutions",
+        "img": "https://source.unsplash.com/random/800x800?id=53",
+        "link": "https://example.com/master/william-white",
+        "area": "Big Data Analytics; Business Intelligence"
+      },
+      {
+        "name": "SOPHIA ANDERSON",
+        "desc": "Master's in Artificial Intelligence, Data Insights Group",
+        "img": "https://source.unsplash.com/random/800x800?id=54",
+        "link": "https://example.com/master/sophia-anderson",
+        "area": "Computer Vision; Image Recognition"
+      },
+      {
+        "name": "ANDREW WILSON",
+        "desc": "Master's in Robotics and Autonomous Systems, Carnegie Mellon University",
+        "img": "https://source.unsplash.com/random/800x800?id=55",
+        "link": "https://example.com/master/andrew-wilson",
+        "area": "Autonomous Navigation; Robot Perception"
+      },
+      {
+        "name": "GRACE THOMAS",
+        "desc": "Master's in Natural Language Processing, University of Washington",
+        "img": "https://source.unsplash.com/random/800x800?id=56",
+        "link": "https://example.com/master/grace-thomas",
+        "area": "Sentiment Analysis; Named Entity Recognition"
+      },
+      {
+        "name": "JACKSON LEE",
+        "desc": "Master's in Computer Graphics, Stanford University",
+        "img": "https://source.unsplash.com/random/800x800?id=57",
+        "link": "https://example.com/master/jackson-lee",
+        "area": "Virtual Reality; Animation"
+      }
+    ]
+  },
+  {
+    "type": "Graduated 2021",
+    "item": [
+      {
+        "name": "MICHAEL BROWN",
+        "desc": "Data Science Master's, AnalyticsTech Solutions",
+        "img": "https://source.unsplash.com/random/800x800?id=58",
+        "link": "https://example.com/master/michael-brown",
+        "area": "Predictive Analytics; Data Mining; Time Series Analysis"
+      },
+      {
+        "name": "OLIVIA GREEN",
+        "desc": "Master's in Artificial Intelligence, Data Insights Group",
+        "img": "https://source.unsplash.com/random/800x800?id=59",
+        "link": "https://example.com/master/olivia-green",
+        "area": "Machine Learning; Deep Learning; Recommender Systems"
+      },
+      {
+        "name": "WILLIAM WHITE",
+        "desc": "Master's in Data Science, AnalyticsTech Solutions",
+        "img": "https://source.unsplash.com/random/800x800?id=60",
+        "link": "https://example.com/master/william-white",
+        "area": "Big Data Analytics; Business Intelligence"
+      },
+      {
+        "name": "SOPHIA ANDERSON",
+        "desc": "Master's in Artificial Intelligence, Data Insights Group",
+        "img": "https://source.unsplash.com/random/800x800?id=61",
+        "link": "https://example.com/master/sophia-anderson",
+        "area": "Computer Vision; Image Recognition"
+      },
+      {
+        "name": "ANDREW WILSON",
+        "desc": "Master's in Robotics and Autonomous Systems, Carnegie Mellon University",
+        "img": "https://source.unsplash.com/random/800x800?id=62",
+        "link": "https://example.com/master/andrew-wilson",
+        "area": "Autonomous Navigation; Robot Perception"
+      },
+      {
+        "name": "GRACE THOMAS",
+        "desc": "Master's in Natural Language Processing, University of Washington",
+        "img": "https://source.unsplash.com/random/800x800?id=63",
+        "link": "https://example.com/master/grace-thomas",
+        "area": "Sentiment Analysis; Named Entity Recognition"
+      },
+      {
+        "name": "JACKSON LEE",
+        "desc": "Master's in Computer Graphics, Stanford University",
+        "img": "https://source.unsplash.com/random/800x800?id=64",
+        "link": "https://example.com/master/jackson-lee",
+        "area": "Virtual Reality; Animation"
+      }
+    ]
   }
 ]

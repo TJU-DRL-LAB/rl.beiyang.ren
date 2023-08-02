@@ -47,7 +47,7 @@ section#research {
 }
 
 .research-image {
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     min-height: 240px;
@@ -102,7 +102,7 @@ section#research {
     width: 100%;
     align-items: center;
     height: 100%;
-    margin-top: 11px;
+    margin-top: auto;
     transition: all .5s ease-in-out;
 }
 

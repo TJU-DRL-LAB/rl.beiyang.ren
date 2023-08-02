@@ -7,6 +7,129 @@ custom_css:
 - /assets/css/news.css
 - /assets/css/research.css
 ---
+<script>
+  // Variables to store initial mouse position and banner position
+  let initialMouseX, initialMouseY, initialBannerX, initialBannerY;
+
+  // Function to create the banner element
+  function createBanner() {
+    let banner = document.createElement("div");
+    banner.id = "recruitmentBanner";
+    banner.style.position = "fixed";
+    banner.style.top = "20vh"; // Update the top offset to 20vh
+    banner.style.right = "20px"; // Update the right offset to 20px
+    banner.style.backgroundColor = "#EBF3F5";
+    banner.style.color = "#333";
+    banner.style.padding = "15px"; // Update the padding to 15px
+    banner.style.width = "300px";
+    banner.style.borderRadius = "5px";
+    banner.style.zIndex = "999";
+    banner.style.cursor = "move"; // Set cursor to "move" to indicate draggability
+    banner.style.boxShadow = "0px 2px 5px rgba(0, 0, 0, 0.2)";
+    banner.style.opacity = "0"; // Initially set to transparent
+    banner.style.transition = "opacity 0.3s ease-in-out"; // Add the transition effect here
+
+    let closeButton = document.createElement("span");
+    closeButton.style.position = "absolute";
+    closeButton.style.top = "5px";
+    closeButton.style.right = "5px";
+    closeButton.style.fontSize = "16px";
+    closeButton.style.cursor = "pointer";
+    closeButton.textContent = "×";
+    closeButton.addEventListener("click", hideBanner);
+
+    let bannerText = document.createElement("p");
+    bannerText.innerHTML = `{{ site.data.config.main_page.recruitment }}`;
+    bannerText.style.margin = "0"; // Remove margin from the <p> element
+
+    banner.appendChild(closeButton);
+    banner.appendChild(bannerText);
+
+    // Make the banner draggable
+    banner.addEventListener("mousedown", startDragging);
+
+    return banner;
+  }
+
+  function convertTopToPx(topValue) {
+    // Check if the topValue ends with 'vh'
+    if (topValue.endsWith('vh')) {
+      const vhValue = parseFloat(topValue); // Parse the numeric value of vh
+      // Convert vh to px
+      return (vhValue * window.innerHeight) / 100;
+    }
+
+    // If the topValue does not end with 'vh', assume it's already in 'px'
+    return parseFloat(topValue);
+  }
+
+  function rightToLeft(rightValue) {
+    rightValue = parseInt(rightValue)
+    const containerWidth = window.innerWidth // Get the container's width (the body width in this case)
+    return containerWidth - rightValue;
+  }
+
+  function leftToRight(leftValue) {
+    leftValue = parseInt(leftValue)
+    const containerWidth = window.innerWidth // Get the container's width (the body width in this case)
+    return containerWidth - leftValue;
+  }
+
+  // Function to start dragging the banner
+  function startDragging(event) {
+    initialMouseX = event.clientX;
+    initialMouseY = event.clientY;
+    const banner = document.getElementById("recruitmentBanner");
+    initialBannerX = rightToLeft(banner.style.right) || 0;
+    initialBannerY = convertTopToPx(banner.style.top) || 0;
+
+    document.addEventListener("mousemove", dragBanner);
+    document.addEventListener("mouseup", stopDragging);
+  }
+
+  // Function to drag the banner
+  function dragBanner(event) {
+    const currentMouseX = event.clientX;
+    const currentMouseY = event.clientY;
+
+    const offsetX = currentMouseX - initialMouseX;
+    const offsetY = currentMouseY - initialMouseY;
+
+    const banner = document.getElementById("recruitmentBanner");
+    banner.style.right = `${leftToRight(initialBannerX + offsetX)}px`;
+    banner.style.top = `${initialBannerY + offsetY}px`;
+  }
+
+  // Function to stop dragging the banner
+  function stopDragging() {
+    document.removeEventListener("mousemove", dragBanner);
+    document.removeEventListener("mouseup", stopDragging);
+  }
+
+  // Function to show the banner with animation
+  function showBanner() {
+    var banner = document.getElementById("recruitmentBanner");
+    if (!banner) {
+      banner = createBanner();
+      document.body.appendChild(banner);
+    }
+    banner.style.opacity = "1"; // Change opacity to 1 to trigger the transition
+  }
+
+  // Function to hide the banner with animation
+  function hideBanner() {
+    var banner = document.getElementById("recruitmentBanner");
+    if (banner && banner.style.opacity === "1") {
+      banner.style.opacity = "0"; // Change opacity to 0 to trigger the transition
+    }
+  }
+
+  {% if site.data.config.main_page.recruitment and site.data.config.main_page.recruitment != "" %}
+  // Show the banner when the DOM is loaded
+  document.addEventListener("DOMContentLoaded", showBanner);
+  {% endif %}
+</script>
+
 <section id="poster">
     <div class="slogan">
         <div class="slogan-area">
@@ -43,8 +166,14 @@ custom_css:
         {% for news in sorted_news limit: site.data.config.main_page.news %}
             <div class="news-item">
                 <div class="news-icon">
-                    <div class="news-image {% if news.invert %}invert{% endif %}"
-                         style="background-image: url('{{ news.icon }}')"></div>
+                    {% if news.google_icon %}
+                        <i class="material-icons" style="font-size: 3rem">{{ news.google_icon }}</i>
+                    {% elsif news.icon %}
+                        <div class="news-image {% if news.invert %}invert{% endif %}"
+                             style="background-image: url('{{ news.icon }}')"></div>
+                    {% else %}
+                        <i class="material-icons" style="font-size: 3rem">event</i>
+                    {% endif %}
                 </div>
                 <div class="news-text">
                     <div class="news-text-title">
@@ -69,11 +198,14 @@ custom_css:
         Recent Research
     </div>
     <div class="research-cards">
-        {% assign sorted_post = site.posts | sort: 'data' %}
+        {% assign sorted_post = site.posts | sort: 'data' | reverse %}
         {% for post in sorted_post limit: site.data.config.main_page.post %}
             <div class="research-card" onclick="window.open('{{ site.baseurl }}{{ post.url }}')">
                 <div class="research-image"
-                     style="background-image: url('{% if post.internal %}{{ site.baseurl }}{% endif %}{{ post.poster }}')">
+                     style="background-image: url('{% if post.internal %}{{ site.baseurl }}{% endif %}{{ post.poster }}');
+                     {% if post.contain_poster %}
+                             background-size:contain;
+                     {% endif %}">
                 </div>
                 <div class="research-body">
                     <div class="research-card-title">

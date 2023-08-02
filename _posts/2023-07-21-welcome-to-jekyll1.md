@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Welcome to Jekyll!"
-date: 2023-07-22 21:53:35
+date: 2023-07-21 21:53:35
 auth: "Yueyang Feng"
 internal: true
+contain_poster: true
 poster: /assets/image/yyf.png
 excerpt: Unsupervised reinforcement learning (URL) poses a promising paradigm to learn useful behaviors
   in a

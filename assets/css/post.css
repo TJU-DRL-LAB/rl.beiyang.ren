@@ -15,10 +15,10 @@ section#post {
 }
 
 .post-title {
-    display: flex;
-    width: 100%;
-    font-size: 40px;
-    justify-content: center;
+    max-width: 100%;
+    padding: 0  10%;
+    font-size: 1.8rem;
+    text-align: center;
 }
 
 .post-subtitle {
@@ -54,4 +54,10 @@ section#post {
 .post-links > .banner:hover {
     background-color: #1565c0;
     color: #fff;
+}
+
+@media screen and (max-width: 1050px){
+    .post-title {
+        padding: 1.6rem;
+    }
 }
