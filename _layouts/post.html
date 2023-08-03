@@ -4,11 +4,23 @@ layout: default
 <section id="post">
     <div class="post-body">
         <div class="post-title">{{ page.title }}</div>
-        <div class="post-subtitle">{{ page.date | date: "%B %d, %Y" }} {{ page.auth }}</div>
+        <div class="post-subtitle">
+            <span style="margin-right: 10px;color: #0076df;">{{ page.auth }}</span>
+            {{ page.date | date: "%B %d, %Y" }} </div>
         <!-- for links -->
         <div class="post-links">
             {% for link in page.links %}
-                <a href="{{ link.link }}" target="_blank" class="banner">{{ link.name }}</a>
+                <a href="{{ link.link }}" target="_blank" class="banner">
+                    {% if link.icon %}
+                        {% if link.icon != "github" %}
+                            <i class="material-icons" style="margin-right: 5px;">{{ link.icon }}</i>
+                        {% else %}
+                            <img style="height: 1.3rem;margin-right: 5px;"
+                                 src="{{ site.baseurl }}/assets/image/github-mark.svg" alt="">
+                        {% endif %}
+                    {% endif %}
+                    {{ link.name }}
+                </a>
             {% endfor %}
         </div>
         <div class="post-poster">

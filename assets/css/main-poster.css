@@ -3,6 +3,7 @@ section#poster {
     width: 100%;
     position: relative;
     transition: all .25s ease-in-out;
+    overflow: hidden;
 }
 
 :root {

@@ -16,12 +16,16 @@ custom_css:
     let banner = document.createElement("div");
     banner.id = "recruitmentBanner";
     banner.style.position = "fixed";
-    banner.style.top = "20vh"; // Update the top offset to 20vh
+    if (document.body.clientWidth < 768) {
+      banner.style.top = "60vh"; // Update the top offset to 20vh
+    } else {
+      banner.style.top = "20vh"; // Update the top offset to 20vh
+    }
     banner.style.right = "20px"; // Update the right offset to 20px
     banner.style.backgroundColor = "#EBF3F5";
     banner.style.color = "#333";
     banner.style.padding = "15px"; // Update the padding to 15px
-    banner.style.width = "300px";
+    banner.style.width = "{{ site.data.config.main_page.recruitment.width }}px";
     banner.style.borderRadius = "5px";
     banner.style.zIndex = "999";
     banner.style.cursor = "move"; // Set cursor to "move" to indicate draggability
@@ -39,7 +43,7 @@ custom_css:
     closeButton.addEventListener("click", hideBanner);
 
     let bannerText = document.createElement("p");
-    bannerText.innerHTML = `{{ site.data.config.main_page.recruitment }}`;
+    bannerText.innerHTML = `{{ site.data.config.main_page.recruitment.content }}`;
     bannerText.style.margin = "0"; // Remove margin from the <p> element
 
     banner.appendChild(closeButton);
@@ -47,6 +51,7 @@ custom_css:
 
     // Make the banner draggable
     banner.addEventListener("mousedown", startDragging);
+    banner.addEventListener("touchstart", startDragging);
 
     return banner;
   }
@@ -77,20 +82,39 @@ custom_css:
 
   // Function to start dragging the banner
   function startDragging(event) {
-    initialMouseX = event.clientX;
-    initialMouseY = event.clientY;
+    console.log(event)
+    if (event.type === "mousedown") {
+      // For mouse events
+      initialMouseX = event.clientX;
+      initialMouseY = event.clientY;
+    } else if (event.type === "touchstart") {
+      // For touch events
+      initialMouseX = event.targetTouches[0].clientX;
+      initialMouseY = event.targetTouches[0].clientY;
+    }
     const banner = document.getElementById("recruitmentBanner");
     initialBannerX = rightToLeft(banner.style.right) || 0;
     initialBannerY = convertTopToPx(banner.style.top) || 0;
 
     document.addEventListener("mousemove", dragBanner);
     document.addEventListener("mouseup", stopDragging);
+    document.addEventListener("touchmove", dragBanner, {passive: false});
+    document.addEventListener("touchend", stopDragging);
   }
 
   // Function to drag the banner
   function dragBanner(event) {
-    const currentMouseX = event.clientX;
-    const currentMouseY = event.clientY;
+    event.preventDefault()
+    let currentMouseX, currentMouseY;
+    if (event.type === "mousemove") {
+      // For mouse events
+      currentMouseX = event.clientX;
+      currentMouseY = event.clientY;
+    } else if (event.type === "touchmove") {
+      // For touch events
+      currentMouseX = event.targetTouches[0].clientX;
+      currentMouseY = event.targetTouches[0].clientY;
+    }
 
     const offsetX = currentMouseX - initialMouseX;
     const offsetY = currentMouseY - initialMouseY;
@@ -100,10 +124,14 @@ custom_css:
     banner.style.top = `${initialBannerY + offsetY}px`;
   }
 
+
   // Function to stop dragging the banner
   function stopDragging() {
     document.removeEventListener("mousemove", dragBanner);
     document.removeEventListener("mouseup", stopDragging);
+
+    document.removeEventListener("touchmove", dragBanner);
+    document.removeEventListener("touchend", stopDragging);
   }
 
   // Function to show the banner with animation
@@ -118,10 +146,13 @@ custom_css:
 
   // Function to hide the banner with animation
   function hideBanner() {
-    var banner = document.getElementById("recruitmentBanner");
+    let banner = document.getElementById("recruitmentBanner");
     if (banner && banner.style.opacity === "1") {
       banner.style.opacity = "0"; // Change opacity to 0 to trigger the transition
     }
+    setTimeout(() => {
+      banner.style.display = "none";
+    }, 250)
   }
 
   {% if site.data.config.main_page.recruitment and site.data.config.main_page.recruitment != "" %}

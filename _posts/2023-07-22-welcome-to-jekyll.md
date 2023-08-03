@@ -15,10 +15,12 @@ excerpt: Unsupervised reinforcement learning (URL) poses a promising paradigm to
   improvement of sample efficiency in downstream tasks.
 links:
   - name: PDF
+    icon: picture_as_pdf
     link: http://rl.beiyang.ren/images/work_pic/yyf.png
   - name: CVPR
     link: https://cn.bing.com
   - name: Github
+    icon: github
     link: https://github.com
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.

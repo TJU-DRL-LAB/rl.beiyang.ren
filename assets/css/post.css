@@ -9,23 +9,34 @@ section#post {
 .post-body {
     background-color: white;
     border-radius: 5px;
-    padding: 30px 10%;
+    padding: 30px 5%;
     margin: 20px;
     max-width: 80vw;
 }
 
 .post-title {
     max-width: 100%;
-    padding: 0  10%;
-    font-size: 1.8rem;
+    padding: 0 10%;
+    font-size: 2.2rem;
+    line-height: 1.25;
+    margin-top: 1em;
+    color: #333;
+    margin-bottom: .5em;
     text-align: center;
+    font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 900;
 }
 
 .post-subtitle {
     display: flex;
     justify-content: center;
+    text-align: center;
     width: 100%;
     margin-top: 11px;
+    font-family: "Merriweather","PT Serif",Georgia,"Times New Roman",serif;
+    font-style: italic;
+    font-size: 16pt;
+    font-weight: 300;
     color: #757575;
 }
 
@@ -37,18 +48,31 @@ section#post {
 }
 
 .post-links > .banner {
+    display: flex;
+    align-items: center;
     margin: 10px 4px;
     border-radius: .3rem;
     color: #1565c0;
     border: #1565c0 1px solid;
-    padding: 2px 5px;
-    font-size: .8rem;
+    padding: 5px 10px;
+    font-size: 1.3rem;
     text-align: center;
     vertical-align: middle;
     user-select: none;
     font-weight: 400;
     cursor: pointer;
     transition: all .25s ease-in-out;
+    overflow: hidden;
+}
+
+.post-links > .banner > img {
+    transform: translate(-100px, 0);
+    filter: drop-shadow(100px 0 #1565c0);
+}
+
+.post-links > .banner:hover > img {
+    transform: translate(-100px, 0);
+    filter: drop-shadow(100px 0 #fff);
 }
 
 .post-links > .banner:hover {
@@ -56,8 +80,8 @@ section#post {
     color: #fff;
 }
 
-@media screen and (max-width: 1050px){
+@media screen and (max-width: 1050px) {
     .post-title {
-        padding: 1.6rem;
+        font-size: 1.6rem;
     }
 }

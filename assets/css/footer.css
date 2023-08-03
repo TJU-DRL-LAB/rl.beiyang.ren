@@ -60,6 +60,7 @@ section#footer {
     display: inline;
     white-space: nowrap;
     color: #39AAFF;
+    background: none !important;
 }
 
 .footer-body-holder {
