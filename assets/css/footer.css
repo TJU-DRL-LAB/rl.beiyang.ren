@@ -22,7 +22,16 @@ section#footer {
     font-weight: 400;
     line-height: 200%;
     letter-spacing: -0.18px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    transition: all .25s ease-in-out;
+}
+
+.copyright > div{
+    display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     transition: all .25s ease-in-out;
 }
@@ -44,6 +53,7 @@ section#footer {
 }
 
 .logos {
+    overflow: hidden;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -120,7 +130,7 @@ section#footer {
     display: flex;
 }
 
-.copyright > span {
+.copyright > div > span {
     text-align: center;
 }
 

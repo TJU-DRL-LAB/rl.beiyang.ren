@@ -21,6 +21,7 @@ section#research {
 .research-cards {
     margin-top: 50px;
     display: flex;
+    max-width: 100%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
