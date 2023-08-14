@@ -1,0 +1,24 @@
+{
+	"name": "RACE: Improve Multi-Agent Reinforcement Learning with Representation Asymmetry and Collaborative Evolution",
+	"from": "The 40th International Conference on Machine Learning (ICML): 2023",
+	"date": "2023",
+	"authors": "Pengyi Li, Jianye Hao, Hongyao Tang, Yan Zheng, Xian Fu",
+	"links": [
+		{
+			"name": "PDF",
+			"url": "https://proceedings.mlr.press/v202/li23i/li23i.pdf"
+		},
+		{
+			"name": "Code",
+			"url": "https://github.com/yeshenpy/RACE."
+		},
+		{
+			"name": "Blog",
+			"url": ""
+		},
+		{
+			"name": "Site",
+			"url": ""
+		}
+	]
+}
