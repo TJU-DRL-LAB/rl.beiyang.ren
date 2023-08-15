@@ -1,13 +1,9 @@
 {
   "main_page": {
-    "desc": "Lrem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. ",
+    "desc": "Our lab has several Ph.D. and Master positions. If you are interested in our research, please send us your CV. (jianye.hao@tju.edu.cn / yanzheng@tju.edu.cn) <br><br> 实验室长期接受优秀同学交流学习，攻读硕士/博士学位的同学加入。同时欢迎感兴趣学部（院）夏令营活动的同学进行邮件联系！",
     "balance_wrap": true,
     "poster": "assets/image/poster.jpg",
-    "recruitment": {
-      "content":  "<h3 style='margin: 2px 0;'>Hiring</h3>Our lab has several Ph.D. and Master positions. If you are interested in our research, please send us your CV (<a href='mailto:jianye.hao@tju.edu.cn'>jianye.hao@tju.edu.cn</a> / <a href='mailto:yanzheng@tju.edu.cn'>yanzheng@tju.edu.cn</a>) 实验室长期接受优秀同学交流学习，攻读硕士/博士学位的同学加入。同时欢迎感兴趣学部（院）夏令营活动的同学进行邮件联系！ 智能与计算学部夏令营活动通知\n",
-      "width": 300
-    },
-    "news": 6,
+    "news": 4,
     "post": 4
   },
   "publications": {

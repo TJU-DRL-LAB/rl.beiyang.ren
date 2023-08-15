@@ -1,11 +1,16 @@
 # RL LAB WEBSITE
 
 ## requirement
-``Jekyll 4.3.2``
+```
+Jekyll 4.3.2
+addressable-2.8.4
+rouge-4.1.2
+sass-embedded-1.64.1
+```
 
 ## How to run
 ```shell
-jekyll serve # serve the page
+bundle exec jekyll serve # serve the page
 
 jekyll build # build the page
 ```
