@@ -1,9 +1,65 @@
 [
     {
+       "name": "Breaking Filter Bubble: A Reinforcement Learning Framework of Controllable Recommender System",
+       "from": "Proceedings of the ACM Web Conference (WWW): 2023",
+       "date": "2023",
+       "authors": "Zhenyang Li, Yancheng Dong, Chen Gao, Yizhou Zhao, Dong Li, Jianye Hao, Kai Zhang, Yong Li, Zhi Wang",
+       "links": [
+          {
+             "name": "PDF",
+             "url": "https://dl.acm.org/doi/abs/10.1145/3543507.3583856"
+          }
+       ]
+    },
+    {
+       "name": "Transfer Reinforcement Learning Based Negotiating Agent Framework",
+       "from": "Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD): 2023",
+       "date": "2023",
+       "authors": "Siqi Chen, Tianpei Yang, Heng You, Jianing Zhao, Jianye Hao, Gerhard Weiss",
+       "links": [
+          {
+             "name": "PDF",
+             "url": "https://link.springer.com/chapter/10.1007/978-3-031-33377-4_30"
+          }
+       ]
+    },
+    {
+       "name": "MetaDiffuser: Diffusion Model as Conditional Planner for Offline Meta-RL",
+       "from": "The 40th International Conference on Machine Learning (ICML): 2023",
+       "date": "2023",
+       "authors": "Fei Ni, Jianye HAO, Yao Mu, Yifu Yuan, YAN ZHENG, Bin Wang, Zhixuan Liang",
+       "links": [
+          {
+             "name": "PDF",
+             "url": "http://proceedings.mlr.press/v202/ni23a/ni23a.pdf"
+          },
+          {
+             "name": "Site",
+             "url": "https://metadiffuser.github.io"
+          }
+       ]
+    },
+    {
+       "name": "ChiPFormer: Transferable Chip Placement via Offline Decision Transformer",
+       "from": "The 40th International Conference on Machine Learning (ICML): 2023",
+       "date": "2023",
+       "authors": "Yao Lai, Jinxin Liu, Zhentao Tang, Bin Wang, Jianye HAO, Ping Luo",
+       "links": [
+          {
+             "name": "PDF",
+             "url": "http://proceedings.mlr.press/v202/lai23c/lai23c.pdf"
+          },
+          {
+             "name": "Site",
+             "url": "https://sites.google.com/view/chipformer/home"
+          }
+       ]
+    },
+    {
         "name": "RACE: Improve Multi-Agent Reinforcement Learning with Representation Asymmetry and Collaborative Evolution",
         "from": "The 40th International Conference on Machine Learning (ICML): 2023",
         "date": "2023",
-        "authors": "Pengyi Li, Jianye Hao, Hongyao Tang, Yan Zheng, Xian Fu ",
+        "authors": "Pengyi Li, Jianye Hao, Hongyao Tang, Yan Zheng, Xian Fu",
         "links": [
             {
                 "name": "PDF",
@@ -17,9 +73,9 @@
     },
     {
         "name": "Accelerating deep reinforcement learning via knowledge-guided policy network.",
-        "from": "The 22nd International Conference on Autonomous Agents and Multiagent Systems (JAAMAS): 2023",
+        "from": "The 22nd International Conference on Autonomous Agents and Multiagent Systems 37(1): 17 (2023) (JAAMAS): 2023",
         "date": "2023",
-        "authors": "Yuanqiang Yu,Peng Zhang,Kai Zhao,Yan Zheng,Jianye Hao",
+        "authors": "Yuanqiang Yu, Peng Zhang, Kai Zhao, Yan Zheng, Jianye Hao",
         "links": [
             {
                 "name": "PDF",
@@ -29,9 +85,9 @@
     },
     {
         "name": "A benchmark for automatic medical consultation system: frameworks, tasks and datasets.",
-        "from": "Bioinform: 2023",
+        "from": "Bioinform 39(1) (2023) (Bioinform.): 2023",
         "date": "2023",
-        "authors": "Wei Chen,Zhiwei Li,Hongyi Fang,Qianyuan Yao,Cheng Zhong,Jianye Hao,Qi Zhang,Xuanjing Huang,Jiajie Peng,Zhongyu Wei",
+        "authors": "Wei Chen, Zhiwei Li, Hongyi Fang, Qianyuan Yao, Cheng Zhong, Jianye Hao, Qi Zhang, Xuanjing Huang, Jiajie Peng, Zhongyu Wei",
         "links": [
             {
                 "name": "PDF",
@@ -41,9 +97,9 @@
     },
     {
         "name": "A Unified Framework for Layout Pattern Analysis With Deep Causal Estimation.",
-        "from": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.): 2023",
+        "from": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems 42(4):\u00a01199-1211\u00a0(2023) (IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.): 2023",
         "date": "2023",
-        "authors": "Ran Chen,Shoubo Hu,Zhitang Chen,Shengyu Zhu,Bei Yu,Pengyun Li,Cheng Chen,Yu Huang,Jianye Hao",
+        "authors": "Ran Chen, Shoubo Hu, Zhitang Chen, Shengyu Zhu, Bei Yu, Pengyun Li, Cheng Chen, Yu Huang, Jianye Hao",
         "links": [
             {
                 "name": "PDF",
@@ -55,7 +111,7 @@
         "name": "Contrastive-ACE: Domain Generalization Through Alignment of Causal Mechanisms.",
         "from": "IEEE Transactions on Image Processing 32: 235-250 (2023) (IEEE Trans. Image Process.): 2023",
         "date": "2023",
-        "authors": "Yunqi Wang,Furui Liu,Zhitang Chen,Yik- Chung Wu,Jianye Hao,Guangyong Chen,Pheng- Ann Heng",
+        "authors": "Yunqi Wang, Furui Liu, Zhitang Chen, Yik- Chung Wu, Jianye Hao, Guangyong Chen, Pheng- Ann Heng",
         "links": [
             {
                 "name": "PDF",
@@ -67,7 +123,7 @@
         "name": "Structure Aware Incremental Learning with Personalized Imitation Weights for Recommender Systems.",
         "from": "The 37th Association for the Advancement of Artificial Intelligence (AAAI): 2023",
         "date": "2023",
-        "authors": "Yuening Wang,Yingxue Zhang,Antonios Valkanas,Ruiming Tang,Chen Ma,Jianye Hao,Mark Coates",
+        "authors": "Yuening Wang, Yingxue Zhang, Antonios Valkanas, Ruiming Tang, Chen Ma, Jianye Hao, Mark Coates",
         "links": [
             {
                 "name": "PDF",
@@ -79,7 +135,7 @@
         "name": "SplitNet: A Reinforcement Learning Based Sequence Splitting Method for the MinMax Multiple Travelling Salesman Problem.",
         "from": "The 37th Association for the Advancement of Artificial Intelligence (AAAI): 2023",
         "date": "2023",
-        "authors": "Hebin Liang,Yi Ma,Zilin Cao,Tianyang Liu,Fei Ni,Zhigang Li,Jianye Hao",
+        "authors": "Hebin Liang, Yi Ma, Zilin Cao, Tianyang Liu, Fei Ni, Zhigang Li, Jianye Hao",
         "links": [
             {
                 "name": "PDF",
@@ -91,7 +147,7 @@
         "name": "Models as Agents: Optimizing Multi-Step Predictions of Interactive Local Models in Model-Based Multi-Agent Reinforcement Learning.",
         "from": "The 37th Association for the Advancement of Artificial Intelligence (AAAI): 2023",
         "date": "2023",
-        "authors": "Zifan Wu,Chao Yu,Chen Chen,Jianye Hao,Hankz Hankui Zhuo",
+        "authors": "Zifan Wu, Chao Yu, Chen Chen, Jianye Hao, Hankz Hankui Zhuo",
         "links": [
             {
                 "name": "PDF",
@@ -103,7 +159,7 @@
         "name": "Neighbor Auto-Grouping Graph Neural Networks for Handover Parameter Configuration in Cellular Network.",
         "from": "The 37th Association for the Advancement of Artificial Intelligence (AAAI): 2023",
         "date": "2023",
-        "authors": "Mehrtash Mehrabi,Walid Masoudimansour,Yingxue Zhang,Jie Chuai,Zhitang Chen,Mark Coates,Jianye Hao,Yanhui Geng",
+        "authors": "Mehrtash Mehrabi, Walid Masoudimansour, Yingxue Zhang, Jie Chuai, Zhitang Chen, Mark Coates, Jianye Hao, Yanhui Geng",
         "links": [
             {
                 "name": "PDF",
@@ -115,7 +171,7 @@
         "name": "Spectral Augmentations for Graph Contrastive Learning.",
         "from": "The 26th International Conference on Artificial Intelligence and Statistics (AISTATS): 2023",
         "date": "2023",
-        "authors": "Amur Ghose,Yingxue Zhang,Jianye Hao,Mark Coates",
+        "authors": "Amur Ghose, Yingxue Zhang, Jianye Hao, Mark Coates",
         "links": [
             {
                 "name": "PDF",
@@ -127,7 +183,7 @@
         "name": "Off-Beat Multi-Agent Reinforcement Learning.",
         "from": "The 22nd International Conference on Autonomous Agents and Multiagent Systems (AAMAS): 2023",
         "date": "2023",
-        "authors": "Wei Qiu,Weixun Wang,Rundong Wang,Bo An,Yujing Hu,Svetlana Obraztsova,Zinovi Rabinovich,Jianye Hao,Yingfeng Chen,Changjie Fan",
+        "authors": "Wei Qiu, Weixun Wang, Rundong Wang, Bo An, Yujing Hu, Svetlana Obraztsova, Zinovi Rabinovich, Jianye Hao, Yingfeng Chen, Changjie Fan",
         "links": [
             {
                 "name": "PDF",
@@ -139,7 +195,7 @@
         "name": "PORTAL: Automatic Curricula Generation for Multiagent Reinforcement Learning.",
         "from": "The 22nd International Conference on Autonomous Agents and Multiagent Systems (AAMAS): 2023",
         "date": "2023",
-        "authors": "Jizhou Wu,Tianpei Yang,Xiaotian Hao,Jianye Hao,Yan Zheng,Weixun Wang,Matthew E. Taylor",
+        "authors": "Jizhou Wu, Tianpei Yang, Xiaotian Hao, Jianye Hao, Yan Zheng, Weixun Wang, Matthew E. Taylor",
         "links": [
             {
                 "name": "PDF",
@@ -151,7 +207,7 @@
         "name": "Transfer Learning based Agent for Automated Negotiation.",
         "from": "The 22nd International Conference on Autonomous Agents and Multiagent Systems (AAMAS): 2023",
         "date": "2023",
-        "authors": "Siqi Chen,Qisong Sun,Heng You,Tianpei Yang,Jianye Hao",
+        "authors": "Siqi Chen, Qisong Sun, Heng You, Tianpei Yang, Jianye Hao",
         "links": [
             {
                 "name": "PDF",
@@ -161,9 +217,9 @@
     },
     {
         "name": "TOFU: A Two-Step Floorplan Refinement Framework for Whitespace Reduction.",
-        "from": "The 26th Design Automation and Test in Europe (DATE): 2023",
+        "from": "The 26th Design\uff0cAutomation and Test in Europe (DATE): 2023",
         "date": "2023",
-        "authors": "Shixiong Kai,Chak- Wa Pui,Fangzhou Wang,Shougao Jiang,Bin Wang,Yu Huang,Jianye Hao",
+        "authors": "Shixiong Kai, Chak- Wa Pui, Fangzhou Wang, Shougao Jiang, Bin Wang, Yu Huang, Jianye Hao",
         "links": [
             {
                 "name": "PDF",
@@ -175,7 +231,7 @@
         "name": "Learnable Behavior Control: Breaking Atari Human World Records via Sample-Efficient Behavior Selection.",
         "from": "The 11th International Conference on Learning Representations (ICLR): 2023",
         "date": "2023",
-        "authors": "Jiajun Fan,Yuzheng Zhuang,Yuecheng Liu,Jianye Hao,Bin Wang,Jiangcheng Zhu,Hao Wang,Shu- Tao Xia",
+        "authors": "Jiajun Fan, Yuzheng Zhuang, Yuecheng Liu, Jianye Hao, Bin Wang, Jiangcheng Zhu, Hao Wang, Shu- Tao Xia",
         "links": [
             {
                 "name": "PDF",
@@ -187,7 +243,7 @@
         "name": "Boosting Multiagent Reinforcement Learning via Permutation Invariant and Permutation Equivariant Networks.",
         "from": "The 11th International Conference on Learning Representations (ICLR): 2023",
         "date": "2023",
-        "authors": "Jianye Hao,Xiaotian Hao,Hangyu Mao,Weixun Wang,Yaodong Yang,Dong Li,Yan Zheng,Zhen Wang",
+        "authors": "Jianye Hao, Xiaotian Hao, Hangyu Mao, Weixun Wang, Yaodong Yang, Dong Li, Yan Zheng, Zhen Wang",
         "links": [
             {
                 "name": "PDF",
@@ -199,7 +255,7 @@
         "name": "ERL-Re$^2$: Efficient Evolutionary Reinforcement Learning with Shared State Representation and Individual Policy Representation.",
         "from": "The 11th International Conference on Learning Representations (ICLR): 2023",
         "date": "2023",
-        "authors": "Jianye Hao,Pengyi Li,Hongyao Tang,Yan Zheng,Xian Fu,Zhaopeng Meng",
+        "authors": "Jianye Hao, Pengyi Li, Hongyao Tang, Yan Zheng, Xian Fu, Zhaopeng Meng",
         "links": [
             {
                 "name": "PDF",
@@ -211,7 +267,7 @@
         "name": "DAG Matters! GFlowNets Enhanced Explainer for Graph Neural Networks.",
         "from": "The 11th International Conference on Learning Representations (ICLR): 2023",
         "date": "2023",
-        "authors": "Wenqian Li,Yinchuan Li,Zhigang Li,Jianye Hao,Yan Pang",
+        "authors": "Wenqian Li, Yinchuan Li, Zhigang Li, Jianye Hao, Yan Pang",
         "links": [
             {
                 "name": "PDF",
@@ -223,7 +279,7 @@
         "name": "GFlowNets with Human Feedback.",
         "from": "The 11th International Conference on Learning Representations, Tiny Papers (Tiny Papers @ ICLR): 2023",
         "date": "2023",
-        "authors": "Yinchuan Li,Shuang Luo,Yunfeng Shao,Jianye Hao",
+        "authors": "Yinchuan Li, Shuang Luo, Yunfeng Shao, Jianye Hao",
         "links": [
             {
                 "name": "PDF",
@@ -235,7 +291,7 @@
         "name": "CFlowNets: Continuous Control with Generative Flow Networks.",
         "from": "The 11th International Conference on Learning Representations (ICLR): 2023",
         "date": "2023",
-        "authors": "Yinchuan Li,Shuang Luo,Haozhi Wang,Jianye Hao",
+        "authors": "Yinchuan Li, Shuang Luo, Haozhi Wang, Jianye Hao",
         "links": [
             {
                 "name": "PDF",
@@ -247,7 +303,7 @@
         "name": "Regularized Offline GFlowNets.",
         "from": "The 11th International Conference on Learning Representations, Tiny Papers (Tiny Papers @ ICLR): 2023",
         "date": "2023",
-        "authors": "Haozhi Wang,Yunfeng Shao,Jianye Hao,Yinchuan Li",
+        "authors": "Haozhi Wang, Yunfeng Shao, Jianye Hao, Yinchuan Li",
         "links": [
             {
                 "name": "PDF",
@@ -259,7 +315,7 @@
         "name": "Out-of-distribution Detection with Implicit Outlier Transformation.",
         "from": "The 11th International Conference on Learning Representations (ICLR): 2023",
         "date": "2023",
-        "authors": "Qizhou Wang,Junjie Ye,Feng Liu,Quanyu Dai,Marcus Kalander,Tongliang Liu,Jianye Hao,Bo Han",
+        "authors": "Qizhou Wang, Junjie Ye, Feng Liu, Quanyu Dai, Marcus Kalander, Tongliang Liu, Jianye Hao, Bo Han",
         "links": [
             {
                 "name": "PDF",
@@ -271,7 +327,7 @@
         "name": "EUCLID: Towards Efficient Unsupervised Reinforcement Learning with Multi-choice Dynamics Model.",
         "from": "The 11th International Conference on Learning Representations (ICLR): 2023",
         "date": "2023",
-        "authors": "Yifu Yuan,Jianye Hao,Fei Ni,Yao Mu,Yan Zheng,Yujing Hu,Jinyi Liu,Yingfeng Chen,Changjie Fan",
+        "authors": "Yifu Yuan, Jianye Hao, Fei Ni, Yao Mu, Yan Zheng, Yujing Hu, Jinyi Liu, Yingfeng Chen, Changjie Fan",
         "links": [
             {
                 "name": "PDF",
@@ -283,7 +339,7 @@
         "name": "Achieving Last-Mile Functional Coverage in Testing Chip Design Software Implementations.",
         "from": "The 45th International Conference on Software Engineering, Software Engineering in Practice (ICSE-SEIP): 2023",
         "date": "2023",
-        "authors": "Ming Yan,Junjie Chen,Hangyu Mao,Jiajun Jiang,Jianye Hao,Xingjian Li,Zhao Tian,Zhichao Chen,Dong Li,Zhangkong Xian,Yanwei Guo,Wulong Liu,Bin Wang,Yuefeng Sun,Yongshun Cui",
+        "authors": "Ming Yan, Junjie Chen, Hangyu Mao, Jiajun Jiang, Jianye Hao, Xingjian Li, Zhao Tian, Zhichao Chen, Dong Li, Zhangkong Xian, Yanwei Guo, Wulong Liu, Bin Wang, Yuefeng Sun, Yongshun Cui",
         "links": [
             {
                 "name": "PDF",
@@ -295,7 +351,7 @@
         "name": "Transfer Reinforcement Learning Based Negotiating Agent Framework.",
         "from": "The 27th Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD): 2023",
         "date": "2023",
-        "authors": "Siqi Chen,Tianpei Yang,Heng You,Jianing Zhao,Jianye Hao,Gerhard Weiss",
+        "authors": "Siqi Chen, Tianpei Yang, Heng You, Jianing Zhao, Jianye Hao, Gerhard Weiss",
         "links": [
             {
                 "name": "PDF",
@@ -307,7 +363,7 @@
         "name": "RLMixer: A Reinforcement Learning Approach for Integrated Ranking with Contrastive User Preference Modeling.",
         "from": "The 27th Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD): 2023",
         "date": "2023",
-        "authors": "Jing Wang,Mengchen Zhao,Wei Xia,Zhenhua Dong,Ruiming Tang,Rui Zhang,Jianye Hao,Guangyong Chen,Pheng- Ann Heng",
+        "authors": "Jing Wang, Mengchen Zhao, Wei Xia, Zhenhua Dong, Ruiming Tang, Rui Zhang, Jianye Hao, Guangyong Chen, Pheng- Ann Heng",
         "links": [
             {
                 "name": "PDF",
@@ -319,7 +375,7 @@
         "name": "Uncertainty-aware Consistency Learning for Cold-Start Item Recommendation.",
         "from": "The 46th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR): 2023",
         "date": "2023",
-        "authors": "Taichi Liu,Chen Gao,Zhenyu Wang,Dong Li,Jianye Hao,Depeng Jin,Yong Li",
+        "authors": "Taichi Liu, Chen Gao, Zhenyu Wang, Dong Li, Jianye Hao, Depeng Jin, Yong Li",
         "links": [
             {
                 "name": "PDF",
@@ -331,7 +387,7 @@
         "name": "Breaking Filter Bubble: A Reinforcement Learning Framework of Controllable Recommender System.",
         "from": "The 32nd International World Wide Web Conferences (WWW): 2023",
         "date": "2023",
-        "authors": "Zhenyang Li,Yancheng Dong,Chen Gao,Yizhou Zhao,Dong Li,Jianye Hao,Kai Zhang,Yong Li,Zhi Wang",
+        "authors": "Zhenyang Li, Yancheng Dong, Chen Gao, Yizhou Zhao, Dong Li, Jianye Hao, Kai Zhang, Yong Li, Zhi Wang",
         "links": [
             {
                 "name": "PDF",
@@ -343,7 +399,7 @@
         "name": "A review and performance evaluation of clustering frameworks for single-cell Hi-C data.",
         "from": "Briefings Bioinform 23(6) (2022) (Briefings Bioinform.): 2022",
         "date": "2022",
-        "authors": "Caiwei Zhen,Yuxian Wang,Jiaquan Geng,Lu Han,Jingyi Li,Jinghao Peng,Tao Wang,Jianye Hao,Xuequn Shang,Zhongyu Wei,Peican Zhu,Jiajie Peng",
+        "authors": "Caiwei Zhen, Yuxian Wang, Jiaquan Geng, Lu Han, Jingyi Li, Jinghao Peng, Tao Wang, Jianye Hao, Xuequn Shang, Zhongyu Wei, Peican Zhu, Jiajie Peng",
         "links": [
             {
                 "name": "PDF",
@@ -355,7 +411,7 @@
         "name": "HEBO: An Empirical Study of Assumptions in Bayesian Optimisation.",
         "from": "Journal of Artificial Intelligence Research 74: 1269-1349 (2022) (JAIR): 2022",
         "date": "2022",
-        "authors": "Alexander I. Cowen- Rivers,Wenlong Lyu,Rasul Tutunov,Zhi Wang,Antoine Grosnit,Ryan- Rhys Griffiths,Alexandre Max Maraval,Jianye Hao,Jun Wang,Jan Peters,Haitham Bou- Ammar",
+        "authors": "Alexander I. Cowen- Rivers, Wenlong Lyu, Rasul Tutunov, Zhi Wang, Antoine Grosnit, Ryan- Rhys Griffiths, Alexandre Max Maraval, Jianye Hao, Jun Wang, Jan Peters, Haitham Bou- Ammar",
         "links": [
             {
                 "name": "PDF",
@@ -367,7 +423,7 @@
         "name": "Coach-assisted multi-agent reinforcement learning framework for unexpected crashed agents.",
         "from": "Frontiers in Information Technology and Electronics Engineering 23(7): 1032-1042 (2022) (Frontiers Inf. Technol. Electron. Eng.): 2022",
         "date": "2022",
-        "authors": "Jian Zhao,Youpeng Zhao,Weixun Wang,Mingyu Yang,Xunhan Hu,Wengang Zhou,Jianye Hao,Houqiang Li",
+        "authors": "Jian Zhao, Youpeng Zhao, Weixun Wang, Mingyu Yang, Xunhan Hu, Wengang Zhou, Jianye Hao, Houqiang Li",
         "links": [
             {
                 "name": "PDF",
@@ -379,7 +435,7 @@
         "name": "SCC-rFMQ: a multiagent reinforcement learning method in cooperative Markov games with continuous actions.",
         "from": "International Journal of Machine Learning and Cybernetics 13(7): 1927-1944 (2022) (Int. J. Mach. Learn. Cybern.): 2022",
         "date": "2022",
-        "authors": "Chengwei Zhang,Zhuobing Han,Bingfu Liu,Wanli Xue,Jianye Hao,Xiaohong Li,Dou An,Rong Chen",
+        "authors": "Chengwei Zhang, Zhuobing Han, Bingfu Liu, Wanli Xue, Jianye Hao, Xiaohong Li, Dou An, Rong Chen",
         "links": [
             {
                 "name": "PDF",
@@ -391,7 +447,7 @@
         "name": "Learning to select cuts for efficient mixed-integer programming.",
         "from": "Pattern Recognit. 123: 108353 (2022) (Pattern Recognit.): 2022",
         "date": "2022",
-        "authors": "Zeren Huang,Kerong Wang,Furui Liu,Hui- Ling Zhen,Weinan Zhang,Mingxuan Yuan,Jianye Hao,Yong Yu,Jun Wang",
+        "authors": "Zeren Huang, Kerong Wang, Furui Liu, Hui- Ling Zhen, Weinan Zhang, Mingxuan Yuan, Jianye Hao, Yong Yu, Jun Wang",
         "links": [
             {
                 "name": "PDF",
@@ -403,7 +459,7 @@
         "name": "What about Inputting Policy in Value Function: Policy Representation and Policy-Extended Value Function Approximator.",
         "from": "The 36th Association for the Advancement of Artificial Intelligence (AAAI): 2022",
         "date": "2022",
-        "authors": "Hongyao Tang,Zhaopeng Meng,Jianye Hao,Chen Chen,Daniel Graves,Dong Li,Changmin Yu,Hangyu Mao,Wulong Liu,Yaodong Yang,Wenyuan Tao,Li Wang",
+        "authors": "Hongyao Tang, Zhaopeng Meng, Jianye Hao, Chen Chen, Daniel Graves, Dong Li, Changmin Yu, Hangyu Mao, Wulong Liu, Yaodong Yang, Wenyuan Tao, Li Wang",
         "links": [
             {
                 "name": "PDF",
@@ -415,7 +471,7 @@
         "name": "Multiagent Q-learning with Sub-Team Coordination.",
         "from": "The 21nd International Conference on Autonomous Agents and Multiagent Systems (AAMAS): 2022",
         "date": "2022",
-        "authors": "Wenhan Huang,Kai Li,Kun Shao,Tianze Zhou,Jun Luo,Dongge Wang,Hangyu Mao,Jianye Hao,Jun Wang,Xiaotie Deng",
+        "authors": "Wenhan Huang, Kai Li, Kun Shao, Tianze Zhou, Jun Luo, Dongge Wang, Hangyu Mao, Jianye Hao, Jun Wang, Xiaotie Deng",
         "links": [
             {
                 "name": "PDF",
@@ -427,7 +483,7 @@
         "name": "Socially-Attentive Policy Optimization in Multi-Agent Self-Driving System.",
         "from": "The 6th Conference on Robot Learning (CoRL): 2022",
         "date": "2022",
-        "authors": "Zipeng Dai,Tianze Zhou,Kun Shao,David Henry Mguni,Bin Wang,Jianye Hao",
+        "authors": "Zipeng Dai, Tianze Zhou, Kun Shao, David Henry Mguni, Bin Wang, Jianye Hao",
         "links": [
             {
                 "name": "PDF",
@@ -439,7 +495,7 @@
         "name": "LHNN: lattice hypergraph neural network for VLSI congestion prediction.",
         "from": "The 59th Design Automation Conference (DAC): 2022",
         "date": "2022",
-        "authors": "Bowen Wang,Guibao Shen,Dong Li,Jianye Hao,Wulong Liu,Yu Huang,Hongzhong Wu,Yibo Lin,Guangyong Chen,Pheng- Ann Heng",
+        "authors": "Bowen Wang, Guibao Shen, Dong Li, Jianye Hao, Wulong Liu, Yu Huang, Hongzhong Wu, Yibo Lin, Guangyong Chen, Pheng- Ann Heng",
         "links": [
             {
                 "name": "PDF",
@@ -451,7 +507,7 @@
         "name": "Efficient Deep Reinforcement Learning via Policy-Extended Successor Feature Approximator.",
         "from": "The 4th International Conference on Distributed Artificial Intelligence (DAI): 2022",
         "date": "2022",
-        "authors": "Yining Li,Tianpei Yang,Jianye Hao,Yan Zheng,Hongyao Tang",
+        "authors": "Yining Li, Tianpei Yang, Jianye Hao, Yan Zheng, Hongyao Tang",
         "links": [
             {
                 "name": "PDF",
@@ -463,7 +519,7 @@
         "name": "Efficient Dual-Process Cognitive Recommender Balancing Accuracy and Diversity.",
         "from": "The 27th International Conference on Database Systems for Advanced Applications (DASFAA): 2022",
         "date": "2022",
-        "authors": "Yixu Gao,Kun Shao,Zhijian Duan,Zhongyu Wei,Dong Li,Bin Wang,Mengchen Zhao,Jianye Hao",
+        "authors": "Yixu Gao, Kun Shao, Zhijian Duan, Zhongyu Wei, Dong Li, Bin Wang, Mengchen Zhao, Jianye Hao",
         "links": [
             {
                 "name": "PDF",
@@ -475,7 +531,7 @@
         "name": "Batch Sequential Black-Box Optimization with Embedding Alignment Cells for Logic Synthesis.",
         "from": "The 41st International Conference on Computer-Aided Design (ICCAD): 2022",
         "date": "2022",
-        "authors": "Chang Feng,Wenlong Lyu,Zhitang Chen,Junjie Ye,Mingxuan Yuan,Jianye Hao",
+        "authors": "Chang Feng, Wenlong Lyu, Zhitang Chen, Junjie Ye, Mingxuan Yuan, Jianye Hao",
         "links": [
             {
                 "name": "PDF",
@@ -487,7 +543,7 @@
         "name": "Heterogeneous Graph Neural Network-Based Imitation Learning for Gate Sizing Acceleration.",
         "from": "The 41st International Conference on Computer-Aided Design (ICCAD): 2022",
         "date": "2022",
-        "authors": "Xinyi Zhou,Junjie Ye,Chak- Wa Pui,Kun Shao,Guangliang Zhang,Bin Wang,Jianye Hao,Guangyong Chen,Pheng- Ann Heng",
+        "authors": "Xinyi Zhou, Junjie Ye, Chak- Wa Pui, Kun Shao, Guangliang Zhang, Bin Wang, Jianye Hao, Guangyong Chen, Pheng- Ann Heng",
         "links": [
             {
                 "name": "PDF",
@@ -499,7 +555,7 @@
         "name": "Invariant Factor Graph Neural Networks.",
         "from": "The 22nd IEEE International Conference on Data Mining (ICDM): 2022",
         "date": "2022",
-        "authors": "Zheng Fang,Ziyun Zhang,Guojie Song,Yingxue Zhang,Dong Li,Jianye Hao,Xi Wang",
+        "authors": "Zheng Fang, Ziyun Zhang, Guojie Song, Yingxue Zhang, Dong Li, Jianye Hao, Xi Wang",
         "links": [
             {
                 "name": "PDF",
@@ -511,7 +567,7 @@
         "name": "Online Ad Hoc Teamwork under Partial Observability.",
         "from": "The Tenth International Conference on Learning Representations (ICLR): 2022",
         "date": "2022",
-        "authors": "Pengjie Gu,Mengchen Zhao,Jianye Hao,Bo An",
+        "authors": "Pengjie Gu, Mengchen Zhao, Jianye Hao, Bo An",
         "links": [
             {
                 "name": "PDF",
@@ -523,7 +579,7 @@
         "name": "HyAR: Addressing Discrete-Continuous Action Reinforcement Learning via Hybrid Action Representation.",
         "from": "The Tenth International Conference on Learning Representations (ICLR): 2022",
         "date": "2022",
-        "authors": "Boyan Li,Hongyao Tang,Yan Zheng,Jianye Hao,Pengyi Li,Zhen Wang,Zhaopeng Meng,Li Wang",
+        "authors": "Boyan Li, Hongyao Tang, Yan Zheng, Jianye Hao, Pengyi Li, Zhen Wang, Zhaopeng Meng, Li Wang",
         "links": [
             {
                 "name": "PDF",
@@ -535,7 +591,7 @@
         "name": "Learning State Representations via Retracing in Reinforcement Learning.",
         "from": "The Tenth International Conference on Learning Representations (ICLR): 2022",
         "date": "2022",
-        "authors": "Changmin Yu,Dong Li,Jianye Hao,Jun Wang,Neil Burgess",
+        "authors": "Changmin Yu, Dong Li, Jianye Hao, Jun Wang, Neil Burgess",
         "links": [
             {
                 "name": "PDF",
@@ -547,7 +603,7 @@
         "name": "Neuro-Symbolic Hierarchical Rule Induction.",
         "from": "The 39th International Conference on Machine Learning (ICML): 2022",
         "date": "2022",
-        "authors": "Claire Glanois,Zhaohui Jiang,Xuening Feng,Paul Weng,Matthieu Zimmer,Dong Li,Wulong Liu,Jianye Hao",
+        "authors": "Claire Glanois, Zhaohui Jiang, Xuening Feng, Paul Weng, Matthieu Zimmer, Dong Li, Wulong Liu, Jianye Hao",
         "links": [
             {
                 "name": "PDF",
@@ -559,7 +615,7 @@
         "name": "Learning Pseudometric-based Action Representations for Offline Reinforcement Learning.",
         "from": "The 39th International Conference on Machine Learning (ICML): 2022",
         "date": "2022",
-        "authors": "Pengjie Gu,Mengchen Zhao,Chen Chen,Dong Li,Jianye Hao,Bo An",
+        "authors": "Pengjie Gu, Mengchen Zhao, Chen Chen, Dong Li, Jianye Hao, Bo An",
         "links": [
             {
                 "name": "PDF",
@@ -571,7 +627,7 @@
         "name": "PMIC: Improving Multi-Agent Reinforcement Learning with Progressive Mutual Information Collaboration.",
         "from": "The 39th International Conference on Machine Learning (ICML): 2022",
         "date": "2022",
-        "authors": "Pengyi Li,Hongyao Tang,Tianpei Yang,Xiaotian Hao,Tong Sang,Yan Zheng,Jianye Hao,Matthew E. Taylor,Wenyuan Tao,Zhen Wang",
+        "authors": "Pengyi Li, Hongyao Tang, Tianpei Yang, Xiaotian Hao, Tong Sang, Yan Zheng, Jianye Hao, Matthew E. Taylor, Wenyuan Tao, Zhen Wang",
         "links": [
             {
                 "name": "PDF",
@@ -583,7 +639,7 @@
         "name": "Plan Your Target and Learn Your Skills: Transferable State-Only Imitation Learning via Decoupled Policy Optimization.",
         "from": "The 39th International Conference on Machine Learning (ICML): 2022",
         "date": "2022",
-        "authors": "Minghuan Liu,Zhengbang Zhu,Yuzheng Zhuang,Weinan Zhang,Jianye Hao,Yong Yu,Jun Wang",
+        "authors": "Minghuan Liu, Zhengbang Zhu, Yuzheng Zhuang, Weinan Zhang, Jianye Hao, Yong Yu, Jun Wang",
         "links": [
             {
                 "name": "PDF",
@@ -595,7 +651,7 @@
         "name": "Individual Reward Assisted Multi-Agent Reinforcement Learning.",
         "from": "The 39th International Conference on Machine Learning (ICML): 2022",
         "date": "2022",
-        "authors": "Li Wang,Yupeng Zhang,Yujing Hu,Weixun Wang,Chongjie Zhang,Yang Gao,Jianye Hao,Tangjie Lv,Changjie Fan",
+        "authors": "Li Wang, Yupeng Zhang, Yujing Hu, Weixun Wang, Chongjie Zhang, Yang Gao, Jianye Hao, Tangjie Lv, Changjie Fan",
         "links": [
             {
                 "name": "PDF",
@@ -607,7 +663,7 @@
         "name": "Promoting Quality and Diversity in Population-based Reinforcement Learning via Hierarchical Trajectory Space Exploration.",
         "from": "The 42nd International Conference on Robotics and Automation (ICRA): 2022",
         "date": "2022",
-        "authors": "Jiayu Miao,Tianze Zhou,Kun Shao,Ming Zhou,Weinan Zhang,Jianye Hao,Yong Yu,Jun Wang",
+        "authors": "Jiayu Miao, Tianze Zhou, Kun Shao, Ming Zhou, Weinan Zhang, Jianye Hao, Yong Yu, Jun Wang",
         "links": [
             {
                 "name": "PDF",
@@ -619,7 +675,7 @@
         "name": "PAnDR: Fast Adaptation to New Environments from Offline Experiences via Decoupling Policy and Environment Representations.",
         "from": "The 31st International Joint Conference on Artificial Intelligence (IJCAI): 2022",
         "date": "2022",
-        "authors": "Tong Sang,Hongyao Tang,Yi Ma,Jianye Hao,Yan Zheng,Zhaopeng Meng,Boyan Li,Zhen Wang",
+        "authors": "Tong Sang, Hongyao Tang, Yi Ma, Jianye Hao, Yan Zheng, Zhaopeng Meng, Boyan Li, Zhen Wang",
         "links": [
             {
                 "name": "PDF",
@@ -631,7 +687,7 @@
         "name": "RCANet: Root Cause Analysis via Latent Variable Interaction Modeling for Yield Improvement.",
         "from": "The 49th International Test Conference (ITC): 2022",
         "date": "2022",
-        "authors": "Xiaopeng Zhang,Shoubo Hu,Zhitang Chen,Shengyu Zhu,Evangeline F. Y. Young,Pengyun Li,Cheng Chen,Yu Huang,Jianye Hao",
+        "authors": "Xiaopeng Zhang, Shoubo Hu, Zhitang Chen, Shengyu Zhu, Evangeline F. Y. Young, Pengyun Li, Cheng Chen, Yu Huang, Jianye Hao",
         "links": [
             {
                 "name": "PDF",
@@ -643,7 +699,7 @@
         "name": "Generalizable Floorplanner through Corner Block List Representation and Hypergraph Embedding.",
         "from": "The 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD): 2022",
         "date": "2022",
-        "authors": "Mohammad Amini,Zhanguang Zhang,Surya Penmetsa,Yingxue Zhang,Jianye Hao,Wulong Liu",
+        "authors": "Mohammad Amini, Zhanguang Zhang, Surya Penmetsa, Yingxue Zhang, Jianye Hao, Wulong Liu",
         "links": [
             {
                 "name": "PDF",
@@ -655,7 +711,7 @@
         "name": "Flat-Aware Cross-Stage Distilled Framework for Imbalanced Medical Image Classification.",
         "from": "The 25th Medical Image Computing and Computer Assisted Intervention (MICCAI): 2022",
         "date": "2022",
-        "authors": "Jinpeng Li,Guangyong Chen,Hangyu Mao,Danruo Deng,Dong Li,Jianye Hao,Qi Dou,Pheng- Ann Heng",
+        "authors": "Jinpeng Li, Guangyong Chen, Hangyu Mao, Danruo Deng, Dong Li, Jianye Hao, Qi Dou, Pheng- Ann Heng",
         "links": [
             {
                 "name": "PDF",
@@ -667,7 +723,7 @@
         "name": "Transformer-based Working Memory for Multiagent Reinforcement Learning with Action Parsing.",
         "from": "The 36th Conference on Neural Information Processing Systems (NeurIPS): 2022",
         "date": "2022",
-        "authors": "Yaodong Yang,Guangyong Chen,Weixun Wang,Xiaotian Hao,Jianye Hao,Pheng- Ann Heng",
+        "authors": "Yaodong Yang, Guangyong Chen, Weixun Wang, Xiaotian Hao, Jianye Hao, Pheng- Ann Heng",
         "links": [
             {
                 "name": "PDF",
@@ -679,7 +735,7 @@
         "name": "GALOIS: Boosting Deep Reinforcement Learning via Generalizable Logic Synthesis.",
         "from": "The 36th Conference on Neural Information Processing Systems (NeurIPS): 2022",
         "date": "2022",
-        "authors": "Yushi Cao,Zhiming Li,Tianpei Yang,Hao Zhang,Yan Zheng,Yi Li,Jianye Hao,Yang Liu",
+        "authors": "Yushi Cao, Zhiming Li, Tianpei Yang, Hao Zhang, Yan Zheng, Yi Li, Jianye Hao, Yang Liu",
         "links": [
             {
                 "name": "PDF",
@@ -691,7 +747,7 @@
         "name": "The Policy-gradient Placement and Generative Routing Neural Networks for Chip Design.",
         "from": "The 36th Conference on Neural Information Processing Systems (NeurIPS): 2022",
         "date": "2022",
-        "authors": "Ruoyu Cheng,Xianglong Lyu,Yang Li,Junjie Ye,Jianye Hao,Junchi Yan",
+        "authors": "Ruoyu Cheng, Xianglong Lyu, Yang Li, Junjie Ye, Jianye Hao, Junchi Yan",
         "links": [
             {
                 "name": "PDF",
@@ -703,7 +759,7 @@
         "name": "Multiagent Q-learning with Sub-Team Coordination.",
         "from": "The 36th Conference on Neural Information Processing Systems (NeurIPS): 2022",
         "date": "2022",
-        "authors": "Wenhan Huang,Kai Li,Kun Shao,Tianze Zhou,Matthew E. Taylor,Jun Luo,Dongge Wang,Hangyu Mao,Jianye Hao,Jun Wang,Xiaotie Deng",
+        "authors": "Wenhan Huang, Kai Li, Kun Shao, Tianze Zhou, Matthew E. Taylor, Jun Luo, Dongge Wang, Hangyu Mao, Jianye Hao, Jun Wang, Xiaotie Deng",
         "links": [
             {
                 "name": "PDF",
@@ -715,7 +771,7 @@
         "name": "DOMINO: Decomposed Mutual Information Optimization for Generalized Context in Meta-Reinforcement Learning.",
         "from": "The 36th Conference on Neural Information Processing Systems (NeurIPS): 2022",
         "date": "2022",
-        "authors": "Yao Mu,Yuzheng Zhuang,Fei Ni,Bin Wang,Jianyu Chen,Jianye Hao,Ping Luo",
+        "authors": "Yao Mu, Yuzheng Zhuang, Fei Ni, Bin Wang, Jianyu Chen, Jianye Hao, Ping Luo",
         "links": [
             {
                 "name": "PDF",
@@ -727,7 +783,7 @@
         "name": "Plan To Predict: Learning an Uncertainty-Foreseeing Model For Model-Based Reinforcement Learning.",
         "from": "The 36th Conference on Neural Information Processing Systems (NeurIPS): 2022",
         "date": "2022",
-        "authors": "Zifan Wu,Chao Yu,Chen Chen,Jianye Hao,Hankz Hankui Zhuo",
+        "authors": "Zifan Wu, Chao Yu, Chen Chen, Jianye Hao, Hankz Hankui Zhuo",
         "links": [
             {
                 "name": "PDF",
@@ -739,7 +795,7 @@
         "name": "Versatile Multi-stage Graph Neural Network for Circuit Representation.",
         "from": "The 36th Conference on Neural Information Processing Systems (NeurIPS): 2022",
         "date": "2022",
-        "authors": "Shuwen Yang,Zhihao Yang,Dong Li,Yingxue Zhang,Zhanguang Zhang,Guojie Song,Jianye Hao",
+        "authors": "Shuwen Yang, Zhihao Yang, Dong Li, Yingxue Zhang, Zhanguang Zhang, Guojie Song, Jianye Hao",
         "links": [
             {
                 "name": "PDF",
@@ -751,7 +807,7 @@
         "name": "Branch Ranking for Efficient Mixed-Integer Programming via Offline Ranking-Based Policy Learning.",
         "from": "The 5th European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML/PKDD): 2022",
         "date": "2022",
-        "authors": "Zeren Huang,Wenhao Chen,Weinan Zhang,Chuhan Shi,Furui Liu,Hui- Ling Zhen,Mingxuan Yuan,Jianye Hao,Yong Yu,Jun Wang",
+        "authors": "Zeren Huang, Wenhao Chen, Weinan Zhang, Chuhan Shi, Furui Liu, Hui- Ling Zhen, Mingxuan Yuan, Jianye Hao, Yong Yu, Jun Wang",
         "links": [
             {
                 "name": "PDF",
@@ -763,7 +819,7 @@
         "name": "Cross-domain adaptive transfer reinforcement learning based on state-action correspondence.",
         "from": "The 38th Conference on Uncertainty in Artificial Intelligence (UAI): 2022",
         "date": "2022",
-        "authors": "Heng You,Tianpei Yang,Yan Zheng,Jianye Hao,Matthew E. Taylor",
+        "authors": "Heng You, Tianpei Yang, Yan Zheng, Jianye Hao, Matthew E. Taylor",
         "links": [
             {
                 "name": "PDF",
@@ -775,7 +831,7 @@
         "name": "Modeling Scale-free Graphs with Hyperbolic Geometry for Knowledge-aware Recommendation.",
         "from": "The 15th Web Search and Data Mining (WSDM): 2022",
         "date": "2022",
-        "authors": "Yankai Chen,Menglin Yang,Yingxue Zhang,Mengchen Zhao,Ziqiao Meng,Jianye Hao,Irwin King",
+        "authors": "Yankai Chen, Menglin Yang, Yingxue Zhang, Mengchen Zhao, Ziqiao Meng, Jianye Hao, Irwin King",
         "links": [
             {
                 "name": "PDF",
@@ -787,7 +843,7 @@
         "name": "Efficient policy detecting and reusing for non-stationarity in Markov games.",
         "from": "Autonomous Agents and Multi-Agent Systems 35(1): 2 (2021) (JAAMAS): 2021",
         "date": "2021",
-        "authors": "Yan Zheng,Jianye Hao,Zongzhang Zhang,Zhaopeng Meng,Tianpei Yang,Yanran Li,Changjie Fan",
+        "authors": "Yan Zheng, Jianye Hao, Zongzhang Zhang, Zhaopeng Meng, Tianpei Yang, Yanran Li, Changjie Fan",
         "links": [
             {
                 "name": "PDF",
@@ -797,9 +853,9 @@
     },
     {
         "name": "Integrating multi-network topology for gene function prediction using deep neural networks.",
-        "from": "Briefings Bioinform 22(2): 2096-2105 (2021) (Briefings Bioinform.): 2021",
+        "from": "Briefings Bioinform\u00a0 22(2): 2096-2105 (2021) (Briefings Bioinform.): 2021",
         "date": "2021",
-        "authors": "Jiajie Peng,Hansheng Xue,Zhongyu Wei,Idil Tuncali,Jianye Hao,Xuequn Shang",
+        "authors": "Jiajie Peng, Hansheng Xue, Zhongyu Wei, Idil Tuncali, Jianye Hao, Xuequn Shang",
         "links": [
             {
                 "name": "PDF",
@@ -809,9 +865,9 @@
     },
     {
         "name": "An end-to-end heterogeneous graph representation learning-based framework for drug-target interaction prediction.",
-        "from": "Briefings Bioinform 22(5) (2021) (Briefings Bioinform.): 2021",
+        "from": "Briefings Bioinform\u00a0 22(5) (2021) (Briefings Bioinform.): 2021",
         "date": "2021",
-        "authors": "Jiajie Peng,Yuxian Wang,Jiaojiao Guan,Jingyi Li,Ruijiang Han,Jianye Hao,Zhongyu Wei,Xuequn Shang",
+        "authors": "Jiajie Peng, Yuxian Wang, Jiaojiao Guan, Jingyi Li, Ruijiang Han, Jianye Hao, Zhongyu Wei, Xuequn Shang",
         "links": [
             {
                 "name": "PDF",
@@ -823,7 +879,7 @@
         "name": "SC2disease: a manually curated database of single-cell transcriptome for human diseases.",
         "from": "Nucleic Acids Research 49(Database-Issue): D1413-D1419 (2021) (Nucleic Acids Res.): 2021",
         "date": "2021",
-        "authors": "Tianyi Zhao,Shuxuan Lyu,Guilin Lu,Liran Juan,Xi Zeng,Zhongyu Wei,Jianye Hao,Jiajie Peng",
+        "authors": "Tianyi Zhao, Shuxuan Lyu, Guilin Lu, Liran Juan, Xi Zeng, Zhongyu Wei, Jianye Hao, Jiajie Peng",
         "links": [
             {
                 "name": "PDF",
@@ -835,7 +891,7 @@
         "name": "Generalized Centered 2-D Principal Component Analysis.",
         "from": "IEEE Transactions on Cybernetics 51(3): 1666-1677 (2021) (IEEE Trans. Cybern.): 2021",
         "date": "2021",
-        "authors": "Gongyu Zhou,Guangquan Xu,Jianye Hao,Shizhan Chen,Junfeng Xu,Xi Zheng",
+        "authors": "Gongyu Zhou, Guangquan Xu, Jianye Hao, Shizhan Chen, Junfeng Xu, Xi Zheng",
         "links": [
             {
                 "name": "PDF",
@@ -847,7 +903,7 @@
         "name": "Falsification of Cyber-Physical Systems Using Deep Reinforcement Learning.",
         "from": "IEEE Transactions on Software Engineering 47(12): 2823-2840 (2021) (IEEE TSE): 2021",
         "date": "2021",
-        "authors": "Yoriyuki Yamagata,Shuang Liu,Takumi Akazaki,Yihai Duan,Jianye Hao",
+        "authors": "Yoriyuki Yamagata, Shuang Liu, Takumi Akazaki, Yihai Duan, Jianye Hao",
         "links": [
             {
                 "name": "PDF",
@@ -859,7 +915,7 @@
         "name": "Addressing Action Oscillations through Learning Policy Inertia.",
         "from": "The 35th Association for the Advancement of Artificial Intelligence (AAAI): 2021",
         "date": "2021",
-        "authors": "Chen Chen,Hongyao Tang,Jianye Hao,Wulong Liu,Zhaopeng Meng",
+        "authors": "Chen Chen, Hongyao Tang, Jianye Hao, Wulong Liu, Zhaopeng Meng",
         "links": [
             {
                 "name": "PDF",
@@ -871,7 +927,7 @@
         "name": "Towards Effective Context for Meta-Reinforcement Learning: an Approach based on Contrastive Learning.",
         "from": "The 35th Association for the Advancement of Artificial Intelligence (AAAI): 2021",
         "date": "2021",
-        "authors": "Haotian Fu,Hongyao Tang,Jianye Hao,Chen Chen,Xidong Feng,Dong Li,Wulong Liu",
+        "authors": "Haotian Fu, Hongyao Tang, Jianye Hao, Chen Chen, Xidong Feng, Dong Li, Wulong Liu",
         "links": [
             {
                 "name": "PDF",
@@ -883,7 +939,7 @@
         "name": "Foresee then Evaluate: Decomposing Value Estimation with Latent Future Prediction.",
         "from": "The 35th Association for the Advancement of Artificial Intelligence (AAAI): 2021",
         "date": "2021",
-        "authors": "Hongyao Tang,Zhaopeng Meng,Guangyong Chen,Pengfei Chen,Chen Chen,Yaodong Yang,Luo Zhang,Wulong Liu,Jianye Hao",
+        "authors": "Hongyao Tang, Zhaopeng Meng, Guangyong Chen, Pengfei Chen, Chen Chen, Yaodong Yang, Luo Zhang, Wulong Liu, Jianye Hao",
         "links": [
             {
                 "name": "PDF",
@@ -895,7 +951,7 @@
         "name": "CMML: Contextual Modulation Meta Learning for Cold-Start Recommendation.",
         "from": "The 30th ACM International Conference on Information and Knowledge Management (CIKM): 2021",
         "date": "2021",
-        "authors": "Xidong Feng,Chen Chen,Dong Li,Mengchen Zhao,Jianye Hao,Jun Wang",
+        "authors": "Xidong Feng, Chen Chen, Dong Li, Mengchen Zhao, Jianye Hao, Jun Wang",
         "links": [
             {
                 "name": "PDF",
@@ -907,7 +963,7 @@
         "name": "CausalVAE: Disentangled Representation Learning via Neural Structural Causal Models.",
         "from": "The 34th IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR): 2021",
         "date": "2021",
-        "authors": "Mengyue Yang,Furui Liu,Zhitang Chen,Xinwei Shen,Jianye Hao,Jun Wang",
+        "authors": "Mengyue Yang, Furui Liu, Zhitang Chen, Xinwei Shen, Jianye Hao, Jun Wang",
         "links": [
             {
                 "name": "PDF",
@@ -919,7 +975,7 @@
         "name": "Uncertainty-Aware Low-Rank Q-Matrix Estimation for Deep Reinforcement Learning.",
         "from": "The 3rd International Conference on Distributed Artificial Intelligence (DAI): 2021",
         "date": "2021",
-        "authors": "Tong Sang,Hongyao Tang,Jianye Hao,Yan Zheng,Zhaopeng Meng",
+        "authors": "Tong Sang, Hongyao Tang, Jianye Hao, Yan Zheng, Zhaopeng Meng",
         "links": [
             {
                 "name": "PDF",
@@ -931,7 +987,7 @@
         "name": "SEIHAI: A Sample-Efficient Hierarchical AI for the MineRL Competition.",
         "from": "The 3rd International Conference on Distributed Artificial Intelligence (DAI): 2021",
         "date": "2021",
-        "authors": "Hangyu Mao,Chao Wang,Xiaotian Hao,Yihuan Mao,Yiming Lu,Chengjie Wu,Jianye Hao,Dong Li,Pingzhong Tang",
+        "authors": "Hangyu Mao, Chao Wang, Xiaotian Hao, Yihuan Mao, Yiming Lu, Chengjie Wu, Jianye Hao, Dong Li, Pingzhong Tang",
         "links": [
             {
                 "name": "PDF",
@@ -943,7 +999,7 @@
         "name": "A Unified Framework for Layout Pattern Analysis with Deep Causal Estimation.",
         "from": "The 40th International Conference on Computer-Aided Design (ICCAD): 2021",
         "date": "2021",
-        "authors": "Ran Chen,Shoubo Hu,Zhitang Chen,Shengyu Zhu,Bei Yu,Pengyun Li,Cheng Chen,Yu Huang,Jianye Hao",
+        "authors": "Ran Chen, Shoubo Hu, Zhitang Chen, Shengyu Zhu, Bei Yu, Pengyun Li, Cheng Chen, Yu Huang, Jianye Hao",
         "links": [
             {
                 "name": "PDF",
@@ -955,7 +1011,7 @@
         "name": "Coalition-based Task Assignment in Spatial Crowdsourcing.",
         "from": "The 37th IEEE International Conference on Data Engineering (ICDE): 2021",
         "date": "2021",
-        "authors": "Yan Zhao,Jiannan Guo,Xuanhao Chen,Jianye Hao,Xiaofang Zhou,Kai Zheng",
+        "authors": "Yan Zhao, Jiannan Guo, Xuanhao Chen, Jianye Hao, Xiaofang Zhou, Kai Zheng",
         "links": [
             {
                 "name": "PDF",
@@ -967,7 +1023,7 @@
         "name": "Principled Exploration via Optimistic Bootstrapping and Backward Induction.",
         "from": "The 38th International Conference on Machine Learning (ICML): 2021",
         "date": "2021",
-        "authors": "Chenjia Bai,Lingxiao Wang,Lei Han,Jianye Hao,Animesh Garg,Peng Liu,Zhaoran Wang",
+        "authors": "Chenjia Bai, Lingxiao Wang, Lei Han, Jianye Hao, Animesh Garg, Peng Liu, Zhaoran Wang",
         "links": [
             {
                 "name": "PDF",
@@ -979,7 +1035,7 @@
         "name": "Relational Navigation Learning in Continuous Action Space among Crowds.",
         "from": "The 2021 IEEE International Conference on Robotics and Automation (ICRA): 2021",
         "date": "2021",
-        "authors": "Xueyou Zhang,Wei Xi,Xian Guo,Yongchun Fang,Bin Wang,Wulong Liu,Jianye Hao",
+        "authors": "Xueyou Zhang, Wei Xi, Xian Guo, Yongchun Fang, Bin Wang, Wulong Liu, Jianye Hao",
         "links": [
             {
                 "name": "PDF",
@@ -991,7 +1047,7 @@
         "name": "Automatic Web Testing Using Curiosity-Driven Reinforcement Learning.",
         "from": "The 43rd International Conference on Software Engineering (ICSE): 2021",
         "date": "2021",
-        "authors": "Yan Zheng,Yi Liu,Xiaofei Xie,Yepang Liu,Lei Ma,Jianye Hao,Yang Liu",
+        "authors": "Yan Zheng, Yi Liu, Xiaofei Xie, Yepang Liu, Lei Ma, Jianye Hao, Yang Liu",
         "links": [
             {
                 "name": "PDF",
@@ -1003,7 +1059,7 @@
         "name": "A deep reinforcement learning-based agent for negotiation with multiple communication channels.",
         "from": "The 33rd International Conference on Tools with Artificial Intelligence (ICTAI): 2021",
         "date": "2021",
-        "authors": "Xiaoyang Gao,Siqi Chen,Yan Zheng,Jianye Hao",
+        "authors": "Xiaoyang Gao, Siqi Chen, Yan Zheng, Jianye Hao",
         "links": [
             {
                 "name": "PDF",
@@ -1015,7 +1071,7 @@
         "name": "Ordering-Based Causal Discovery with Reinforcement Learning.",
         "from": "The 30th International Joint Conference on Artificial Intelligence (IJCAI): 2021",
         "date": "2021",
-        "authors": "Xiaoqiang Wang,Yali Du,Shengyu Zhu,Liangjun Ke,Zhitang Chen,Jianye Hao,Jun Wang",
+        "authors": "Xiaoqiang Wang, Yali Du, Shengyu Zhu, Liangjun Ke, Zhitang Chen, Jianye Hao, Jun Wang",
         "links": [
             {
                 "name": "PDF",
@@ -1027,7 +1083,7 @@
         "name": "FIGCPS: Effective Failure-inducing Input Generation for Cyber-Physical Systems with Deep Reinforcement Learning.",
         "from": "The 36th IEEE/ACM International Conference on Automated Software Engineering (ASE): 2021",
         "date": "2021",
-        "authors": "Shaohua Zhang,Shuang Liu,Jun Sun,Yuqi Chen,Wenzhi Huang,Jinyi Liu,Jian Liu,Jianye Hao",
+        "authors": "Shaohua Zhang, Shuang Liu, Jun Sun, Yuqi Chen, Wenzhi Huang, Jinyi Liu, Jian Liu, Jianye Hao",
         "links": [
             {
                 "name": "PDF",
@@ -1039,7 +1095,7 @@
         "name": "A Multi-Graph Attributed Reinforcement Learning based Optimization Algorithm for Large-scale Hybrid Flow Shop Scheduling Problem.",
         "from": "The 27th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD): 2021",
         "date": "2021",
-        "authors": "Fei Ni,Jianye Hao,Jiawen Lu,Xialiang Tong,Mingxuan Yuan,Jiahui Duan,Yi Ma,Kun He",
+        "authors": "Fei Ni, Jianye Hao, Jiawen Lu, Xialiang Tong, Mingxuan Yuan, Jiahui Duan, Yi Ma, Kun He",
         "links": [
             {
                 "name": "PDF",
@@ -1051,7 +1107,7 @@
         "name": "Model-Based Reinforcement Learning via Imagination with Derived Memory.",
         "from": "The 34th Conference on Neural Information Processing Systems (NeurIPS): 2021",
         "date": "2021",
-        "authors": "Yao Mu,Yuzheng Zhuang,Bin Wang,Guangxiang Zhu,Wulong Liu,Jianyu Chen,Ping Luo,Shengbo Li,Chongjie Zhang,Jianye Hao",
+        "authors": "Yao Mu, Yuzheng Zhuang, Bin Wang, Guangxiang Zhu, Wulong Liu, Jianyu Chen, Ping Luo, Shengbo Li, Chongjie Zhang, Jianye Hao",
         "links": [
             {
                 "name": "PDF",
@@ -1063,7 +1119,7 @@
         "name": "Dynamic Bottleneck for Robust Self-Supervised Exploration.",
         "from": "The 34th Conference on Neural Information Processing Systems (NeurIPS): 2021",
         "date": "2021",
-        "authors": "Chenjia Bai,Lingxiao Wang,Lei Han,Animesh Garg,Jianye Hao,Peng Liu,Zhaoran Wang",
+        "authors": "Chenjia Bai, Lingxiao Wang, Lei Han, Animesh Garg, Jianye Hao, Peng Liu, Zhaoran Wang",
         "links": [
             {
                 "name": "PDF",
@@ -1075,7 +1131,7 @@
         "name": "An Efficient Transfer Learning Framework for Multiagent Reinforcement Learning.",
         "from": "The 34th Conference on Neural Information Processing Systems (NeurIPS): 2021",
         "date": "2021",
-        "authors": "Tianpei Yang,Weixun Wang,Hongyao Tang,Jianye Hao,Zhaopeng Meng,Hangyu Mao,Dong Li,Wulong Liu,Yingfeng Chen,Yujing Hu,Changjie Fan,Chengwei Zhang",
+        "authors": "Tianpei Yang, Weixun Wang, Hongyao Tang, Jianye Hao, Zhaopeng Meng, Hangyu Mao, Dong Li, Wulong Liu, Yingfeng Chen, Yujing Hu, Changjie Fan, Chengwei Zhang",
         "links": [
             {
                 "name": "PDF",
@@ -1087,7 +1143,7 @@
         "name": "Flattening Sharpness for Dynamic Gradient Projection Memory Benefits Continual Learning.",
         "from": "The 34th Conference on Neural Information Processing Systems (NeurIPS): 2021",
         "date": "2021",
-        "authors": "Danruo Deng,Guangyong Chen,Jianye Hao,Qiong Wang,Pheng- Ann Heng",
+        "authors": "Danruo Deng, Guangyong Chen, Jianye Hao, Qiong Wang, Pheng- Ann Heng",
         "links": [
             {
                 "name": "PDF",
@@ -1099,7 +1155,7 @@
         "name": "A Hierarchical Reinforcement Learning Based Optimization Framework for Large-scale Dynamic Pickup and Delivery Problems.",
         "from": "The 34th Conference on Neural Information Processing Systems (NeurIPS): 2021",
         "date": "2021",
-        "authors": "Yi Ma,Xiaotian Hao,Jianye Hao,Jiawen Lu,Xing Liu,Xialiang Tong,Mingxuan Yuan,Zhigang Li,Jie Tang,Zhaopeng Meng",
+        "authors": "Yi Ma, Xiaotian Hao, Jianye Hao, Jiawen Lu, Xing Liu, Xialiang Tong, Mingxuan Yuan, Zhigang Li, Jie Tang, Zhaopeng Meng",
         "links": [
             {
                 "name": "PDF",
@@ -1111,7 +1167,7 @@
         "name": "Adaptive Online Packing-guided Search for POMDPs.",
         "from": "The 34th Conference on Neural Information Processing Systems (NeurIPS): 2021",
         "date": "2021",
-        "authors": "Chenyang Wu,Guoyu Yang,Zongzhang Zhang,Yang Yu,Dong Li,Wulong Liu,Jianye Hao",
+        "authors": "Chenyang Wu, Guoyu Yang, Zongzhang Zhang, Yang Yu, Dong Li, Wulong Liu, Jianye Hao",
         "links": [
             {
                 "name": "PDF",
@@ -1123,7 +1179,7 @@
         "name": "Detecting and Learning Against Unknown Opponents for Automated Negotiations.",
         "from": "The 13th Pacific Rim International Conference on Artificial Intelligence (PRICAI): 2021",
         "date": "2021",
-        "authors": "Leling Wu,Siqi Chen,Xiaoyang Gao,Yan Zheng,Jianye Hao",
+        "authors": "Leling Wu, Siqi Chen, Xiaoyang Gao, Yan Zheng, Jianye Hao",
         "links": [
             {
                 "name": "PDF",
@@ -1135,7 +1191,7 @@
         "name": "Off-Policy Training for Truncated TD(\u03bb) Boosted Soft Actor-Critic.",
         "from": "The 13th Pacific Rim International Conference on Artificial Intelligence (PRICAI): 2021",
         "date": "2021",
-        "authors": "Shiyu Huang,Bin Wang,Hang Su,Dong Li,Jianye Hao,Jun Zhu,Ting Chen",
+        "authors": "Shiyu Huang, Bin Wang, Hang Su, Dong Li, Jianye Hao, Jun Zhu, Ting Chen",
         "links": [
             {
                 "name": "PDF",
@@ -1147,7 +1203,7 @@
         "name": "A Graph-Enhanced Click Model for Web Search.",
         "from": "The 44th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR): 2021",
         "date": "2021",
-        "authors": "Jianghao Lin,Weiwen Liu,Xinyi Dai,Weinan Zhang,Shuai Li,Ruiming Tang,Xiuqiang He,Jianye Hao,Yong Yu",
+        "authors": "Jianghao Lin, Weiwen Liu, Xinyi Dai, Weinan Zhang, Shuai Li, Ruiming Tang, Xiuqiang He, Jianye Hao, Yong Yu",
         "links": [
             {
                 "name": "PDF",
@@ -1159,7 +1215,7 @@
         "name": "An Adversarial Imitation Click Model for Information Retrieval.",
         "from": "The 30th International World Wide Web Conferences (WWW): 2021",
         "date": "2021",
-        "authors": "Xinyi Dai,Jianghao Lin,Weinan Zhang,Shuai Li,Weiwen Liu,Ruiming Tang,Xiuqiang He,Jianye Hao,Jun Wang,Yong Yu",
+        "authors": "Xinyi Dai, Jianghao Lin, Weinan Zhang, Shuai Li, Weiwen Liu, Ruiming Tang, Xiuqiang He, Jianye Hao, Jun Wang, Yong Yu",
         "links": [
             {
                 "name": "PDF",
@@ -1171,7 +1227,7 @@
         "name": "A Method for Deploying Distributed Denial of Service Attack Defense Strategies on Edge Servers Using Reinforcement Learning.",
         "from": "IEEE Access8: 78482-78491 (2020) (IEEE Access): 2020",
         "date": "2020",
-        "authors": "Haodi Zhang,Jianye Hao,Xiaohong Li",
+        "authors": "Haodi Zhang, Jianye Hao, Xiaohong Li",
         "links": [
             {
                 "name": "PDF",
@@ -1183,7 +1239,7 @@
         "name": "Efficient Multiagent Policy Optimization Based on Weighted Estimators in Stochastic Cooperative Environments.",
         "from": "Journal of Computer Science and Technology 35(2): 268-280 (2020) (J. Comput. Sci. Technol.): 2020",
         "date": "2020",
-        "authors": "Yan Zheng,Jianye Hao,Zongzhang Zhang,Zhao- Peng Meng,Xiaotian Hao",
+        "authors": "Yan Zheng, Jianye Hao, Zongzhang Zhang, Zhao- Peng Meng, Xiaotian Hao",
         "links": [
             {
                 "name": "PDF",
@@ -1195,7 +1251,7 @@
         "name": "Continuous Multiagent Control Using Collective Behavior Entropy for Large-Scale Home Energy Management.",
         "from": "The 34th Association for the Advancement of Artificial Intelligence (AAAI): 2020",
         "date": "2020",
-        "authors": "Jianwen Sun,Yan Zheng,Jianye Hao,Zhaopeng Meng,Yang Liu",
+        "authors": "Jianwen Sun, Yan Zheng, Jianye Hao, Zhaopeng Meng, Yang Liu",
         "links": [
             {
                 "name": "PDF",
@@ -1207,7 +1263,7 @@
         "name": "Multi-Agent Game Abstraction via Graph Attention Neural Network.",
         "from": "The 34th Association for the Advancement of Artificial Intelligence (AAAI): 2020",
         "date": "2020",
-        "authors": "Yong Liu,Weixun Wang,Yujing Hu,Jianye Hao,Xingguo Chen,Yang Gao",
+        "authors": "Yong Liu, Weixun Wang, Yujing Hu, Jianye Hao, Xingguo Chen, Yang Gao",
         "links": [
             {
                 "name": "PDF",
@@ -1219,7 +1275,7 @@
         "name": "Neighborhood Cognition Consistent Multi-Agent Reinforcement Learning.",
         "from": "The 34th Association for the Advancement of Artificial Intelligence (AAAI): 2020",
         "date": "2020",
-        "authors": "Hangyu Mao,Wulong Liu,Jianye Hao,Jun Luo,Dong Li,Zhengchao Zhang,Jun Wang,Zhen Xiao",
+        "authors": "Hangyu Mao, Wulong Liu, Jianye Hao, Jun Luo, Dong Li, Zhengchao Zhang, Jun Wang, Zhen Xiao",
         "links": [
             {
                 "name": "PDF",
@@ -1231,7 +1287,7 @@
         "name": "From Few to More: Large-Scale Dynamic Multiagent Curriculum Learning.",
         "from": "The 34th Association for the Advancement of Artificial Intelligence (AAAI): 2020",
         "date": "2020",
-        "authors": "Weixun Wang,Tianpei Yang,Yong Liu,Jianye Hao,Xiaotian Hao,Yujing Hu,Yingfeng Chen,Changjie Fan,Yang Gao",
+        "authors": "Weixun Wang, Tianpei Yang, Yong Liu, Jianye Hao, Xiaotian Hao, Yujing Hu, Yingfeng Chen, Changjie Fan, Yang Gao",
         "links": [
             {
                 "name": "PDF",
@@ -1243,7 +1299,7 @@
         "name": "Mastering Basketball With Deep Reinforcement Learning: An Integrated Curriculum Training Approach.",
         "from": "The 19th International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS): 2020",
         "date": "2020",
-        "authors": "Hangtian Jia,Chunxu Ren,Yujing Hu,Yingfeng Chen,Tangjie Lv,Changjie Fan,Hongyao Tang,Jianye Hao",
+        "authors": "Hangtian Jia, Chunxu Ren, Yujing Hu, Yingfeng Chen, Tangjie Lv, Changjie Fan, Hongyao Tang, Jianye Hao",
         "links": [
             {
                 "name": "PDF",
@@ -1255,7 +1311,7 @@
         "name": "Efficient Deep Reinforcement Learning through Policy Transfer.",
         "from": "The 19th International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS): 2020",
         "date": "2020",
-        "authors": "Tianpei Yang,Jianye Hao,Zhaopeng Meng,Zongzhang Zhang,Yujing Hu,Yingfeng Chen,Changjie Fan,Weixun Wang,Zhaodong Wang,Jiajie Peng",
+        "authors": "Tianpei Yang, Jianye Hao, Zhaopeng Meng, Zongzhang Zhang, Yujing Hu, Yingfeng Chen, Changjie Fan, Weixun Wang, Zhaodong Wang, Jiajie Peng",
         "links": [
             {
                 "name": "PDF",
@@ -1267,7 +1323,7 @@
         "name": "Large Scale Deep Reinforcement Learning in War-games.",
         "from": "The 13rd International Conference on Bioinformatics and Biomedicine (BIBM): 2020",
         "date": "2020",
-        "authors": "Hanchao Wang,Hongyao Tang,Jianye Hao,Xiaotian Hao,Yue Fu,Yi Ma",
+        "authors": "Hanchao Wang, Hongyao Tang, Jianye Hao, Xiaotian Hao, Yue Fu, Yi Ma",
         "links": [
             {
                 "name": "PDF",
@@ -1279,7 +1335,7 @@
         "name": "SMARTS: An Open-Source Scalable Multi-Agent RL Training School for Autonomous Driving.",
         "from": "The 4th Conference on Robot Learning (CoRL): 2020",
         "date": "2020",
-        "authors": "Ming Zhou,Jun Luo,Julian Villela,Yaodong Yang,David Rusu,Jiayu Miao,Weinan Zhang,Montgomery Alban,Iman Fadakar,Zheng Chen,Chongxi Huang,Ying Wen,Kimia Hassanzadeh,Daniel Graves,Zhengbang Zhu,Yihan Ni,Nhat M. Nguyen,Mohamed Elsayed,Haitham Ammar,Alexander I. Cowen- Rivers,Sanjeevan Ahilan,Zheng Tian,Daniel Palenicek,Kasra Rezaee,Peyman Yadmellat,Kun Shao,Dong Chen,Baokuan Zhang,Hongbo Zhang,Jianye Hao,Wulong Liu,Jun Wang",
+        "authors": "Ming Zhou, Jun Luo, Julian Villela, Yaodong Yang, David Rusu, Jiayu Miao, Weinan Zhang, Montgomery Alban, Iman Fadakar, Zheng Chen, Chongxi Huang, Ying Wen, Kimia Hassanzadeh, Daniel Graves, Zhengbang Zhu, Yihan Ni, Nhat M. Nguyen, Mohamed Elsayed, Haitham Ammar, Alexander I. Cowen- Rivers, Sanjeevan Ahilan, Zheng Tian, Daniel Palenicek, Kasra Rezaee, Peyman Yadmellat, Kun Shao, Dong Chen, Baokuan Zhang, Hongbo Zhang, Jianye Hao, Wulong Liu, Jun Wang",
         "links": [
             {
                 "name": "PDF",
@@ -1291,7 +1347,7 @@
         "name": "MGHRL: Meta Goal-Generation for Hierarchical Reinforcement Learning.",
         "from": "The 2nd Digital Artificial Intelligence Conference (DAI): 2020",
         "date": "2020",
-        "authors": "Haotian Fu,Hongyao Tang,Jianye Hao,Wulong Liu,Chen Chen",
+        "authors": "Haotian Fu, Hongyao Tang, Jianye Hao, Wulong Liu, Chen Chen",
         "links": [
             {
                 "name": "PDF",
@@ -1303,7 +1359,7 @@
         "name": "Faster Convention Emergence by Avoiding Local Conventions in Reinforcement Social Learning.",
         "from": "The 19th International Conference on Artificial Intelligence and Soft Computing (ICAISC): 2020",
         "date": "2020",
-        "authors": "Muzi Liu,Ho-fung Leung,Jianye Hao",
+        "authors": "Muzi Liu, Ho-fung Leung, Jianye Hao",
         "links": [
             {
                 "name": "PDF",
@@ -1315,7 +1371,7 @@
         "name": "An Empirical Study on Correlation between Coverage and Robustness for Deep Neural Networks.",
         "from": "The 25nd International Conference on Engineering of Complex Computer Systems (ICECCS): 2020",
         "date": "2020",
-        "authors": "Yizhen Dong,Peixin Zhang,Jingyi Wang,Shuang Liu,Jun Sun,Jianye Hao,Xinyu Wang,Li Wang,Jin Song Dong,Ting Dai",
+        "authors": "Yizhen Dong, Peixin Zhang, Jingyi Wang, Shuang Liu, Jun Sun, Jianye Hao, Xinyu Wang, Li Wang, Jin Song Dong, Ting Dai",
         "links": [
             {
                 "name": "PDF",
@@ -1327,7 +1383,7 @@
         "name": "Action Semantics Network: Considering the Effects of Actions in Multiagent Systems.",
         "from": "The 8th International Conference on Learning Representations (ICLR): 2020",
         "date": "2020",
-        "authors": "Weixun Wang,Tianpei Yang,Yong Liu,Jianye Hao,Xiaotian Hao,Yujing Hu,Yingfeng Chen,Changjie Fan,Yang Gao",
+        "authors": "Weixun Wang, Tianpei Yang, Yong Liu, Jianye Hao, Xiaotian Hao, Yujing Hu, Yingfeng Chen, Changjie Fan, Yang Gao",
         "links": [
             {
                 "name": "PDF",
@@ -1339,7 +1395,7 @@
         "name": "Dynamic Knapsack Optimization Towards Efficient Multi-Channel Sequential Advertising.",
         "from": "The 37th International Conference on Machine Learning (ICML): 2020",
         "date": "2020",
-        "authors": "Xiaotian Hao,Zhaoqing Peng,Yi Ma,Guan Wang,Junqi Jin,Jianye Hao,Shan Chen,Rongquan Bai,Mingzhou Xie,Miao Xu,Zhenzhe Zheng,Chuan Yu,Han Li,Jian Xu,Kun Gai",
+        "authors": "Xiaotian Hao, Zhaoqing Peng, Yi Ma, Guan Wang, Junqi Jin, Jianye Hao, Shan Chen, Rongquan Bai, Mingzhou Xie, Miao Xu, Zhenzhe Zheng, Chuan Yu, Han Li, Jian Xu, Kun Gai",
         "links": [
             {
                 "name": "PDF",
@@ -1351,7 +1407,7 @@
         "name": "Q-value Path Decomposition for Deep Multiagent Reinforcement Learning.",
         "from": "The 37th International Conference on Machine Learning (ICML): 2020",
         "date": "2020",
-        "authors": "Yaodong Yang,Jianye Hao,Guangyong Chen,Hongyao Tang,Yingfeng Chen,Yujing Hu,Changjie Fan,Zhongyu Wei",
+        "authors": "Yaodong Yang, Jianye Hao, Guangyong Chen, Hongyao Tang, Yingfeng Chen, Yujing Hu, Changjie Fan, Zhongyu Wei",
         "links": [
             {
                 "name": "PDF",
@@ -1363,7 +1419,7 @@
         "name": "KoGuN: Accelerating Deep Reinforcement Learning via Integrating Human Suboptimal Knowledge.",
         "from": "The 29th International Joint Conference on Artificial Intelligence (IJCAI): 2020",
         "date": "2020",
-        "authors": "Peng Zhang,Jianye Hao,Weixun Wang,Hongyao Tang,Yi Ma,Yihai Duan,Yan Zheng",
+        "authors": "Peng Zhang, Jianye Hao, Weixun Wang, Hongyao Tang, Yi Ma, Yihai Duan, Yan Zheng",
         "links": [
             {
                 "name": "PDF",
@@ -1375,7 +1431,7 @@
         "name": "Triple-GAIL: A Multi-Modal Imitation Learning Framework with Generative Adversarial Nets.",
         "from": "The 29th International Joint Conference on Artificial Intelligence (IJCAI): 2020",
         "date": "2020",
-        "authors": "Cong Fei,Bin Wang,Yuzheng Zhuang,Zongzhang Zhang,Jianye Hao,Hongbo Zhang,Xuewu Ji,Wulong Liu",
+        "authors": "Cong Fei, Bin Wang, Yuzheng Zhuang, Zongzhang Zhang, Jianye Hao, Hongbo Zhang, Xuewu Ji, Wulong Liu",
         "links": [
             {
                 "name": "PDF",
@@ -1387,7 +1443,7 @@
         "name": "Efficient Deep Reinforcement Learning via Adaptive Policy Transfer.",
         "from": "The 29th International Joint Conference on Artificial Intelligence (IJCAI): 2020",
         "date": "2020",
-        "authors": "Tianpei Yang,Jianye Hao,Zhaopeng Meng,Zongzhang Zhang,Yujing Hu,Yingfeng Chen,Changjie Fan,Weixun Wang,Wulong Liu,Zhaodong Wang,Jiajie Peng",
+        "authors": "Tianpei Yang, Jianye Hao, Zhaopeng Meng, Zongzhang Zhang, Yujing Hu, Yingfeng Chen, Changjie Fan, Weixun Wang, Wulong Liu, Zhaodong Wang, Jiajie Peng",
         "links": [
             {
                 "name": "PDF",
@@ -1399,7 +1455,7 @@
         "name": "Generating Behavior-Diverse Game AIs with Evolutionary Multi-Objective Deep Reinforcement Learning.",
         "from": "The 29th International Joint Conference on Artificial Intelligence (IJCAI): 2020",
         "date": "2020",
-        "authors": "Ruimin Shen,Yan Zheng,Jianye Hao,Zhaopeng Meng,Yingfeng Chen,Changjie Fan,Yang Liu",
+        "authors": "Ruimin Shen, Yan Zheng, Jianye Hao, Zhaopeng Meng, Yingfeng Chen, Changjie Fan, Yang Liu",
         "links": [
             {
                 "name": "PDF",
@@ -1411,7 +1467,7 @@
         "name": "Learning to Accelerate Heuristic Searching for Large-Scale Maximum Weighted b-Matching Problems in Online Advertising.",
         "from": "The 29th International Joint Conference on Artificial Intelligence (IJCAI): 2020",
         "date": "2020",
-        "authors": "Xiaotian Hao,Junqi Jin,Jianye Hao,Jin Li,Weixun Wang,Yi Ma,Zhenzhe Zheng,Han Li,Jian Xu,Kun Gai",
+        "authors": "Xiaotian Hao, Junqi Jin, Jianye Hao, Jin Li, Weixun Wang, Yi Ma, Zhenzhe Zheng, Han Li, Jian Xu, Kun Gai",
         "links": [
             {
                 "name": "PDF",
@@ -1423,7 +1479,7 @@
         "name": "A Multi-Task Reinforcement Learning Approach for Navigating Unsignalized Intersections.",
         "from": "The 31st IEEE Intelligent Vehicles Symposium (IV): 2020",
         "date": "2020",
-        "authors": "Shixiong Kai,Bin Wang,Dong Chen,Jianye Hao,Hongbo Zhang,Wulong Liu",
+        "authors": "Shixiong Kai, Bin Wang, Dong Chen, Jianye Hao, Hongbo Zhang, Wulong Liu",
         "links": [
             {
                 "name": "PDF",
@@ -1435,7 +1491,7 @@
         "name": "Learning to Utilize Shaping Rewards: A New Approach of Reward Shaping.",
         "from": "The 34th Conference on Neural Information Processing Systems (NeurIPS): 2020",
         "date": "2020",
-        "authors": "Yujing Hu,Weixun Wang,Hangtian Jia,Yixiang Wang,Yingfeng Chen,Jianye Hao,Feng Wu,Changjie Fan",
+        "authors": "Yujing Hu, Weixun Wang, Hangtian Jia, Yixiang Wang, Yingfeng Chen, Jianye Hao, Feng Wu, Changjie Fan",
         "links": [
             {
                 "name": "PDF",
@@ -1447,7 +1503,7 @@
         "name": "Cross-data Automatic Feature Engineering via Meta-learning and Reinforcement Learning.",
         "from": "The 23th Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD): 2020",
         "date": "2020",
-        "authors": "Jianyu Zhang,Jianye Hao,Fran\u00e7oise Fogelman- Souli\u00e9",
+        "authors": "Jianyu Zhang, Jianye Hao, Fran\u00e7oise Fogelman- Souli\u00e9",
         "links": [
             {
                 "name": "PDF",
@@ -1459,7 +1515,7 @@
         "name": "SA-IGA: a multiagent reinforcement learning method towards socially optimal outcomes.",
         "from": "Autonomous Agents and Multi-Agent Systems 33(4): 403-429 (2019) (JAAMAS): 2019",
         "date": "2019",
-        "authors": "Chengwei Zhang,Xiaohong Li,Jianye Hao,Siqi Chen,Karl Tuyls,Wanli Xue,Zhiyong Feng",
+        "authors": "Chengwei Zhang, Xiaohong Li, Jianye Hao, Siqi Chen, Karl Tuyls, Wanli Xue, Zhiyong Feng",
         "links": [
             {
                 "name": "PDF",
@@ -1471,7 +1527,7 @@
         "name": "A learning-based framework for miRNA-disease association identification using neural networks.",
         "from": "Bioinform 35(21): 4364-4371 (2019) (Bioinform.): 2019",
         "date": "2019",
-        "authors": "Jiajie Peng,Weiwei Hui,Qianqian Li,Bolin Chen,Jianye Hao,Qinghua Jiang,Xuequn Shang,Zhongyu Wei",
+        "authors": "Jiajie Peng, Weiwei Hui, Qianqian Li, Bolin Chen, Jianye Hao, Qinghua Jiang, Xuequn Shang, Zhongyu Wei",
         "links": [
             {
                 "name": "PDF",
@@ -1483,7 +1539,7 @@
         "name": "Using deep reinforcement learning to speed up collective cell migration.",
         "from": "BMC Bioinformatics 20-S(18): 571:1-571:10 (2019) (BMC Bioinform.): 2019",
         "date": "2019",
-        "authors": "Hanxu Hou,Tian Gan,Yaodong Yang,Xianglei Zhu,Sen Liu,Weiming Guo,Jianye Hao",
+        "authors": "Hanxu Hou, Tian Gan, Yaodong Yang, Xianglei Zhu, Sen Liu, Weiming Guo, Jianye Hao",
         "links": [
             {
                 "name": "PDF",
@@ -1495,7 +1551,7 @@
         "name": "Attention-based recurrent neural network for influenza epidemic prediction.",
         "from": "BMC Bioinformatics 20-S(18): 575:1-575:10 (2019) (BMC Bioinform.): 2019",
         "date": "2019",
-        "authors": "Xianglei Zhu,Bofeng Fu,Yaodong Yang,Yu Ma,Jianye Hao,Siqi Chen,Shuang Liu,Tiegang Li,Sen Liu,Weiming Guo,Zhenyu Liao",
+        "authors": "Xianglei Zhu, Bofeng Fu, Yaodong Yang, Yu Ma, Jianye Hao, Siqi Chen, Shuang Liu, Tiegang Li, Sen Liu, Weiming Guo, Zhenyu Liao",
         "links": [
             {
                 "name": "PDF",
@@ -1507,7 +1563,7 @@
         "name": "LoopFix: an approach to automatic repair of buggy loops.",
         "from": "Journal of Systems and Software 156: 100-112 (2019) (J. Syst. Softw.): 2019",
         "date": "2019",
-        "authors": "Weichao Wang,Zhaopeng Meng,Zan Wang,Shuang Liu,Jianye Hao",
+        "authors": "Weichao Wang, Zhaopeng Meng, Zan Wang, Shuang Liu, Jianye Hao",
         "links": [
             {
                 "name": "PDF",
@@ -1519,7 +1575,7 @@
         "name": "An Optimal Rewiring Strategy for Cooperative Multiagent Social Learning.",
         "from": "The 33rd Association for the Advancement of Artificial Intelligence (AAAI): 2019",
         "date": "2019",
-        "authors": "Hongyao Tang,Jianye Hao,Li Wang,Tim Baarslag,Zan Wang",
+        "authors": "Hongyao Tang, Jianye Hao, Li Wang, Tim Baarslag, Zan Wang",
         "links": [
             {
                 "name": "PDF",
@@ -1531,7 +1587,7 @@
         "name": "Reinforcement Learning for Cooperative Overtaking.",
         "from": "The 18th International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS): 2019",
         "date": "2019",
-        "authors": "Chao Yu,Xin Wang,Jianye Hao,Zhanbo Feng",
+        "authors": "Chao Yu, Xin Wang, Jianye Hao, Zhanbo Feng",
         "links": [
             {
                 "name": "PDF",
@@ -1543,7 +1599,7 @@
         "name": "Independent Generative Adversarial Self-Imitation Learning in Cooperative Multiagent Systems.",
         "from": "The 18th International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS): 2019",
         "date": "2019",
-        "authors": "Xiaotian Hao,Weixun Wang,Jianye Hao,Yaodong Yang",
+        "authors": "Xiaotian Hao, Weixun Wang, Jianye Hao, Yaodong Yang",
         "links": [
             {
                 "name": "PDF",
@@ -1555,7 +1611,7 @@
         "name": "An Optimal Rewiring Strategy for Cooperative Multiagent Social Learning.",
         "from": "The 18th International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS): 2019",
         "date": "2019",
-        "authors": "Hongyao Tang,Jianye Hao,Li Wang,Zan Wang,Tim Baarslag",
+        "authors": "Hongyao Tang, Jianye Hao, Li Wang, Zan Wang, Tim Baarslag",
         "links": [
             {
                 "name": "PDF",
@@ -1567,7 +1623,7 @@
         "name": "Bayes-ToMoP: A Fast Detection and Best Response Algorithm Towards Sophisticated Opponents.",
         "from": "The 18th International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS): 2019",
         "date": "2019",
-        "authors": "Tianpei Yang,Jianye Hao,Zhaopeng Meng,Yan Zheng,Chongjie Zhang,Ze Zheng",
+        "authors": "Tianpei Yang, Jianye Hao, Zhaopeng Meng, Yan Zheng, Chongjie Zhang, Ze Zheng",
         "links": [
             {
                 "name": "PDF",
@@ -1579,7 +1635,7 @@
         "name": "Large-Scale Home Energy Management Using Entropy-Based Collective Multiagent Reinforcement Learning Framework.",
         "from": "The 18th International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS): 2019",
         "date": "2019",
-        "authors": "Yaodong Yang,Jianye Hao,Yan Zheng,Xiaotian Hao,Bofeng Fu",
+        "authors": "Yaodong Yang, Jianye Hao, Yan Zheng, Xiaotian Hao, Bofeng Fu",
         "links": [
             {
                 "name": "PDF",
@@ -1591,7 +1647,7 @@
         "name": "Automatic Feature Engineering by Deep Reinforcement Learning.",
         "from": "The 18th International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS): 2019",
         "date": "2019",
-        "authors": "Jianyu Zhang,Jianye Hao,Fran\u00e7oise Fogelman- Souli\u00e9,Zan Wang",
+        "authors": "Jianyu Zhang, Jianye Hao, Fran\u00e7oise Fogelman- Souli\u00e9, Zan Wang",
         "links": [
             {
                 "name": "PDF",
@@ -1603,7 +1659,7 @@
         "name": "ONECG: Online Negotiation Environment for Coalitional Games.",
         "from": "The 18th International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS): 2019",
         "date": "2019",
-        "authors": "Siqi Chen,Yonghao Cui,Cong Shang,Jianye Hao,Gerhard Weiss",
+        "authors": "Siqi Chen, Yonghao Cui, Cong Shang, Jianye Hao, Gerhard Weiss",
         "links": [
             {
                 "name": "PDF",
@@ -1615,7 +1671,7 @@
         "name": "Learning Adaptive Display Exposure for Real-Time Advertising.",
         "from": "The 28th ACM International Conference on Information and Knowledge Management (CIKM): 2019",
         "date": "2019",
-        "authors": "Weixun Wang,Junqi Jin,Jianye Hao,Chunjie Chen,Chuan Yu,Weinan Zhang,Jun Wang,Xiaotian Hao,Yixi Wang,Han Li,Jian Xu,Kun Gai",
+        "authors": "Weixun Wang, Junqi Jin, Jianye Hao, Chunjie Chen, Chuan Yu, Weinan Zhang, Jun Wang, Xiaotian Hao, Yixi Wang, Han Li, Jian Xu, Kun Gai",
         "links": [
             {
                 "name": "PDF",
@@ -1627,7 +1683,7 @@
         "name": "Achieving cooperation through deep multiagent reinforcement learning in sequential prisoner's dilemmas.",
         "from": "The 1st Digital Artificial Intelligence Conference (DAI): 2019",
         "date": "2019",
-        "authors": "Weixun Wang,Jianye Hao,Yixi Wang,Matthew E. Taylor",
+        "authors": "Weixun Wang, Jianye Hao, Yixi Wang, Matthew E. Taylor",
         "links": [
             {
                 "name": "PDF",
@@ -1639,7 +1695,7 @@
         "name": "Explicitly Coordinated Policy Iteration.",
         "from": "The 28th International Joint Conference on Artificial Intelligence (IJCAI): 2019",
         "date": "2019",
-        "authors": "Yujing Hu,Yingfeng Chen,Changjie Fan,Jianye Hao",
+        "authors": "Yujing Hu, Yingfeng Chen, Changjie Fan, Jianye Hao",
         "links": [
             {
                 "name": "PDF",
@@ -1651,7 +1707,7 @@
         "name": "Towards Efficient Detection and Optimal Response against Sophisticated Opponents.",
         "from": "The 28th International Joint Conference on Artificial Intelligence (IJCAI): 2019",
         "date": "2019",
-        "authors": "Tianpei Yang,Jianye Hao,Zhaopeng Meng,Chongjie Zhang,Yan Zheng,Ze Zheng",
+        "authors": "Tianpei Yang, Jianye Hao, Zhaopeng Meng, Chongjie Zhang, Yan Zheng, Ze Zheng",
         "links": [
             {
                 "name": "PDF",
@@ -1663,7 +1719,7 @@
         "name": "Large-Scale Home Energy Management Using Entropy-Based Collective Multiagent Deep Reinforcement Learning Framework.",
         "from": "The 28th International Joint Conference on Artificial Intelligence (IJCAI): 2019",
         "date": "2019",
-        "authors": "Yaodong Yang,Jianye Hao,Yan Zheng,Chao Yu",
+        "authors": "Yaodong Yang, Jianye Hao, Yan Zheng, Chao Yu",
         "links": [
             {
                 "name": "PDF",
@@ -1675,7 +1731,7 @@
         "name": "Deep Multi-Agent Reinforcement Learning with Discrete-Continuous Hybrid Action Spaces.",
         "from": "The 28th International Joint Conference on Artificial Intelligence (IJCAI): 2019",
         "date": "2019",
-        "authors": "Haotian Fu,Hongyao Tang,Jianye Hao,Zihan Lei,Yingfeng Chen,Changjie Fan",
+        "authors": "Haotian Fu, Hongyao Tang, Jianye Hao, Zihan Lei, Yingfeng Chen, Changjie Fan",
         "links": [
             {
                 "name": "PDF",
@@ -1687,7 +1743,7 @@
         "name": "Building Personalized Simulator for Interactive Search.",
         "from": "The 28th International Joint Conference on Artificial Intelligence (IJCAI): 2019",
         "date": "2019",
-        "authors": "Qianlong Liu,Baoliang Cui,Zhongyu Wei,Baolin Peng,Haikuan Huang,Hongbo Deng,Jianye Hao,Xuanjing Huang,Kam- Fai Wong",
+        "authors": "Qianlong Liu, Baoliang Cui, Zhongyu Wei, Baolin Peng, Haikuan Huang, Hongbo Deng, Jianye Hao, Xuanjing Huang, Kam- Fai Wong",
         "links": [
             {
                 "name": "PDF",
@@ -1699,7 +1755,7 @@
         "name": "Wuji: Automatic Online Combat Game Testing Using Evolutionary Deep Reinforcement Learning.",
         "from": "The 34th IEEE/ACM International Conference on Automated Software Engineering (ASE): 2019",
         "date": "2019",
-        "authors": "Yan Zheng,Changjie Fan,Xiaofei Xie,Ting Su,Lei Ma,Jianye Hao,Zhaopeng Meng,Yang Liu,Ruimin Shen,Yingfeng Chen",
+        "authors": "Yan Zheng, Changjie Fan, Xiaofei Xie, Ting Su, Lei Ma, Jianye Hao, Zhaopeng Meng, Yang Liu, Ruimin Shen, Yingfeng Chen",
         "links": [
             {
                 "name": "PDF",
@@ -1711,7 +1767,7 @@
         "name": "An Efficient Handover Authentication Mechanism for 5G Wireless Network.",
         "from": "The 15th IEEE Wireless Communications and Networking Conference (\u4e0d\u786e\u5b9a\u7684\u5c4a\u6570) (WCNC): 2019",
         "date": "2019",
-        "authors": "Kaihong Han,Maode Ma,Xiaohong Li,Zhiyong Feng,Jianye Hao",
+        "authors": "Kaihong Han, Maode Ma, Xiaohong Li, Zhiyong Feng, Jianye Hao",
         "links": [
             {
                 "name": "PDF",
@@ -1723,7 +1779,7 @@
         "name": "Effective norm emergence in cell systems under limited communication.",
         "from": "BMC Bioinformatics 19-S(5): 23-35 (2018) (BMC Bioinform.): 2018",
         "date": "2018",
-        "authors": "Xiaotian Hao,Jianye Hao,Wang Li,Hanxu Hou",
+        "authors": "Xiaotian Hao, Jianye Hao, Wang Li, Hanxu Hou",
         "links": [
             {
                 "name": "PDF",
@@ -1735,7 +1791,7 @@
         "name": "An Adaptive Learning Based Network Selection Approach for 5G Dynamic Environments.",
         "from": "Entropy 20(4): 236 (2018) (Entropy): 2018",
         "date": "2018",
-        "authors": "Xiaohong Li,Ru Cao,Jianye Hao",
+        "authors": "Xiaohong Li, Ru Cao, Jianye Hao",
         "links": [
             {
                 "name": "PDF",
@@ -1747,7 +1803,7 @@
         "name": "Efficient and Robust Emergence of Norms through Heuristic Collective Learning.",
         "from": "ACM Transactions on Autonomous and Adaptive Systems 12(4): 23:1-23:20 (2018) (ACM Trans. Auton. Adapt. Syst.): 2018",
         "date": "2018",
-        "authors": "Jianye Hao,Jun Sun,Guangyong Chen,Zan Wang,Chao Yu,Zhong Ming",
+        "authors": "Jianye Hao, Jun Sun, Guangyong Chen, Zan Wang, Chao Yu, Zhong Ming",
         "links": [
             {
                 "name": "PDF",
@@ -1759,7 +1815,7 @@
         "name": "An Adaptive Markov Strategy for Defending Smart Grid False Data Injection From Malicious Attackers.",
         "from": "IEEE Transactions on Smart Grid 9(4): 2398-2408 (2018) (IEEE TSG): 2018",
         "date": "2018",
-        "authors": "Jianye Hao,Eunsuk Kang,Jun Sun,Zan Wang,Zhaopeng Meng,Xiaohong Li,Zhong Ming",
+        "authors": "Jianye Hao, Eunsuk Kang, Jun Sun, Zan Wang, Zhaopeng Meng, Xiaohong Li, Zhong Ming",
         "links": [
             {
                 "name": "PDF",
@@ -1771,7 +1827,7 @@
         "name": "Efficient Convention Emergence through Decoupled Reinforcement Social Learning with Teacher-Student Mechanism.",
         "from": "The 17th International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS): 2018",
         "date": "2018",
-        "authors": "Yixi Wang,Wenhuan Lu,Jianye Hao,Jianguo Wei,Ho-fung Leung",
+        "authors": "Yixi Wang, Wenhuan Lu, Jianye Hao, Jianguo Wei, Ho-fung Leung",
         "links": [
             {
                 "name": "PDF",
@@ -1783,7 +1839,7 @@
         "name": "Recurrent Deep Multiagent Q-Learning for Autonomous Agents in Future Smart Grid.",
         "from": "The 17th International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS): 2018",
         "date": "2018",
-        "authors": "Yaodong Yang,Jianye Hao,Zan Wang,Mingyang Sun,Goran Strbac",
+        "authors": "Yaodong Yang, Jianye Hao, Zan Wang, Mingyang Sun, Goran Strbac",
         "links": [
             {
                 "name": "PDF",
@@ -1795,7 +1851,7 @@
         "name": "The Dynamics of Opinion Evolution in Gossiper-Media Model with WoLS-CALA Learning.",
         "from": "The 17th International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS): 2018",
         "date": "2018",
-        "authors": "Chengwei Zhang,Xiaohong Li,Jianye Hao,Sandip Sen,Wanli Xue,Zhiyong Feng",
+        "authors": "Chengwei Zhang, Xiaohong Li, Jianye Hao, Sandip Sen, Wanli Xue, Zhiyong Feng",
         "links": [
             {
                 "name": "PDF",
@@ -1807,7 +1863,7 @@
         "name": "SCC-rFMQ Learning in Cooperative Markov Games with Continuous Actions.",
         "from": "The 17th International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS): 2018",
         "date": "2018",
-        "authors": "Chengwei Zhang,Xiaohong Li,Jianye Hao,Siqi Chen,Karl Tuyls,Zhiyong Feng",
+        "authors": "Chengwei Zhang, Xiaohong Li, Jianye Hao, Siqi Chen, Karl Tuyls, Zhiyong Feng",
         "links": [
             {
                 "name": "PDF",
@@ -1819,7 +1875,7 @@
         "name": "Attention-Based Recurrent Multi-Channel Neural Network for Influenza Epidemic Prediction.",
         "from": "The 12nd International Conference on Bioinformatics and Biomedicine (BIBM): 2018",
         "date": "2018",
-        "authors": "Bofeng Fu,Yaodong Yang,Yu Ma,Jianye Hao,Siqi Chen,Shuang Liu,Tiegang Li,Zhenyu Liao,Xianglei Zhu",
+        "authors": "Bofeng Fu, Yaodong Yang, Yu Ma, Jianye Hao, Siqi Chen, Shuang Liu, Tiegang Li, Zhenyu Liao, Xianglei Zhu",
         "links": [
             {
                 "name": "PDF",
@@ -1831,7 +1887,7 @@
         "name": "Speeding up Collective Cell Migration Using Deep Reinforcement Learning.",
         "from": "The 12nd International Conference on Bioinformatics and Biomedicine (BIBM): 2018",
         "date": "2018",
-        "authors": "Tian Gan,Yaodong Yang,Jianye Hao,Zhenyu Liao,Xianglei Zhu",
+        "authors": "Tian Gan, Yaodong Yang, Jianye Hao, Zhenyu Liao, Xianglei Zhu",
         "links": [
             {
                 "name": "PDF",
@@ -1843,7 +1899,7 @@
         "name": "Falsification of Cyber-Physical Systems Using Deep Reinforcement Learning.",
         "from": "Formal Methods: 22nd International Symposium (FM): 2018",
         "date": "2018",
-        "authors": "Takumi Akazaki,Shuang Liu,Yoriyuki Yamagata,Yihai Duan,Jianye Hao",
+        "authors": "Takumi Akazaki, Shuang Liu, Yoriyuki Yamagata, Yihai Duan, Jianye Hao",
         "links": [
             {
                 "name": "PDF",
@@ -1855,7 +1911,7 @@
         "name": "Recurrent Deep Multiagent Q-Learning for Autonomous Brokers in Smart Grid.",
         "from": "The 27th International Joint Conference on Artificial Intelligence (IJCAI): 2018",
         "date": "2018",
-        "authors": "Yaodong Yang,Jianye Hao,Mingyang Sun,Zan Wang,Changjie Fan,Goran Strbac",
+        "authors": "Yaodong Yang, Jianye Hao, Mingyang Sun, Zan Wang, Changjie Fan, Goran Strbac",
         "links": [
             {
                 "name": "PDF",
@@ -1867,7 +1923,7 @@
         "name": "A Deep Bayesian Policy Reuse Approach Against Non-Stationary Agents.",
         "from": "The 32nd Conference on Neural Information Processing Systems (NeurIPS) (NeurIPS): 2018",
         "date": "2018",
-        "authors": "Yan Zheng,Zhaopeng Meng,Jianye Hao,Zongzhang Zhang,Tianpei Yang,Changjie Fan",
+        "authors": "Yan Zheng, Zhaopeng Meng, Jianye Hao, Zongzhang Zhang, Tianpei Yang, Changjie Fan",
         "links": [
             {
                 "name": "PDF",
@@ -1879,7 +1935,7 @@
         "name": "Achieving Multiagent Coordination Through CALA-rFMQ Learning in Continuous Action Space.",
         "from": "The 15th Pacific Rim International Conference on Artificial Intelligence (PRICAI) (PRICAI): 2018",
         "date": "2018",
-        "authors": "Wanshu Liu,Chengwei Zhang,Tianpei Yang,Jianye Hao,Xiaohong Li,Zhijie Bao",
+        "authors": "Wanshu Liu, Chengwei Zhang, Tianpei Yang, Jianye Hao, Xiaohong Li, Zhijie Bao",
         "links": [
             {
                 "name": "PDF",
@@ -1891,7 +1947,7 @@
         "name": "Weighted Double Deep Multiagent Reinforcement Learning in Stochastic Cooperative Environments.",
         "from": "The 15th Pacific Rim International Conference on Artificial Intelligence (PRICAI) (PRICAI): 2018",
         "date": "2018",
-        "authors": "Yan Zheng,Zhaopeng Meng,Jianye Hao,Zongzhang Zhang",
+        "authors": "Yan Zheng, Zhaopeng Meng, Jianye Hao, Zongzhang Zhang",
         "links": [
             {
                 "name": "PDF",
@@ -1903,7 +1959,7 @@
         "name": "ESRQ: An Efficient Secure Routing Method in Wireless Sensor Networks Based on Q-Learning.",
         "from": "The 17th IEEE International Conference On Trust, Security And Privacy In Computing And Communications / 12th IEEE International Conference On Big Data Science And Engineering, TrustCom/BigDataSE (TrustCom/BigDataSE): 2018",
         "date": "2018",
-        "authors": "Gaosheng Liu,Xin Wang,Xiaohong Li,Jianye Hao,Zhiyong Feng",
+        "authors": "Gaosheng Liu, Xin Wang, Xiaohong Li, Jianye Hao, Zhiyong Feng",
         "links": [
             {
                 "name": "PDF",
@@ -1915,7 +1971,7 @@
         "name": "The dynamics of reinforcement social learning in networked cooperative multiagent systems.",
         "from": "The International Conference on Engineering Applications of Artificial Intelligence 58: 111-122 (2017) (Eng. Appl. Artif. Intell.): 2017",
         "date": "2017",
-        "authors": "Jianye Hao,Dongping Huang,Yi Cai,Ho-fung Leung",
+        "authors": "Jianye Hao, Dongping Huang, Yi Cai, Ho-fung Leung",
         "links": [
             {
                 "name": "PDF",
@@ -1927,7 +1983,7 @@
         "name": "Reciprocal Social Strategy in Social Repeated Games and Emergence of Social Norms.",
         "from": "The International Journal of Artificial Intelligence Tools 26(1): 1760007:1-1760007:33 (2017) (Int. J. Artif. Intell. Tools): 2017",
         "date": "2017",
-        "authors": "Chi- Kong Chan,Jianye Hao,Ho-fung Leung",
+        "authors": "Chi- Kong Chan, Jianye Hao, Ho-fung Leung",
         "links": [
             {
                 "name": "PDF",
@@ -1939,7 +1995,7 @@
         "name": "Blind Image Denoising via Dependent Dirichlet Process Tree.",
         "from": "The IEEE Transactions on Pattern Analysis and Machine Intelligence 39(8): 1518-1531 (2017) (IEEE TPAMI): 2017",
         "date": "2017",
-        "authors": "Fengyuan Zhu,Guangyong Chen,Jianye Hao,Pheng- Ann Heng",
+        "authors": "Fengyuan Zhu, Guangyong Chen, Jianye Hao, Pheng- Ann Heng",
         "links": [
             {
                 "name": "PDF",
@@ -1951,7 +2007,7 @@
         "name": "Optimal Personalized Defense Strategy Against Man-In-The-Middle Attack.",
         "from": "The 31st Association for the Advancement of Artificial Intelligence (AAAI): 2017",
         "date": "2017",
-        "authors": "Xiaohong Li,Shuxin Li,Jianye Hao,Zhiyong Feng,Bo An",
+        "authors": "Xiaohong Li, Shuxin Li, Jianye Hao, Zhiyong Feng, Bo An",
         "links": [
             {
                 "name": "PDF",
@@ -1963,7 +2019,7 @@
         "name": "Effective norm emergence in cell systems under limited communication.",
         "from": "The 11th International Conference on Bioinformatics and Biomedicine (BIBM): 2017",
         "date": "2017",
-        "authors": "Xiaotian Hao,Jianye Hao,Wang Li",
+        "authors": "Xiaotian Hao, Jianye Hao, Wang Li",
         "links": [
             {
                 "name": "PDF",
@@ -1975,7 +2031,7 @@
         "name": "A real-time ensemble classification algorithm for time series data.",
         "from": "The 2nd IEEE International Conference on Agents (ICA): 2017",
         "date": "2017",
-        "authors": "Xianglei Zhu,Shuai Zhao,Yaodong Yang,Hongyao Tang,Zan Wang,Jianye Hao",
+        "authors": "Xianglei Zhu, Shuai Zhao, Yaodong Yang, Hongyao Tang, Zan Wang, Jianye Hao",
         "links": [
             {
                 "name": "PDF",
@@ -1987,7 +2043,7 @@
         "name": "A Prediction and Learning Based Approach to Network Selection in Dynamic Environments.",
         "from": "The 26th International Conference on Artificial Neural Networks (ICANN): 2017",
         "date": "2017",
-        "authors": "Xiaohong Li,Ru Cao,Jianye Hao,Zhiyong Feng",
+        "authors": "Xiaohong Li, Ru Cao, Jianye Hao, Zhiyong Feng",
         "links": [
             {
                 "name": "PDF",
@@ -1999,7 +2055,7 @@
         "name": "TLSsem: A TLS Security-Enhanced Mechanism against MITM Attacks in Public WiFis.",
         "from": "The 22nd International Conference on Engineering of Complex Computer Systems (ICECCS): 2017",
         "date": "2017",
-        "authors": "Wei Yang,Xiaohong Li,Zhiyong Feng,Jianye Hao",
+        "authors": "Wei Yang, Xiaohong Li, Zhiyong Feng, Jianye Hao",
         "links": [
             {
                 "name": "PDF",
@@ -2011,7 +2067,7 @@
         "name": "Towards Solving Decision Making Problems Using Probabilistic Model Checking.",
         "from": "The 22nd International Conference on Engineering of Complex Computer Systems (ICECCS): 2017",
         "date": "2017",
-        "authors": "Ling Shi,Shuang Liu,Jianye Hao,Jun Yang Koh,Zhe Hou,Jin Song Dong",
+        "authors": "Ling Shi, Shuang Liu, Jianye Hao, Jun Yang Koh, Zhe Hou, Jin Song Dong",
         "links": [
             {
                 "name": "PDF",
@@ -2023,7 +2079,7 @@
         "name": "An Improved Android Collusion Attack Detection Method Based on Program Slicing.",
         "from": "The 19th International Conference on Formal Engineering Methods (ICFEM): 2017",
         "date": "2017",
-        "authors": "Yunhao Liu,Xiaohong Li,Zhiyong Feng,Jianye Hao",
+        "authors": "Yunhao Liu, Xiaohong Li, Zhiyong Feng, Jianye Hao",
         "links": [
             {
                 "name": "PDF",
@@ -2035,7 +2091,7 @@
         "name": "Defending Against Man-In-The-Middle Attack in Repeated Games.",
         "from": "The 26th International Joint Conference on Artificial Intelligence (IJCAI): 2017",
         "date": "2017",
-        "authors": "Shuxin Li,Xiaohong Li,Jianye Hao,Bo An,Zhiyong Feng,Kangjie Chen,Chengwei Zhang",
+        "authors": "Shuxin Li, Xiaohong Li, Jianye Hao, Bo An, Zhiyong Feng, Kangjie Chen, Chengwei Zhang",
         "links": [
             {
                 "name": "PDF",
@@ -2047,7 +2103,7 @@
         "name": "An Adaptive Handover Trigger Strategy for 5G C/U Plane Split Heterogeneous Network.",
         "from": "The 14th IEEE International Conference on Mobile Ad hoc and Sensor Systems (MASS): 2017",
         "date": "2017",
-        "authors": "Huijuan He,Xiaohong Li,Zhiyong Feng,Jianye Hao,Xiaofei Wang,Haijun Zhang",
+        "authors": "Huijuan He, Xiaohong Li, Zhiyong Feng, Jianye Hao, Xiaofei Wang, Haijun Zhang",
         "links": [
             {
                 "name": "PDF",
@@ -2059,7 +2115,7 @@
         "name": "FESR: A Framework for Eliciting Security Requirements Based on Integration of Common Criteria and Weakness Detection Formal Model.",
         "from": "The 3rd IEEE International Conference on Software Quality, Reliability, and Security (QRS): 2017",
         "date": "2017",
-        "authors": "Hongbo Li,Xiaohong Li,Jianye Hao,Guangquan Xu,Zhiyong Feng,Xiaofei Xie",
+        "authors": "Hongbo Li, Xiaohong Li, Jianye Hao, Guangquan Xu, Zhiyong Feng, Xiaofei Xie",
         "links": [
             {
                 "name": "PDF",
@@ -2071,7 +2127,7 @@
         "name": "Automated Software Security Requirements Recommendation Based on FT-SR Model.",
         "from": "The 29th International Conference on Software Engineering and Knowledge Engineering (SEKE): 2017",
         "date": "2017",
-        "authors": "Jiangjuan Wang,Xiaohong Li,Zhiyong Feng,Jianye Hao,Guangquan Xu,Zhuobing Han",
+        "authors": "Jiangjuan Wang, Xiaohong Li, Zhiyong Feng, Jianye Hao, Guangquan Xu, Zhuobing Han",
         "links": [
             {
                 "name": "PDF",
@@ -2083,7 +2139,7 @@
         "name": "Fepchecker: An Automatic Model Checker for Verifying Fairness and Non-Repudiation of Security Protocols in Web Service.",
         "from": "The International Journal of Software Engineering and Knowledge Engineering 26(4): 563-586 (2016) (Int. J. Softw. Eng. Knowl. Eng.): 2016",
         "date": "2016",
-        "authors": "Xiaohong Li,Jiayi Xu,Guangquan Xu,Jianye Hao,Xiaoru Li,Zhiyong Feng,Honghao Gao",
+        "authors": "Xiaohong Li, Jiayi Xu, Guangquan Xu, Jianye Hao, Xiaoru Li, Zhiyong Feng, Honghao Gao",
         "links": [
             {
                 "name": "PDF",
@@ -2095,7 +2151,7 @@
         "name": "Improved EGT-Based Robustness Analysis of Negotiation Strategies in Multiagent Systems via Model Checking.",
         "from": "The IEEE Transactions on Human-Machine Systems 46(2): 197-208 (2016) (IEEE Trans. Hum. Mach. Syst.): 2016",
         "date": "2016",
-        "authors": "Songzheng Song,Jianye Hao,Yang Liu,Jun Sun,Ho-fung Leung,Jie Zhang",
+        "authors": "Songzheng Song, Jianye Hao, Yang Liu, Jun Sun, Ho-fung Leung, Jie Zhang",
         "links": [
             {
                 "name": "PDF",
@@ -2107,7 +2163,7 @@
         "name": "An Adaptive Learning Framework for Efficient Emergence of Social Norms: (Extended Abstract).",
         "from": "The 15th International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS): 2016",
         "date": "2016",
-        "authors": "Chao Yu,Hongtao Lv,Sandip Sen,Jianye Hao,Fenghui Ren,Rui Liu",
+        "authors": "Chao Yu, Hongtao Lv, Sandip Sen, Jianye Hao, Fenghui Ren, Rui Liu",
         "links": [
             {
                 "name": "PDF",
@@ -2119,7 +2175,7 @@
         "name": "Dynamic analysis of cell interactions in biological environments under multiagent social learning framework.",
         "from": "The 10th International Conference on Bioinformatics and Biomedicine (BIBM): 2016",
         "date": "2016",
-        "authors": "Chengwei Zhang,Xiaohong Li,Shuxin Li,Jianye Hao",
+        "authors": "Chengwei Zhang, Xiaohong Li, Shuxin Li, Jianye Hao",
         "links": [
             {
                 "name": "PDF",
@@ -2131,7 +2187,7 @@
         "name": "Socially-Aware Multiagent Learning: Towards Socially Optimal Outcomes.",
         "from": "The 22nd European Conference on Artificial Intelligence (ECAI): 2016",
         "date": "2016",
-        "authors": "Xiaohong Li,Chengwei Zhang,Jianye Hao,Karl Tuyls,Siqi Chen,Zhiyong Feng",
+        "authors": "Xiaohong Li, Chengwei Zhang, Jianye Hao, Karl Tuyls, Siqi Chen, Zhiyong Feng",
         "links": [
             {
                 "name": "PDF",
@@ -2143,7 +2199,7 @@
         "name": "Accelerating Norm Emergence Through Hierarchical Heuristic Learning.",
         "from": "The 22nd European Conference on Artificial Intelligence (ECAI): 2016",
         "date": "2016",
-        "authors": "Tianpei Yang,Zhaopeng Meng,Jianye Hao,Sandip Sen,Chao Yu",
+        "authors": "Tianpei Yang, Zhaopeng Meng, Jianye Hao, Sandip Sen, Chao Yu",
         "links": [
             {
                 "name": "PDF",
@@ -2155,7 +2211,7 @@
         "name": "Designing minimal effective normative systems with the help of lightweight formal methods.",
         "from": "The 24th ACM SIGSOFT International Symposium on Foundations of Software Engineering (SIGSOFT FSE): 2016",
         "date": "2016",
-        "authors": "Jianye Hao,Eunsuk Kang,Jun Sun,Daniel Jackson",
+        "authors": "Jianye Hao, Eunsuk Kang, Jun Sun, Daniel Jackson",
         "links": [
             {
                 "name": "PDF",
@@ -2167,7 +2223,7 @@
         "name": "E-SSL: An SSL Security-Enhanced Method for Bypassing MITM Attacks in Mobile Internet.",
         "from": "Structured Object-Oriented Formal Language and Method - 6th International Workshop (SOFL+MSVL): 2016",
         "date": "2016",
-        "authors": "Ren Zhao,Xiaohong Li,Guangquan Xu,Zhiyong Feng,Jianye Hao",
+        "authors": "Ren Zhao, Xiaohong Li, Guangquan Xu, Zhiyong Feng, Jianye Hao",
         "links": [
             {
                 "name": "PDF",
@@ -2179,7 +2235,7 @@
         "name": "Formal Modeling and Verification of Security Protocols on Cloud Computing Systems Based on UML 2.3.",
         "from": "TrustCom 2016: The 15th IEEE International Conference on Trust, Security, and Privacy in Computing and Communications (Trustcom/BigDataSE/ISPA): 2016",
         "date": "2016",
-        "authors": "Kunding Fang,Xiaohong Li,Jianye Hao,Zhiyong Feng",
+        "authors": "Kunding Fang, Xiaohong Li, Jianye Hao, Zhiyong Feng",
         "links": [
             {
                 "name": "PDF",
@@ -2191,7 +2247,7 @@
         "name": "Introducing decision entrustment mechanism into repeated bilateral agent interactions to achieve social optimality.",
         "from": "The International Conference on Autonomous Agents and Multi-Agent Systems 29(4): 658-682 (2015) (JAAMAS): 2015",
         "date": "2015",
-        "authors": "Jianye Hao,Ho-fung Leung",
+        "authors": "Jianye Hao, Ho-fung Leung",
         "links": [
             {
                 "name": "PDF",
@@ -2203,7 +2259,7 @@
         "name": "Multiagent Reinforcement Social Learning toward Coordination in Cooperative Multiagent Systems.",
         "from": "ACM Transactions on Autonomous and Adaptive Systems Syst. 9(4): 20:1-20:20 (2015) (ACM Trans. Auton. Adapt. Syst.): 2015",
         "date": "2015",
-        "authors": "Jianye Hao,Ho-fung Leung,Zhong Ming",
+        "authors": "Jianye Hao, Ho-fung Leung, Zhong Ming",
         "links": [
             {
                 "name": "PDF",
@@ -2215,7 +2271,7 @@
         "name": "Reinforcement social learning of social optimality with influencer agents.",
         "from": "Web Intelligence 13(3): 167-178 (2015) (Web Intell.): 2015",
         "date": "2015",
-        "authors": "Jianye Hao,Ho-fung Leung",
+        "authors": "Jianye Hao, Ho-fung Leung",
         "links": [
             {
                 "name": "PDF",
@@ -2227,7 +2283,7 @@
         "name": "Heuristic Collective Learning for Efficient and Robust Emergence of Social Norms.",
         "from": "The 14th International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS): 2015",
         "date": "2015",
-        "authors": "Jianye Hao,Jun Sun,Dongping Huang,Yi Cai,Chao Yu",
+        "authors": "Jianye Hao, Jun Sun, Dongping Huang, Yi Cai, Chao Yu",
         "links": [
             {
                 "name": "PDF",
@@ -2239,7 +2295,7 @@
         "name": "Hierarchical Learning for Emergence of Social Norms in Networked Multiagent Systems.",
         "from": "AI 2015: Advances in Artificial Intelligence - 28th Australasian Joint Conference (Australasian Conference on Artificial Intelligence): 2015",
         "date": "2015",
-        "authors": "Chao Yu,Hongtao Lv,Fenghui Ren,Honglin Bao,Jianye Hao",
+        "authors": "Chao Yu, Hongtao Lv, Fenghui Ren, Honglin Bao, Jianye Hao",
         "links": [
             {
                 "name": "PDF",
@@ -2251,7 +2307,7 @@
         "name": "Toward Efficient Agreements in Real-Time Multilateral Agent-Based Negotiations.",
         "from": "The 27th International Conference on Tools with Artificial Intelligence (ICTAI): 2015",
         "date": "2015",
-        "authors": "Siqi Chen,Jianye Hao,Gerhard Weiss,Shuang Zhou,Zili Zhang",
+        "authors": "Siqi Chen, Jianye Hao, Gerhard Weiss, Shuang Zhou, Zili Zhang",
         "links": [
             {
                 "name": "PDF",
@@ -2263,7 +2319,7 @@
         "name": "Reciprocal Social Strategy in Social Repeated Games.",
         "from": "The 27th International Conference on Tools with Artificial Intelligence (ICTAI): 2015",
         "date": "2015",
-        "authors": "Chi- Kong Chan,Jianye Hao,Ho-fung Leung",
+        "authors": "Chi- Kong Chan, Jianye Hao, Ho-fung Leung",
         "links": [
             {
                 "name": "PDF",
@@ -2275,7 +2331,7 @@
         "name": "An Adaptive Markov Strategy for Effective Network Intrusion Detection.",
         "from": "The 27th International Conference on Tools with Artificial Intelligence (ICTAI): 2015",
         "date": "2015",
-        "authors": "Jianye Hao,Yinxing Xue,Mahinthan Chandramohan,Yang Liu,Jun Sun",
+        "authors": "Jianye Hao, Yinxing Xue, Mahinthan Chandramohan, Yang Liu, Jun Sun",
         "links": [
             {
                 "name": "PDF",
@@ -2287,7 +2343,7 @@
         "name": "An efficient and robust negotiating strategy in bilateral negotiations over multiple items.",
         "from": "Engineering Applications of Artificial Intelligence 34: 45-57 (2014) (Eng. Appl. Artif. Intell.): 2014",
         "date": "2014",
-        "authors": "Jianye Hao,Songzheng Song,Ho-fung Leung,Zhong Ming",
+        "authors": "Jianye Hao, Songzheng Song, Ho-fung Leung, Zhong Ming",
         "links": [
             {
                 "name": "PDF",
@@ -2299,7 +2355,7 @@
         "name": "Adaptive Defending Strategy for Smart Grid Attacks.",
         "from": "The 2nd Workshop on Smart Energy Grid Security (SEGS@CCS): 2014",
         "date": "2014",
-        "authors": "Jianye Hao,Eunsuk Kang,Daniel Jackson,Jun Sun",
+        "authors": "Jianye Hao, Eunsuk Kang, Daniel Jackson, Jun Sun",
         "links": [
             {
                 "name": "PDF",
@@ -2311,7 +2367,7 @@
         "name": "Spatial evolutionary game-theoretic perspective on agent-based complex negotiations.",
         "from": "The 21st European Conference on Artificial Intelligence (ECAI): 2014",
         "date": "2014",
-        "authors": "Siqi Chen,Jianye Hao,Gerhard Weiss,Karl Tuyls,Ho-fung Leung",
+        "authors": "Siqi Chen, Jianye Hao, Gerhard Weiss, Karl Tuyls, Ho-fung Leung",
         "links": [
             {
                 "name": "PDF",
@@ -2323,7 +2379,7 @@
         "name": "Networked Reinforcement Social Learning towards Coordination in Cooperative Multiagent Systems.",
         "from": "The 26th IEEE International Conference on Tools with Artificial Intelligence (ICTAI): 2014",
         "date": "2014",
-        "authors": "Jianye Hao,Dongping Huang,Yi Cai,Ho-fung Leung",
+        "authors": "Jianye Hao, Dongping Huang, Yi Cai, Ho-fung Leung",
         "links": [
             {
                 "name": "PDF",
@@ -2335,7 +2391,7 @@
         "name": "Evaluating Practical Automated Negotiation Based on Spatial Evolutionary Game Theory.",
         "from": "KI 2014: Advances in Artificial Intelligence - 37th Annual German Conference on AI (KI): 2014",
         "date": "2014",
-        "authors": "Siqi Chen,Jianye Hao,Gerhard Weiss,Karl Tuyls,Ho-fung Leung",
+        "authors": "Siqi Chen, Jianye Hao, Gerhard Weiss, Karl Tuyls, Ho-fung Leung",
         "links": [
             {
                 "name": "PDF",
@@ -2347,7 +2403,7 @@
         "name": "Robustness Analysis of Negotiation Strategies through Multiagent Learning in Repeated Negotiation Games.",
         "from": "Multiagent System Technologies - 12th German Conference (MATES): 2014",
         "date": "2014",
-        "authors": "Jianye Hao,Siqi Chen,Gerhard Weiss,Ho-fung Leung,Karl Tuyls",
+        "authors": "Jianye Hao, Siqi Chen, Gerhard Weiss, Ho-fung Leung, Karl Tuyls",
         "links": [
             {
                 "name": "PDF",
@@ -2359,7 +2415,7 @@
         "name": "Achieving Socially Optimal Outcomes in Multiagent Systems with Reinforcement Social Learning.",
         "from": "ACM Transactions on Autonomous and Adaptive Systems 8(3): 15:1-15:23 (2013) (ACM Trans. Auton. Adapt. Syst.): 2013",
         "date": "2013",
-        "authors": "Jianye Hao,Ho-fung Leung",
+        "authors": "Jianye Hao, Ho-fung Leung",
         "links": [
             {
                 "name": "PDF",
@@ -2371,7 +2427,7 @@
         "name": "Reinforcement social learning of coordination in cooperative multiagent systems.",
         "from": "The 13rd International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS): 2013",
         "date": "2013",
-        "authors": "Jianye Hao,Ho-fung Leung",
+        "authors": "Jianye Hao, Ho-fung Leung",
         "links": [
             {
                 "name": "PDF",
@@ -2383,7 +2439,7 @@
         "name": "The Dynamics of Reinforcement Social Learning in Cooperative Multiagent Systems.",
         "from": "The 23rd International Joint Conference on Artificial Intelligence (IJCAI): 2013",
         "date": "2013",
-        "authors": "Jianye Hao,Ho-fung Leung",
+        "authors": "Jianye Hao, Ho-fung Leung",
         "links": [
             {
                 "name": "PDF",
@@ -2395,7 +2451,7 @@
         "name": "Achieving Social Optimality with Influencer Agents.",
         "from": "Complex Sciences - Second International Conference (2012) (Complex): 2012",
         "date": "2012",
-        "authors": "Jianye Hao,Ho-fung Leung",
+        "authors": "Jianye Hao, Ho-fung Leung",
         "links": [
             {
                 "name": "PDF",
@@ -2407,7 +2463,7 @@
         "name": "ABiNeS: An Adaptive Bilateral Negotiating Strategy over Multiple Items.",
         "from": "2012 IEEE/WIC/ACM International Conferences on Intelligent Agent Technology (IAT): 2012",
         "date": "2012",
-        "authors": "Jianye Hao,Ho-fung Leung",
+        "authors": "Jianye Hao, Ho-fung Leung",
         "links": [
             {
                 "name": "PDF",
@@ -2419,7 +2475,7 @@
         "name": "Analyzing multi-agent systems with probabilistic model checking approach.",
         "from": "The 34th International Conference on Software Engineering (ICSE): 2012",
         "date": "2012",
-        "authors": "Songzheng Song,Jianye Hao,Yang Liu,Jun Sun,Ho-fung Leung,Jin Song Dong",
+        "authors": "Songzheng Song, Jianye Hao, Yang Liu, Jun Sun, Ho-fung Leung, Jin Song Dong",
         "links": [
             {
                 "name": "PDF",
@@ -2431,7 +2487,7 @@
         "name": "Incorporating Fairness into Infinitely Repeated Games with Conflicting Interests for Conflicts Elimination.",
         "from": "IEEE 24th International Conference on Tools with Artificial Intelligence (ICTAI): 2012",
         "date": "2012",
-        "authors": "Jianye Hao,Ho-fung Leung",
+        "authors": "Jianye Hao, Ho-fung Leung",
         "links": [
             {
                 "name": "PDF",
@@ -2443,7 +2499,7 @@
         "name": "Learning to Achieve Socially Optimal Solutions in General-Sum Games.",
         "from": "PRICAI 2012: Trends in Artificial Intelligence - 12th Pacific Rim International Conference on Artificial Intelligence (PRICAI): 2012",
         "date": "2012",
-        "authors": "Jianye Hao,Ho-fung Leung",
+        "authors": "Jianye Hao, Ho-fung Leung",
         "links": [
             {
                 "name": "PDF",
@@ -2455,7 +2511,7 @@
         "name": "Incorporating Fairness into Agent Interactions Modeled as Two-Player Normal-Form Games.",
         "from": "PRICAI 2012: Trends in Artificial Intelligence - 12th Pacific Rim International Conference on Artificial Intelligence (PRICAI): 2012",
         "date": "2012",
-        "authors": "Jianye Hao,Ho-fung Leung",
+        "authors": "Jianye Hao, Ho-fung Leung",
         "links": [
             {
                 "name": "PDF",
@@ -2467,7 +2523,7 @@
         "name": "Probabilistic Model Checking Multi-agent Behaviors in Dispersion Games Using Counter Abstraction.",
         "from": "PRIMA 2012: Principles and Practice of Multi-Agent Systems - 15th International Conference (PRIMA): 2012",
         "date": "2012",
-        "authors": "Jianye Hao,Songzheng Song,Yang Liu,Jun Sun,Lin Gui,Jin Song Dong,Ho-fung Leung",
+        "authors": "Jianye Hao, Songzheng Song, Yang Liu, Jun Sun, Lin Gui, Jin Song Dong, Ho-fung Leung",
         "links": [
             {
                 "name": "PDF",
@@ -2479,7 +2535,7 @@
         "name": "An Efficient Negotiation Protocol to Achieve Socially Optimal Allocation.",
         "from": "PRIMA 2012: Principles and Practice of Multi-Agent Systems - 15th International Conference (PRIMA): 2012",
         "date": "2012",
-        "authors": "Jianye Hao,Ho-fung Leung",
+        "authors": "Jianye Hao, Ho-fung Leung",
         "links": [
             {
                 "name": "PDF",
@@ -2491,7 +2547,7 @@
         "name": "Maintaining cooperation in homogeneous multi-agent system.",
         "from": "SMC 2012 : IEEE International Conference on Systems, Man, and Cybernetics (SMC): 2012",
         "date": "2012",
-        "authors": "Jianye Hao,Ho-fung Leung",
+        "authors": "Jianye Hao, Ho-fung Leung",
         "links": [
             {
                 "name": "PDF",
@@ -2503,7 +2559,7 @@
         "name": "Learning to Achieve Social Rationality Using Tag Mechanism in Repeated Interactions.",
         "from": "IEEE 23rd International Conference on Tools with Artificial Intelligence (ICTAI): 2011",
         "date": "2011",
-        "authors": "Jianye Hao,Ho-fung Leung",
+        "authors": "Jianye Hao, Ho-fung Leung",
         "links": [
             {
                 "name": "PDF",
@@ -2515,7 +2571,7 @@
         "name": "Strategy and Fairness in Repeated Two-agent Interaction.",
         "from": "IEEE 22nd International Conference on Tools with Artificial Intelligence (ICTAI): 2010",
         "date": "2010",
-        "authors": "Jianye Hao,Ho-fung Leung",
+        "authors": "Jianye Hao, Ho-fung Leung",
         "links": [
             {
                 "name": "PDF",
@@ -2527,7 +2583,7 @@
         "name": "Bus-Based and NoC Infrastructure Performance Emulation and Comparison.",
         "from": "The 6th International Conference on Information Technology: New Generations (ITNG): 2009",
         "date": "2009",
-        "authors": "Ling Wang,Jianye Hao,Feixuan Wang",
+        "authors": "Ling Wang, Jianye Hao, Feixuan Wang",
         "links": [
             {
                 "name": "PDF",
@@ -2539,7 +2595,7 @@
         "name": "Theoretical Investigation on Post-Processed LDA for Face and Palmprint Recognition.",
         "from": "The 2007 International Conference on Computational Intelligence and Security (CIS): 2007",
         "date": "2007",
-        "authors": "Jianye Hao,Wangmeng Zuo,Kuanquan Wang",
+        "authors": "Jianye Hao, Wangmeng Zuo, Kuanquan Wang",
         "links": [
             {
                 "name": "PDF",
