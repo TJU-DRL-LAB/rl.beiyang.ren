@@ -10,9 +10,9 @@ import requests
 import os
 from PIL import Image
 
-workbook = openpyxl.load_workbook('team_info.xlsx')
+workbook = openpyxl.load_workbook('alumni_info.xlsx')
 worksheet = workbook.active
-photo = worksheet['H'][1:]
+photo = worksheet['J'][1:]
 name = worksheet['B'][1:]
 
 for i in range(len(name)):
@@ -21,6 +21,7 @@ for i in range(len(name)):
     
     photo_path = f'../assets/image/team/{name[i].value}.jpg'
     if not os.path.exists(photo_path):
+        photo_path = f'../assets/image/team/{name[i].value}.png'
         with open(photo_path, 'wb') as f:
             f.write(response.content)
 
