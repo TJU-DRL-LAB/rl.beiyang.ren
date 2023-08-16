@@ -28,7 +28,7 @@ custom_css:
                     <div class="news-text-title">
                         {{ news.date | date: "%b %e, %Y" }} - {{ news.title }}
                     </div>
-                    <div class="news-text-desc">
+                    <div class="news-text-desc" style="-webkit-line-clamp: 10;max-height: 10000px;">
                         {{ news.desc }}
                     </div>
                 </div>

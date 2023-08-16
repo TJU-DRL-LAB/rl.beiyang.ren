@@ -3,10 +3,10 @@
 }
 
 .journey-item {
-    margin: 30px auto;
+    margin: 10px auto;
     transition: all .25s ease-in-out;
     background-color: #f9f9f9;
-    padding: 20px;
+    padding: 5px 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -22,7 +22,7 @@
 }
 
 .publication-title {
-    margin: 10px 0;
+    margin: 10px 0  2px 0;
 }
 
 .link-item {
@@ -63,7 +63,6 @@
 
 /* CSS for the filter card */
 .filter-card {
-    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -74,6 +73,7 @@
 }
 
 .filter-title {
+    margin-bottom: 30px;
     padding: 0 50px 0 0;
     font-size: 1.3rem;
     line-height: 1.3rem;
@@ -92,6 +92,36 @@
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: 1.3rem;
     grid-gap: 30px;
+}
+
+
+@media screen and (min-width: 1200px) {
+    .filter-card {
+        position: fixed;
+        top: 185px;
+        width: 10%;
+        left: 5%;
+    }
+
+    .filter-card > .card {
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+
+
+    .card-content {
+        flex-direction: column;
+    }
+
+    .filter-title {
+        text-align: start;
+    }
+
+    .grid-container {
+        overflow-y: auto;
+        max-height: calc(45vh - 185px - 50px);
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 

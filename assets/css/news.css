@@ -27,6 +27,7 @@ section#news {
     justify-content: flex-start;
     align-items: center;
     gap: 32px;
+    width: calc(100% - 40px);
     display: inline-flex;
     transition: all .25s ease-in-out;
 }
@@ -57,7 +58,7 @@ section#news {
 .news-text-desc {
     max-height: 90px;
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     color: #555555;
     font-size: 16px;
@@ -97,7 +98,7 @@ section#news {
     height: 1px;
     width: 100%;
     background: #D3D3D3;
-    margin: 36px 0;
+    margin: 18px 0;
 }
 
 .news-content {

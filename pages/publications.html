@@ -1,18 +1,13 @@
 ---
 layout: default
 title: Conference
-permalink: /conference/
+permalink: /publications/
 custom_css:
 - /assets/css/publications.css
 - /assets/css/news.css
 ---
 
 <div class="content">
-    <div class="news-title publications-title">
-        <span>
-            {{ page.title }}
-        </span>
-    </div>
 
     <script>
       const filterInputs = document.querySelectorAll(".filter-input");
@@ -51,7 +46,7 @@ custom_css:
                     {% assign current_year = "" %}
                     {% assign sorted_publications = publications| sort: 'date' | reverse %}
                     {% for publication in sorted_publications %}
-                        {% assign year = publication.date | date: "%Y" %}
+                        {% assign year = publication.date %}
                         {% if year != current_year %}
                             <label>
                                 <input checked onchange="filterChange(event)" type="checkbox"
@@ -72,7 +67,7 @@ custom_css:
     {% assign current_year = "" %}
     {% assign sorted_publications = publications | sort: 'date' | reverse %}
     {% for publication in sorted_publications %}
-        {% assign year = publication.date | date: "%Y" %}
+        {% assign year = publication.date %}
         {% if year != current_year %}
             <h1 data-year="{{ year }}">{{ year }}</h1>
             {% assign current_year = year %}

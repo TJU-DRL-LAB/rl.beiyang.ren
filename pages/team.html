@@ -17,7 +17,9 @@ custom_css:
                     <h3>{{ person.name }}</h3>
                     <p>{{ person.desc }}</p>
                     <p class="area">{{ person.area }}</p>
-                    <a href="{{ person.link }}">Learn More</a>
+                    {% if person.link and person.link != "" %}
+                        <a href="{{ person.link }}">Learn More</a>
+                    {% endif %}
                 </div>
             {% endfor %}
         </div>

@@ -1,67 +1,128 @@
 [
   {
-    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    "desc": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Euismod in pellentesque massa placerat duis ultricies. Habitant morbi tristique",
-    "date": "2023-10-3"
-  },
-  {
-    "title": "Vestibulum ante ipsum primis in faucibus",
-    "desc": "Duis aliquam purus sit amet luctus venenatis lectus magna. Nulla posuere sollicitudin aliquam ultrices sagittis orci. Et malesuada fames ac turpis egestas maecenas. Ut porttitor leo a diam sollicitudin tempor. ",
-    "date": "2023-09-28",
+    "title": "Three papers accepted by ICML 2023:",
+    "desc": "\"ChiPFormer: Transferable Chip Placement via Offline Decision Transformer\",\"MetaDiffuser: Diffusion Model as Conditional Planner for Offline Meta-RL\",\"RACE: Improve Multi-Agent Reinforcement Learning with Representation Asymmetry and Collaborative Evolution\"",
+    "date": "2023-05-05",
     "google_icon": "schedule"
   },
   {
-    "title": "Quisque non tellus orci ac auctor",
-    "desc": "Nam aliquet odio a bibendum facilisis arcu. Etiam congue leo a diam sollicitudin tempor id eu. Ut lectus arcu bibendum at varius vel pharetra vel turpis. ",
-    "date": "2023-09-25",
-    "google_icon": "celebration"
+    "title": "Seven papers accepted by ICLR 2023:",
+    "desc": "\"ERL-Re2: Efficient Evolutionary Reinforcement Learning with Shared State Representation and Individual Policy Representation\",\"Breaking the Curse of Dimensionality in Multiagent State Space: A Unified Agent Permutation Framework\",\"EUCLID: Towards Efficient Unsupervised Reinforcement Learning with Multi-choice Dynamics Model\",\"Learnable Behavior Control: Breaking Atari Human World Records via Sample-Efficient Behavior Selection\",\"DAG Matters! GFlowNets Enhanced Explainer for Graph Neural Networks\",\"CFlowNets: Continuous control with Generative Flow Network\",\"Out-of-distribution Detection with Implicit Outlier Transformation\"",
+    "date": "2023-00-21",
+    "google_icon": "schedule"
   },
   {
-    "title": "Suspendisse potenti nullam ac tortor vitae",
-    "desc": "Integer quis auctor elit sed vulputate mi. Sed adipiscing diam donec adipiscing tristique risus. Suspendisse in est ante in nibh mauris cursus. Cursus in hac habitasse platea dictumst quisque sagittis.",
-    "date": "2023-09-21",
-    "google_icon": "check_circle_outline"
+    "title": "Four papers accepted by AAAI 2023:",
+    "desc": "\"SplitNet: A Reinforcement Learning based Sequence Splitting Method for the MinMax Multiple Travelling Salesman Problem\",\"Neighbor Auto-Grouping Graph Neural Networks for Handover Parameter Configuration in Cellular Network\",\"Structure Aware Incremental Learning with Personalized Imitation Weights for Recommender Systems\",\"Models as Agents: Optimizing Muti-Step Predictions of interactive Local Models in Model-Based Multi-Agent Reinforcement Learning\"",
+    "date": "2022-00-25",
+    "google_icon": "schedule"
   },
   {
-    "title": "Pellentesque dignissim enim sit amet",
-    "desc": "Quam lacus suspendisse faucibus interdum posuere. Sit amet volutpat consequat mauris nunc. Euismod in pellentesque massa placerat duis ultricies. Habitasse platea dictumst quisque sagittis.",
-    "date": "2023-09-17",
-    "icon": "https://static.arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg",
-    "invert": true
+    "title": "Seven papers accepted by NeurIPS 2022:",
+    "desc": "\"Multiagent Q-learning with Sub-Team Coordination\",\"Transformer-based Working Memory for Multiagent Reinforcement Learning with Action Parsing\",\"GALOIS: Boosting Deep Reinforcement Learning via Generalizable Logic Synthesis\",\"Versatile Multi-stage Graph Neural Network for Circuit Representation\",\"The Policy-gradient Placement and Generative Routing Neural Networks for Chip Design\",\"DOMINO: Decomposed Mutual Information Optimization for Generalized Context in Meta-Reinforcement Learning\",\"Plan To Predict: Learning an Uncertainty-Foreseeing Model For Model-Based Reinforcement Learning\"",
+    "date": "2022-00-15",
+    "google_icon": "schedule"
   },
   {
-    "title": "Nunc id cursus metus aliquam",
-    "desc": "Lobortis feugiat vivamus at augue eget arcu. Vel quam elementum pulvinar etiam non quam. Consequat interdum varius sit amet mattis. Magna fermentum iaculis eu non diam phasellus vestibulum.",
-    "date": "2023-09-12",
-    "icon": "https://static.arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg",
-    "invert": true
+    "title": "Five papers accepted by ICML 2022:",
+    "desc": "\"PMIC: Improving Multi-Agent Reinforcement Learning with Progressive Mutual Information Collaboration\",\"Individual Reward Assisted Multi-Agent Reinforcement Learning\",\"Plan Your Target and Learn Your Skills: Transferable State-Only lmitation Learning via Decoupled Policy Optimization\",\"Neuro-Symbolic Hierarchical Rule Induction\",\"Learning Pseudometric-based Action Representations for Offline Reinforcement Learning\"",
+    "date": "2022-05-18",
+    "google_icon": "schedule"
   },
   {
-    "title": "Fusce pharetra convallis posuere morbi",
-    "desc": "Sapien nec sagittis aliquam malesuada bibendum arcu. Ullamcorper malesuada proin libero nunc consequat interdum. Risus at ultrices mi tempus imperdiet. Quam viverra orci sagittis eu volutpat odio facilisis.",
-    "date": "2023-09-08",
-    "icon": "https://static.arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg",
-    "invert": true
+    "title": "One paper accepted by IJCAI 2022:",
+    "desc": "\"PAnDR: Fast Adaptation to New Environments from Offline Experiences via Decoupling Policy and Environment Representations\"",
+    "date": "2022-00-21",
+    "google_icon": "schedule"
   },
   {
-    "title": "Cras ornare arcu dui vivamus arcu",
-    "desc": "Vestibulum lectus mauris ultrices eros in. Tincidunt dui ut ornare lectus. Ac turpis egestas sed tempus urna et. Magna sit amet purus gravida quis blandit turpis cursus. ",
-    "date": "2023-09-04",
-    "icon": "https://static.arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg",
-    "invert": true
+    "title": "Three papers accepted by ICLR 2022:",
+    "desc": "\"HyAR: Addressing Discrete-Continuous Action Reinforcement Learning via Hybrid Action Representation\",                                                    \"Online Ad Hoc Teamwork under Partial Observability\",                                                    \"Learning State Representations via Retracing in Reinforcement Learning\"",
+    "date": "2022-00-28",
+    "google_icon": "schedule"
   },
   {
-    "title": "Sed faucibus turpis in eu",
-    "desc": "Egestas tellus rutrum tellus pellentesque. Nunc faucibus a pellentesque sit amet porttitor eget dolor morbi. Et odio pellentesque diam volutpat commodo. Arcu odio ut sem nulla pharetra diam sit amet.",
-    "date": "2023-08-31",
-    "icon": "https://static.arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg",
-    "invert": true
+    "title": "One paper accepted by AAAI 2022:",
+    "desc": "\"What About Inputing Policy in Value Function: Policy Representation and Policy-extended Value Function Approximator\"",
+    "date": "2021-00-01",
+    "google_icon": "schedule"
   },
   {
-    "title": "Nam aliquet odio a bibendum facilisis",
-    "desc": "Cras tincidunt lobortis feugiat vivamus at augue eget arcu. Tortor vitae purus faucibus ornare suspendisse sed nisi. Sed egestas egestas fringilla phasellus. Lectus mauris ultrices eros in.",
-    "date": "2023-08-27",
-    "icon": "https://static.arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg",
-    "invert": true
+    "title": "Runner-up, Best Paper Award in PRICAI 2021:",
+    "desc": "\"Detecting and Learning Against Unknown Opponents for Automated Negotiations\"",
+    "date": "2021-00-09",
+    "google_icon": "schedule"
+  },
+  {
+    "title": "Six papers accepted by NeurIPS 2021:",
+    "desc": "\"Dynamic Bottleneck for Robust Self-Supervised Exploration\",\"Flattening Sharpness for Dynamic Gradient Projection Memory Benefits Continual Learning\",\"Model-Based Reinforcement Learning via Imagination with Derived Memory\",\"A Reinforcement Learning Based Bi-level Optimization Framework for Large-scale Dynamic Pickup and Delivery Problems\"，\"Adaptive Online Packing-guided Search for POMDPs\",\"An Efficient Transfer Learning Framework for Multiagent Reinforcement Learning\"",
+    "date": "2021-00-01",
+    "google_icon": "schedule"
+  },
+  {
+    "title": "One paper accepted by ICML 2021:",
+    "desc": "\" Principled Exploration via Optimistic Bootstrapping and Backward Induction\"",
+    "date": "2021-00-05",
+    "google_icon": "schedule"
+  },
+  {
+    "title": "One paper accepted by KDD 2021:",
+    "desc": "\" A Multi-Graph Attributed Reinforcement Learning based Optimization Algorithm for Large-scale Hybrid Flow Shop Scheduling Problem\"",
+    "date": "2021-05-22",
+    "google_icon": "schedule"
+  },
+  {
+    "title": "One paper accepted by IJCAI 2021:",
+    "desc": "\" Ordering-Based Causal Discovery with Reinforcement Learning\"",
+    "date": "2021-00-30",
+    "google_icon": "schedule"
+  },
+  {
+    "title": "One paper accepted by IEEE Transaction on Smart Grid 2021:",
+    "desc": "\" Vulnerability Assessment of Deep Reinforcement Learning Models for Power System Topology Optimization\"",
+    "date": "2021-00-27",
+    "google_icon": "schedule"
+  },
+  {
+    "title": "One paper accepted by ICSE 2021:",
+    "desc": "\" Automatic Web Testing using Curiosity-Driven Reinforcement Learning\"",
+    "date": "2021-00-01",
+    "google_icon": "schedule"
+  },
+  {
+    "title": "Three papers accepted by AAAI 2021:",
+    "desc": "\"Foresee then Evaluate: Decomposing Value Estimation with Latent Future Prediction\",\"Towards Effective Context for Meta-Reinforcement Learning: an Approach based on Contrastive Learning\",\"Addressing Action Oscillations through Learning Policy Inertia\"",
+    "date": "2020-00-04",
+    "google_icon": "schedule"
+  },
+  {
+    "title": "One paper accepted by NeurIPS 2020:",
+    "desc": "\"Learning to Utilize Shaping Rewards: A New Approach of Reward Shaping\"",
+    "date": "2020-00-30",
+    "google_icon": "schedule"
+  },
+  {
+    "title": "Two papers accepted by ICML 2020:",
+    "desc": "\"Dynamic Knapsack Optimization Towards Efficient Multi-Channel Sequential Advertising\",\"Q-value Path Decomposition for Deep Multiagent Reinforcement Learning\"",
+    "date": "2020-00-03",
+    "google_icon": "schedule"
+  },
+  {
+    "title": "Five papers accepted by IJCAI 2020:",
+    "desc": "\"Learning to Accelerate Heuristic Searching for Large-Scale MaximumWeighted b-Matching Problems in Online Advertising\",\"Efficient Deep Reinforcement Learning via Adaptive Policy Transfer \",\" Generating Behavior-Diverse Game AIs with Evolutionary Multi-Objectives Deep Reinforcement Learning\",\" Triple-GAIL: A Multi-Modal Imitation Learning Framework with Generative Adversarial Nets\"，\"KoGuN: Accelerating Deep Reinforcement Learning via Integrating Human Suboptimal Knowledge\"",
+    "date": "2020-00-21",
+    "google_icon": "schedule"
+  },
+  {
+    "title": "ACM SIGSOFT Distinguished Paper Award in ASE 2019:",
+    "desc": "\" Wuji: Automatic Online Combat Game Testing Using Evolutionary Deep Reinforcement Learning\"",
+    "date": "2019-00-22",
+    "google_icon": "schedule"
+  },
+  {
+    "title": "Best Paper Award in DAI 2019:",
+    "desc": "\" Achieving Cooperation Through Deep Multiagent Reinforcement Learning in Sequential Prisoner's Dilemmas\"",
+    "date": "2019-00-15",
+    "google_icon": "schedule"
   }
 ]
