@@ -27,7 +27,7 @@ custom_css:
         <h3>历年录用文章</h3>
         <ul style="line-height: 2rem">
             {% for item in site.data.ibbb %}
-            <li><a href="{{ site.baseurl }}/{{ item.permalink }}">{{ item.name }}</a></li>
+            <li><a href="{{ site.baseurl }}{{ item.permalink }}">{{ item.name }}</a></li>
             {% endfor %}
             <!-- Add more years' articles here if needed -->
         </ul>

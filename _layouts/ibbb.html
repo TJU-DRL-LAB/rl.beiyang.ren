@@ -11,7 +11,7 @@ layout: default
     {% for item in site.data.ibbb %}
         {% if item.permalink == page.permalink %}
             {% for article in item.item %}
-                <div class="journey-item" onclick="window.open('{{ site.baseurl }}/{{ article.link }}')">
+                <div class="journey-item" onclick="window.open('{{ site.baseurl }}{{ article.link }}')">
                     <h3 class="publication-title">
                         {{ forloop.index }}. {{ article.name }}
                     </h3>

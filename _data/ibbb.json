@@ -1,199 +1,199 @@
 [
   {
     "name": "2018年IBBB录用文章列表",
-    "permalink": "/ibbb/2018",
+    "permalink": "/ibbb/2018/",
     "item": [
       {
         "name": "爱菊者说",
         "from": "IBBB 2018: 2018",
         "authors": "Yaodong Yang",
-        "link": "assets/ibbb/2018/ID-0001.pdf"
+        "link": "/assets/ibbb/2018/ID-0001.pdf"
       },
       {
         "name": "汤释天外传",
         "from": "IBBB 2018: 2018",
         "authors": "Yaodong Yang",
-        "link": "assets/ibbb/2018/ID-0002.pdf"
+        "link": "/assets/ibbb/2018/ID-0002.pdf"
       },
       {
         "name": "效率最重要：强化学习中agent的合理休息对于效率的影响",
         "from": "IBBB 2018: 2018",
         "authors": "Weixun Wang",
-        "link": "assets/ibbb/2018/ID-0003.pdf"
+        "link": "/assets/ibbb/2018/ID-0003.pdf"
       },
       {
         "name": "群体鼓励：一种新的多智体学习模型",
         "from": "IBBB 2018: 2018",
         "authors": "Yaodong Yang",
-        "link": "assets/ibbb/2018/ID-0004.pdf"
+        "link": "/assets/ibbb/2018/ID-0004.pdf"
       },
       {
         "name": "宏垚帮",
         "from": "IBBB 2018: 2018",
         "authors": "Dongsheng Xie",
-        "link": "assets/ibbb/2018/ID-0005.pdf"
+        "link": "/assets/ibbb/2018/ID-0005.pdf"
       },
       {
         "name": "仅熵增不可逆: 纯粹基于熵增进行强化学习的AI会不会是强人工智能？",
         "from": "IBBB 2018: 2018",
         "authors": "Hanchao Wang",
-        "link": "assets/ibbb/2018/ID-0006.pdf"
+        "link": "/assets/ibbb/2018/ID-0006.pdf"
       },
       {
         "name": "无题",
         "from": "IBBB 2018: 2018",
         "authors": "Bofeng Fu",
-        "link": "assets/ibbb/2018/ID-0007.pdf"
+        "link": "/assets/ibbb/2018/ID-0007.pdf"
       },
       {
         "name": "Combine Buddhist system learning and Reinforcement learning to improve the learning of agents",
         "from": "IBBB 2018: 2018",
         "authors": "Cong Shang",
-        "link": "assets/ibbb/2018/ID-0008.pdf"
+        "link": "/assets/ibbb/2018/ID-0008.pdf"
       },
       {
         "name": "无题",
         "from": "IBBB 2018: 2018",
         "authors": "Yonghao Cui",
-        "link": "assets/ibbb/2018/ID-0009.pdf"
+        "link": "/assets/ibbb/2018/ID-0009.pdf"
       },
       {
         "name": "Agent的修炼",
         "from": "IBBB 2018: 2018",
         "authors": "Tian Gan",
-        "link": "assets/ibbb/2018/ID-0010.pdf"
+        "link": "/assets/ibbb/2018/ID-0010.pdf"
       },
       {
         "name": "Theoretical Analysis of Credit Assignment in Youth Hair Loss",
         "from": "IBBB 2018: 2018",
         "authors": "Hongyao Tang",
-        "link": "assets/ibbb/2018/ID-0011.pdf"
+        "link": "/assets/ibbb/2018/ID-0011.pdf"
       },
       {
         "name": "强化学习-游学篇（河南）",
         "from": "IBBB 2018: 2018",
         "authors": "Xiaotian Hao",
-        "link": "assets/ibbb/2018/ID-0012.pdf"
+        "link": "/assets/ibbb/2018/ID-0012.pdf"
       },
       {
         "name": "Multiagent Credit Assignment in Communism",
         "from": "IBBB 2018: 2018",
         "authors": "Weixun Wang",
-        "link": "assets/ibbb/2018/ID-0013.pdf"
+        "link": "/assets/ibbb/2018/ID-0013.pdf"
       },
       {
         "name": "How to efficiently train healthy and cooperative agents using meditation mechanism？",
         "from": "IBBB 2018: 2018",
         "authors": "Yixi Wang",
-        "link": "assets/ibbb/2018/ID-0014.pdf"
+        "link": "/assets/ibbb/2018/ID-0014.pdf"
       }
     ]
   },
   {
     "name": "2019年IBBB录用文章列表",
-    "permalink": "/ibbb/2019",
+    "permalink": "/ibbb/2019/",
     "item": [
       {
         "name": "My Framework",
         "from": "IBBB 2019: 2019",
         "authors": "Yaodong Yang, Hongyao Tang",
-        "link": "assets/ibbb/2019/ID-0001.pdf"
+        "link": "/assets/ibbb/2019/ID-0001.pdf"
       },
       {
         "name": "关于LAB NORM的涌现的一篇小文",
         "from": "IBBB 2019: 2019",
         "authors": "Weixun Wang",
-        "link": "assets/ibbb/2019/ID-0002.pdf"
+        "link": "/assets/ibbb/2019/ID-0002.pdf"
       },
       {
         "name": "Using the Philosophy of Reinforcement Learning to Practice Snowboarding",
         "from": "IBBB 2019: 2019",
         "authors": "Yi Ma",
-        "link": "assets/ibbb/2019/ID-0003.pdf"
+        "link": "/assets/ibbb/2019/ID-0003.pdf"
       },
       {
         "name": "强化学习综述",
         "from": "IBBB 2019: 2019",
         "authors": "Xiaoxu Han",
-        "link": "assets/ibbb/2019/ID-0004.pdf"
+        "link": "/assets/ibbb/2019/ID-0004.pdf"
       },
       {
         "name": "Reinforcement Learning With Safety Education",
         "from": "IBBB 2019: 2019",
         "authors": "Leilei Liu",
-        "link": "assets/ibbb/2019/ID-0005.pdf"
+        "link": "/assets/ibbb/2019/ID-0005.pdf"
       },
       {
         "name": "经验回放使你获得更多吹捧？",
         "from": "IBBB 2019: 2019",
         "authors": "Kunfeng Li",
-        "link": "assets/ibbb/2019/ID-0006.pdf"
+        "link": "/assets/ibbb/2019/ID-0006.pdf"
       },
       {
         "name": "Using Reinforcement Learning to Decide What’s for Dinner",
         "from": "IBBB 2019: 2019",
         "authors": "Peng Zhang",
-        "link": "assets/ibbb/2019/ID-0007.pdf"
+        "link": "/assets/ibbb/2019/ID-0007.pdf"
       },
       {
         "name": "Research on algorithm for extending life based on social framework",
         "from": "IBBB 2019: 2019",
         "authors": "Jian Guo",
-        "link": "assets/ibbb/2019/ID-0008.pdf"
+        "link": "/assets/ibbb/2019/ID-0008.pdf"
       },
       {
         "name": "艾瑞斯先生传",
         "from": "IBBB 2019: 2019",
         "authors": "Yizhen Dong",
-        "link": "assets/ibbb/2019/ID-0009.pdf"
+        "link": "/assets/ibbb/2019/ID-0009.pdf"
       },
       {
         "name": "在实验室的聊天日常",
         "from": "IBBB 2019: 2019",
         "authors": "Yue Fu",
-        "link": "assets/ibbb/2019/ID-0010.pdf"
+        "link": "/assets/ibbb/2019/ID-0010.pdf"
       },
       {
         "name": "Real Pyramid Marketing: A Research of Goagle’s Neo Behavior",
         "from": "IBBB 2019: 2019",
         "authors": "Yaodong Yang, Hanchao Wang",
-        "link": "assets/ibbb/2019/ID-0011.pdf"
+        "link": "/assets/ibbb/2019/ID-0011.pdf"
       },
       {
         "name": "Predicting The Next Time An Idol Goes Online",
         "from": "IBBB 2019: 2019",
         "authors": "Cong Shang",
-        "link": "assets/ibbb/2019/ID-0012.pdf"
+        "link": "/assets/ibbb/2019/ID-0012.pdf"
       },
       {
         "name": "Please Take My Knees",
         "from": "IBBB 2019: 2019",
         "authors": "Bofeng Fu",
-        "link": "assets/ibbb/2019/ID-0013.pdf"
+        "link": "/assets/ibbb/2019/ID-0013.pdf"
       },
       {
         "name": "菜狗掉发记",
         "from": "IBBB 2019: 2019",
         "authors": "Xiaotian Hao",
-        "link": "assets/ibbb/2019/ID-0014.pdf"
+        "link": "/assets/ibbb/2019/ID-0014.pdf"
       },
       {
         "name": "纵使强化学习难，我们有兄弟相伴",
         "from": "IBBB 2019: 2019",
         "authors": "Yihai Duan",
-        "link": "assets/ibbb/2019/ID-0015.pdf"
+        "link": "/assets/ibbb/2019/ID-0015.pdf"
       },
       {
         "name": "心， 随你动",
         "from": "IBBB 2019: 2019",
         "authors": "Yarong Li",
-        "link": "assets/ibbb/2019/ID-0016.pdf"
+        "link": "/assets/ibbb/2019/ID-0016.pdf"
       },
       {
         "name": "Experience Replay Makes Others Become Flatterers",
         "from": "IBBB 2019: 2019",
         "authors": "Kunfeng Li",
-        "link": "assets/ibbb/2019/ID-0017.pdf"
+        "link": "/assets/ibbb/2019/ID-0017.pdf"
       }
     ]
   }
