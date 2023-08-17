@@ -225,18 +225,36 @@ custom_css:
     </div>
 </section>
 <section id="research">
+
+    <script>
+
+      let go = (event) => {
+        ;
+        if (!event.target.classList.contains("banner")) {
+          window.open(event.currentTarget.dataset.url)
+        }
+      }
+
+      window.addEventListener("DOMContentLoaded", () => {
+        document.querySelectorAll(".research-card").forEach(input => {
+          input.addEventListener("click", go);
+        });
+      })
+
+    </script>
+
     <div class="research-title">
         Recent Research
     </div>
     <div class="research-cards">
         {% assign sorted_post = site.posts | sort: 'data' | reverse %}
         {% for post in sorted_post limit: site.data.config.main_page.post %}
-            <div class="research-card" onclick="window.open('{{ site.baseurl }}{{ post.url }}')">
+            <div class="research-card" data-url="{{ site.baseurl }}{{ post.url }}">
                 <div class="research-image"
                      style="background-image: url('{% if post.internal %}{{ site.baseurl }}{% endif %}{{ post.poster }}');
-                     {% if post.contain_poster %}
-                             background-size:contain;
-                     {% endif %}">
+                         {% if post.contain_poster %}
+                                 background-size:contain;
+                         {% endif %}">
                 </div>
                 <div class="research-body">
                     <div class="research-card-title">
@@ -247,7 +265,7 @@ custom_css:
                     </div>
                     <div class="research-card-action">
                         {% for link in post.links %}
-                            <a target="_blank" href="{{ link.link }}" class="banner">{{ link.name }}</a>
+                        <a target="_blank" href="{{ link.link }}" class="banner">{{ link.name }}</a>
                         {% endfor %}
                     </div>
                 </div>
