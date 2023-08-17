@@ -1,25 +1,13 @@
 [
     {
-       "name": "Breaking Filter Bubble: A Reinforcement Learning Framework of Controllable Recommender System",
-       "from": "Proceedings of the ACM Web Conference (WWW): 2023",
+       "name": "Generative Flow Networks for Precise Reward-Oriented Active Learning on Graphs",
+       "from": "The 32nd International Joint Conference on Artificial Intelligence (IJCAI): 2023",
        "date": "2023",
-       "authors": "Zhenyang Li, Yancheng Dong, Chen Gao, Yizhou Zhao, Dong Li, Jianye Hao, Kai Zhang, Yong Li, Zhi Wang",
+       "authors": "Yinchuan Li, Zhigang Li, Wenqian Li, Yunfeng Shao, Yan Zheng, Jianye Hao",
        "links": [
           {
              "name": "PDF",
-             "url": "https://dl.acm.org/doi/abs/10.1145/3543507.3583856"
-          }
-       ]
-    },
-    {
-       "name": "Transfer Reinforcement Learning Based Negotiating Agent Framework",
-       "from": "Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD): 2023",
-       "date": "2023",
-       "authors": "Siqi Chen, Tianpei Yang, Heng You, Jianing Zhao, Jianye Hao, Gerhard Weiss",
-       "links": [
-          {
-             "name": "PDF",
-             "url": "https://link.springer.com/chapter/10.1007/978-3-031-33377-4_30"
+             "url": "https://arxiv.org/abs/2304.11989"
           }
        ]
     },

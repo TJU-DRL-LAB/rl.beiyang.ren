@@ -6,21 +6,27 @@
     "google_icon": "schedule"
   },
   {
+    "title": "One papers accepted by IJCAI 2023:",
+    "desc": "\"Generative Flow Networks for Precise Reward-Oriented Active Learning on Graphs\"",
+    "date": "2023-04-23",
+    "google_icon": "schedule"
+  },
+  {
     "title": "Seven papers accepted by ICLR 2023:",
     "desc": "\"ERL-Re2: Efficient Evolutionary Reinforcement Learning with Shared State Representation and Individual Policy Representation\",\"Breaking the Curse of Dimensionality in Multiagent State Space: A Unified Agent Permutation Framework\",\"EUCLID: Towards Efficient Unsupervised Reinforcement Learning with Multi-choice Dynamics Model\",\"Learnable Behavior Control: Breaking Atari Human World Records via Sample-Efficient Behavior Selection\",\"DAG Matters! GFlowNets Enhanced Explainer for Graph Neural Networks\",\"CFlowNets: Continuous control with Generative Flow Network\",\"Out-of-distribution Detection with Implicit Outlier Transformation\"",
-    "date": "2023-00-21",
+    "date": "2023-01-21",
     "google_icon": "schedule"
   },
   {
     "title": "Four papers accepted by AAAI 2023:",
     "desc": "\"SplitNet: A Reinforcement Learning based Sequence Splitting Method for the MinMax Multiple Travelling Salesman Problem\",\"Neighbor Auto-Grouping Graph Neural Networks for Handover Parameter Configuration in Cellular Network\",\"Structure Aware Incremental Learning with Personalized Imitation Weights for Recommender Systems\",\"Models as Agents: Optimizing Muti-Step Predictions of interactive Local Models in Model-Based Multi-Agent Reinforcement Learning\"",
-    "date": "2022-00-25",
+    "date": "2022-11-25",
     "google_icon": "schedule"
   },
   {
     "title": "Seven papers accepted by NeurIPS 2022:",
     "desc": "\"Multiagent Q-learning with Sub-Team Coordination\",\"Transformer-based Working Memory for Multiagent Reinforcement Learning with Action Parsing\",\"GALOIS: Boosting Deep Reinforcement Learning via Generalizable Logic Synthesis\",\"Versatile Multi-stage Graph Neural Network for Circuit Representation\",\"The Policy-gradient Placement and Generative Routing Neural Networks for Chip Design\",\"DOMINO: Decomposed Mutual Information Optimization for Generalized Context in Meta-Reinforcement Learning\",\"Plan To Predict: Learning an Uncertainty-Foreseeing Model For Model-Based Reinforcement Learning\"",
-    "date": "2022-00-15",
+    "date": "2022-09-15",
     "google_icon": "schedule"
   },
   {
@@ -32,37 +38,37 @@
   {
     "title": "One paper accepted by IJCAI 2022:",
     "desc": "\"PAnDR: Fast Adaptation to New Environments from Offline Experiences via Decoupling Policy and Environment Representations\"",
-    "date": "2022-00-21",
+    "date": "2022-04-21",
     "google_icon": "schedule"
   },
   {
     "title": "Three papers accepted by ICLR 2022:",
     "desc": "\"HyAR: Addressing Discrete-Continuous Action Reinforcement Learning via Hybrid Action Representation\",                                                    \"Online Ad Hoc Teamwork under Partial Observability\",                                                    \"Learning State Representations via Retracing in Reinforcement Learning\"",
-    "date": "2022-00-28",
+    "date": "2022-01-28",
     "google_icon": "schedule"
   },
   {
     "title": "One paper accepted by AAAI 2022:",
     "desc": "\"What About Inputing Policy in Value Function: Policy Representation and Policy-extended Value Function Approximator\"",
-    "date": "2021-00-01",
+    "date": "2021-12-01",
     "google_icon": "schedule"
   },
   {
     "title": "Runner-up, Best Paper Award in PRICAI 2021:",
     "desc": "\"Detecting and Learning Against Unknown Opponents for Automated Negotiations\"",
-    "date": "2021-00-09",
+    "date": "2021-11-09",
     "google_icon": "schedule"
   },
   {
     "title": "Six papers accepted by NeurIPS 2021:",
     "desc": "\"Dynamic Bottleneck for Robust Self-Supervised Exploration\",\"Flattening Sharpness for Dynamic Gradient Projection Memory Benefits Continual Learning\",\"Model-Based Reinforcement Learning via Imagination with Derived Memory\",\"A Reinforcement Learning Based Bi-level Optimization Framework for Large-scale Dynamic Pickup and Delivery Problems\"，\"Adaptive Online Packing-guided Search for POMDPs\",\"An Efficient Transfer Learning Framework for Multiagent Reinforcement Learning\"",
-    "date": "2021-00-01",
+    "date": "2021-10-01",
     "google_icon": "schedule"
   },
   {
     "title": "One paper accepted by ICML 2021:",
     "desc": "\" Principled Exploration via Optimistic Bootstrapping and Backward Induction\"",
-    "date": "2021-00-05",
+    "date": "2021-06-05",
     "google_icon": "schedule"
   },
   {
@@ -74,55 +80,55 @@
   {
     "title": "One paper accepted by IJCAI 2021:",
     "desc": "\" Ordering-Based Causal Discovery with Reinforcement Learning\"",
-    "date": "2021-00-30",
+    "date": "2021-04-30",
     "google_icon": "schedule"
   },
   {
     "title": "One paper accepted by IEEE Transaction on Smart Grid 2021:",
     "desc": "\" Vulnerability Assessment of Deep Reinforcement Learning Models for Power System Topology Optimization\"",
-    "date": "2021-00-27",
+    "date": "2021-04-27",
     "google_icon": "schedule"
   },
   {
     "title": "One paper accepted by ICSE 2021:",
     "desc": "\" Automatic Web Testing using Curiosity-Driven Reinforcement Learning\"",
-    "date": "2021-00-01",
+    "date": "2021-01-01",
     "google_icon": "schedule"
   },
   {
     "title": "Three papers accepted by AAAI 2021:",
     "desc": "\"Foresee then Evaluate: Decomposing Value Estimation with Latent Future Prediction\",\"Towards Effective Context for Meta-Reinforcement Learning: an Approach based on Contrastive Learning\",\"Addressing Action Oscillations through Learning Policy Inertia\"",
-    "date": "2020-00-04",
+    "date": "2020-12-04",
     "google_icon": "schedule"
   },
   {
     "title": "One paper accepted by NeurIPS 2020:",
     "desc": "\"Learning to Utilize Shaping Rewards: A New Approach of Reward Shaping\"",
-    "date": "2020-00-30",
+    "date": "2020-09-30",
     "google_icon": "schedule"
   },
   {
     "title": "Two papers accepted by ICML 2020:",
     "desc": "\"Dynamic Knapsack Optimization Towards Efficient Multi-Channel Sequential Advertising\",\"Q-value Path Decomposition for Deep Multiagent Reinforcement Learning\"",
-    "date": "2020-00-03",
+    "date": "2020-06-03",
     "google_icon": "schedule"
   },
   {
     "title": "Five papers accepted by IJCAI 2020:",
     "desc": "\"Learning to Accelerate Heuristic Searching for Large-Scale MaximumWeighted b-Matching Problems in Online Advertising\",\"Efficient Deep Reinforcement Learning via Adaptive Policy Transfer \",\" Generating Behavior-Diverse Game AIs with Evolutionary Multi-Objectives Deep Reinforcement Learning\",\" Triple-GAIL: A Multi-Modal Imitation Learning Framework with Generative Adversarial Nets\"，\"KoGuN: Accelerating Deep Reinforcement Learning via Integrating Human Suboptimal Knowledge\"",
-    "date": "2020-00-21",
+    "date": "2020-04-21",
     "google_icon": "schedule"
   },
   {
     "title": "ACM SIGSOFT Distinguished Paper Award in ASE 2019:",
     "desc": "\" Wuji: Automatic Online Combat Game Testing Using Evolutionary Deep Reinforcement Learning\"",
-    "date": "2019-00-22",
+    "date": "2019-10-22",
     "google_icon": "schedule"
   },
   {
     "title": "Best Paper Award in DAI 2019:",
     "desc": "\" Achieving Cooperation Through Deep Multiagent Reinforcement Learning in Sequential Prisoner's Dilemmas\"",
-    "date": "2019-00-15",
+    "date": "2019-10-15",
     "google_icon": "schedule"
   }
 ]
