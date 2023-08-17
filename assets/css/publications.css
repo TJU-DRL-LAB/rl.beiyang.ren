@@ -22,7 +22,7 @@
 }
 
 .publication-title {
-    margin: 10px 0  2px 0;
+    margin: 10px 0 2px 0;
 }
 
 .link-item {
@@ -63,6 +63,7 @@
 
 /* CSS for the filter card */
 .filter-card {
+    z-index: 1;
     display: flex;
     justify-content: center;
 }
@@ -73,7 +74,6 @@
 }
 
 .filter-title {
-    margin-bottom: 30px;
     padding: 0 50px 0 0;
     font-size: 1.3rem;
     line-height: 1.3rem;
@@ -94,11 +94,10 @@
     grid-gap: 30px;
 }
 
-
 @media screen and (min-width: 1200px) {
     .filter-card {
         position: fixed;
-        top: 185px;
+        top: 17vh;
         width: 10%;
         left: 5%;
     }
@@ -111,16 +110,25 @@
 
     .card-content {
         flex-direction: column;
+        height: 100%;
     }
 
     .filter-title {
         text-align: start;
+        margin-bottom: 30px;
     }
 
     .grid-container {
         overflow-y: auto;
-        max-height: calc(45vh - 185px - 50px);
+        min-height: 120px;
+        max-height: calc(100vh - 60vh - 30px);
         grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .filter-title {
+        margin-bottom: 10px;
     }
 }
 

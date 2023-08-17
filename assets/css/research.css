@@ -28,6 +28,7 @@ section#research {
 }
 
 .research-card {
+    overflow: hidden;
     cursor: pointer;
     margin-bottom: 30px;
     border-radius: 5px;

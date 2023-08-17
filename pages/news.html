@@ -16,7 +16,7 @@ custom_css:
             <div class="news-item">
                 <div class="news-icon">
                     {% if news.google_icon %}
-                        <i class="material-icons" style="font-size: 3rem">{{ news.google_icon }}</i>
+                        <i class="material-symbols-outlined" style="font-size: 3rem">{{ news.google_icon }}</i>
                     {% elsif news.icon %}
                         <div class="news-image {% if news.invert %}invert{% endif %}"
                              style="background-image: url('{{ news.icon }}')"></div>

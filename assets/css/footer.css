@@ -5,6 +5,7 @@ body {
 }
 
 section#footer {
+    z-index: 3;
     margin-top: auto;
 }
 

@@ -44,7 +44,7 @@ custom_css:
                 </div>
                 <form id="year-filter-form" class="grid-container">
                     {% assign current_year = "" %}
-                    {% assign sorted_publications = publications| sort: 'date' | reverse %}
+                    {% assign sorted_publications = publications %}
                     {% for publication in sorted_publications %}
                         {% assign year = publication.date %}
                         {% if year != current_year %}
@@ -65,7 +65,7 @@ custom_css:
 
 
     {% assign current_year = "" %}
-    {% assign sorted_publications = publications | sort: 'date' | reverse %}
+    {% assign sorted_publications = publications  %}
     {% for publication in sorted_publications %}
         {% assign year = publication.date %}
         {% if year != current_year %}
