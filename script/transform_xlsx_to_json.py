@@ -46,7 +46,7 @@ for type_index, type in type_dict.items():
                 link = row["个人主页链接"]
             item = {"name": row["姓名"],
                     "desc": year_dict[2023 - row["入学年份"] + 1] + loc_dict[type_index] + "<br>"
-                            + "College of Intelligence and Computing, Tianjin University", "img": img_path,
+                            + row["学院"], "img": img_path,
                     "link": link, "area": "Research Area: " + row["研究方向（英文）"]}
             result["item"].append(item)
     print(result)
