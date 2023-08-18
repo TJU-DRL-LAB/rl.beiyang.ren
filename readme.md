@@ -12,7 +12,7 @@ sass-embedded-1.64.1
 ```shell
 bundle exec jekyll serve # serve the page
 
-jekyll build # build the page
+bundle exec jekyll build # build the page
 ```
 
 ## Configuration
