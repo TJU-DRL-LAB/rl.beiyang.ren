@@ -1,0 +1,179 @@
+section#research {
+    width: calc(100% - 10%);
+    padding: 50px 5%;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.research-title {
+    color: #141414;
+    text-align: center;
+    font-family: Playfair Display, ui-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 58.5px */
+    letter-spacing: -0.45px;
+}
+
+.research-cards {
+    margin-top: 50px;
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.research-card {
+    overflow: hidden;
+    cursor: pointer;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    max-width: 1200px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    transition: all .25s ease-in-out;
+}
+
+.research-card:hover {
+    transform: scale(1.02);
+}
+
+.research-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 240px;
+    min-width: 336px;
+    transition: all .5s ease-in-out;
+}
+
+.research-body {
+    min-height: 240px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transition: all .5s ease-in-out;
+}
+
+.research-card-title {
+    color: #141414;
+    text-align: justify;
+    font-family: "Playfair Display", ui-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    align-self: stretch;
+    transition: all .5s ease-in-out;
+}
+
+.research-card-desc {
+    margin-top: 11px;
+    color: #555;
+    font-family: Manrope, ui-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165%;
+    align-self: stretch;
+    transition: all .5s ease-in-out;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.research-card-action {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    margin-top: auto;
+    transition: all .5s ease-in-out;
+}
+
+.research-card-action > .banner {
+    margin: 5px;
+    border-radius: .3rem;
+    color: #1565c0;
+    border: #1565c0 1px solid;
+    padding: 5px 10px;
+    font-size: 1rem;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all .25s ease-in-out;
+}
+
+.research-card-action > .banner:hover {
+    background-color: #1565c0;
+    color: #fff;
+}
+
+.research-more {
+    background: #5C8692;
+    display: flex;
+    padding: 23px 72px 24px 72px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope, ui-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 125%;
+    letter-spacing: 2px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    transition: all .25s ease-in-out;
+}
+
+.research-more:hover {
+    box-shadow: -2px 2px 10px rgba(68, 68, 68, .4);
+}
+
+
+@media screen and (max-width: 1040px) {
+    .research-card {
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .research-card-title {
+        font-size: 22px;
+    }
+
+    .research-card-desc {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .research-card-title {
+        font-size: 18px;
+    }
+
+    .research-card-desc {
+        font-size: 15px;
+    }
+}

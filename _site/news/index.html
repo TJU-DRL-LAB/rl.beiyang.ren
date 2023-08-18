@@ -1,0 +1,596 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    <title>news</title>
+    
+    <link rel="stylesheet"
+          href="https://fonts.loli.net/css?family=Manrope">
+    <link rel="stylesheet"
+          href="https://fonts.loli.net/css?family=Merriweather:900,900italic,300,300italic">
+    <link href="https://fonts.loli.net/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.loli.net/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.loli.net/css?family=Lato:900,300" rel="stylesheet" type="text/css">
+    <link rel="stylesheet"
+          href="https://fonts.loli.net/css?family=Playfair+Display:400,900">
+
+    <link rel="stylesheet" href="https://fonts.loli.net/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <style>
+        body {
+            cursor: default;
+            padding: 0;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+    </style>
+    <link rel="stylesheet" href="/assets/css/header.css">
+    
+        
+            <link rel="stylesheet" href="/assets/css/news.css">
+        
+    
+    <link rel="stylesheet" href="/assets/css/footer.css">
+    
+
+    
+
+</head>
+<body>
+<script>
+  // Wait for the DOM to fully load
+  document.addEventListener("DOMContentLoaded", () => {
+    // JavaScript code to select all <a> tags with class != "inner"
+    const anchorTagsWithoutInnerClass = document.querySelectorAll('a:not(.inner)');
+
+    // Loop through the selected anchor tags and add the target="_blank" attribute
+    anchorTagsWithoutInnerClass.forEach(anchor => {
+      anchor.setAttribute('target', '_blank');
+    });
+  });
+
+</script>
+<section id="header">
+    <header>
+        <div class="logo">
+            <img src="/assets/image/logo.png" alt=""/>
+        </div>
+        <div class="action">
+            <div class="tab">
+                <a class="tab-item inner" href="/">HOME</a>
+                <a class="tab-item inner" href="/news">NEWS</a>
+                <a class="tab-item inner" href="/research">RESEARCH</a>
+                <a class="tab-item inner" href="/publications">PUBLICATIONS</a>
+<!--                 <div class="dropdown-menu"> -->
+<!--                     <span class="text">PUBLICATIONS</span> -->
+<!--                     <div class="content"> -->
+<!--                         <div onclick="window.location.href ='/conference'" class="tab-item item"> -->
+<!--                             CONFERENCE -->
+<!--                         </div> -->
+<!--                         <div class="divider"></div> -->
+<!--                         <div onclick="window.location.href ='/journey'" class="tab-item item"> -->
+<!--                             JOURNEY -->
+<!--                         </div> -->
+<!--                     </div> -->
+<!--                 </div> -->
+                <!--<a class="tab-item inner" href="/software">SOFTWARE</a>-->
+                <a class="tab-item inner" href="/team">TEAM</a>
+                <a class="tab-item inner" href="/ibbb">IBBB</a>
+                <a class="tab-item inner" href="/events">EVENTS</a>
+                <a class="tab-item inner" href="/contact">CONTACT</a>
+            </div>
+            <div style="display: none" class="contact" onclick="window.location.href='/contact'">
+                <span>Contact Us</span>
+            </div>
+            <div class="thin-menu">
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="menu-btn">
+                    <i class="material-icons">menu</i>
+                </label>
+                <ul class="menu">
+                    <li><a class="inner" href="/">HOME</a></li>
+                    <li><a class="inner" href="/news">NEWS</a></li>
+                    <li><a class="inner" href="/research">RESEARCH</a></li>
+                    <li><a class="inner" href="/conference">CONFERENCE</a></li>
+                    <li><a class="inner" href="/journey">JOURNEY</a></li>
+                    <!--<li><a class="inner" href="/software">SOFTWARE</a></li>-->
+                    <li><a class="inner" href="/team">TEAM</a></li>
+                    <li><a class="inner" href="/ibbb">IBBB</a></li>
+                    <li><a class="inner" href="/events">EVENTS</a></li>
+                    <li><a class="inner" href="/contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+</section>
+<section id="news" style="background-color: #f0f0f0;margin-bottom: 50px;">
+    <div class="news-title">
+        <span>News</span>
+    </div>
+    <div class="news-content">
+        
+        
+            <div class="news-item">
+                <div class="news-icon">
+                    
+                        <i class="material-symbols-outlined" style="font-size: 3rem">breaking_news</i>
+                    
+                </div>
+                <div class="news-text">
+                    <div class="news-text-title">
+                        May  5, 2023 - Three papers accepted by ICML 2023:
+                    </div>
+                    <div class="news-text-desc" style="-webkit-line-clamp: 10;max-height: 10000px;">
+                        "ChiPFormer: Transferable Chip Placement via Offline Decision Transformer","MetaDiffuser: Diffusion Model as Conditional Planner for Offline Meta-RL","RACE: Improve Multi-Agent Reinforcement Learning with Representation Asymmetry and Collaborative Evolution"
+                    </div>
+                </div>
+            </div>
+            
+                <div class="news-divider"></div>
+            
+        
+            <div class="news-item">
+                <div class="news-icon">
+                    
+                        <i class="material-symbols-outlined" style="font-size: 3rem">breaking_news</i>
+                    
+                </div>
+                <div class="news-text">
+                    <div class="news-text-title">
+                        Apr 23, 2023 - One papers accepted by IJCAI 2023:
+                    </div>
+                    <div class="news-text-desc" style="-webkit-line-clamp: 10;max-height: 10000px;">
+                        "Generative Flow Networks for Precise Reward-Oriented Active Learning on Graphs"
+                    </div>
+                </div>
+            </div>
+            
+                <div class="news-divider"></div>
+            
+        
+            <div class="news-item">
+                <div class="news-icon">
+                    
+                        <i class="material-symbols-outlined" style="font-size: 3rem">breaking_news</i>
+                    
+                </div>
+                <div class="news-text">
+                    <div class="news-text-title">
+                        Jan 21, 2023 - Seven papers accepted by ICLR 2023:
+                    </div>
+                    <div class="news-text-desc" style="-webkit-line-clamp: 10;max-height: 10000px;">
+                        "ERL-Re2: Efficient Evolutionary Reinforcement Learning with Shared State Representation and Individual Policy Representation","Breaking the Curse of Dimensionality in Multiagent State Space: A Unified Agent Permutation Framework","EUCLID: Towards Efficient Unsupervised Reinforcement Learning with Multi-choice Dynamics Model","Learnable Behavior Control: Breaking Atari Human World Records via Sample-Efficient Behavior Selection","DAG Matters! GFlowNets Enhanced Explainer for Graph Neural Networks","CFlowNets: Continuous control with Generative Flow Network","Out-of-distribution Detection with Implicit Outlier Transformation"
+                    </div>
+                </div>
+            </div>
+            
+                <div class="news-divider"></div>
+            
+        
+            <div class="news-item">
+                <div class="news-icon">
+                    
+                        <i class="material-symbols-outlined" style="font-size: 3rem">breaking_news</i>
+                    
+                </div>
+                <div class="news-text">
+                    <div class="news-text-title">
+                        Nov 25, 2022 - Four papers accepted by AAAI 2023:
+                    </div>
+                    <div class="news-text-desc" style="-webkit-line-clamp: 10;max-height: 10000px;">
+                        "SplitNet: A Reinforcement Learning based Sequence Splitting Method for the MinMax Multiple Travelling Salesman Problem","Neighbor Auto-Grouping Graph Neural Networks for Handover Parameter Configuration in Cellular Network","Structure Aware Incremental Learning with Personalized Imitation Weights for Recommender Systems","Models as Agents: Optimizing Muti-Step Predictions of interactive Local Models in Model-Based Multi-Agent Reinforcement Learning"
+                    </div>
+                </div>
+            </div>
+            
+                <div class="news-divider"></div>
+            
+        
+            <div class="news-item">
+                <div class="news-icon">
+                    
+                        <i class="material-symbols-outlined" style="font-size: 3rem">breaking_news</i>
+                    
+                </div>
+                <div class="news-text">
+                    <div class="news-text-title">
+                        Sep 15, 2022 - Seven papers accepted by NeurIPS 2022:
+                    </div>
+                    <div class="news-text-desc" style="-webkit-line-clamp: 10;max-height: 10000px;">
+                        "Multiagent Q-learning with Sub-Team Coordination","Transformer-based Working Memory for Multiagent Reinforcement Learning with Action Parsing","GALOIS: Boosting Deep Reinforcement Learning via Generalizable Logic Synthesis","Versatile Multi-stage Graph Neural Network for Circuit Representation","The Policy-gradient Placement and Generative Routing Neural Networks for Chip Design","DOMINO: Decomposed Mutual Information Optimization for Generalized Context in Meta-Reinforcement Learning","Plan To Predict: Learning an Uncertainty-Foreseeing Model For Model-Based Reinforcement Learning"
+                    </div>
+                </div>
+            </div>
+            
+                <div class="news-divider"></div>
+            
+        
+            <div class="news-item">
+                <div class="news-icon">
+                    
+                        <i class="material-symbols-outlined" style="font-size: 3rem">breaking_news</i>
+                    
+                </div>
+                <div class="news-text">
+                    <div class="news-text-title">
+                        May 18, 2022 - Five papers accepted by ICML 2022:
+                    </div>
+                    <div class="news-text-desc" style="-webkit-line-clamp: 10;max-height: 10000px;">
+                        "PMIC: Improving Multi-Agent Reinforcement Learning with Progressive Mutual Information Collaboration","Individual Reward Assisted Multi-Agent Reinforcement Learning","Plan Your Target and Learn Your Skills: Transferable State-Only lmitation Learning via Decoupled Policy Optimization","Neuro-Symbolic Hierarchical Rule Induction","Learning Pseudometric-based Action Representations for Offline Reinforcement Learning"
+                    </div>
+                </div>
+            </div>
+            
+                <div class="news-divider"></div>
+            
+        
+            <div class="news-item">
+                <div class="news-icon">
+                    
+                        <i class="material-symbols-outlined" style="font-size: 3rem">breaking_news</i>
+                    
+                </div>
+                <div class="news-text">
+                    <div class="news-text-title">
+                        Apr 21, 2022 - One paper accepted by IJCAI 2022:
+                    </div>
+                    <div class="news-text-desc" style="-webkit-line-clamp: 10;max-height: 10000px;">
+                        "PAnDR: Fast Adaptation to New Environments from Offline Experiences via Decoupling Policy and Environment Representations"
+                    </div>
+                </div>
+            </div>
+            
+                <div class="news-divider"></div>
+            
+        
+            <div class="news-item">
+                <div class="news-icon">
+                    
+                        <i class="material-symbols-outlined" style="font-size: 3rem">breaking_news</i>
+                    
+                </div>
+                <div class="news-text">
+                    <div class="news-text-title">
+                        Jan 28, 2022 - Three papers accepted by ICLR 2022:
+                    </div>
+                    <div class="news-text-desc" style="-webkit-line-clamp: 10;max-height: 10000px;">
+                        "HyAR: Addressing Discrete-Continuous Action Reinforcement Learning via Hybrid Action Representation",                                                    "Online Ad Hoc Teamwork under Partial Observability",                                                    "Learning State Representations via Retracing in Reinforcement Learning"
+                    </div>
+                </div>
+            </div>
+            
+                <div class="news-divider"></div>
+            
+        
+            <div class="news-item">
+                <div class="news-icon">
+                    
+                        <i class="material-symbols-outlined" style="font-size: 3rem">breaking_news</i>
+                    
+                </div>
+                <div class="news-text">
+                    <div class="news-text-title">
+                        Dec  1, 2021 - One paper accepted by AAAI 2022:
+                    </div>
+                    <div class="news-text-desc" style="-webkit-line-clamp: 10;max-height: 10000px;">
+                        "What About Inputing Policy in Value Function: Policy Representation and Policy-extended Value Function Approximator"
+                    </div>
+                </div>
+            </div>
+            
+                <div class="news-divider"></div>
+            
+        
+            <div class="news-item">
+                <div class="news-icon">
+                    
+                        <i class="material-symbols-outlined" style="font-size: 3rem">breaking_news</i>
+                    
+                </div>
+                <div class="news-text">
+                    <div class="news-text-title">
+                        Nov  9, 2021 - Runner-up, Best Paper Award in PRICAI 2021:
+                    </div>
+                    <div class="news-text-desc" style="-webkit-line-clamp: 10;max-height: 10000px;">
+                        "Detecting and Learning Against Unknown Opponents for Automated Negotiations"
+                    </div>
+                </div>
+            </div>
+            
+                <div class="news-divider"></div>
+            
+        
+            <div class="news-item">
+                <div class="news-icon">
+                    
+                        <i class="material-symbols-outlined" style="font-size: 3rem">breaking_news</i>
+                    
+                </div>
+                <div class="news-text">
+                    <div class="news-text-title">
+                        Oct  1, 2021 - Six papers accepted by NeurIPS 2021:
+                    </div>
+                    <div class="news-text-desc" style="-webkit-line-clamp: 10;max-height: 10000px;">
+                        "Dynamic Bottleneck for Robust Self-Supervised Exploration","Flattening Sharpness for Dynamic Gradient Projection Memory Benefits Continual Learning","Model-Based Reinforcement Learning via Imagination with Derived Memory","A Reinforcement Learning Based Bi-level Optimization Framework for Large-scale Dynamic Pickup and Delivery Problems"，"Adaptive Online Packing-guided Search for POMDPs","An Efficient Transfer Learning Framework for Multiagent Reinforcement Learning"
+                    </div>
+                </div>
+            </div>
+            
+                <div class="news-divider"></div>
+            
+        
+            <div class="news-item">
+                <div class="news-icon">
+                    
+                        <i class="material-symbols-outlined" style="font-size: 3rem">breaking_news</i>
+                    
+                </div>
+                <div class="news-text">
+                    <div class="news-text-title">
+                        Jun  5, 2021 - One paper accepted by ICML 2021:
+                    </div>
+                    <div class="news-text-desc" style="-webkit-line-clamp: 10;max-height: 10000px;">
+                        " Principled Exploration via Optimistic Bootstrapping and Backward Induction"
+                    </div>
+                </div>
+            </div>
+            
+                <div class="news-divider"></div>
+            
+        
+            <div class="news-item">
+                <div class="news-icon">
+                    
+                        <i class="material-symbols-outlined" style="font-size: 3rem">breaking_news</i>
+                    
+                </div>
+                <div class="news-text">
+                    <div class="news-text-title">
+                        May 22, 2021 - One paper accepted by KDD 2021:
+                    </div>
+                    <div class="news-text-desc" style="-webkit-line-clamp: 10;max-height: 10000px;">
+                        " A Multi-Graph Attributed Reinforcement Learning based Optimization Algorithm for Large-scale Hybrid Flow Shop Scheduling Problem"
+                    </div>
+                </div>
+            </div>
+            
+                <div class="news-divider"></div>
+            
+        
+            <div class="news-item">
+                <div class="news-icon">
+                    
+                        <i class="material-symbols-outlined" style="font-size: 3rem">breaking_news</i>
+                    
+                </div>
+                <div class="news-text">
+                    <div class="news-text-title">
+                        Apr 30, 2021 - One paper accepted by IJCAI 2021:
+                    </div>
+                    <div class="news-text-desc" style="-webkit-line-clamp: 10;max-height: 10000px;">
+                        " Ordering-Based Causal Discovery with Reinforcement Learning"
+                    </div>
+                </div>
+            </div>
+            
+                <div class="news-divider"></div>
+            
+        
+            <div class="news-item">
+                <div class="news-icon">
+                    
+                        <i class="material-symbols-outlined" style="font-size: 3rem">breaking_news</i>
+                    
+                </div>
+                <div class="news-text">
+                    <div class="news-text-title">
+                        Apr 27, 2021 - One paper accepted by IEEE Transaction on Smart Grid 2021:
+                    </div>
+                    <div class="news-text-desc" style="-webkit-line-clamp: 10;max-height: 10000px;">
+                        " Vulnerability Assessment of Deep Reinforcement Learning Models for Power System Topology Optimization"
+                    </div>
+                </div>
+            </div>
+            
+                <div class="news-divider"></div>
+            
+        
+            <div class="news-item">
+                <div class="news-icon">
+                    
+                        <i class="material-symbols-outlined" style="font-size: 3rem">breaking_news</i>
+                    
+                </div>
+                <div class="news-text">
+                    <div class="news-text-title">
+                        Jan  1, 2021 - One paper accepted by ICSE 2021:
+                    </div>
+                    <div class="news-text-desc" style="-webkit-line-clamp: 10;max-height: 10000px;">
+                        " Automatic Web Testing using Curiosity-Driven Reinforcement Learning"
+                    </div>
+                </div>
+            </div>
+            
+                <div class="news-divider"></div>
+            
+        
+            <div class="news-item">
+                <div class="news-icon">
+                    
+                        <i class="material-symbols-outlined" style="font-size: 3rem">breaking_news</i>
+                    
+                </div>
+                <div class="news-text">
+                    <div class="news-text-title">
+                        Dec  4, 2020 - Three papers accepted by AAAI 2021:
+                    </div>
+                    <div class="news-text-desc" style="-webkit-line-clamp: 10;max-height: 10000px;">
+                        "Foresee then Evaluate: Decomposing Value Estimation with Latent Future Prediction","Towards Effective Context for Meta-Reinforcement Learning: an Approach based on Contrastive Learning","Addressing Action Oscillations through Learning Policy Inertia"
+                    </div>
+                </div>
+            </div>
+            
+                <div class="news-divider"></div>
+            
+        
+            <div class="news-item">
+                <div class="news-icon">
+                    
+                        <i class="material-symbols-outlined" style="font-size: 3rem">breaking_news</i>
+                    
+                </div>
+                <div class="news-text">
+                    <div class="news-text-title">
+                        Sep 30, 2020 - One paper accepted by NeurIPS 2020:
+                    </div>
+                    <div class="news-text-desc" style="-webkit-line-clamp: 10;max-height: 10000px;">
+                        "Learning to Utilize Shaping Rewards: A New Approach of Reward Shaping"
+                    </div>
+                </div>
+            </div>
+            
+                <div class="news-divider"></div>
+            
+        
+            <div class="news-item">
+                <div class="news-icon">
+                    
+                        <i class="material-symbols-outlined" style="font-size: 3rem">breaking_news</i>
+                    
+                </div>
+                <div class="news-text">
+                    <div class="news-text-title">
+                        Jun  3, 2020 - Two papers accepted by ICML 2020:
+                    </div>
+                    <div class="news-text-desc" style="-webkit-line-clamp: 10;max-height: 10000px;">
+                        "Dynamic Knapsack Optimization Towards Efficient Multi-Channel Sequential Advertising","Q-value Path Decomposition for Deep Multiagent Reinforcement Learning"
+                    </div>
+                </div>
+            </div>
+            
+                <div class="news-divider"></div>
+            
+        
+            <div class="news-item">
+                <div class="news-icon">
+                    
+                        <i class="material-symbols-outlined" style="font-size: 3rem">breaking_news</i>
+                    
+                </div>
+                <div class="news-text">
+                    <div class="news-text-title">
+                        Apr 21, 2020 - Five papers accepted by IJCAI 2020:
+                    </div>
+                    <div class="news-text-desc" style="-webkit-line-clamp: 10;max-height: 10000px;">
+                        "Learning to Accelerate Heuristic Searching for Large-Scale MaximumWeighted b-Matching Problems in Online Advertising","Efficient Deep Reinforcement Learning via Adaptive Policy Transfer "," Generating Behavior-Diverse Game AIs with Evolutionary Multi-Objectives Deep Reinforcement Learning"," Triple-GAIL: A Multi-Modal Imitation Learning Framework with Generative Adversarial Nets"，"KoGuN: Accelerating Deep Reinforcement Learning via Integrating Human Suboptimal Knowledge"
+                    </div>
+                </div>
+            </div>
+            
+                <div class="news-divider"></div>
+            
+        
+            <div class="news-item">
+                <div class="news-icon">
+                    
+                        <i class="material-symbols-outlined" style="font-size: 3rem">breaking_news</i>
+                    
+                </div>
+                <div class="news-text">
+                    <div class="news-text-title">
+                        Oct 22, 2019 - ACM SIGSOFT Distinguished Paper Award in ASE 2019:
+                    </div>
+                    <div class="news-text-desc" style="-webkit-line-clamp: 10;max-height: 10000px;">
+                        " Wuji: Automatic Online Combat Game Testing Using Evolutionary Deep Reinforcement Learning"
+                    </div>
+                </div>
+            </div>
+            
+                <div class="news-divider"></div>
+            
+        
+            <div class="news-item">
+                <div class="news-icon">
+                    
+                        <i class="material-symbols-outlined" style="font-size: 3rem">breaking_news</i>
+                    
+                </div>
+                <div class="news-text">
+                    <div class="news-text-title">
+                        Oct 15, 2019 - Best Paper Award in DAI 2019:
+                    </div>
+                    <div class="news-text-desc" style="-webkit-line-clamp: 10;max-height: 10000px;">
+                        " Achieving Cooperation Through Deep Multiagent Reinforcement Learning in Sequential Prisoner's Dilemmas"
+                    </div>
+                </div>
+            </div>
+            
+        
+    </div>
+</section>
+
+<section id="footer">
+    <div class="footer-body">
+        <div class="footer-body-holder">
+            <div class="logos">
+                <div class="logo"
+                     style="background-image: url('/assets/image/logo-white.png');"></div>
+                <div class="text">
+                <span class="strong">
+                Deep Reinforcement- Learning
+                </span>
+                    Laboratory
+                </div>
+            </div>
+            <div class="footer-divider"></div>
+            <div class="footer-actions">
+                <div class="action-item extra-margin">
+                    <div class="action-title">
+                        Contact Us
+                    </div>
+                    <div class="action-body action-item">
+                        <table style="border-spacing: 14px;border-collapse: collapse;user-select: text">
+                            <tr>
+                                <td style="width: 120px;vertical-align: top">
+                                    <i class="material-icons">location_on</i>
+                                </td>
+                                <td style="width: 550px;vertical-align: top">
+                                    天津市津南区海河教育园区雅观路135号天津大学软件学院55号楼A区
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="display: flex; align-items: center"><i class="material-icons">mail</i></td>
+                                <td>
+                                    <a class="hover-blue" href="mailto:jianye.hao@tju.edu.cn"
+                                       style="color: white;text-decoration: underline;">
+                                        jianye.hao@tju.edu.cn
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr style="display: none">
+                                <td>Phone:</td>
+                                <td>(+22) 123 - 4567 - 900</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+
+        <div>
+            <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+        </div>
+        <div>
+            <span>©️ TIANJIN UNIVERSITY-DEEP REINFORCEMENT LEARNING LAB</span>
+            <span style="margin-left: 25px;">ALL RIGHTS RESERVED</span><br/>
+        </div>
+    </div>
+</section>
+</body>
+</html>
