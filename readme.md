@@ -35,3 +35,9 @@ edit the json file in ``/_data/*.json``
   "invert": "boolean"
 }
 ```
+
+### About deploy site
+
+git clone git@github.com:TJU-DRL-LAB/rl.beiyang.ren.git --depth=1 --filter=tree:_site/
+
+
