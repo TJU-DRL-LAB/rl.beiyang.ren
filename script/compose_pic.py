@@ -14,8 +14,8 @@ for filename in os.listdir(folder_path):
         try:
             image = Image.open(os.path.join(folder_path, filename))
     
-            if os.path.getsize(os.path.join(folder_path, filename)) > 512 * 512:
-                image = image.resize((int(image.size[0]*0.5), int(image.size[1]*0.5)))
+            if os.path.getsize(os.path.join(folder_path, filename)) > 300 * 300:
+                image = image.resize((int(image.size[0]*0.6), int(image.size[1]*0.6)))
                 image.save(os.path.join(folder_path, filename))
         except:
             print(filename)
