@@ -3,9 +3,26 @@
     "desc": "Our lab has several Ph.D. and Master positions. If you are interested in our research, please send us your CV. (jianye.hao@tju.edu.cn / yanzheng@tju.edu.cn) <br><br> 实验室长期接受优秀同学交流学习，攻读硕士/博士学位的同学加入。同时欢迎感兴趣学部（院）夏令营活动的同学进行邮件联系！",
     "balance_wrap": true,
     "poster": [
-      "assets/image/poster.jpg",
-      "assets/image/yyf.png",
-      "assets/image/research/metadiffuer.png"
+        {
+            "image": "assets/image/index/api.png",
+            "link": "https://openreview.net/pdf?id=OxNQXyZK-K8",
+            "title": "Boosting Multiagent Reinforcement Learning via Permutation Invariant and Permutation Equivariant Networks"
+        },
+        {
+            "image": "assets/image/index/euclid.png",
+            "link": "https://arxiv.org/abs/2210.00498",
+            "title": "EUCLID: Towards Efficient Unsupervised Reinforcement Learning with Multi-choice Dynamics Model"
+        },
+        {
+            "image": "assets/image/index/metadiffuer.png",
+            "link": "https://arxiv.org/abs/2305.19923",
+            "title": "MetaDiffuser: Diffusion Model as Conditional Planner for Offline Meta-RL"
+        },
+        {
+            "image": "assets/image/index/re2.png",
+            "link": "https://openreview.net/pdf?id=FYZCHEtt6H0",
+            "title": "ERL-Re2: Efficient Evolutionary Reinforcement Learning with Shared State Representation and Individual Policy Representation"
+        }
     ],
     "news": 4,
     "post": 4

@@ -8,10 +8,10 @@ section#poster {
 
 :root {
     --left-part-width: 70vw;
-    --image-padding: 30px;
-    --image-size: 50vh;
+    --image-padding: 20px;
+    --image-size: 75vh;
+    --image-size-height: 50vh;
 }
-
 
 .slogan {
     max-width: 100%;
@@ -34,13 +34,32 @@ section#poster {
 
 .carousel-slide {
     background: center no-repeat;
-    background-size: cover;
+    background-size: contain;
     min-width: 100%;
     min-height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: transform 0.5s ease-in-out;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(85, 85, 85, 0.8);
+  color: whitesmoke;
+  /*font-weight: bold; */
+  padding: 1px 5px;
+  text-align: center;
+  font-family: Manrope, ui-serif;
+  font-size: 1vw; /* 字体大小为视口宽度的3% */
+  /*white-space: nowrap; !* 防止文本换行 *!*/
+}
+
+.carousel-link {
+    color: inherit;  /* 继承父元素的颜色 */
+    text-decoration: none;  /* 去掉下划线 */
 }
 
 .carousel-slide img {
@@ -78,7 +97,7 @@ section#poster {
     top: 50%;
     transform: translate(0, -50%);
     width: calc(var(--image-size) / 2);
-    height: var(--image-size);
+    height: var(--image-size-height);
     border: 10px solid #FFF;
     box-shadow: 0 20px 60px 0 rgba(47, 68, 73, 0.46);
     border-left: none;

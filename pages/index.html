@@ -180,7 +180,7 @@ custom_css:
   }
 
   function startTimer() {
-    timer = setInterval(nextSlide, 3000); // 切换间隔为 3 秒
+    timer = setInterval(nextSlide, 2000); // 切换间隔为 3 秒
   }
 
   function stopTimer() {
@@ -226,7 +226,12 @@ custom_css:
         <div class="poster-background-box">
             <div class="poster-image carousel-container">
                 {% for i in site.data.config.main_page.poster %}
-                    <div class="carousel-slide" style="background-image: url('{{ i }}')">
+                    <div class="carousel-slide" style="background-image: url('{{ i.image }}')">
+                        <div class="carousel-caption">
+                            <a href="{{ i.link }}" class="carousel-link">
+                                <p>{{ i.title }}</p>
+                            </a>
+                        </div>
                     </div>
                 {% endfor %}
             </div>
