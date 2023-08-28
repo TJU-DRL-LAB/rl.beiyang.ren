@@ -39,22 +39,36 @@ custom_css:
     <div class="filter-card">
         <div class="card">
             <div class="card-content">
-                <div class="filter-title">
-                    Year:
-                </div>
+                {% comment %}<div class="filter-title">{% endcomment %}
+                    {% comment %}Year:{% endcomment %}
+                {% comment %}</div>a{% endcomment %}
                 <form id="year-filter-form" class="grid-container">
                     {% assign current_year = "" %}
                     {% assign sorted_publications = publications %}
                     {% for publication in sorted_publications %}
                         {% assign year = publication.date %}
                         {% if year != current_year %}
-                            <label>
-                                <input checked onchange="filterChange(event)" type="checkbox"
-                                       class="filled-in year-checkbox"
-                                       value="{{ year }}"/>
-                                <span>{{ year }}</span>
-                            </label>
-                            {% assign current_year = year %}
+                            {% assign nYear = year | plus: 0 %}
+                            {% if current_year == -1 %}
+                                {% continue %}
+                            {% endif %}
+                            {% if nYear >= site.data.config.publications.previous %}
+                                <label>
+                                    <input checked onchange="filterChange(event)" type="checkbox"
+                                           class="filled-in year-checkbox"
+                                           value="{{ year }}"/>
+                                    <span>{{ year }}</span>
+                                </label>
+                                {% assign current_year = year %}
+                            {% else %}
+                                <label>
+                                    <input checked onchange="filterChange(event)" type="checkbox"
+                                           class="filled-in year-checkbox"
+                                           value="previous"/>
+                                    <span>Previous</span>
+                                </label>
+                                {% assign current_year = -1 %}
+                            {% endif %}
                         {% endif %}
                     {% endfor %}
                     <!-- Add more year options as needed -->
@@ -65,12 +79,20 @@ custom_css:
 
 
     {% assign current_year = "" %}
-    {% assign sorted_publications = publications  %}
+    {% assign sorted_publications = publications %}
     {% for publication in sorted_publications %}
         {% assign year = publication.date %}
         {% if year != current_year %}
-            <h1 data-year="{{ year }}">{{ year }}</h1>
-            {% assign current_year = year %}
+            {% assign nYear = year | plus: 0 %}
+            {% if current_year != "previous" %}
+                {% if nYear >= site.data.config.publications.previous %}
+                    <h1 data-year="{{ year }}">{{ year }}</h1>
+                    {% assign current_year = year %}
+                {% else %}
+                    <h1 data-year="previous">Previous</h1>
+                    {% assign current_year = "previous" %}
+                {% endif %}
+            {% endif %}
         {% endif %}
         <div class="journey-item" data-year="{{ current_year }}">
             <h3 class="publication-title">

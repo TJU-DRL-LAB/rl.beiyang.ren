@@ -7,6 +7,7 @@
     "post": 4
   },
   "publications": {
-    "show_index": false
+    "show_index": false,
+    "previous": 2020
   }
 }

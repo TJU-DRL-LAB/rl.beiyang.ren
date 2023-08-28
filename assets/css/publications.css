@@ -89,42 +89,48 @@
 .grid-container {
     flex: 1;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-auto-rows: 1.3rem;
     grid-gap: 30px;
 }
 
-@media screen and (min-width: 1200px) {
-    .filter-card {
-        position: fixed;
-        top: 17vh;
-        width: 10%;
-        left: 5%;
-    }
-
-    .filter-card > .card {
-        padding-right: 0;
-        padding-bottom: 0;
-    }
-
-
-    .card-content {
-        flex-direction: column;
-        height: 100%;
-    }
-
-    .filter-title {
-        text-align: start;
-        margin-bottom: 30px;
-    }
-
+@media screen and (max-width: 800px) {
     .grid-container {
-        overflow-y: auto;
-        min-height: 120px;
-        max-height: calc(100vh - 60vh - 30px);
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
     }
 }
+
+/*@media screen and (min-width: 1200px) {*/
+/*    .filter-card {*/
+/*        position: fixed;*/
+/*        top: 17vh;*/
+/*        width: 10%;*/
+/*        left: 5%;*/
+/*    }*/
+
+/*    .filter-card > .card {*/
+/*        padding-right: 0;*/
+/*        padding-bottom: 0;*/
+/*    }*/
+
+
+/*    .card-content {*/
+/*        flex-direction: column;*/
+/*        height: 100%;*/
+/*    }*/
+
+/*    .filter-title {*/
+/*        text-align: start;*/
+/*        margin-bottom: 30px;*/
+/*    }*/
+
+/*    .grid-container {*/
+/*        overflow-y: auto;*/
+/*        min-height: 120px;*/
+/*        max-height: calc(100vh - 60vh - 30px);*/
+/*        grid-template-columns: repeat(1, 1fr);*/
+/*    }*/
+/*}*/
 
 @media screen and (max-height: 600px) {
     .filter-title {
