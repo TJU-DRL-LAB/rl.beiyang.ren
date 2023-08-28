@@ -4,11 +4,6 @@
     "balance_wrap": true,
     "poster": [
         {
-            "image": "assets/image/index/api.png",
-            "link": "https://openreview.net/pdf?id=OxNQXyZK-K8",
-            "title": "Boosting Multiagent Reinforcement Learning via Permutation Invariant and Permutation Equivariant Networks"
-        },
-        {
             "image": "assets/image/index/euclid.png",
             "link": "https://arxiv.org/abs/2210.00498",
             "title": "EUCLID: Towards Efficient Unsupervised Reinforcement Learning with Multi-choice Dynamics Model"
@@ -22,6 +17,11 @@
             "image": "assets/image/index/re2.png",
             "link": "https://openreview.net/pdf?id=FYZCHEtt6H0",
             "title": "ERL-Re2: Efficient Evolutionary Reinforcement Learning with Shared State Representation and Individual Policy Representation"
+        },
+        {
+            "image": "assets/image/index/api.png",
+            "link": "https://openreview.net/pdf?id=OxNQXyZK-K8",
+            "title": "Boosting Multiagent Reinforcement Learning via Permutation Invariant and Permutation Equivariant Networks"
         }
     ],
     "news": 4,
