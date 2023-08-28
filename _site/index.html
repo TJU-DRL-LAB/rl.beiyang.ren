@@ -260,6 +260,47 @@
   
 </script>
 
+<script>
+  console.log("get")
+  let currentIndex = 0;
+  let timer;
+  let slides;
+
+  function showSlide(index) {
+    slides.forEach(slide => {
+      slide.style.transform = `translateX(${-index * 100}%)`;
+    });
+  }
+
+  function nextSlide() {
+    currentIndex = (currentIndex + 1) % slides.length;
+    console.log(slides.length);
+    showSlide(currentIndex);
+  }
+
+  function startTimer() {
+    timer = setInterval(nextSlide, 3000); // 切换间隔为 3 秒
+  }
+
+  function stopTimer() {
+    clearInterval(timer);
+  }
+
+  function begin() {
+    slides = document.querySelectorAll('.carousel-slide');
+    showSlide(currentIndex);
+    startTimer();
+    slides.forEach(slide => {
+      slide.addEventListener('mouseenter', stopTimer);
+      slide.addEventListener('mouseleave', startTimer);
+    });
+  }
+
+  window.addEventListener('DOMContentLoaded', () => {
+    begin();
+  });
+</script>
+
 <section id="poster">
     <div class="slogan">
         <div class="slogan-area">
@@ -282,8 +323,20 @@
     </div>
     <div class="poster-background">
         <div class="poster-background-box">
-            <div class="poster-image"
-                 style="background-image: url('assets/image/poster.jpg')"></div>
+            <div class="poster-image carousel-container">
+                
+                    <div class="carousel-slide" style="background-image: url('assets/image/poster.jpg')">
+                    </div>
+                
+                    <div class="carousel-slide" style="background-image: url('assets/image/yyf.png')">
+                    </div>
+                
+                    <div class="carousel-slide" style="background-image: url('assets/image/research/metadiffuer.png')">
+                    </div>
+                
+            </div>
+            
+            
         </div>
     </div>
 </section>
@@ -401,9 +454,9 @@
             <div class="research-card" data-url="/2023/08/02/MetaDiffuser.html">
                 <div class="research-image"
                      style="background-image: url('/assets/image/research/metadiffuer.png');
-                         
-                                 background-size:contain;
-                         ">
+                     
+                             background-size:contain;
+                     ">
                 </div>
                 <div class="research-body">
                     <div class="research-card-title">
@@ -414,9 +467,9 @@
                     </div>
                     <div class="research-card-action">
                         
-                        <a target="_blank" href="http://proceedings.mlr.press/v202/ni23a/ni23a.pdf" class="banner">PDF</a>
+                            <a target="_blank" href="http://proceedings.mlr.press/v202/ni23a/ni23a.pdf" class="banner">PDF</a>
                         
-                        <a target="_blank" href="https://metadiffuser.github.io" class="banner">Site</a>
+                            <a target="_blank" href="https://metadiffuser.github.io" class="banner">Site</a>
                         
                     </div>
                 </div>

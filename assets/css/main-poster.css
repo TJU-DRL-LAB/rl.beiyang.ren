@@ -25,6 +25,29 @@ section#poster {
     transition: all .25s ease-in-out;
 }
 
+.carousel-container {
+    width: 400px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+.carousel-slide {
+    background: center no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 @keyframes zoomIn {
     from {
         transform: scale(.5);

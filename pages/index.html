@@ -161,6 +161,47 @@ custom_css:
   {% endif %}
 </script>
 
+<script>
+  console.log("get")
+  let currentIndex = 0;
+  let timer;
+  let slides;
+
+  function showSlide(index) {
+    slides.forEach(slide => {
+      slide.style.transform = `translateX(${-index * 100}%)`;
+    });
+  }
+
+  function nextSlide() {
+    currentIndex = (currentIndex + 1) % slides.length;
+    console.log(slides.length);
+    showSlide(currentIndex);
+  }
+
+  function startTimer() {
+    timer = setInterval(nextSlide, 3000); // 切换间隔为 3 秒
+  }
+
+  function stopTimer() {
+    clearInterval(timer);
+  }
+
+  function begin() {
+    slides = document.querySelectorAll('.carousel-slide');
+    showSlide(currentIndex);
+    startTimer();
+    slides.forEach(slide => {
+      slide.addEventListener('mouseenter', stopTimer);
+      slide.addEventListener('mouseleave', startTimer);
+    });
+  }
+
+  window.addEventListener('DOMContentLoaded', () => {
+    begin();
+  });
+</script>
+
 <section id="poster">
     <div class="slogan">
         <div class="slogan-area">
@@ -183,8 +224,14 @@ custom_css:
     </div>
     <div class="poster-background">
         <div class="poster-background-box">
-            <div class="poster-image"
-                 style="background-image: url('{{ site.data.config.main_page.poster }}')"></div>
+            <div class="poster-image carousel-container">
+                {% for i in site.data.config.main_page.poster %}
+                    <div class="carousel-slide" style="background-image: url('{{ i }}')">
+                    </div>
+                {% endfor %}
+            </div>
+            {% comment %}<div class=""{% endcomment %}
+            {% comment %}style="background-image: url('{{ site.data.config.main_page.poster }}')"></div>{% endcomment %}
         </div>
     </div>
 </section>
@@ -252,9 +299,9 @@ custom_css:
             <div class="research-card" data-url="{{ site.baseurl }}{{ post.url }}">
                 <div class="research-image"
                      style="background-image: url('{% if post.internal %}{{ site.baseurl }}{% endif %}{{ post.poster }}');
-                         {% if post.contain_poster %}
-                                 background-size:contain;
-                         {% endif %}">
+                     {% if post.contain_poster %}
+                             background-size:contain;
+                     {% endif %}">
                 </div>
                 <div class="research-body">
                     <div class="research-card-title">
@@ -265,7 +312,7 @@ custom_css:
                     </div>
                     <div class="research-card-action">
                         {% for link in post.links %}
-                        <a target="_blank" href="{{ link.link }}" class="banner">{{ link.name }}</a>
+                            <a target="_blank" href="{{ link.link }}" class="banner">{{ link.name }}</a>
                         {% endfor %}
                     </div>
                 </div>
