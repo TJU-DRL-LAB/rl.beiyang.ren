@@ -9,8 +9,8 @@ section#poster {
 :root {
     --left-part-width: 70vw;
     --image-padding: 20px;
-    --image-size: 75vh;
-    --image-size-height: 50vh;
+    --image-size: 60vh;
+    --image-size-height: 40vh;
 }
 
 .slogan {
