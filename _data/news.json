@@ -6,12 +6,6 @@
     "google_icon": "breaking_news"
   },
   {
-    "title": "One papers accepted by IJCAI 2023:",
-    "desc": "\"Generative Flow Networks for Precise Reward-Oriented Active Learning on Graphs\"",
-    "date": "2023-04-23",
-    "google_icon": "breaking_news"
-  },
-  {
     "title": "Seven papers accepted by ICLR 2023:",
     "desc": "\"ERL-Re2: Efficient Evolutionary Reinforcement Learning with Shared State Representation and Individual Policy Representation\",\"Breaking the Curse of Dimensionality in Multiagent State Space: A Unified Agent Permutation Framework\",\"EUCLID: Towards Efficient Unsupervised Reinforcement Learning with Multi-choice Dynamics Model\",\"Learnable Behavior Control: Breaking Atari Human World Records via Sample-Efficient Behavior Selection\",\"DAG Matters! GFlowNets Enhanced Explainer for Graph Neural Networks\",\"CFlowNets: Continuous control with Generative Flow Network\",\"Out-of-distribution Detection with Implicit Outlier Transformation\"",
     "date": "2023-01-21",
