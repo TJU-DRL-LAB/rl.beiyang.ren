@@ -1,0 +1,458 @@
+[
+  {
+    "name": "Accelerating deep reinforcement learning via knowledge-guided policy network.",
+    "from": "Journal of Autonomous Agents and Multi-Agent Systems 37(1): 17 (2023) (JAAMAS): 2023",
+    "date": "2023",
+    "authors": "Yuanqiang Yu, Peng Zhang, Kai Zhao, Yan Zheng, Jianye Hao",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.1007/s10458-023-09600-1"
+      }
+    ]
+  },
+  {
+    "name": "A benchmark for automatic medical consultation system: frameworks, tasks and datasets.",
+    "from": "Bioinform 39(1) (2023) (Bioinform.): 2023",
+    "date": "2023",
+    "authors": "Wei Chen, Zhiwei Li, Hongyi Fang, Qianyuan Yao, Cheng Zhong, Jianye Hao, Qi Zhang, Xuanjing Huang, Jiajie Peng, Zhongyu Wei",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.1093/bioinformatics/btac817"
+      }
+    ]
+  },
+  {
+    "name": "A Unified Framework for Layout Pattern Analysis With Deep Causal Estimation.",
+    "from": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems 42(4):\u00a01199-1211\u00a0(2023) (IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.): 2023",
+    "date": "2023",
+    "authors": "Ran Chen, Shoubo Hu, Zhitang Chen, Shengyu Zhu, Bei Yu, Pengyun Li, Cheng Chen, Yu Huang, Jianye Hao",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.1109/TCAD.2022.3192363"
+      }
+    ]
+  },
+  {
+    "name": "Contrastive-ACE: Domain Generalization Through Alignment of Causal Mechanisms.",
+    "from": "IEEE Transactions on Image Processing 32: 235-250 (2023) (IEEE Trans. Image Process.): 2023",
+    "date": "2023",
+    "authors": "Yunqi Wang, Furui Liu, Zhitang Chen, Yik- Chung Wu, Jianye Hao, Guangyong Chen, Pheng- Ann Heng",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.1109/TIP.2022.3227457"
+      }
+    ]
+  },
+  {
+    "name": "A review and performance evaluation of clustering frameworks for single-cell Hi-C data.",
+    "from": "Briefings Bioinform 23(6) (2022) (Briefings Bioinform.): 2022",
+    "date": "2022",
+    "authors": "Caiwei Zhen, Yuxian Wang, Jiaquan Geng, Lu Han, Jingyi Li, Jinghao Peng, Tao Wang, Jianye Hao, Xuequn Shang, Zhongyu Wei, Peican Zhu, Jiajie Peng",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.1093/bib/bbac385"
+      }
+    ]
+  },
+  {
+    "name": "HEBO: An Empirical Study of Assumptions in Bayesian Optimisation.",
+    "from": "Journal of Artificial Intelligence Research 74: 1269-1349 (2022) (JAIR): 2022",
+    "date": "2022",
+    "authors": "Alexander I. Cowen- Rivers, Wenlong Lyu, Rasul Tutunov, Zhi Wang, Antoine Grosnit, Ryan- Rhys Griffiths, Alexandre Max Maraval, Jianye Hao, Jun Wang, Jan Peters, Haitham Bou- Ammar",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.1613/jair.1.13643"
+      }
+    ]
+  },
+  {
+    "name": "Coach-assisted multi-agent reinforcement learning framework for unexpected crashed agents.",
+    "from": "Frontiers in Information Technology and Electronics Engineering 23(7): 1032-1042 (2022) (Frontiers Inf. Technol. Electron. Eng.): 2022",
+    "date": "2022",
+    "authors": "Jian Zhao, Youpeng Zhao, Weixun Wang, Mingyu Yang, Xunhan Hu, Wengang Zhou, Jianye Hao, Houqiang Li",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.1631/FITEE.2100594"
+      }
+    ]
+  },
+  {
+    "name": "SCC-rFMQ: a multiagent reinforcement learning method in cooperative Markov games with continuous actions.",
+    "from": "International Journal of Machine Learning and Cybernetics 13(7): 1927-1944 (2022) (Int. J. Mach. Learn. Cybern.): 2022",
+    "date": "2022",
+    "authors": "Chengwei Zhang, Zhuobing Han, Bingfu Liu, Wanli Xue, Jianye Hao, Xiaohong Li, Dou An, Rong Chen",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.1007/s13042-021-01497-0"
+      }
+    ]
+  },
+  {
+    "name": "Learning to select cuts for efficient mixed-integer programming.",
+    "from": "Pattern Recognit. 123: 108353 (2022) (Pattern Recognit.): 2022",
+    "date": "2022",
+    "authors": "Zeren Huang, Kerong Wang, Furui Liu, Hui- Ling Zhen, Weinan Zhang, Mingxuan Yuan, Jianye Hao, Yong Yu, Jun Wang",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.1016/j.patcog.2021.108353"
+      }
+    ]
+  },
+  {
+    "name": "Efficient policy detecting and reusing for non-stationarity in Markov games.",
+    "from": "Journal of Autonomous Agents and Multi-Agent Systems 35(1): 2 (2021) (JAAMAS): 2021",
+    "date": "2021",
+    "authors": "Yan Zheng, Jianye Hao, Zongzhang Zhang, Zhaopeng Meng, Tianpei Yang, Yanran Li, Changjie Fan",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.1007/s10458-020-09480-9"
+      }
+    ]
+  },
+  {
+    "name": "Integrating multi-network topology for gene function prediction using deep neural networks.",
+    "from": "Briefings Bioinform\u00a0 22(2): 2096-2105 (2021) (Briefings Bioinform.): 2021",
+    "date": "2021",
+    "authors": "Jiajie Peng, Hansheng Xue, Zhongyu Wei, Idil Tuncali, Jianye Hao, Xuequn Shang",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.1093/bib/bbaa036"
+      }
+    ]
+  },
+  {
+    "name": "An end-to-end heterogeneous graph representation learning-based framework for drug-target interaction prediction.",
+    "from": "Briefings Bioinform\u00a0 22(5) (2021) (Briefings Bioinform.): 2021",
+    "date": "2021",
+    "authors": "Jiajie Peng, Yuxian Wang, Jiaojiao Guan, Jingyi Li, Ruijiang Han, Jianye Hao, Zhongyu Wei, Xuequn Shang",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.1093/bib/bbaa430"
+      }
+    ]
+  },
+  {
+    "name": "SC2disease: a manually curated database of single-cell transcriptome for human diseases.",
+    "from": "Nucleic Acids Research 49(Database-Issue): D1413-D1419 (2021) (Nucleic Acids Res.): 2021",
+    "date": "2021",
+    "authors": "Tianyi Zhao, Shuxuan Lyu, Guilin Lu, Liran Juan, Xi Zeng, Zhongyu Wei, Jianye Hao, Jiajie Peng",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.1093/nar/gkaa838"
+      }
+    ]
+  },
+  {
+    "name": "Generalized Centered 2-D Principal Component Analysis.",
+    "from": "IEEE Transactions on Cybernetics 51(3): 1666-1677 (2021) (IEEE Trans. Cybern.): 2021",
+    "date": "2021",
+    "authors": "Gongyu Zhou, Guangquan Xu, Jianye Hao, Shizhan Chen, Junfeng Xu, Xi Zheng",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.1109/TCYB.2019.2931957"
+      }
+    ]
+  },
+  {
+    "name": "Falsification of Cyber-Physical Systems Using Deep Reinforcement Learning.",
+    "from": "IEEE Transactions on Software Engineering 47(12): 2823-2840 (2021) (IEEE TSE): 2021",
+    "date": "2021",
+    "authors": "Yoriyuki Yamagata, Shuang Liu, Takumi Akazaki, Yihai Duan, Jianye Hao",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://arxiv.org/pdf/1805.00200"
+      }
+    ]
+  },
+  {
+    "name": "A Method for Deploying Distributed Denial of Service Attack Defense Strategies on Edge Servers Using Reinforcement Learning.",
+    "from": "IEEE Access8: 78482-78491 (2020) (IEEE Access): 2020",
+    "date": "2020",
+    "authors": "Haodi Zhang, Jianye Hao, Xiaohong Li",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.1109/ACCESS.2020.2989353"
+      }
+    ]
+  },
+  {
+    "name": "Efficient Multiagent Policy Optimization Based on Weighted Estimators in Stochastic Cooperative Environments.",
+    "from": "Journal of Computer Science and Technology 35(2): 268-280 (2020) (J. Comput. Sci. Technol.): 2020",
+    "date": "2020",
+    "authors": "Yan Zheng, Jianye Hao, Zongzhang Zhang, Zhao- Peng Meng, Xiaotian Hao",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.1007/s11390-020-9967-6"
+      }
+    ]
+  },
+  {
+    "name": "SA-IGA: a multiagent reinforcement learning method towards socially optimal outcomes.",
+    "from": "Autonomous Agents and Multi-Agent Systems 33(4): 403-429 (2019) (JAAMAS): 2019",
+    "date": "2019",
+    "authors": "Chengwei Zhang, Xiaohong Li, Jianye Hao, Siqi Chen, Karl Tuyls, Wanli Xue, Zhiyong Feng",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.1007/s10458-019-09411-3"
+      }
+    ]
+  },
+  {
+    "name": "A learning-based framework for miRNA-disease association identification using neural networks.",
+    "from": "Bioinform 35(21): 4364-4371 (2019) (Bioinform.): 2019",
+    "date": "2019",
+    "authors": "Jiajie Peng, Weiwei Hui, Qianqian Li, Bolin Chen, Jianye Hao, Qinghua Jiang, Xuequn Shang, Zhongyu Wei",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.1093/bioinformatics/btz254"
+      }
+    ]
+  },
+  {
+    "name": "Using deep reinforcement learning to speed up collective cell migration.",
+    "from": "BMC Bioinformatics 20-S(18): 571:1-571:10 (2019) (BMC Bioinform.): 2019",
+    "date": "2019",
+    "authors": "Hanxu Hou, Tian Gan, Yaodong Yang, Xianglei Zhu, Sen Liu, Weiming Guo, Jianye Hao",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.1186/s12859-019-3126-5"
+      }
+    ]
+  },
+  {
+    "name": "Attention-based recurrent neural network for influenza epidemic prediction.",
+    "from": "BMC Bioinformatics 20-S(18): 575:1-575:10 (2019) (BMC Bioinform.): 2019",
+    "date": "2019",
+    "authors": "Xianglei Zhu, Bofeng Fu, Yaodong Yang, Yu Ma, Jianye Hao, Siqi Chen, Shuang Liu, Tiegang Li, Sen Liu, Weiming Guo, Zhenyu Liao",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.1186/s12859-019-3131-8"
+      }
+    ]
+  },
+  {
+    "name": "LoopFix: an approach to automatic repair of buggy loops.",
+    "from": "Journal of Systems and Software 156: 100-112 (2019) (J. Syst. Softw.): 2019",
+    "date": "2019",
+    "authors": "Weichao Wang, Zhaopeng Meng, Zan Wang, Shuang Liu, Jianye Hao",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.1016/j.jss.2019.06.076"
+      }
+    ]
+  },
+  {
+    "name": "Effective norm emergence in cell systems under limited communication.",
+    "from": "BMC Bioinformatics 19-S(5): 23-35 (2018) (BMC Bioinform.): 2018",
+    "date": "2018",
+    "authors": "Xiaotian Hao, Jianye Hao, Wang Li, Hanxu Hou",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.1186/s12859-018-2097-2"
+      }
+    ]
+  },
+  {
+    "name": "An Adaptive Learning Based Network Selection Approach for 5G Dynamic Environments.",
+    "from": "Entropy 20(4): 236 (2018) (Entropy): 2018",
+    "date": "2018",
+    "authors": "Xiaohong Li, Ru Cao, Jianye Hao",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.3390/e20040236"
+      }
+    ]
+  },
+  {
+    "name": "Efficient and Robust Emergence of Norms through Heuristic Collective Learning.",
+    "from": "ACM Transactions on Autonomous and Adaptive Systems 12(4): 23:1-23:20 (2018) (ACM Trans. Auton. Adapt. Syst.): 2018",
+    "date": "2018",
+    "authors": "Jianye Hao, Jun Sun, Guangyong Chen, Zan Wang, Chao Yu, Zhong Ming",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.1145/3127498"
+      }
+    ]
+  },
+  {
+    "name": "An Adaptive Markov Strategy for Defending Smart Grid False Data Injection From Malicious Attackers.",
+    "from": "IEEE Transactions on Smart Grid 9(4): 2398-2408 (2018) (IEEE TSG): 2018",
+    "date": "2018",
+    "authors": "Jianye Hao, Eunsuk Kang, Jun Sun, Zan Wang, Zhaopeng Meng, Xiaohong Li, Zhong Ming",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.1109/TSG.2016.2610582"
+      }
+    ]
+  },
+  {
+    "name": "Falsification of Cyber-Physical Systems Using Deep Reinforcement Learning.",
+    "from": "Formal Methods: 22nd International Symposium (FM): 2018",
+    "date": "2018",
+    "authors": "Takumi Akazaki, Shuang Liu, Yoriyuki Yamagata, Yihai Duan, Jianye Hao",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://arxiv.org/pdf/1805.00200"
+      }
+    ]
+  },
+  {
+    "name": "The dynamics of reinforcement social learning in networked cooperative multiagent systems.",
+    "from": "The International Conference on Engineering Applications of Artificial Intelligence 58: 111-122 (2017) (Eng. Appl. Artif. Intell.): 2017",
+    "date": "2017",
+    "authors": "Jianye Hao, Dongping Huang, Yi Cai, Ho-fung Leung",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.1016/j.engappai.2016.11.008"
+      }
+    ]
+  },
+  {
+    "name": "Reciprocal Social Strategy in Social Repeated Games and Emergence of Social Norms.",
+    "from": "The International Journal of Artificial Intelligence Tools 26(1): 1760007:1-1760007:33 (2017) (Int. J. Artif. Intell. Tools): 2017",
+    "date": "2017",
+    "authors": "Chi- Kong Chan, Jianye Hao, Ho-fung Leung",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.1142/S0218213017600077"
+      }
+    ]
+  },
+  {
+    "name": "Blind Image Denoising via Dependent Dirichlet Process Tree.",
+    "from": "The IEEE Transactions on Pattern Analysis and Machine Intelligence 39(8): 1518-1531 (2017) (IEEE TPAMI): 2017",
+    "date": "2017",
+    "authors": "Fengyuan Zhu, Guangyong Chen, Jianye Hao, Pheng- Ann Heng",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://arxiv.org/pdf/1601.03117"
+      }
+    ]
+  },
+  {
+    "name": "Effective norm emergence in cell systems under limited communication.",
+    "from": "The 11th International Conference on Bioinformatics and Biomedicine (BIBM): 2017",
+    "date": "2017",
+    "authors": "Xiaotian Hao, Jianye Hao, Wang Li",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.1109/BIBM.2017.8217910"
+      }
+    ]
+  },
+  {
+    "name": "Fepchecker: An Automatic Model Checker for Verifying Fairness and Non-Repudiation of Security Protocols in Web Service.",
+    "from": "The International Journal of Software Engineering and Knowledge Engineering 26(4): 563-586 (2016) (Int. J. Softw. Eng. Knowl. Eng.): 2016",
+    "date": "2016",
+    "authors": "Xiaohong Li, Jiayi Xu, Guangquan Xu, Jianye Hao, Xiaoru Li, Zhiyong Feng, Honghao Gao",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.1142/S0218194016400027"
+      }
+    ]
+  },
+  {
+    "name": "Improved EGT-Based Robustness Analysis of Negotiation Strategies in Multiagent Systems via Model Checking.",
+    "from": "The IEEE Transactions on Human-Machine Systems 46(2): 197-208 (2016) (IEEE Trans. Hum. Mach. Syst.): 2016",
+    "date": "2016",
+    "authors": "Songzheng Song, Jianye Hao, Yang Liu, Jun Sun, Ho-fung Leung, Jie Zhang",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.1109/THMS.2015.2429573"
+      }
+    ]
+  },
+  {
+    "name": "Introducing decision entrustment mechanism into repeated bilateral agent interactions to achieve social optimality.",
+    "from": "The International Conference on Autonomous Agents and Multi-Agent Systems 29(4): 658-682 (2015) (JAAMAS): 2015",
+    "date": "2015",
+    "authors": "Jianye Hao, Ho-fung Leung",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.1007/s10458-014-9265-1"
+      }
+    ]
+  },
+  {
+    "name": "Multiagent Reinforcement Social Learning toward Coordination in Cooperative Multiagent Systems.",
+    "from": "ACM Transactions on Autonomous and Adaptive Systems Syst. 9(4): 20:1-20:20 (2015) (ACM Trans. Auton. Adapt. Syst.): 2015",
+    "date": "2015",
+    "authors": "Jianye Hao, Ho-fung Leung, Zhong Ming",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.1145/2644819"
+      }
+    ]
+  },
+  {
+    "name": "Reinforcement social learning of social optimality with influencer agents.",
+    "from": "Web Intelligence 13(3): 167-178 (2015) (Web Intell.): 2015",
+    "date": "2015",
+    "authors": "Jianye Hao, Ho-fung Leung",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.3233/WEB-150319"
+      }
+    ]
+  },
+  {
+    "name": "An efficient and robust negotiating strategy in bilateral negotiations over multiple items.",
+    "from": "Engineering Applications of Artificial Intelligence 34: 45-57 (2014) (Eng. Appl. Artif. Intell.): 2014",
+    "date": "2014",
+    "authors": "Jianye Hao, Songzheng Song, Ho-fung Leung, Zhong Ming",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.1016/j.engappai.2014.05.008"
+      }
+    ]
+  },
+  {
+    "name": "Achieving Socially Optimal Outcomes in Multiagent Systems with Reinforcement Social Learning.",
+    "from": "ACM Transactions on Autonomous and Adaptive Systems 8(3): 15:1-15:23 (2013) (ACM Trans. Auton. Adapt. Syst.): 2013",
+    "date": "2013",
+    "authors": "Jianye Hao, Ho-fung Leung",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.1145/2517329"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1222 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    <title>Conference</title>
+    
+    <link rel="stylesheet"
+          href="https://fonts.loli.net/css?family=Manrope">
+    <link rel="stylesheet"
+          href="https://fonts.loli.net/css?family=Merriweather:900,900italic,300,300italic">
+    <link href="https://fonts.loli.net/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.loli.net/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.loli.net/css?family=Lato:900,300" rel="stylesheet" type="text/css">
+    <link rel="stylesheet"
+          href="https://fonts.loli.net/css?family=Playfair+Display:400,900">
+
+    <link rel="stylesheet" href="https://fonts.loli.net/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <style>
+        body {
+            cursor: default;
+            padding: 0;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+    </style>
+    <link rel="stylesheet" href="/assets/css/header.css">
+    
+        
+            <link rel="stylesheet" href="/assets/css/publications.css">
+        
+            <link rel="stylesheet" href="/assets/css/news.css">
+        
+    
+    <link rel="stylesheet" href="/assets/css/footer.css">
+    
+
+    
+
+</head>
+<body>
+<script>
+  // Wait for the DOM to fully load
+  document.addEventListener("DOMContentLoaded", () => {
+    // JavaScript code to select all <a> tags with class != "inner"
+    const anchorTagsWithoutInnerClass = document.querySelectorAll('a:not(.inner)');
+
+    // Loop through the selected anchor tags and add the target="_blank" attribute
+    anchorTagsWithoutInnerClass.forEach(anchor => {
+      anchor.setAttribute('target', '_blank');
+    });
+  });
+
+</script>
+<section id="header">
+    <header>
+        <div class="logo">
+            <img src="/assets/image/logo.png" alt=""/>
+        </div>
+        <div class="action">
+            <div class="tab">
+                <a class="tab-item inner" href="/">HOME</a>
+                <a class="tab-item inner" href="/news">NEWS</a>
+                <a class="tab-item inner" href="/research">RESEARCH</a>
+<!--                <a class="tab-item inner" href="/publications">PUBLICATIONS</a>-->
+                 <div class="dropdown-menu">
+                     <span class="text">PUBLICATIONS</span>
+                     <div class="content">
+                         <div onclick="window.location.href ='/conference'" class="tab-item item">
+                             CONFERENCE
+                         </div>
+                         <div class="divider"></div>
+                         <div onclick="window.location.href ='/journey'" class="tab-item item">
+                             JOURNEY
+                         </div>
+                     </div>
+                 </div>
+                <!--<a class="tab-item inner" href="/software">SOFTWARE</a>-->
+                <a class="tab-item inner" href="/team">TEAM</a>
+<!--                <a class="tab-item inner" href="/ibbb">IBBB</a>-->
+<!--                <a class="tab-item inner" href="/events">EVENTS</a>-->
+                <a class="tab-item inner" href="/contact">CONTACT</a>
+            </div>
+            <div style="display: none" class="contact" onclick="window.location.href='/contact'">
+                <span>Contact Us</span>
+            </div>
+            <div class="thin-menu">
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="menu-btn">
+                    <i class="material-icons">menu</i>
+                </label>
+                <ul class="menu">
+                    <li><a class="inner" href="/">HOME</a></li>
+                    <li><a class="inner" href="/news">NEWS</a></li>
+                    <li><a class="inner" href="/research">RESEARCH</a></li>
+<!--                    <li><a class="inner" href="/publications">PUBLICATIONS</a></li>-->
+                    <li><a class="inner" href="/conference">CONFERENCE</a></li>
+                    <li><a class="inner" href="/journey">JOURNEY</a></li>
+                    <!--<li><a class="inner" href="/software">SOFTWARE</a></li>-->
+                    <li><a class="inner" href="/team">TEAM</a></li>
+<!--                    <li><a class="inner" href="/ibbb">IBBB</a></li>-->
+<!--                    <li><a class="inner" href="/events">EVENTS</a></li>-->
+                    <li><a class="inner" href="/contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+</section>
+<div class="content">
+
+    <script>
+      const filterInputs = document.querySelectorAll(".filter-input");
+
+      // Add event listener to each input element
+      filterInputs.forEach(input => {
+        input.addEventListener("change", filterChange);
+      });
+
+      // Event handler function
+      let filterChange = (event) => {
+        let checkbox = event.target;
+        let year = checkbox.value;
+        let elements = document.querySelectorAll(`[data-year="${year}"]`);
+        if (checkbox.checked) {
+          elements.forEach(element => {
+            element.style.display = "block";
+          });
+        } else {
+          elements.forEach(element => {
+            element.style.display = "none";
+          });
+        }
+      }
+    </script>
+
+    
+
+    <div class="filter-card">
+        <div class="card">
+            <div class="card-content">
+                
+                    
+                
+                <form id="year-filter-form" class="grid-container">
+                    
+                    
+                    
+                        
+                        
+                            
+                            
+                            
+                                <label>
+                                    <input checked onchange="filterChange(event)" type="checkbox"
+                                           class="filled-in year-checkbox"
+                                           value="2023"/>
+                                    <span>2023</span>
+                                </label>
+                                
+                            
+                        
+                    
+                        
+                        
+                    
+                        
+                        
+                    
+                        
+                        
+                    
+                        
+                        
+                            
+                            
+                            
+                                <label>
+                                    <input checked onchange="filterChange(event)" type="checkbox"
+                                           class="filled-in year-checkbox"
+                                           value="2022"/>
+                                    <span>2022</span>
+                                </label>
+                                
+                            
+                        
+                    
+                        
+                        
+                    
+                        
+                        
+                    
+                        
+                        
+                    
+                        
+                        
+                    
+                        
+                        
+                            
+                            
+                            
+                                <label>
+                                    <input checked onchange="filterChange(event)" type="checkbox"
+                                           class="filled-in year-checkbox"
+                                           value="2021"/>
+                                    <span>2021</span>
+                                </label>
+                                
+                            
+                        
+                    
+                        
+                        
+                    
+                        
+                        
+                    
+                        
+                        
+                    
+                        
+                        
+                    
+                        
+                        
+                    
+                        
+                        
+                            
+                            
+                            
+                                <label>
+                                    <input checked onchange="filterChange(event)" type="checkbox"
+                                           class="filled-in year-checkbox"
+                                           value="2020"/>
+                                    <span>2020</span>
+                                </label>
+                                
+                            
+                        
+                    
+                        
+                        
+                    
+                        
+                        
+                            
+                            
+                            
+                                <label>
+                                    <input checked onchange="filterChange(event)" type="checkbox"
+                                           class="filled-in year-checkbox"
+                                           value="previous"/>
+                                    <span>2019-</span>
+                                </label>
+                                
+                            
+                        
+                    
+                        
+                        
+                            
+                            
+                                
+                        
+                        
+                            
+                            
+                                
+                        
+                        
+                            
+                            
+                                
+                        
+                        
+                            
+                            
+                                
+                        
+                        
+                            
+                            
+                                
+                        
+                        
+                            
+                            
+                                
+                        
+                        
+                            
+                            
+                                
+                        
+                        
+                            
+                            
+                                
+                        
+                        
+                            
+                            
+                                
+                        
+                        
+                            
+                            
+                                
+                        
+                        
+                            
+                            
+                                
+                        
+                        
+                            
+                            
+                                
+                        
+                        
+                            
+                            
+                                
+                        
+                        
+                            
+                            
+                                
+                        
+                        
+                            
+                            
+                                
+                        
+                        
+                            
+                            
+                                
+                        
+                        
+                            
+                            
+                                
+                        
+                        
+                            
+                            
+                                
+                        
+                        
+                            
+                            
+                                
+                        
+                        
+                            
+                            
+                                
+                    <!-- Add more year options as needed -->
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    
+    
+    
+        
+        
+            
+            
+                
+                    <h1 data-year="2023">2023</h1>
+                    
+                
+            
+        
+        <div class="journey-item" data-year="2023">
+            <h3 class="publication-title">
+                
+                Accelerating deep reinforcement learning via knowledge-guided policy network.
+            </h3>
+            <span class="publication-source">Journal of Autonomous Agents and Multi-Agent Systems 37(1): 17 (2023) (JAAMAS): 2023</span>
+            <span class="publication-authors">Yuanqiang Yu, Peng Zhang, Kai Zhao, Yan Zheng, Jianye Hao</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://doi.org/10.1007/s10458-023-09600-1" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+        
+        
+        <div class="journey-item" data-year="2023">
+            <h3 class="publication-title">
+                
+                A benchmark for automatic medical consultation system: frameworks, tasks and datasets.
+            </h3>
+            <span class="publication-source">Bioinform 39(1) (2023) (Bioinform.): 2023</span>
+            <span class="publication-authors">Wei Chen, Zhiwei Li, Hongyi Fang, Qianyuan Yao, Cheng Zhong, Jianye Hao, Qi Zhang, Xuanjing Huang, Jiajie Peng, Zhongyu Wei</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://doi.org/10.1093/bioinformatics/btac817" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+        
+        
+        <div class="journey-item" data-year="2023">
+            <h3 class="publication-title">
+                
+                A Unified Framework for Layout Pattern Analysis With Deep Causal Estimation.
+            </h3>
+            <span class="publication-source">IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems 42(4): 1199-1211 (2023) (IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.): 2023</span>
+            <span class="publication-authors">Ran Chen, Shoubo Hu, Zhitang Chen, Shengyu Zhu, Bei Yu, Pengyun Li, Cheng Chen, Yu Huang, Jianye Hao</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://doi.org/10.1109/TCAD.2022.3192363" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+        
+        
+        <div class="journey-item" data-year="2023">
+            <h3 class="publication-title">
+                
+                Contrastive-ACE: Domain Generalization Through Alignment of Causal Mechanisms.
+            </h3>
+            <span class="publication-source">IEEE Transactions on Image Processing 32: 235-250 (2023) (IEEE Trans. Image Process.): 2023</span>
+            <span class="publication-authors">Yunqi Wang, Furui Liu, Zhitang Chen, Yik- Chung Wu, Jianye Hao, Guangyong Chen, Pheng- Ann Heng</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://doi.org/10.1109/TIP.2022.3227457" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+        
+        
+            
+            
+                
+                    <h1 data-year="2022">2022</h1>
+                    
+                
+            
+        
+        <div class="journey-item" data-year="2022">
+            <h3 class="publication-title">
+                
+                A review and performance evaluation of clustering frameworks for single-cell Hi-C data.
+            </h3>
+            <span class="publication-source">Briefings Bioinform 23(6) (2022) (Briefings Bioinform.): 2022</span>
+            <span class="publication-authors">Caiwei Zhen, Yuxian Wang, Jiaquan Geng, Lu Han, Jingyi Li, Jinghao Peng, Tao Wang, Jianye Hao, Xuequn Shang, Zhongyu Wei, Peican Zhu, Jiajie Peng</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://doi.org/10.1093/bib/bbac385" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+        
+        
+        <div class="journey-item" data-year="2022">
+            <h3 class="publication-title">
+                
+                HEBO: An Empirical Study of Assumptions in Bayesian Optimisation.
+            </h3>
+            <span class="publication-source">Journal of Artificial Intelligence Research 74: 1269-1349 (2022) (JAIR): 2022</span>
+            <span class="publication-authors">Alexander I. Cowen- Rivers, Wenlong Lyu, Rasul Tutunov, Zhi Wang, Antoine Grosnit, Ryan- Rhys Griffiths, Alexandre Max Maraval, Jianye Hao, Jun Wang, Jan Peters, Haitham Bou- Ammar</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://doi.org/10.1613/jair.1.13643" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+        
+        
+        <div class="journey-item" data-year="2022">
+            <h3 class="publication-title">
+                
+                Coach-assisted multi-agent reinforcement learning framework for unexpected crashed agents.
+            </h3>
+            <span class="publication-source">Frontiers in Information Technology and Electronics Engineering 23(7): 1032-1042 (2022) (Frontiers Inf. Technol. Electron. Eng.): 2022</span>
+            <span class="publication-authors">Jian Zhao, Youpeng Zhao, Weixun Wang, Mingyu Yang, Xunhan Hu, Wengang Zhou, Jianye Hao, Houqiang Li</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://doi.org/10.1631/FITEE.2100594" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+        
+        
+        <div class="journey-item" data-year="2022">
+            <h3 class="publication-title">
+                
+                SCC-rFMQ: a multiagent reinforcement learning method in cooperative Markov games with continuous actions.
+            </h3>
+            <span class="publication-source">International Journal of Machine Learning and Cybernetics 13(7): 1927-1944 (2022) (Int. J. Mach. Learn. Cybern.): 2022</span>
+            <span class="publication-authors">Chengwei Zhang, Zhuobing Han, Bingfu Liu, Wanli Xue, Jianye Hao, Xiaohong Li, Dou An, Rong Chen</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://doi.org/10.1007/s13042-021-01497-0" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+        
+        
+        <div class="journey-item" data-year="2022">
+            <h3 class="publication-title">
+                
+                Learning to select cuts for efficient mixed-integer programming.
+            </h3>
+            <span class="publication-source">Pattern Recognit. 123: 108353 (2022) (Pattern Recognit.): 2022</span>
+            <span class="publication-authors">Zeren Huang, Kerong Wang, Furui Liu, Hui- Ling Zhen, Weinan Zhang, Mingxuan Yuan, Jianye Hao, Yong Yu, Jun Wang</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://doi.org/10.1016/j.patcog.2021.108353" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+        
+        
+            
+            
+                
+                    <h1 data-year="2021">2021</h1>
+                    
+                
+            
+        
+        <div class="journey-item" data-year="2021">
+            <h3 class="publication-title">
+                
+                Efficient policy detecting and reusing for non-stationarity in Markov games.
+            </h3>
+            <span class="publication-source">Journal of Autonomous Agents and Multi-Agent Systems 35(1): 2 (2021) (JAAMAS): 2021</span>
+            <span class="publication-authors">Yan Zheng, Jianye Hao, Zongzhang Zhang, Zhaopeng Meng, Tianpei Yang, Yanran Li, Changjie Fan</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://doi.org/10.1007/s10458-020-09480-9" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+        
+        
+        <div class="journey-item" data-year="2021">
+            <h3 class="publication-title">
+                
+                Integrating multi-network topology for gene function prediction using deep neural networks.
+            </h3>
+            <span class="publication-source">Briefings Bioinform  22(2): 2096-2105 (2021) (Briefings Bioinform.): 2021</span>
+            <span class="publication-authors">Jiajie Peng, Hansheng Xue, Zhongyu Wei, Idil Tuncali, Jianye Hao, Xuequn Shang</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://doi.org/10.1093/bib/bbaa036" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+        
+        
+        <div class="journey-item" data-year="2021">
+            <h3 class="publication-title">
+                
+                An end-to-end heterogeneous graph representation learning-based framework for drug-target interaction prediction.
+            </h3>
+            <span class="publication-source">Briefings Bioinform  22(5) (2021) (Briefings Bioinform.): 2021</span>
+            <span class="publication-authors">Jiajie Peng, Yuxian Wang, Jiaojiao Guan, Jingyi Li, Ruijiang Han, Jianye Hao, Zhongyu Wei, Xuequn Shang</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://doi.org/10.1093/bib/bbaa430" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+        
+        
+        <div class="journey-item" data-year="2021">
+            <h3 class="publication-title">
+                
+                SC2disease: a manually curated database of single-cell transcriptome for human diseases.
+            </h3>
+            <span class="publication-source">Nucleic Acids Research 49(Database-Issue): D1413-D1419 (2021) (Nucleic Acids Res.): 2021</span>
+            <span class="publication-authors">Tianyi Zhao, Shuxuan Lyu, Guilin Lu, Liran Juan, Xi Zeng, Zhongyu Wei, Jianye Hao, Jiajie Peng</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://doi.org/10.1093/nar/gkaa838" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+        
+        
+        <div class="journey-item" data-year="2021">
+            <h3 class="publication-title">
+                
+                Generalized Centered 2-D Principal Component Analysis.
+            </h3>
+            <span class="publication-source">IEEE Transactions on Cybernetics 51(3): 1666-1677 (2021) (IEEE Trans. Cybern.): 2021</span>
+            <span class="publication-authors">Gongyu Zhou, Guangquan Xu, Jianye Hao, Shizhan Chen, Junfeng Xu, Xi Zheng</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://doi.org/10.1109/TCYB.2019.2931957" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+        
+        
+        <div class="journey-item" data-year="2021">
+            <h3 class="publication-title">
+                
+                Falsification of Cyber-Physical Systems Using Deep Reinforcement Learning.
+            </h3>
+            <span class="publication-source">IEEE Transactions on Software Engineering 47(12): 2823-2840 (2021) (IEEE TSE): 2021</span>
+            <span class="publication-authors">Yoriyuki Yamagata, Shuang Liu, Takumi Akazaki, Yihai Duan, Jianye Hao</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://arxiv.org/pdf/1805.00200" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+        
+        
+            
+            
+                
+                    <h1 data-year="2020">2020</h1>
+                    
+                
+            
+        
+        <div class="journey-item" data-year="2020">
+            <h3 class="publication-title">
+                
+                A Method for Deploying Distributed Denial of Service Attack Defense Strategies on Edge Servers Using Reinforcement Learning.
+            </h3>
+            <span class="publication-source">IEEE Access8: 78482-78491 (2020) (IEEE Access): 2020</span>
+            <span class="publication-authors">Haodi Zhang, Jianye Hao, Xiaohong Li</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://doi.org/10.1109/ACCESS.2020.2989353" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+        
+        
+        <div class="journey-item" data-year="2020">
+            <h3 class="publication-title">
+                
+                Efficient Multiagent Policy Optimization Based on Weighted Estimators in Stochastic Cooperative Environments.
+            </h3>
+            <span class="publication-source">Journal of Computer Science and Technology 35(2): 268-280 (2020) (J. Comput. Sci. Technol.): 2020</span>
+            <span class="publication-authors">Yan Zheng, Jianye Hao, Zongzhang Zhang, Zhao- Peng Meng, Xiaotian Hao</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://doi.org/10.1007/s11390-020-9967-6" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+        
+        
+            
+            
+                
+                    <h1 data-year="previous">2019-</h1>
+                    
+                
+            
+        
+        <div class="journey-item" data-year="previous">
+            <h3 class="publication-title">
+                
+                SA-IGA: a multiagent reinforcement learning method towards socially optimal outcomes.
+            </h3>
+            <span class="publication-source">Autonomous Agents and Multi-Agent Systems 33(4): 403-429 (2019) (JAAMAS): 2019</span>
+            <span class="publication-authors">Chengwei Zhang, Xiaohong Li, Jianye Hao, Siqi Chen, Karl Tuyls, Wanli Xue, Zhiyong Feng</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://doi.org/10.1007/s10458-019-09411-3" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+        
+        
+            
+            
+        
+        <div class="journey-item" data-year="previous">
+            <h3 class="publication-title">
+                
+                A learning-based framework for miRNA-disease association identification using neural networks.
+            </h3>
+            <span class="publication-source">Bioinform 35(21): 4364-4371 (2019) (Bioinform.): 2019</span>
+            <span class="publication-authors">Jiajie Peng, Weiwei Hui, Qianqian Li, Bolin Chen, Jianye Hao, Qinghua Jiang, Xuequn Shang, Zhongyu Wei</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://doi.org/10.1093/bioinformatics/btz254" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+        
+        
+            
+            
+        
+        <div class="journey-item" data-year="previous">
+            <h3 class="publication-title">
+                
+                Using deep reinforcement learning to speed up collective cell migration.
+            </h3>
+            <span class="publication-source">BMC Bioinformatics 20-S(18): 571:1-571:10 (2019) (BMC Bioinform.): 2019</span>
+            <span class="publication-authors">Hanxu Hou, Tian Gan, Yaodong Yang, Xianglei Zhu, Sen Liu, Weiming Guo, Jianye Hao</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://doi.org/10.1186/s12859-019-3126-5" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+        
+        
+            
+            
+        
+        <div class="journey-item" data-year="previous">
+            <h3 class="publication-title">
+                
+                Attention-based recurrent neural network for influenza epidemic prediction.
+            </h3>
+            <span class="publication-source">BMC Bioinformatics 20-S(18): 575:1-575:10 (2019) (BMC Bioinform.): 2019</span>
+            <span class="publication-authors">Xianglei Zhu, Bofeng Fu, Yaodong Yang, Yu Ma, Jianye Hao, Siqi Chen, Shuang Liu, Tiegang Li, Sen Liu, Weiming Guo, Zhenyu Liao</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://doi.org/10.1186/s12859-019-3131-8" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+        
+        
+            
+            
+        
+        <div class="journey-item" data-year="previous">
+            <h3 class="publication-title">
+                
+                LoopFix: an approach to automatic repair of buggy loops.
+            </h3>
+            <span class="publication-source">Journal of Systems and Software 156: 100-112 (2019) (J. Syst. Softw.): 2019</span>
+            <span class="publication-authors">Weichao Wang, Zhaopeng Meng, Zan Wang, Shuang Liu, Jianye Hao</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://doi.org/10.1016/j.jss.2019.06.076" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+        
+        
+            
+            
+        
+        <div class="journey-item" data-year="previous">
+            <h3 class="publication-title">
+                
+                Effective norm emergence in cell systems under limited communication.
+            </h3>
+            <span class="publication-source">BMC Bioinformatics 19-S(5): 23-35 (2018) (BMC Bioinform.): 2018</span>
+            <span class="publication-authors">Xiaotian Hao, Jianye Hao, Wang Li, Hanxu Hou</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://doi.org/10.1186/s12859-018-2097-2" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+        
+        
+            
+            
+        
+        <div class="journey-item" data-year="previous">
+            <h3 class="publication-title">
+                
+                An Adaptive Learning Based Network Selection Approach for 5G Dynamic Environments.
+            </h3>
+            <span class="publication-source">Entropy 20(4): 236 (2018) (Entropy): 2018</span>
+            <span class="publication-authors">Xiaohong Li, Ru Cao, Jianye Hao</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://doi.org/10.3390/e20040236" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+        
+        
+            
+            
+        
+        <div class="journey-item" data-year="previous">
+            <h3 class="publication-title">
+                
+                Efficient and Robust Emergence of Norms through Heuristic Collective Learning.
+            </h3>
+            <span class="publication-source">ACM Transactions on Autonomous and Adaptive Systems 12(4): 23:1-23:20 (2018) (ACM Trans. Auton. Adapt. Syst.): 2018</span>
+            <span class="publication-authors">Jianye Hao, Jun Sun, Guangyong Chen, Zan Wang, Chao Yu, Zhong Ming</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://doi.org/10.1145/3127498" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+        
+        
+            
+            
+        
+        <div class="journey-item" data-year="previous">
+            <h3 class="publication-title">
+                
+                An Adaptive Markov Strategy for Defending Smart Grid False Data Injection From Malicious Attackers.
+            </h3>
+            <span class="publication-source">IEEE Transactions on Smart Grid 9(4): 2398-2408 (2018) (IEEE TSG): 2018</span>
+            <span class="publication-authors">Jianye Hao, Eunsuk Kang, Jun Sun, Zan Wang, Zhaopeng Meng, Xiaohong Li, Zhong Ming</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://doi.org/10.1109/TSG.2016.2610582" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+        
+        
+            
+            
+        
+        <div class="journey-item" data-year="previous">
+            <h3 class="publication-title">
+                
+                Falsification of Cyber-Physical Systems Using Deep Reinforcement Learning.
+            </h3>
+            <span class="publication-source">Formal Methods: 22nd International Symposium (FM): 2018</span>
+            <span class="publication-authors">Takumi Akazaki, Shuang Liu, Yoriyuki Yamagata, Yihai Duan, Jianye Hao</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://arxiv.org/pdf/1805.00200" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+        
+        
+            
+            
+        
+        <div class="journey-item" data-year="previous">
+            <h3 class="publication-title">
+                
+                The dynamics of reinforcement social learning in networked cooperative multiagent systems.
+            </h3>
+            <span class="publication-source">The International Conference on Engineering Applications of Artificial Intelligence 58: 111-122 (2017) (Eng. Appl. Artif. Intell.): 2017</span>
+            <span class="publication-authors">Jianye Hao, Dongping Huang, Yi Cai, Ho-fung Leung</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://doi.org/10.1016/j.engappai.2016.11.008" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+        
+        
+            
+            
+        
+        <div class="journey-item" data-year="previous">
+            <h3 class="publication-title">
+                
+                Reciprocal Social Strategy in Social Repeated Games and Emergence of Social Norms.
+            </h3>
+            <span class="publication-source">The International Journal of Artificial Intelligence Tools 26(1): 1760007:1-1760007:33 (2017) (Int. J. Artif. Intell. Tools): 2017</span>
+            <span class="publication-authors">Chi- Kong Chan, Jianye Hao, Ho-fung Leung</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://doi.org/10.1142/S0218213017600077" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+        
+        
+            
+            
+        
+        <div class="journey-item" data-year="previous">
+            <h3 class="publication-title">
+                
+                Blind Image Denoising via Dependent Dirichlet Process Tree.
+            </h3>
+            <span class="publication-source">The IEEE Transactions on Pattern Analysis and Machine Intelligence 39(8): 1518-1531 (2017) (IEEE TPAMI): 2017</span>
+            <span class="publication-authors">Fengyuan Zhu, Guangyong Chen, Jianye Hao, Pheng- Ann Heng</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://arxiv.org/pdf/1601.03117" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+        
+        
+            
+            
+        
+        <div class="journey-item" data-year="previous">
+            <h3 class="publication-title">
+                
+                Effective norm emergence in cell systems under limited communication.
+            </h3>
+            <span class="publication-source">The 11th International Conference on Bioinformatics and Biomedicine (BIBM): 2017</span>
+            <span class="publication-authors">Xiaotian Hao, Jianye Hao, Wang Li</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://doi.org/10.1109/BIBM.2017.8217910" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+        
+        
+            
+            
+        
+        <div class="journey-item" data-year="previous">
+            <h3 class="publication-title">
+                
+                Fepchecker: An Automatic Model Checker for Verifying Fairness and Non-Repudiation of Security Protocols in Web Service.
+            </h3>
+            <span class="publication-source">The International Journal of Software Engineering and Knowledge Engineering 26(4): 563-586 (2016) (Int. J. Softw. Eng. Knowl. Eng.): 2016</span>
+            <span class="publication-authors">Xiaohong Li, Jiayi Xu, Guangquan Xu, Jianye Hao, Xiaoru Li, Zhiyong Feng, Honghao Gao</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://doi.org/10.1142/S0218194016400027" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+        
+        
+            
+            
+        
+        <div class="journey-item" data-year="previous">
+            <h3 class="publication-title">
+                
+                Improved EGT-Based Robustness Analysis of Negotiation Strategies in Multiagent Systems via Model Checking.
+            </h3>
+            <span class="publication-source">The IEEE Transactions on Human-Machine Systems 46(2): 197-208 (2016) (IEEE Trans. Hum. Mach. Syst.): 2016</span>
+            <span class="publication-authors">Songzheng Song, Jianye Hao, Yang Liu, Jun Sun, Ho-fung Leung, Jie Zhang</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://doi.org/10.1109/THMS.2015.2429573" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+        
+        
+            
+            
+        
+        <div class="journey-item" data-year="previous">
+            <h3 class="publication-title">
+                
+                Introducing decision entrustment mechanism into repeated bilateral agent interactions to achieve social optimality.
+            </h3>
+            <span class="publication-source">The International Conference on Autonomous Agents and Multi-Agent Systems 29(4): 658-682 (2015) (JAAMAS): 2015</span>
+            <span class="publication-authors">Jianye Hao, Ho-fung Leung</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://doi.org/10.1007/s10458-014-9265-1" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+        
+        
+            
+            
+        
+        <div class="journey-item" data-year="previous">
+            <h3 class="publication-title">
+                
+                Multiagent Reinforcement Social Learning toward Coordination in Cooperative Multiagent Systems.
+            </h3>
+            <span class="publication-source">ACM Transactions on Autonomous and Adaptive Systems Syst. 9(4): 20:1-20:20 (2015) (ACM Trans. Auton. Adapt. Syst.): 2015</span>
+            <span class="publication-authors">Jianye Hao, Ho-fung Leung, Zhong Ming</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://doi.org/10.1145/2644819" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+        
+        
+            
+            
+        
+        <div class="journey-item" data-year="previous">
+            <h3 class="publication-title">
+                
+                Reinforcement social learning of social optimality with influencer agents.
+            </h3>
+            <span class="publication-source">Web Intelligence 13(3): 167-178 (2015) (Web Intell.): 2015</span>
+            <span class="publication-authors">Jianye Hao, Ho-fung Leung</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://doi.org/10.3233/WEB-150319" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+        
+        
+            
+            
+        
+        <div class="journey-item" data-year="previous">
+            <h3 class="publication-title">
+                
+                An efficient and robust negotiating strategy in bilateral negotiations over multiple items.
+            </h3>
+            <span class="publication-source">Engineering Applications of Artificial Intelligence 34: 45-57 (2014) (Eng. Appl. Artif. Intell.): 2014</span>
+            <span class="publication-authors">Jianye Hao, Songzheng Song, Ho-fung Leung, Zhong Ming</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://doi.org/10.1016/j.engappai.2014.05.008" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+        
+        
+            
+            
+        
+        <div class="journey-item" data-year="previous">
+            <h3 class="publication-title">
+                
+                Achieving Socially Optimal Outcomes in Multiagent Systems with Reinforcement Social Learning.
+            </h3>
+            <span class="publication-source">ACM Transactions on Autonomous and Adaptive Systems 8(3): 15:1-15:23 (2013) (ACM Trans. Auton. Adapt. Syst.): 2013</span>
+            <span class="publication-authors">Jianye Hao, Ho-fung Leung</span>
+            
+                <div class="publication-action">
+                    
+                        <a href="https://doi.org/10.1145/2517329" target="_blank" class="link-item">PDF</a>
+                    
+                </div>
+            
+        </div>
+    
+</div>
+
+<section id="footer">
+    <div class="footer-body">
+        <div class="footer-body-holder">
+            <div class="logos">
+                <div class="logo"
+                     style="background-image: url('/assets/image/logo-white.png');"></div>
+                <div class="text">
+                <span class="strong">
+                Deep Reinforcement- Learning
+                </span>
+                    Laboratory
+                </div>
+            </div>
+            <div class="footer-divider"></div>
+            <div class="footer-actions">
+                <div class="action-item extra-margin">
+                    <div class="action-title">
+                        Contact Us
+                    </div>
+                    <div class="action-body action-item">
+                        <table style="border-spacing: 14px;border-collapse: collapse;user-select: text">
+                            <tr>
+                                <td style="width: 120px;vertical-align: top">
+                                    <i class="material-icons">location_on</i>
+                                </td>
+                                <td style="width: 550px;vertical-align: top">
+                                    天津市津南区海河教育园区雅观路135号天津大学软件学院55号楼A区
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="display: flex; align-items: center"><i class="material-icons">mail</i></td>
+                                <td>
+                                    <a class="hover-blue" href="mailto:jianye.hao@tju.edu.cn"
+                                       style="color: white;text-decoration: underline;">
+                                        jianye.hao@tju.edu.cn
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr style="display: none">
+                                <td>Phone:</td>
+                                <td>(+22) 123 - 4567 - 900</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+
+        <div>
+            <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+        </div>
+        <div>
+            <span>©️ TIANJIN UNIVERSITY-DEEP REINFORCEMENT LEARNING LAB</span>
+            <span style="margin-left: 25px;">ALL RIGHTS RESERVED</span><br/>
+        </div>
+    </div>
+</section>
+</body>
+</html>
