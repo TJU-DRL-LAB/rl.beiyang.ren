@@ -65,7 +65,7 @@ custom_css:
                                     <input checked onchange="filterChange(event)" type="checkbox"
                                            class="filled-in year-checkbox"
                                            value="previous"/>
-                                    <span>Previous</span>
+                                    <span>2019-</span>
                                 </label>
                                 {% assign current_year = -1 %}
                             {% endif %}
@@ -89,7 +89,7 @@ custom_css:
                     <h1 data-year="{{ year }}">{{ year }}</h1>
                     {% assign current_year = year %}
                 {% else %}
-                    <h1 data-year="previous">Previous</h1>
+                    <h1 data-year="previous">2019-</h1>
                     {% assign current_year = "previous" %}
                 {% endif %}
             {% endif %}

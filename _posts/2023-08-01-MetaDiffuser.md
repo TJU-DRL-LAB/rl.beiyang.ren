@@ -15,4 +15,3 @@ links:
     icon: github
     link: https://metadiffuser.github.io
 ---
-

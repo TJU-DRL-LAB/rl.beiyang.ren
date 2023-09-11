@@ -3,25 +3,25 @@
     "title": "Three papers accepted by ICML 2023:",
     "desc": "\"ChiPFormer: Transferable Chip Placement via Offline Decision Transformer\",\"MetaDiffuser: Diffusion Model as Conditional Planner for Offline Meta-RL\",\"RACE: Improve Multi-Agent Reinforcement Learning with Representation Asymmetry and Collaborative Evolution\"",
     "date": "2023-05-05",
-    "google_icon": "breaking_news"
+    "google_icon": "lightbulb"
   },
   {
     "title": "Seven papers accepted by ICLR 2023:",
     "desc": "\"ERL-Re2: Efficient Evolutionary Reinforcement Learning with Shared State Representation and Individual Policy Representation\",\"Breaking the Curse of Dimensionality in Multiagent State Space: A Unified Agent Permutation Framework\",\"EUCLID: Towards Efficient Unsupervised Reinforcement Learning with Multi-choice Dynamics Model\",\"Learnable Behavior Control: Breaking Atari Human World Records via Sample-Efficient Behavior Selection\",\"DAG Matters! GFlowNets Enhanced Explainer for Graph Neural Networks\",\"CFlowNets: Continuous control with Generative Flow Network\",\"Out-of-distribution Detection with Implicit Outlier Transformation\"",
     "date": "2023-01-21",
-    "google_icon": "breaking_news"
+    "google_icon": "stars"
   },
   {
     "title": "Four papers accepted by AAAI 2023:",
     "desc": "\"SplitNet: A Reinforcement Learning based Sequence Splitting Method for the MinMax Multiple Travelling Salesman Problem\",\"Neighbor Auto-Grouping Graph Neural Networks for Handover Parameter Configuration in Cellular Network\",\"Structure Aware Incremental Learning with Personalized Imitation Weights for Recommender Systems\",\"Models as Agents: Optimizing Muti-Step Predictions of interactive Local Models in Model-Based Multi-Agent Reinforcement Learning\"",
     "date": "2022-11-25",
-    "google_icon": "breaking_news"
+    "google_icon": "rocket_launch"
   },
   {
     "title": "Seven papers accepted by NeurIPS 2022:",
     "desc": "\"Multiagent Q-learning with Sub-Team Coordination\",\"Transformer-based Working Memory for Multiagent Reinforcement Learning with Action Parsing\",\"GALOIS: Boosting Deep Reinforcement Learning via Generalizable Logic Synthesis\",\"Versatile Multi-stage Graph Neural Network for Circuit Representation\",\"The Policy-gradient Placement and Generative Routing Neural Networks for Chip Design\",\"DOMINO: Decomposed Mutual Information Optimization for Generalized Context in Meta-Reinforcement Learning\",\"Plan To Predict: Learning an Uncertainty-Foreseeing Model For Model-Based Reinforcement Learning\"",
     "date": "2022-09-15",
-    "google_icon": "breaking_news"
+    "google_icon": "campaign"
   },
   {
     "title": "Five papers accepted by ICML 2022:",
