@@ -15,3 +15,9 @@ links:
     icon: github
     link: https://metadiffuser.github.io
 ---
+
+<script>
+    window.addEventListener('load', function() {
+        window.location.href = 'https://metadiffuser.github.io/';
+    });
+</script>

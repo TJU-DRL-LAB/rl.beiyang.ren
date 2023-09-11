@@ -1,1 +1,72 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-09-11T15:04:22+08:00</updated><id>/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">MetaDiffuser: Diffusion Model as Conditional Planner for Offline Meta-RL</title><link href="/2023/08/02/MetaDiffuser.html" rel="alternate" type="text/html" title="MetaDiffuser: Diffusion Model as Conditional Planner for Offline Meta-RL" /><published>2023-08-02T05:53:35+08:00</published><updated>2023-08-02T05:53:35+08:00</updated><id>/2023/08/02/MetaDiffuser</id><content type="html" xml:base="/2023/08/02/MetaDiffuser.html"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[Recently, diffusion model shines as a promising backbone for the sequence modeling paradigm in offline reinforcement learning. However, these works mostly lack the generalization ability across tasks with reward or dynamics change. To tackle this challenge, in this paper we propose a task-oriented conditioned diffusion planner for offline meta-RL(MetaDiffuser), which considers the generalization problem as conditional trajectory generation task with contextual representation. The key is to learn a context conditioned diffusion model which can generate task-oriented trajectories for planning across diverse tasks. To enhance the dynamics consistency of the generated trajectories while encouraging trajectories to achieve high returns, we further design a dual-guided module in the sampling process of the diffusion model. The proposed framework enjoys the robustness to the quality of collected warm-start data from the testing task and the flexibility to incorporate with different task representation method. The experiment results on MuJoCo benchmarks show that MetaDiffuser outperforms other strong offline meta-RL baselines, demonstrating the outstanding conditional generation ability of diffusion architecture.]]></summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-09-11T16:01:18+08:00</updated><id>/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">ERL-Re2: Efficient Evolutionary Reinforcement Learning with Shared State Representation and Individual Policy Representation</title><link href="/2023/09/11/Re2.html" rel="alternate" type="text/html" title="ERL-Re2: Efficient Evolutionary Reinforcement Learning with Shared State Representation and Individual Policy Representation" /><published>2023-09-11T05:53:35+08:00</published><updated>2023-09-11T05:53:35+08:00</updated><id>/2023/09/11/Re2</id><content type="html" xml:base="/2023/09/11/Re2.html"><![CDATA[<p>本次介绍的是新的进化强化学习范式<strong>ERL-Re$^2$</strong>。该范式充分融合了进化算法与强化学习用于策略优化，并实现了显著的性能增益与效果。</p>
+
+<p>进化算法与与强化学习是两类不同的优化方式，擅长解决不同的优化问题，并且都拥有很大，很活跃的社区，本次介绍的ICLR2023的工作就是为了将两个社区连接起来，充分利用两种不同优化算法各自的优势来实现策略搜索与性能提升 。目前代码已经开源。</p>
+
+<h2 id="background">Background</h2>
+
+<p><strong>强化学习 Reinforcement Learning</strong>（RL）可以通过环境试错和梯度更新来高效地学习。然而，众所周知，RL鲁棒性差，探索性差，并且在梯度信号有噪声和信息量较少（sparse）的情况下，难以高效训练。
+<strong>进化算法 Evolutionary Algorithms</strong>（EA）是一类黑箱优化方法，主要是维护一个个体的种群，而不是像RL只维护一个个体，通过随机扰动的方式来提升个体获得可行解。与RL不同的是，传统EA是无梯度优化方法，并具有几个优点：
+（1）强大的探索能力、（2）鲁棒性和稳定的收敛、（3）采用累计奖励评价个体，不关心单步奖励，因此对奖励信号不敏感。
+尽管有这些优点，EA的一个主要瓶颈是群体的迭代评估而导致的低样本效率。具体来说，EA需要种群中的每个个体与环境真实交互来获得适应度（性能表现），最终根据种群中不同个体的适应度来进行种群提升。</p>
+
+<p>很多工作都在研究如何将EA和RL的融合起来，取长补短，优势互补。其中最具有代表性的当属2018年提出的演化强化学习框架（ERL），将Genetic Algorithm（GA）与DDPG进行了融合。除了维护强化学习的actor和critic，ERL额外维护一个的actor的种群。为了融合双方的优点，EA与环境交互产生的多样性的样本会提供给RL用于off policy优化，这一方面解决了EA样本利用率低的问题，另一方面缓解了RL探索弱无法寻找到多样数据的问题。除此之外，优化后的RL 策略会定期注入到种群中参与种群进化，如果RL策略优于种群策略，那么RL策略则会促进种群的进化，否则则会被淘汰掉，不影响种群进化。最终EA与RL优势互补，在MuJoCo上实现了对DDPG算法的显著提升。（这里的EA演化都是直接在策略的参数上进行扰动优化，例如k点交叉是交换两个网络中某些层的参数，变异则直接将高斯扰动添加到网络参数上）</p>
+
+<h2 id="motivation">Motivation</h2>
+
+<p>ERL工作后，许多基于ERL基本框架的相关工作随之产生，例如CERL，PDERL, CEM-RL等。由于都遵循基本的ERL框架，导致这些算法都面临着两个基本问题：</p>
+
+<ul>
+  <li>所有的策略都单独学习自己的状态表征，维护各自的网络，忽略了有效知识的共享。</li>
+  <li>对于演化算子，参数层面的策略优化不能保证个体的行为语义，容易造成策略灾难性崩溃。</li>
+</ul>
+
+<h2 id="the-concept-of-two-scale-state-representation-and-policy-representation">The Concept of Two-Scale State Representation and Policy Representation</h2>
+<p>为了解决上述问题，我们提出了<strong>基于双尺度表征的策略构建</strong>（<strong>Two-scale representation-based policy construction</strong>）。在此基础上，我们维护和优化EA群体和RL的策略。具体来说。EA和RL Agent的策略都是由一个共享的非线性状态表征$Z{\phi}$和一个独立的线性策略表征 $W$ 组成。Agent $i$ 通过结合共享状态表征和策略表征做出决策：</p>
+
+<p><em><img src="/assets/image/research/Re2/1.png" alt="1" /></em></p>
+
+<p>直观地，我们希望共享状态表征$Z{\phi}$对学习过程中遇到的所有可能的策略都有用。它应该包含环境中与决策有关的一般特征，例如，共同的知识，而不是针对某一个策略。由于共享状态表示$Z_{\phi}$，Agent不需要独立地表征状态。因此，更高的效率和更具表现力的状态表征可以通过EA群体和RL Agent共同得到。由于$Z{\phi}$的高表达性，每个独立的策略表征可以由一个简单的线性形式构成，这更易于优化与探索。</p>
+
+<p><img src="/assets/image/research/Re2/2.png" alt="6a224755e7478c57e45d7a91c514a23c.png" /></p>
+
+<p>上图是ERL（及后续工作）与我们提出的双尺度表征框架ERL-Re²的对比图。其中左图中的策略主要由传统的非线性神经网络构成。右图中的圆形表示线性策略表征，六边形则表示非线性共享状态表征，用于知识共享。*</p>
+
+<p><em><img src="/assets/image/research/Re2/3.png" alt="3" /></em></p>
+
+<p><strong>算法优化流程</strong>:整体优化流程如上图所示，具体来说，算法每次在由共享状态表征$Z{\phi}$构建的线性策略空间 $\Pi{\phi}$ 中进行策略搜索，对线性策略进行优化。优化后我们对共享状态表征进行优化，优化的方向为对于所有个体（包括EA和RL)都有益的方向，从而达到有效的知识共享，构建对于所有个体都有利的策略空间。如此循环迭代实现知识的高效传递与策略的快速优化。下面我们介绍如何进行共享表征的优化，以及如何在线性空间如何更加高效地演化。</p>
+
+<h2 id="optimizing-the-shared-state-representation-for-a-superior-policy-space"><em>Optimizing the Shared State Representation for A Superior Policy Space</em></h2>
+<p>为了构建所有个体都有益的状态表征从而实现高效地知识共享，我们提出基于所有EA和RL策略的价值函数最大化来学习共享状态表征。对于EA策略，我们根据EA群体ℙ中的线性策略表示 ，学习策略拓展值函数（PeVFA, 通过将策略表征作为输入，实现一个价值函数估计多个不同策略value的目的）。对于RL策略，我们使用原始RL算法的值函数提供更新方向。两个值函数都是通过TD error进行优化的，损失如下：</p>
+
+<p><img src="/assets/image/research/Re2/4.png" alt="4" /></p>
+
+<p>EA中的个体和RL个体都能分别从PeVFA和RL critic获得各自的优化方向. 而我们想构建的共享状态表征应该有助于所有个体的探索与优化，因此共享表征的更新方向应该考虑到EA和RL，因此我们定义了如下损失：</p>
+
+<p><img src="/assets/image/research/Re2/5.png" alt="5" /><br />
+通过优化上述损失，共享状态表征能够向着一个统一的优化方向进行优化，从而构建一个有助于所有个体的线性策略空间，使得EA和RL能够更加高效地探索与提升。</p>
+
+<h2 id="optimizing-the-policy-representation-by-evolution-and-reinforcement">Optimizing the Policy Representation by Evolution and Reinforcement</h2>
+<p>对于种群的进化，我们首先需要得到适配度（fitness），所产生的样本开销是EA的一个主要瓶颈，特别是当种群很大时。为此，我们提出了一个基于PeVFA 的新的适应度函数。对于每个Agent ，我们让Agent与环境交互$𝐻$步，随后使用PeVFA进行估值来节省样本开销。 fitness被定义如下：</p>
+
+<p><img src="/assets/image/research/Re2/6.png" alt="6" /></p>
+
+<p>对于遗传进化的过程，传统的交叉变异都是直接在整个策略的参数空间进行扰动，由于策略往往是由非线性的神经网络构建的。单独的改变神经网络的某些参数可能会造成策略行为的坍塌与崩溃。为了解决这个问题，我们提出了新的behavior-level 交叉和变异，允许在指定的行动维度上施加扰动，同时对其他动作不产生任何干扰。具体来说，由于共享状态表征的构建，演化发生在线性策略表征空间，线性策略表征的每个维度对应决策的一个动作，因此我们可以直接交换表征的某一维度的参数，而实现两个策略的某个动作的交叉，而不对其他动作产生扰动（behavior-level crossover），同样扰动也可以被单独加在表征的某个特定维度上，不对其他动作产生扰动（behavior-level mutation）。behavior-level 交叉变异的示意图如下图所示。</p>
+
+<p><img src="/assets/image/research/Re2/7.png" alt="7" /></p>
+
+<p>最后整个实验的伪代码：</p>
+
+<p><img src="/assets/image/research/Re2/8.png" alt="8" /></p>
+
+<h2 id="experiments">Experiments</h2>
+<p>本文实验主要在MUJOCO的6个常用的task上验证了方法的有效性，基本上都有大幅度的性能增益，达到了在这个benchmark上的ERL方向的新SOTA。除此之外，本文也尝试了一些其他环境和算法，大家可以到原文中查看更多的细节。</p>
+
+<p><em><img src="/assets/image/research/Re2/10.png" alt="10" /><img src="/assets/image/research/Re2/9.png" alt="9" /></em></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Deep Reinforcement Learning (Deep RL) and Evolutionary Algorithms (EA) are two major paradigms of policy optimization with distinct learning principles. However, existing works on combining Deep RL and EA have two common drawbacks. In this paper, we propose Evolutionary Reinforcement Learning with Two-scale State Representation and Policy Representation.]]></summary></entry><entry><title type="html">Boosting Multiagent Reinforcement Learning via Permutation Invariant and Permutation Equivariant Networks</title><link href="/2023/09/10/API.html" rel="alternate" type="text/html" title="Boosting Multiagent Reinforcement Learning via Permutation Invariant and Permutation Equivariant Networks" /><published>2023-09-10T05:53:35+08:00</published><updated>2023-09-10T05:53:35+08:00</updated><id>/2023/09/10/API</id><content type="html" xml:base="/2023/09/10/API.html"><![CDATA[<script>
+    window.addEventListener('load', function() {
+        window.location.href = 'https://github.com/tjuHaoXiaotian/pymarl3';
+    });
+</script>]]></content><author><name></name></author><summary type="html"><![CDATA[The state space in Multiagent Reinforcement Learning (MARL) grows exponentially with the agent number. Such a curse of dimensionality results in poor scalability and low sample efficiency, inhibiting MARL for decades. To break this curse, we propose a unified agent permutation framework that exploits the permutation invariance (PI) and permutation equivariance (PE) inductive biases to reduce the multiagent state space. Our insight is that permuting the order of entities in the factored multiagent state space does not change the information.]]></summary></entry><entry><title type="html">MetaDiffuser: Diffusion Model as Conditional Planner for Offline Meta-RL</title><link href="/2023/08/02/MetaDiffuser.html" rel="alternate" type="text/html" title="MetaDiffuser: Diffusion Model as Conditional Planner for Offline Meta-RL" /><published>2023-08-02T05:53:35+08:00</published><updated>2023-08-02T05:53:35+08:00</updated><id>/2023/08/02/MetaDiffuser</id><content type="html" xml:base="/2023/08/02/MetaDiffuser.html"><![CDATA[<script>
+    window.addEventListener('load', function() {
+        window.location.href = 'https://metadiffuser.github.io/';
+    });
+</script>]]></content><author><name></name></author><summary type="html"><![CDATA[Recently, diffusion model shines as a promising backbone for the sequence modeling paradigm in offline reinforcement learning. However, these works mostly lack the generalization ability across tasks with reward or dynamics change. To tackle this challenge, in this paper we propose a task-oriented conditioned diffusion planner for offline meta-RL(MetaDiffuser), which considers the generalization problem as conditional trajectory generation task with contextual representation. The key is to learn a context conditioned diffusion model which can generate task-oriented trajectories for planning across diverse tasks. To enhance the dynamics consistency of the generated trajectories while encouraging trajectories to achieve high returns, we further design a dual-guided module in the sampling process of the diffusion model. The proposed framework enjoys the robustness to the quality of collected warm-start data from the testing task and the flexibility to incorporate with different task representation method. The experiment results on MuJoCo benchmarks show that MetaDiffuser outperforms other strong offline meta-RL baselines, demonstrating the outstanding conditional generation ability of diffusion architecture.]]></summary></entry></feed>
