@@ -7,18 +7,35 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
     <title>Research</title>
+
+    
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'pre'],
+        inlineMath: [['$','$']]
+        }
+    });
+
+    </script>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+            type="text/javascript"></script>
+
+
     
     <link rel="stylesheet"
           href="https://fonts.loli.net/css?family=Manrope">
     <link rel="stylesheet"
           href="https://fonts.loli.net/css?family=Merriweather:900,900italic,300,300italic">
     <link href="https://fonts.loli.net/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.loli.net/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+          href="https://fonts.loli.net/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
     <link href="https://fonts.loli.net/css?family=Lato:900,300" rel="stylesheet" type="text/css">
     <link rel="stylesheet"
           href="https://fonts.loli.net/css?family=Playfair+Display:400,900">
 
-    <link rel="stylesheet" href="https://fonts.loli.net/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+          href="https://fonts.loli.net/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
     <style>
         body {
             cursor: default;
@@ -63,23 +80,23 @@
                 <a class="tab-item inner" href="/">HOME</a>
                 <a class="tab-item inner" href="/news">NEWS</a>
                 <a class="tab-item inner" href="/research">RESEARCH</a>
-<!--                <a class="tab-item inner" href="/publications">PUBLICATIONS</a>-->
-                 <div class="dropdown-menu">
-                     <span class="text">PUBLICATIONS</span>
-                     <div class="content">
-                         <div onclick="window.location.href ='/conference'" class="tab-item item">
-                             CONFERENCE
-                         </div>
-                         <div class="divider"></div>
-                         <div onclick="window.location.href ='/journal'" class="tab-item item">
-                             JOURNAL
-                         </div>
-                     </div>
-                 </div>
+                <!--                <a class="tab-item inner" href="/publications">PUBLICATIONS</a>-->
+                <div class="dropdown-menu">
+                    <span class="text">PUBLICATIONS</span>
+                    <div class="content">
+                        <div onclick="window.location.href ='/conference'" class="tab-item item">
+                            CONFERENCE
+                        </div>
+                        <div class="divider"></div>
+                        <div onclick="window.location.href ='/journal'" class="tab-item item">
+                            JOURNAL
+                        </div>
+                    </div>
+                </div>
                 <!--<a class="tab-item inner" href="/software">SOFTWARE</a>-->
                 <a class="tab-item inner" href="/team">TEAM</a>
-<!--                <a class="tab-item inner" href="/ibbb">IBBB</a>-->
-<!--                <a class="tab-item inner" href="/events">EVENTS</a>-->
+                <!--                <a class="tab-item inner" href="/ibbb">IBBB</a>-->
+                <!--                <a class="tab-item inner" href="/events">EVENTS</a>-->
                 <a class="tab-item inner" href="/contact">CONTACT</a>
             </div>
             <div style="display: none" class="contact" onclick="window.location.href='/contact'">
@@ -94,13 +111,13 @@
                     <li><a class="inner" href="/">HOME</a></li>
                     <li><a class="inner" href="/news">NEWS</a></li>
                     <li><a class="inner" href="/research">RESEARCH</a></li>
-<!--                    <li><a class="inner" href="/publications">PUBLICATIONS</a></li>-->
+                    <!--                    <li><a class="inner" href="/publications">PUBLICATIONS</a></li>-->
                     <li><a class="inner" href="/conference">CONFERENCE</a></li>
                     <li><a class="inner" href="/journal">JOURNAL</a></li>
                     <!--<li><a class="inner" href="/software">SOFTWARE</a></li>-->
                     <li><a class="inner" href="/team">TEAM</a></li>
-<!--                    <li><a class="inner" href="/ibbb">IBBB</a></li>-->
-<!--                    <li><a class="inner" href="/events">EVENTS</a></li>-->
+                    <!--                    <li><a class="inner" href="/ibbb">IBBB</a></li>-->
+                    <!--                    <li><a class="inner" href="/events">EVENTS</a></li>-->
                     <li><a class="inner" href="/contact">CONTACT</a></li>
                 </ul>
             </div>
@@ -132,7 +149,7 @@
     <div class="research-cards">
         
         
-            <div class="research-card" data-url="/2023/09/11/Re2.html">
+            <div class="research-card" data-url="/2023/09/10/Re2.html">
                 <div class="research-image"
                      style="background-image: url('/assets/image/index/re2.png');
                      
@@ -144,7 +161,7 @@
                         ERL-Re2: Efficient Evolutionary Reinforcement Learning with Shared State Representation and Individual Policy Representation
                     </div>
                     <div class="research-card-desc">
-                        2023-09-11: Deep Reinforcement Learning (Deep RL) and Evolutionary Algorithms (EA) are two major paradigms of policy optimization with distinct learning principles. However, existing works on combining Deep RL and EA have two common drawbacks. In this paper, we propose Evolutionary Reinforcement Learning with Two-scale State Representation and Policy Representation.
+                        2023-09-10: Deep Reinforcement Learning (Deep RL) and Evolutionary Algorithms (EA) are two major paradigms of policy optimization with distinct learning principles. However, existing works on combining Deep RL and EA have two common drawbacks. In this paper, we propose Evolutionary Reinforcement Learning with Two-scale State Representation and Policy Representation.
                     </div>
                     <div class="research-card-action">
                         
@@ -156,7 +173,7 @@
                 </div>
             </div>
         
-            <div class="research-card" data-url="/2023/09/10/API.html">
+            <div class="research-card" data-url="/2023/09/09/API.html">
                 <div class="research-image"
                      style="background-image: url('/assets/image/research/iclr23_pi_pe.png');
                      
@@ -168,7 +185,7 @@
                         Boosting Multiagent Reinforcement Learning via Permutation Invariant and Permutation Equivariant Networks
                     </div>
                     <div class="research-card-desc">
-                        2023-09-10: The state space in Multiagent Reinforcement Learning (MARL) grows exponentially with the agent number. Such a curse of dimensionality results in poor scalability and low sample efficiency, inhibiting MARL for decades. To break this curse, we propose a unified agent permutation framework that exploits the permutation invariance (PI) and permutation equivariance (PE) inductive biases to reduce the multiagent state space. Our insight is that permuting the order of entities in the factored multiagent state space does not change the information.
+                        2023-09-09: The state space in Multiagent Reinforcement Learning (MARL) grows exponentially with the agent number. Such a curse of dimensionality results in poor scalability and low sample efficiency, inhibiting MARL for decades. To break this curse, we propose a unified agent permutation framework that exploits the permutation invariance (PI) and permutation equivariance (PE) inductive biases to reduce the multiagent state space. Our insight is that permuting the order of entities in the factored multiagent state space does not change the information.
                     </div>
                     <div class="research-card-action">
                         
@@ -180,7 +197,7 @@
                 </div>
             </div>
         
-            <div class="research-card" data-url="/2023/08/02/MetaDiffuser.html">
+            <div class="research-card" data-url="/2023/08/01/MetaDiffuser.html">
                 <div class="research-image"
                      style="background-image: url('/assets/image/research/metadiffuer.png');
                      
@@ -192,7 +209,7 @@
                         MetaDiffuser: Diffusion Model as Conditional Planner for Offline Meta-RL
                     </div>
                     <div class="research-card-desc">
-                        2023-08-02: Recently, diffusion model shines as a promising backbone for the sequence modeling paradigm in offline reinforcement learning. However, these works mostly lack the generalization ability across tasks with reward or dynamics change. To tackle this challenge, in this paper we propose a task-oriented conditioned diffusion planner for offline meta-RL(MetaDiffuser), which considers the generalization problem as conditional trajectory generation task with contextual representation. The key is to learn a context conditioned diffusion model which can generate task-oriented trajectories for planning across diverse tasks. To enhance the dynamics consistency of the generated trajectories while encouraging trajectories to achieve high returns, we further design a dual-guided module in the sampling process of the diffusion model. The proposed framework enjoys the robustness to the quality of collected warm-start data from the testing task and the flexibility to incorporate with different task representation method. The experiment results on MuJoCo benchmarks show that MetaDiffuser outperforms other strong offline meta-RL baselines, demonstrating the outstanding conditional generation ability of diffusion architecture.
+                        2023-08-01: Recently, diffusion model shines as a promising backbone for the sequence modeling paradigm in offline reinforcement learning. However, these works mostly lack the generalization ability across tasks with reward or dynamics change. To tackle this challenge, in this paper we propose a task-oriented conditioned diffusion planner for offline meta-RL(MetaDiffuser), which considers the generalization problem as conditional trajectory generation task with contextual representation. The key is to learn a context conditioned diffusion model which can generate task-oriented trajectories for planning across diverse tasks. To enhance the dynamics consistency of the generated trajectories while encouraging trajectories to achieve high returns, we further design a dual-guided module in the sampling process of the diffusion model. The proposed framework enjoys the robustness to the quality of collected warm-start data from the testing task and the flexibility to incorporate with different task representation method. The experiment results on MuJoCo benchmarks show that MetaDiffuser outperforms other strong offline meta-RL baselines, demonstrating the outstanding conditional generation ability of diffusion architecture.
                     </div>
                     <div class="research-card-action">
                         

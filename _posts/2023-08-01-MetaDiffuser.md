@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "MetaDiffuser: Diffusion Model as Conditional Planner for Offline Meta-RL"
-date: 2023-08-01 21:53:35
+date: 2023-08-01
 auth: "Fei Ni"
 internal: true
 contain_poster: true

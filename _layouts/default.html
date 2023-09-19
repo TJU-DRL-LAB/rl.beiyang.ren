@@ -7,6 +7,21 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/assets/favicon.ico">
     <title>{{ page.title }}</title>
+
+    {% comment %}LaTeX{% endcomment %}
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'pre'],
+        inlineMath: [['$','$']]
+        }
+    });
+
+    </script>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+            type="text/javascript"></script>
+
+
     {% if page.materializedCss %}
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <!-- Compiled and minified JavaScript -->
@@ -17,12 +32,14 @@
     <link rel="stylesheet"
           href="https://fonts.loli.net/css?family=Merriweather:900,900italic,300,300italic">
     <link href="https://fonts.loli.net/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.loli.net/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+          href="https://fonts.loli.net/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
     <link href="https://fonts.loli.net/css?family=Lato:900,300" rel="stylesheet" type="text/css">
     <link rel="stylesheet"
           href="https://fonts.loli.net/css?family=Playfair+Display:400,900">
 
-    <link rel="stylesheet" href="https://fonts.loli.net/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+          href="https://fonts.loli.net/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
     <style>
         body {
             cursor: default;
@@ -72,23 +89,23 @@
                 <a class="tab-item inner" href="{{ site.baseurl }}/">HOME</a>
                 <a class="tab-item inner" href="{{ site.baseurl }}/news">NEWS</a>
                 <a class="tab-item inner" href="{{ site.baseurl }}/research">RESEARCH</a>
-<!--                <a class="tab-item inner" href="{{ site.baseurl }}/publications">PUBLICATIONS</a>-->
-                 <div class="dropdown-menu">
-                     <span class="text">PUBLICATIONS</span>
-                     <div class="content">
-                         <div onclick="window.location.href ='{{ site.baseurl }}/conference'" class="tab-item item">
-                             CONFERENCE
-                         </div>
-                         <div class="divider"></div>
-                         <div onclick="window.location.href ='{{ site.baseurl }}/journal'" class="tab-item item">
-                             JOURNAL
-                         </div>
-                     </div>
-                 </div>
+                <!--                <a class="tab-item inner" href="{{ site.baseurl }}/publications">PUBLICATIONS</a>-->
+                <div class="dropdown-menu">
+                    <span class="text">PUBLICATIONS</span>
+                    <div class="content">
+                        <div onclick="window.location.href ='{{ site.baseurl }}/conference'" class="tab-item item">
+                            CONFERENCE
+                        </div>
+                        <div class="divider"></div>
+                        <div onclick="window.location.href ='{{ site.baseurl }}/journal'" class="tab-item item">
+                            JOURNAL
+                        </div>
+                    </div>
+                </div>
                 <!--<a class="tab-item inner" href="{{ site.baseurl }}/software">SOFTWARE</a>-->
                 <a class="tab-item inner" href="{{ site.baseurl }}/team">TEAM</a>
-<!--                <a class="tab-item inner" href="{{ site.baseurl }}/ibbb">IBBB</a>-->
-<!--                <a class="tab-item inner" href="{{ site.baseurl }}/events">EVENTS</a>-->
+                <!--                <a class="tab-item inner" href="{{ site.baseurl }}/ibbb">IBBB</a>-->
+                <!--                <a class="tab-item inner" href="{{ site.baseurl }}/events">EVENTS</a>-->
                 <a class="tab-item inner" href="{{ site.baseurl }}/contact">CONTACT</a>
             </div>
             <div style="display: none" class="contact" onclick="window.location.href='{{ site.baseurl }}/contact'">
@@ -103,13 +120,13 @@
                     <li><a class="inner" href="{{ site.baseurl }}/">HOME</a></li>
                     <li><a class="inner" href="{{ site.baseurl }}/news">NEWS</a></li>
                     <li><a class="inner" href="{{ site.baseurl }}/research">RESEARCH</a></li>
-<!--                    <li><a class="inner" href="{{ site.baseurl }}/publications">PUBLICATIONS</a></li>-->
+                    <!--                    <li><a class="inner" href="{{ site.baseurl }}/publications">PUBLICATIONS</a></li>-->
                     <li><a class="inner" href="{{ site.baseurl }}/conference">CONFERENCE</a></li>
                     <li><a class="inner" href="{{ site.baseurl }}/journal">JOURNAL</a></li>
                     <!--<li><a class="inner" href="{{ site.baseurl }}/software">SOFTWARE</a></li>-->
                     <li><a class="inner" href="{{ site.baseurl }}/team">TEAM</a></li>
-<!--                    <li><a class="inner" href="{{ site.baseurl }}/ibbb">IBBB</a></li>-->
-<!--                    <li><a class="inner" href="{{ site.baseurl }}/events">EVENTS</a></li>-->
+                    <!--                    <li><a class="inner" href="{{ site.baseurl }}/ibbb">IBBB</a></li>-->
+                    <!--                    <li><a class="inner" href="{{ site.baseurl }}/events">EVENTS</a></li>-->
                     <li><a class="inner" href="{{ site.baseurl }}/contact">CONTACT</a></li>
                 </ul>
             </div>
