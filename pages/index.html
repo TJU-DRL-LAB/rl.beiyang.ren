@@ -281,7 +281,6 @@ custom_css:
     <script>
 
       let go = (event) => {
-        ;
         if (!event.target.classList.contains("banner")) {
           window.open(event.currentTarget.dataset.url)
         }
@@ -299,7 +298,7 @@ custom_css:
         Recent Research
     </div>
     <div class="research-cards">
-        {% assign sorted_post = site.posts | sort: 'data' | reverse %}
+        {% assign sorted_post = site.posts | sort: 'date' | reverse %}
         {% for post in sorted_post limit: site.data.config.main_page.post %}
             <div class="research-card" data-url="{{ site.baseurl }}{{ post.url }}">
                 <div class="research-image"

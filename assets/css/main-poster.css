@@ -44,22 +44,23 @@ section#poster {
 }
 
 .carousel-caption {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background: rgba(85, 85, 85, 0.8);
-  color: whitesmoke;
-  /*font-weight: bold; */
-  padding: 1px 5px;
-  text-align: center;
-  font-family: Manrope, ui-serif;
-  font-size: 1vw; /* 字体大小为视口宽度的3% */
-  /*white-space: nowrap; !* 防止文本换行 *!*/
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(85, 85, 85, 0.8);
+    color: whitesmoke;
+    /*font-weight: bold; */
+    padding: 1px 5px;
+    text-align: center;
+    font-family: Manrope, ui-serif;
+    user-select: none;
+    font-size: 1vw; /* 字体大小为视口宽度的3% */
+    /*white-space: nowrap; !* 防止文本换行 *!*/
 }
 
 .carousel-link {
-    color: inherit;  /* 继承父元素的颜色 */
-    text-decoration: none;  /* 去掉下划线 */
+    color: inherit; /* 继承父元素的颜色 */
+    text-decoration: none; /* 去掉下划线 */
 }
 
 .carousel-slide img {
@@ -121,7 +122,7 @@ section#poster {
 .slogan-area {
     position: absolute;
     top: 50%;
-    left: 45%;
+    left: 42%;
     transform: translate(-50%, -50%);
 
 }
