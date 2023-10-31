@@ -1,5 +1,29 @@
 [
   {
+    "name": "A Hierarchical Imitation Learning-based Decision Framework for Autonomous Driving",
+    "from": "Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM): 2023",
+    "date": "2023",
+    "authors": "Hebin Liang, Zibin Dong, Yi Ma, Xiaotian Hao, Yan Zheng, Jianye Hao",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://dl.acm.org/doi/abs/10.1145/3583780.3615454"
+      }
+    ]
+  },
+  {
+    "name": "Generalized Universal Domain Adaptation with Generative Flow Networks",
+    "from": "Proceedings of the 31st ACM International Conference on Multimedia (MM): 2023",
+    "date": "2023",
+    "authors": "Didi Zhu, Yinchuan Li, Yunfeng Shao, Jianye Hao, Fei Wu, Kun Kuang, JunXiao, ChaoWu",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://arxiv.org/abs/2305.04466"
+      }
+    ]
+  },
+  {
     "name": "Generative Flow Networks for Precise Reward-Oriented Active Learning on Graphs",
     "from": "The 32nd International Joint Conference on Artificial Intelligence (IJCAI): 2023",
     "date": "2023",

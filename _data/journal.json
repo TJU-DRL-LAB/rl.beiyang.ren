@@ -1,4 +1,16 @@
 [
+   {
+    "name": "Research and applications of game intelligence.",
+    "from": "SCIENTIA SINICA Informationis , Volume 53, Issue 10: 1892 (2023): 2023",
+    "date": "2023",
+    "authors": "郝建业, 邵坤, 李凯, 李栋, 毛航宇, 胡舒悦, 王震",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://www.sciengine.com/SSI/doi/10.1360/SSI-2023-0010;JSESSIONID=381ae634-aefb-480f-b2ab-4e531a77d2c2"
+      }
+    ]
+  },
   {
     "name": "Accelerating deep reinforcement learning via knowledge-guided policy network.",
     "from": "Journal of Autonomous Agents and Multi-Agent Systems 37(1): 17 (2023) (JAAMAS): 2023",

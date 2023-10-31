@@ -1,4 +1,83 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-09-20T12:08:16+08:00</updated><id>/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">ERL-Re2: Efficient Evolutionary Reinforcement Learning with Shared State Representation and Individual Policy Representation</title><link href="/2023/09/10/Re2.html" rel="alternate" type="text/html" title="ERL-Re2: Efficient Evolutionary Reinforcement Learning with Shared State Representation and Individual Policy Representation" /><published>2023-09-10T00:00:00+08:00</published><updated>2023-09-10T00:00:00+08:00</updated><id>/2023/09/10/Re2</id><content type="html" xml:base="/2023/09/10/Re2.html"><![CDATA[<p>本次介绍的是新的进化强化学习范式<strong>ERL-Re$^2$</strong>。该范式充分融合了进化算法与强化学习用于策略优化，并实现了显著的性能增益与效果。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-10-31T14:10:51+08:00</updated><id>/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">What About Inputting Policy in Value Function: Policy Representation and Policy-extended Value Function Approximator</title><link href="/2023/10/21/PeVFA.html" rel="alternate" type="text/html" title="What About Inputting Policy in Value Function: Policy Representation and Policy-extended Value Function Approximator" /><published>2023-10-21T00:00:00+08:00</published><updated>2023-10-21T00:00:00+08:00</updated><id>/2023/10/21/PeVFA</id><content type="html" xml:base="/2023/10/21/PeVFA.html"><![CDATA[<h1 id="what-about-inputting-policy-in-value-function-policy-representation-and-policy-extended-value-function-approximator">What About Inputting Policy in Value Function: Policy Representation and Policy-extended Value Function Approximator</h1>
+
+<h1 id="abstract">Abstract</h1>
+
+<p>One fundamental element of RL is value function which defines the long-term evaluation of a policy. With function approximation (e.g., deep neural networks), a value function approximator (VFA) is able to approximate the values of a policy under large and continuous state spaces.</p>
+
+<p>We study Policy-extended Value Function Approximator (PeVFA) in Reinforcement Learning (RL), which extends conventional value function approximator (VFA) to take as input not only the state (and action) but also an explicit policy representation. Such an extension enables PeVFA to preserve values of multiple policies at the same time and brings an appealing characteristic, i.e., <em>value generalization among policies</em>.</p>
+
+<p>We formally analyze the value generalization under Generalized Policy Iteration (GPI). From theoretical and empirical lens, we show that generalized value estimates offered by PeVFA
+may have lower initial approximation error to true values of successive policies, which is expected to improve consecutive value approximation during GPI. Based on above clues, we introduce a new form of GPI with PeVFA which leverages the value generalization along policy improvement path. Moreover, we propose a representation learning framework for RL policy, providing several approaches to learn effective policy embeddings from policy network parameters or stateaction pairs. In our experiments, we evaluate the efficacy of value generalization offered by PeVFA and policy representation learning in several OpenAI Gym continuous control tasks.</p>
+
+<h1 id="policy-extended-value-function-approximation-pevfa">Policy-extended Value Function Approximation (PeVFA)</h1>
+
+<h3 id="definition-of-pevfa">Definition of PeVFA</h3>
+
+<p>Since the <em>conventional value functions</em> are defined on a single policy, how can a value function estimates the values of <em>multiple policies</em>?</p>
+
+<p>To answer this question, we propose <strong>Policy-extended Value Function Approximator</strong> (<strong>PeVFA</strong>):</p>
+
+\[\mathbb{V}(s,\chi_{\pi}) = \mathbb{E}_{\pi} = \left[ \sum_{t=0}^{\infty} \gamma^{t}r_{t+1} | s_0=s \right], \text{for all }s \in S, \pi \in \Pi.\]
+
+<ul>
+  <li>Additionally takes a <em>policy representation</em> <strong>$\chi_{\pi}$</strong> as input (just consider we have one here, and we will discuss how to get $<strong>\chi_{\pi}</strong>$ later)</li>
+  <li>Thus, has the ability/capacity to preserve values of multiple policies</li>
+  <li>Values are expected to <em>generalize among policies</em> <em>**</em>with FA</li>
+</ul>
+
+<h3 id="two-kinds-of-value-generalization-of-pevfa">Two Kinds of Value Generalization of PeVFA</h3>
+
+<p>It is exciting to see the value generalization among policies brought by PeVFA. We consider two kinds of value generalization below, which are also illustrated in the figure below:</p>
+
+<ul>
+  <li><em>Global</em>: from learned policies ($\pi \in \Pi_0$) to unlearned ones ($\pi^{\prime} \in \Pi_1$)</li>
+  <li><em>Local</em>: from previous policies (${\pi_i}<em>{i=0}^t$) to the successive one ($\pi</em>{t+1}$) along the <em>policy improvement path of GPI (our focus of this paper)</em></li>
+</ul>
+
+<p><img src="/assets/image/research/PeVFA/Untitled 1.png" alt="Untitled" /></p>
+
+<h3 id="general-policy-iteration-with-pevfa">General Policy Iteration with PeVFA</h3>
+
+<p>Naturally, the following questions are:</p>
+
+<ul>
+  <li><em>Is value generalization necessarily beneficial?</em></li>
+  <li><em>If so, how can we utilize it to improve RL?</em></li>
+</ul>
+
+<p>For the first question, we formularize the value generalization of PeVFA and analyze the situations where the value generalization can be beneficial to typical RL process. We refer interested readers to our paper for more details.</p>
+
+<p>For the second question, we expect to leverage the value generalization of PeVFA to facilitate RL in a general way. To be concrete, we propose General Policy Iteration with PeVFA (GPI with PeVFA). A general description of RL algorithm under the paradigm of GPI with PeVFA is shown below:</p>
+
+<p><img src="/assets/image/research/PeVFA/Untitled 2.png" alt="Untitled" /></p>
+
+<p>For each iteration, the interaction experiences of current policy and the policy representation are stored in a buffer (line 3-4). At an interval of $M$ iterations, PeVFA is trained via value approximation for previous policies with the stored data and the policy representation model is updated according to the method used (line 5-8). This part is unique to PeVFA for preservation and generalization of knowledge of historical policies. Next, value approximation for current policy is performed with PeVFA (line 9). A key difference here is that the generalized value estimates (i.e., $\mathbb{V}<em>{t-1}(\chi</em>{\pi_t})$) are used as start points. Afterwards, a successive policy is obtained from typical policy improvement (line 10).</p>
+
+<p>Algorithm 1 can be implemented in different ways and we propose an instance implemented based on PPO (Schulman et al. 2017) in our experiments.</p>
+
+<h1 id="a-policy-representation-learning-framework">A Policy Representation Learning Framework</h1>
+
+<p>To derive practical deep RL algorithms, one key point is policy representation, i.e., a low-dimensional embedding of RL policy. Now we come back to the problem of obtaining the policy representation $\chi_{\pi}$ for a typical Deep RL policy $\pi$.</p>
+
+<p>The framework of policy representation learning proposed in our work is shown below. Policy network parameters used for <em>Origin Policy Representation (OPR)</em> or policy state-action pairs used for <em>Surface Policy Representation (SPR)</em> are fed into policy encoder with permutation-invariant (PI) transformations followed by an MLP, producing the representation $\chi_\pi$.</p>
+
+<p>Afterwards, $\chi_{\pi}$ can be trained by gradients from the value approximation loss of PeVFA (i.e., End-to-End), as well as the auxiliary loss of policy recovery or contrastive learning (i.e., InfoNCE) loss.</p>
+
+<p><img src="/assets/image/research/PeVFA/Untitled 3.png" alt="Untitled" /></p>
+
+<h1 id="experiments">Experiments</h1>
+
+<p>According to the paradigm of GPI with PeVFA and the general algorithm shown above, we replace the value network of vanilla PPO with PeVFA and obtain PPO-PeVFA. Experiments are conducted in OpenAI Gym continuous control tasks.</p>
+
+<p>The aggregated performance of considered algorithms for comparative evaluation is shown below.</p>
+
+<p><img src="/assets/image/research/PeVFA/Untitled 4.png" alt="Untitled" /></p>
+
+<h3 id="visual-analysis">Visual Analysis</h3>
+
+<p>The 2D t-SNE visualization of learned policy representation is shown in the figure below. We can observe that policies from different trials are locally continuous and show different modes of embedding trajectories due to random initialization and optimization; while a global evolvement among trials emerges with respect to policy performance.</p>
+
+<p><img src="/assets/image/research/PeVFA/Untitled 5.png" alt="Untitled" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[We study Policy-extended Value Function Approximator (PeVFA) in Reinforcement Learning (RL), which extends conventional value function approximator (VFA) to take as input not only the state (and action) but also an explicit policy representation. Such an extension enables PeVFA to preserve values of multiple policies at the same time and brings an appealing characteristic, i.e., *value generalization among policies*.]]></summary></entry><entry><title type="html">ERL-Re2: Efficient Evolutionary Reinforcement Learning with Shared State Representation and Individual Policy Representation</title><link href="/2023/09/10/Re2.html" rel="alternate" type="text/html" title="ERL-Re2: Efficient Evolutionary Reinforcement Learning with Shared State Representation and Individual Policy Representation" /><published>2023-09-10T00:00:00+08:00</published><updated>2023-09-10T00:00:00+08:00</updated><id>/2023/09/10/Re2</id><content type="html" xml:base="/2023/09/10/Re2.html"><![CDATA[<p>本次介绍的是新的进化强化学习范式<strong>ERL-Re$^2$</strong>。该范式充分融合了进化算法与强化学习用于策略优化，并实现了显著的性能增益与效果。</p>
 
 <p>进化算法与与强化学习是两类不同的优化方式，擅长解决不同的优化问题，并且都拥有很大，很活跃的社区，本次介绍的ICLR2023的工作就是为了将两个社区连接起来，充分利用两种不同优化算法各自的优势来实现策略搜索与性能提升 。目前代码已经开源。</p>
 
