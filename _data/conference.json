@@ -1,5 +1,65 @@
 [
   {
+    "name": "PORTAL: Automatic Curricula Generation for Multiagent Reinforcement Learning",
+    "from": "The 38th Association for the Advancement of Artificial Intelligence (AAAI): 2024",
+    "date": "2023",
+    "authors": "Jizhou Wu, Jianye Hao, Tianpei Yang, Xiaotian Hao, Yan Zheng, Weixun Wang, Matthew Taylor",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Multiagent Gumbel MuZero: Efficient Planning in Combinatorial Action Spaces",
+    "from": "The 38th Association for the Advancement of Artificial Intelligence (AAAI): 2024",
+    "date": "2023",
+    "authors": "Xiaotian Hao, Jianye Hao, Chenjun Xiao, Kai Li, Dong Li, Yan Zheng",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "OVD-Explorer: Optimism should not be the Sole Pursuit of Exploration in Noisy Environments",
+    "from": "The 38th Association for the Advancement of Artificial Intelligence (AAAI): 2024",
+    "date": "2023",
+    "authors": "Jinyi Liu, Zhi Wang, Yan Zheng, Jianye Hao, Chenjia Bai, Junjie Ye, Zhen Wang, Haiyin Piao, yang sun",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "A Transfer Approach Using Graph Neural Networks in Deep Reinforcement Learning",
+    "from": "The 38th Association for the Advancement of Artificial Intelligence (AAAI): 2024",
+    "date": "2023",
+    "authors": "Tianpei Yang, Heng You, Jianye Hao, Yan Zheng, Matthew Taylor",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "PreRoutGNN for Timing Prediction with Order Preserving Partition: Global Circuit Pre-training, Local Signal Delay Learning and Attentional Cell Modeling",
+    "from": "The 38th Association for the Advancement of Artificial Intelligence (AAAI): 2024",
+    "date": "2023",
+    "authors": "Ruizhe Zhong, Junjie Ye, Zhentao Tang, Shixiong Kai, Mingxuan Yuan, Jianye Hao, Junchi Yan",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
     "name": "A Hierarchical Imitation Learning-based Decision Framework for Autonomous Driving",
     "from": "Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM): 2023",
     "date": "2023",

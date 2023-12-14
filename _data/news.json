@@ -1,5 +1,11 @@
 [
   {
+    "title": "Five papers accepted by AAAI 2024:",
+    "desc": "\"PORTAL: Automatic Curricula Generation for Multiagent Reinforcement Learning\",\"Multiagent Gumbel MuZero: Efficient Planning in Combinatorial Action Spaces\",\"OVD-Explorer: Optimism should not be the Sole Pursuit of Exploration in Noisy Environments\",\"A Transfer Approach Using Graph Neural Networks in Deep Reinforcement Learning\",\"PreRoutGNN for Timing Prediction with Order Preserving Partition: Global Circuit Pre-training, Local Signal Delay Learning and Attentional Cell Modeling\"",
+    "date": "2023-12-09",
+    "google_icon": "campaign"
+  },
+  {
     "title": "Three papers accepted by ICML 2023:",
     "desc": "\"ChiPFormer: Transferable Chip Placement via Offline Decision Transformer\",\"MetaDiffuser: Diffusion Model as Conditional Planner for Offline Meta-RL\",\"RACE: Improve Multi-Agent Reinforcement Learning with Representation Asymmetry and Collaborative Evolution\"",
     "date": "2023-05-05",

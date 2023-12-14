@@ -1,7 +1,19 @@
 [
-   {
+  {
+    "name": "Pessimistic value iteration for multi-task data sharing in Offline Reinforcement Learning",
+    "from": "Artificial Intelligence 326 (2024) 104048 (AIJ): 2023",
+    "date": "2023",
+    "authors": "Chenjia Bai, Lingxiao Wang, Jianye Hao, Zhuoran Yang, Bin Zhao, Zhen Wang, Xuelong Li",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0004370223001947"
+      }
+    ]
+  },
+  {
     "name": "Research and applications of game intelligence.",
-    "from": "SCIENTIA SINICA Informationis , Volume 53, Issue 10: 1892 (2023): 2023",
+    "from": "中国科学·信息科学, Volume 53, Issue 10: 1892 (2023): 2023",
     "date": "2023",
     "authors": "郝建业, 邵坤, 李凯, 李栋, 毛航宇, 胡舒悦, 王震",
     "links": [
