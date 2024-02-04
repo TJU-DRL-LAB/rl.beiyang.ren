@@ -1,5 +1,101 @@
 [
   {
+    "name": "Uni-RLHF: Universal Platform and Benchmark Suite for Reinforcement Learning with Diverse Human Feedback",
+    "from": "The 12th International Conference on Learning Representations (ICLR): 2024",
+    "date": "2024",
+    "authors": "Yifu Yuan, Jianye HAO, Yi Ma, Zibin Dong, Hebin Liang, Jinyi Liu, Zhixin Feng, Kai Zhao, YAN ZHENG",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "AlignDiff: Aligning Diverse Human Preferences via Behavior-Customisable Diffusion Model",
+    "from": "The 12th International Conference on Learning Representations (ICLR): 2024",
+    "date": "2024",
+    "authors": "Zibin Dong*, Yifu Yuan*, Jianye HAO, Fei Ni, Yao Mu, YAN ZHENG, Yujing Hu, Tangjie Lv, Changjie Fan, Zhipeng Hu",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Sample-Efficient Quality-Diversity by Cooperative Coevolution",
+    "from": "The 12th International Conference on Learning Representations (ICLR): 2024",
+    "date": "2024",
+    "authors": "Ke Xue, Ren-Jian Wang, Pengyi Li, Dong Li, Jianye HAO, Chao Qian",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Rethinking Branching on Exact Combinatorial Optimization Solver: The First Deep Symbolic Discovery Framework",
+    "from": "The 12th International Conference on Learning Representations (ICLR): 2024",
+    "date": "2024",
+    "authors": "Yufei Kuang, Jie Wang, Haoyang Liu, Fangzhou Zhu, Xijun Li, Jia Zeng, Jianye HAO, Bin Li, Feng Wu",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "vMFER: von Mises-Fisher Experience Resampling Based on Uncertainty of Gradient Directions for Policy Improvement of Actor-Critic Algorithms",
+    "from": "The 23rd International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS): 2024 (Extended Abstract)",
+    "date": "2023",
+    "authors": "Yiwen Zhu, Jinyi Liu, Wenya Wei, Qianyi Fu, Yujing Hu, Zhou Fang, Bo An, Jianye Hao, Tangjie Lv and Changjie Fan",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "PADDLE: Logic Program Guided Policy Reuse in Deep Reinforcement Learning",
+    "from": "The 23rd International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS): 2024 (Extended Abstract)",
+    "date": "2023",
+    "authors": "Hao Zhang, Tianpei Yang, Yan Zheng, Jianye Hao and Matthew E. Taylor",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "ENOTO: Improving Offline-to-Online Reinforcement Learning with Q-Ensembles",
+    "from": "The 23rd International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS): 2024 (Extended Abstract)",
+    "date": "2023",
+    "authors": "Kai Zhao, Jianye Hao, Yi Ma, Jinyi Liu, Yan Zheng and Zhaopeng Meng",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "A Trajectory Perspective on the Role of Data Sampling Techniques in Offline Reinforcement Learning",
+    "from": "The 23rd International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS): 2024",
+    "date": "2023",
+    "authors": "Jinyi Liu, Yi Ma, Jianye Hao, Yujing Hu, Yan Zheng, Tangjie Lv and Changjie Fan",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
     "name": "PORTAL: Automatic Curricula Generation for Multiagent Reinforcement Learning",
     "from": "The 38th Association for the Advancement of Artificial Intelligence (AAAI): 2024",
     "date": "2023",
@@ -27,7 +123,7 @@
     "name": "OVD-Explorer: Optimism should not be the Sole Pursuit of Exploration in Noisy Environments",
     "from": "The 38th Association for the Advancement of Artificial Intelligence (AAAI): 2024",
     "date": "2023",
-    "authors": "Jinyi Liu, Zhi Wang, Yan Zheng, Jianye Hao, Chenjia Bai, Junjie Ye, Zhen Wang, Haiyin Piao, yang sun",
+    "authors": "Jinyi Liu*, Zhi Wang*, Yan Zheng, Jianye Hao, Chenjia Bai, Junjie Ye, Zhen Wang, Haiyin Piao, yang sun",
     "links": [
       {
         "name": "PDF",

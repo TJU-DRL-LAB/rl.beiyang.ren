@@ -1,5 +1,11 @@
 [
   {
+    "title": "Four papers accepted by ICLR 2024:",
+    "desc": "\"Uni-RLHF: Universal Platform and Benchmark Suite for Reinforcement Learning with Diverse Human Feedback\",\"Sample-Efficient Quality-Diversity by Cooperative Coevolution\",\"AlignDiff: Aligning Diverse Human Preferences via Behavior-Customisable Diffusion Model\",\"Rethinking Branching on Exact Combinatorial Optimization Solver: The First Deep Symbolic Discovery Framework\"",
+    "date": "2024-01-15",
+    "google_icon": "breaking_news"
+  },
+  {
     "title": "Five papers accepted by AAAI 2024:",
     "desc": "\"PORTAL: Automatic Curricula Generation for Multiagent Reinforcement Learning\",\"Multiagent Gumbel MuZero: Efficient Planning in Combinatorial Action Spaces\",\"OVD-Explorer: Optimism should not be the Sole Pursuit of Exploration in Noisy Environments\",\"A Transfer Approach Using Graph Neural Networks in Deep Reinforcement Learning\",\"PreRoutGNN for Timing Prediction with Order Preserving Partition: Global Circuit Pre-training, Local Signal Delay Learning and Attentional Cell Modeling\"",
     "date": "2023-12-09",
