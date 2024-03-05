@@ -1,5 +1,11 @@
 [
   {
+    "title": "Two papers accepted by CVPR 2024:",
+    "desc": "\"Generate Subgoal Images before Act: Unlocking the Chain-of-Thought Reasoning in Diffusion Model for Robot Manipulation with Multimodal Prompts\",\"Improving Unsupervised Hierarchical Representation with Reinforcement Learning\"",
+    "date": "2024-02-28",
+    "google_icon": "lightbulb"
+  },
+  {
     "title": "Four papers accepted by ICLR 2024:",
     "desc": "\"Uni-RLHF: Universal Platform and Benchmark Suite for Reinforcement Learning with Diverse Human Feedback\",\"Sample-Efficient Quality-Diversity by Cooperative Coevolution\",\"AlignDiff: Aligning Diverse Human Preferences via Behavior-Customisable Diffusion Model\",\"Rethinking Branching on Exact Combinatorial Optimization Solver: The First Deep Symbolic Discovery Framework\"",
     "date": "2024-01-15",

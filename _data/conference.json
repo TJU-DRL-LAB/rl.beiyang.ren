@@ -1,5 +1,29 @@
 [
   {
+    "name": "Generate Subgoal Images before Act: Unlocking the Chain-of-Thought Reasoning in Diffusion Model for Robot Manipulation with Multimodal Prompts",
+    "from": "Conference on Computer Vision and Pattern Recognition (CVPR): 2024",
+    "date": "2024",
+    "authors": "Fei Ni, Jianye HAO, Shiguang Wu, LongxinKou, Jiashun Liu, YAN ZHENG, Bin Wang, Yuzheng Zhuang",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Improving Unsupervised Hierarchical Representation with Reinforcement Learning",
+    "from": "Conference on Computer Vision and Pattern Recognition (CVPR): 2024",
+    "date": "2024",
+    "authors": "Ruyi An, Yewen Li, Xu He, Pengjie Gu, Mengchen Zhao, Dong Li, Jianye HAO, Bo An, Chaojie Wang, Mingyuan Zhou",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
     "name": "Uni-RLHF: Universal Platform and Benchmark Suite for Reinforcement Learning with Diverse Human Feedback",
     "from": "The 12th International Conference on Learning Representations (ICLR): 2024",
     "date": "2024",
