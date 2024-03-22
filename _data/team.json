@@ -90,13 +90,6 @@
     "type": "Graduate Students",
     "item": [
       {
-        "name": "\u5434\u5409\u6d32",
-        "desc": "3rd Year Master<br>College of Intelligence and Computing, Tianjin University",
-        "img": "/assets/image/team/\u5434\u5409\u6d32.png",
-        "link": "https://github.com/Cubism-star",
-        "area": "Research Area: Deep Reinforcement Learning, Transfer learning"
-      },
-      {
         "name": "\u80e1\u8096\u6c49",
         "desc": "3rd Year Master<br>College of Intelligence and Computing, Tianjin University",
         "img": "/assets/image/team/\u80e1\u8096\u6c49.jpg",
@@ -104,32 +97,11 @@
         "area": "Research Area: Offline reinforcement learning"
       },
       {
-        "name": "\u8d75\u6977",
-        "desc": "3rd Year Master<br>College of Intelligence and Computing, Tianjin University",
-        "img": "/assets/image/team/\u8d75\u6977.png",
-        "link": "",
-        "area": "Research Area: Offline Reinforcement Learning"
-      },
-      {
         "name": "\u5b59\u7426\u6dde",
         "desc": "3rd Year Master<br>College of Intelligence and Computing, Tianjin University",
         "img": "/assets/image/team/\u5b59\u7426\u6dde.png",
         "link": "",
         "area": "Research Area: Reinforcement Learning, Automated Negotiation"
-      },
-      {
-        "name": "\u5f20\u6167\u658c",
-        "desc": "3rd Year Master<br>School of New Media and Communication, Tianjin University",
-        "img": "/assets/image/team/\u5f20\u6167\u658c.png",
-        "link": "",
-        "area": "Research Area: natural language processing"
-      },
-      {
-        "name": "\u738b\u83b9\u7389",
-        "desc": "3rd Year Master<br>School of New Media and Communication, Tianjin University",
-        "img": "/assets/image/team/\u738b\u83b9\u7389.jpg",
-        "link": "",
-        "area": "Research Area: Research and Application of Digital Therapy Technology Based on Somatosensory Recognition"
       },
       {
         "name": "\u6768\u9633",
@@ -281,6 +253,20 @@
   {
     "type": "Alumni (Master)",
     "item": [
+      {
+        "name": "\u8d75\u6977",
+        "desc": "Graduated with a Master degree in 2024, working at Bilibili",
+        "img": "/assets/image/team/\u8d75\u6977.png",
+        "link": "",
+        "area": "Research Area: Offline Reinforcement Learning"
+      },
+      {
+        "name": "\u5434\u5409\u6d32",
+        "desc": "Graduated with a Master degree in 2024, working at Alibaba",
+        "img": "/assets/image/team/\u5434\u5409\u6d32.png",
+        "link": "https://github.com/Cubism-star",
+        "area": "Research Area: Deep Reinforcement Learning, Transfer learning"
+      },
       {
         "name": "\u5c24\u6052",
         "desc": "Graduated with a Master degree in 2023, working at China Academy of Aerospace Scientce and Innovation",
