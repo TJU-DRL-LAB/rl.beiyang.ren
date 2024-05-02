@@ -1,5 +1,173 @@
 [
   {
+    "name": "Rethinking Decision Transformer via Hierarchical Reinforcement Learning",
+    "from": "The 41st International Conference on Machine Learning (ICML): 2024",
+    "date": "2024",
+    "authors": "Yi Ma, Chenjun Xiao, Hebin Liang, Jianye HAO",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "A Hierarchical Adaptive Multi-Task Reinforcement Learning Framework for Multiplier Circuit Design",
+    "from": "The 41st International Conference on Machine Learning (ICML): 2024",
+    "date": "2024",
+    "authors": "Zhihai Wang, Jie Wang, Dongsheng Zuo, Ji Yunjie, Xilin Xia, Yuzhe Ma, Jianye HAO, Mingxuan Yuan, Yongdong Zhang, Feng Wu",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Towards General Algorithm Discovery for Combinatorial Optimization: Learning Symbolic Branching Policy from Bipartite Graph",
+    "from": "The 41st International Conference on Machine Learning (ICML): 2024",
+    "date": "2024",
+    "authors": "Yufei Kuang, Jie Wang, Yuyan Zhou, Xijun Li, Fangzhou Zhu, Jianye HAO, Feng Wu",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Reinforcement Learning within Tree Search for Fast Macro Placement",
+    "from": "The 41st International Conference on Machine Learning (ICML): 2024",
+    "date": "2024",
+    "authors": "Zijie Geng, Jie Wang, Ziyan Liu, Siyuan Xu, Zhentao Tang, Mingxuan Yuan, Jianye HAO, Yongdong Zhang, Feng Wu",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "HarmonyDream: Task Harmonization Inside World Models",
+    "from": "The 41st International Conference on Machine Learning (ICML): 2024",
+    "date": "2024",
+    "authors": "Haoyu Ma, Jialong Wu, Ningya Feng, Chenjun Xiao, Dong Li, Jianye HAO, Jianmin Wang, Mingsheng Long",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Sample-Efficient Multiagent Reinforcement Learning with Reset Replay",
+    "from": "The 41st International Conference on Machine Learning (ICML): 2024",
+    "date": "2024",
+    "authors": "Yaodong Yang, Guangyong Chen, Jianye HAO, Pheng-Ann Heng",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Improving Generalization in Offline Reinforcement Learning via Adversarial Data Splitting",
+    "from": "The 41st International Conference on Machine Learning (ICML): 2024",
+    "date": "2024",
+    "authors": "Da Wang, Lin Li, Wei Wei, Qixian Yu, Jianye HAO, Jiye Liang",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Imagine Big from Small: Unlock the Cognitive Generalization of Deep Reinforcement Learning from Simple Scenarios",
+    "from": "The 41st International Conference on Machine Learning (ICML): 2024",
+    "date": "2024",
+    "authors": "Jiashun Liu, Jianye HAO, Yi Ma, Shuyin Xia",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "EvoRainbow: Combining Improvements in Evolutionary Reinforcement Learning for Policy Search",
+    "from": "The 41st International Conference on Machine Learning (ICML): 2024",
+    "date": "2024",
+    "authors": "Pengyi Li, Jianye HAO, Hongyao Tang, Xian Fu, YAN ZHENG",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "A Circuit Domain Generalization Framework for Efficient Logic Synthesis in Chip Design",
+    "from": "The 41st International Conference on Machine Learning (ICML): 2024",
+    "date": "2024",
+    "authors": "Zhihai Wang, Lei Chen, Jie Wang, Yinqi Bai, Xing Li, Xijun Li, Mingxuan Yuan, Jianye HAO, Yongdong Zhang, Feng Wu",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "KISA: A Unified Keyframe Identifier and Skill Annotator for Long-Horizon Robotics Demonstrations",
+    "from": "The 41st International Conference on Machine Learning (ICML): 2024",
+    "date": "2024",
+    "authors": "Longxin Kou, Fei Ni, Jianye HAO, Jinyi Liu, Yifu Yuan, Zibin Dong, YAN ZHENG",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Value-Evolutionary-Based Reinforcement Learning",
+    "from": "The 41st International Conference on Machine Learning (ICML): 2024",
+    "date": "2024",
+    "authors": "Pengyi Li, Jianye HAO, Hongyao Tang, YAN ZHENG, Fazl Barez",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "ENOTO: Improving Offline-to-Online Reinforcement Learning with Q-Ensembles",
+    "from": "The 33rd International Joint Conference on Artificial Intelligence (IJCAI): 2024",
+    "date": "2024",
+    "authors": "Kai Zhao, Jianye Hao, Yi Ma, Jinyi Liu, Yan Zheng, Zhaopeng Meng",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+    {
+    "name": "vMFER: von Mises-Fisher Experience Resampling Based on Uncertainty of Gradient Directions for Policy Improvement",
+    "from": "The 33rd International Joint Conference on Artificial Intelligence (IJCAI): 2024",
+    "date": "2024",
+    "authors": "Yiwen Zhu, Jinyi Liu, wenya wei, qianyi fu, Yujing Hu, Zhou Fang, Bo An, Jianye Hao, Tangjie Lv, Changjie Fan",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
     "name": "Generate Subgoal Images before Act: Unlocking the Chain-of-Thought Reasoning in Diffusion Model for Robot Manipulation with Multimodal Prompts",
     "from": "Conference on Computer Vision and Pattern Recognition (CVPR): 2024",
     "date": "2024",

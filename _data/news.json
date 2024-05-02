@@ -1,5 +1,11 @@
 [
   {
+    "title": "Twelve papers accepted by ICML 2024:",
+    "desc": "\"HarmonyDream: Task Harmonization Inside World Models\",\"Rethinking Decision Transformer via Hierarchical Reinforcement Learning\",\"Sample-Efficient Multiagent Reinforcement Learning with Reset Replay\",\"Improving Generalization in Offline Reinforcement Learning via Adversarial Data Splitting\",\"Imagine Big from Small: Unlock the Cognitive Generalization of Deep Reinforcement Learning from Simple Scenarios\",\"EvoRainbow: Combining Improvements in Evolutionary Reinforcement Learning for Policy Search\",\"A Circuit Domain Generalization Framework for Efficient Logic Synthesis in Chip Design\",\"KISA: A Unified Keyframe Identifier and Skill Annotator for Long-Horizon Robotics Demonstrations\",\"Value-Evolutionary-Based Reinforcement Learning\",\"Reinforcement Learning within Tree Search for Fast Macro Placement\",\"Towards General Algorithm Discovery for Combinatorial Optimization: Learning Symbolic Branching Policy from Bipartite Graph\", \"A Hierarchical Adaptive Multi-Task Reinforcement Learning Framework for Multiplier Circuit Design\"",
+    "date": "2024-05-02",
+    "google_icon": "stars"
+  },
+  {
     "title": "Two papers accepted by CVPR 2024:",
     "desc": "\"Generate Subgoal Images before Act: Unlocking the Chain-of-Thought Reasoning in Diffusion Model for Robot Manipulation with Multimodal Prompts\",\"Improving Unsupervised Hierarchical Representation with Reinforcement Learning\"",
     "date": "2024-02-28",
