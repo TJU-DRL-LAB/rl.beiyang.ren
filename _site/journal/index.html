@@ -9,15 +9,54 @@
     <title>Conference</title>
 
     
+<!--    <script type="text/x-mathjax-config">-->
+<!--    MathJax.Hub.Config({-->
+<!--        tex2jax: {-->
+<!--        skipTags: ['script', 'noscript', 'style', 'pre'],-->
+<!--        inlineMath: [['$','$']]-->
+<!--        }-->
+<!--    });-->
+
+<!--    </script>-->
+
     <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
         tex2jax: {
-        skipTags: ['script', 'noscript', 'style', 'pre'],
-        inlineMath: [['$','$']]
+            inlineMath: [
+                ['$', '$'],
+                ['\\(', '\\)']
+            ],
+            displayMath: [
+                ['$$', '$$'],
+                ["\\[", "\\]"]
+            ],
+            processEscapes: true
+        },
+        TeX: {
+            extensions: ["AMSmath.js", "AMSsymbols.js"],
+            equationNumbers: {
+                autoNumber: ["AMS"],
+                useLabelIds: true
+            },
+            Macros: {
+                hfill: "{}"
+					}
+        },
+        "HTML-CSS": {
+            linebreaks: {
+                automatic: true
+            },
+            availableFonts: ["TeX"],
+            scale: 110
+        },
+        SVG: {
+            linebreaks: {
+                automatic: true
+            }
         }
     });
+	</script>
 
-    </script>
     <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
             type="text/javascript"></script>
 
@@ -423,7 +462,7 @@
         <div class="journey-item" data-year="2023">
             <h3 class="publication-title">
                 
-                Research and applications of game intelligence.
+                博弈智能的研究与应用
             </h3>
             <span class="publication-source">中国科学·信息科学, Volume 53, Issue 10: 1892 (2023): 2023</span>
             <span class="publication-authors">郝建业, 邵坤, 李凯, 李栋, 毛航宇, 胡舒悦, 王震</span>

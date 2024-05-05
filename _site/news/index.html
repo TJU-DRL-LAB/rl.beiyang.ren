@@ -9,15 +9,54 @@
     <title>news</title>
 
     
+<!--    <script type="text/x-mathjax-config">-->
+<!--    MathJax.Hub.Config({-->
+<!--        tex2jax: {-->
+<!--        skipTags: ['script', 'noscript', 'style', 'pre'],-->
+<!--        inlineMath: [['$','$']]-->
+<!--        }-->
+<!--    });-->
+
+<!--    </script>-->
+
     <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
         tex2jax: {
-        skipTags: ['script', 'noscript', 'style', 'pre'],
-        inlineMath: [['$','$']]
+            inlineMath: [
+                ['$', '$'],
+                ['\\(', '\\)']
+            ],
+            displayMath: [
+                ['$$', '$$'],
+                ["\\[", "\\]"]
+            ],
+            processEscapes: true
+        },
+        TeX: {
+            extensions: ["AMSmath.js", "AMSsymbols.js"],
+            equationNumbers: {
+                autoNumber: ["AMS"],
+                useLabelIds: true
+            },
+            Macros: {
+                hfill: "{}"
+					}
+        },
+        "HTML-CSS": {
+            linebreaks: {
+                automatic: true
+            },
+            availableFonts: ["TeX"],
+            scale: 110
+        },
+        SVG: {
+            linebreaks: {
+                automatic: true
+            }
         }
     });
+	</script>
 
-    </script>
     <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
             type="text/javascript"></script>
 

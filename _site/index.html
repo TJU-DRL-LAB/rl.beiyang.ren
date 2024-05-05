@@ -9,15 +9,54 @@
     <title>天津大学-深度强化学习实验室</title>
 
     
+<!--    <script type="text/x-mathjax-config">-->
+<!--    MathJax.Hub.Config({-->
+<!--        tex2jax: {-->
+<!--        skipTags: ['script', 'noscript', 'style', 'pre'],-->
+<!--        inlineMath: [['$','$']]-->
+<!--        }-->
+<!--    });-->
+
+<!--    </script>-->
+
     <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
         tex2jax: {
-        skipTags: ['script', 'noscript', 'style', 'pre'],
-        inlineMath: [['$','$']]
+            inlineMath: [
+                ['$', '$'],
+                ['\\(', '\\)']
+            ],
+            displayMath: [
+                ['$$', '$$'],
+                ["\\[", "\\]"]
+            ],
+            processEscapes: true
+        },
+        TeX: {
+            extensions: ["AMSmath.js", "AMSsymbols.js"],
+            equationNumbers: {
+                autoNumber: ["AMS"],
+                useLabelIds: true
+            },
+            Macros: {
+                hfill: "{}"
+					}
+        },
+        "HTML-CSS": {
+            linebreaks: {
+                automatic: true
+            },
+            availableFonts: ["TeX"],
+            scale: 110
+        },
+        SVG: {
+            linebreaks: {
+                automatic: true
+            }
         }
     });
+	</script>
 
-    </script>
     <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
             type="text/javascript"></script>
 
@@ -484,6 +523,54 @@
     <div class="research-cards">
         
         
+            <div class="research-card" data-url="/2024/05/05/MAMuZero.html">
+                <div class="research-image"
+                     style="background-image: url('/assets/image/research/MA-MuZero.jpg');
+                     
+                             background-size:contain;
+                     ">
+                </div>
+                <div class="research-body">
+                    <div class="research-card-title">
+                        Multiagent Gumbel MuZero: Efficient Planning in Combinatorial Action Spaces
+                    </div>
+                    <div class="research-card-desc">
+                        2024-05-05: To address the challenge of the exponential growth of the joint action space and the resulting exponential increase in search space, this paper extends the AlphaZero and MuZero algorithms to more complex multi-agent Markov decision processes, proposing two algorithms, Multiagent Gumbel AlphaZero and Multiagent Gumbel MuZero. These algorithms are based on resettable environment simulators and multi-agent world models constructed by neural networks, enabling efficient search and decision-making. An efficient without-replacement top-$k$ sampling algorithm is proposed for exponential action space, along with a high-quality policy improvement operator adapted to it, reducing the complexity and computational burden of Monte Carlo tree search while enhancing exploration capabilities. Besides, we propose a Centralized Planning with Decentralized Execution (CPDE) paradigm which uses centralized planning to accelerate policy learning while enabling decentralized execution for deployment. The algorithms achieve the best performance in testing environments such as StarCraft compared to model-free multi-agent reinforcement learning algorithms, with a 10-fold increase in learning sample efficiency while maintaining win rates.
+                    </div>
+                    <div class="research-card-action">
+                        
+                            <a target="_blank" href="https://ojs.aaai.org/index.php/AAAI/article/view/29121/30120" class="banner">PDF</a>
+                        
+                            <a target="_blank" href="https://github.com/tjuHaoXiaotian/MA-MuZero" class="banner">Code</a>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="research-card" data-url="/2024/05/05/ADT.html">
+                <div class="research-image"
+                     style="background-image: url('/assets/image/research/ADT/ADT.png');
+                     
+                             background-size:contain;
+                     ">
+                </div>
+                <div class="research-body">
+                    <div class="research-card-title">
+                        Rethinking Decision Transformer via Hierarchical Reinforcement Learning
+                    </div>
+                    <div class="research-card-desc">
+                        2024-05-05: In this work we introduce a general sequence modeling framework for studying sequential decision making through the lens of Hierarchical RL. At the time of making decisions, a high-level policy first proposes an ideal prompt for the current state, a low-level policy subsequently generates an action conditioned on the given prompt.  We show DT emerges as a special case of this framework with certain choices of high-level and low-level policies, and discuss the potential failure of these choices.  Inspired by these observations, we study how to jointly optimize the high-level and low-level policies to enable the stitching ability,  which further leads to the development of new offline RL algorithms. .
+                    </div>
+                    <div class="research-card-action">
+                        
+                            <a target="_blank" href="https://arxiv.org/abs/2311.00267" class="banner">PDF</a>
+                        
+                            <a target="_blank" href="" class="banner">Code</a>
+                        
+                    </div>
+                </div>
+            </div>
+        
             <div class="research-card" data-url="/2023/10/21/PeVFA.html">
                 <div class="research-image"
                      style="background-image: url('/assets/image/research/PeVFA/Untitled.png');
@@ -527,54 +614,6 @@
                             <a target="_blank" href="https://arxiv.org/abs/2210.17375" class="banner">PDF</a>
                         
                             <a target="_blank" href="https://github.com/yeshenpy/ERL-Re2" class="banner">Code</a>
-                        
-                    </div>
-                </div>
-            </div>
-        
-            <div class="research-card" data-url="/2023/09/09/API.html">
-                <div class="research-image"
-                     style="background-image: url('/assets/image/research/iclr23_pi_pe.png');
-                     
-                             background-size:contain;
-                     ">
-                </div>
-                <div class="research-body">
-                    <div class="research-card-title">
-                        Boosting Multiagent Reinforcement Learning via Permutation Invariant and Permutation Equivariant Networks
-                    </div>
-                    <div class="research-card-desc">
-                        2023-09-09: The state space in Multiagent Reinforcement Learning (MARL) grows exponentially with the agent number. Such a curse of dimensionality results in poor scalability and low sample efficiency, inhibiting MARL for decades. To break this curse, we propose a unified agent permutation framework that exploits the permutation invariance (PI) and permutation equivariance (PE) inductive biases to reduce the multiagent state space. Our insight is that permuting the order of entities in the factored multiagent state space does not change the information.
-                    </div>
-                    <div class="research-card-action">
-                        
-                            <a target="_blank" href="https://openreview.net/pdf?id=OxNQXyZK-K8" class="banner">PDF</a>
-                        
-                            <a target="_blank" href="https://github.com/tjuHaoXiaotian/pymarl3" class="banner">Code</a>
-                        
-                    </div>
-                </div>
-            </div>
-        
-            <div class="research-card" data-url="/2023/08/01/MetaDiffuser.html">
-                <div class="research-image"
-                     style="background-image: url('/assets/image/research/metadiffuer.png');
-                     
-                             background-size:contain;
-                     ">
-                </div>
-                <div class="research-body">
-                    <div class="research-card-title">
-                        MetaDiffuser: Diffusion Model as Conditional Planner for Offline Meta-RL
-                    </div>
-                    <div class="research-card-desc">
-                        2023-08-01: Recently, diffusion model shines as a promising backbone for the sequence modeling paradigm in offline reinforcement learning. However, these works mostly lack the generalization ability across tasks with reward or dynamics change. To tackle this challenge, in this paper we propose a task-oriented conditioned diffusion planner for offline meta-RL(MetaDiffuser), which considers the generalization problem as conditional trajectory generation task with contextual representation. The key is to learn a context conditioned diffusion model which can generate task-oriented trajectories for planning across diverse tasks. To enhance the dynamics consistency of the generated trajectories while encouraging trajectories to achieve high returns, we further design a dual-guided module in the sampling process of the diffusion model. The proposed framework enjoys the robustness to the quality of collected warm-start data from the testing task and the flexibility to incorporate with different task representation method. The experiment results on MuJoCo benchmarks show that MetaDiffuser outperforms other strong offline meta-RL baselines, demonstrating the outstanding conditional generation ability of diffusion architecture.
-                    </div>
-                    <div class="research-card-action">
-                        
-                            <a target="_blank" href="http://proceedings.mlr.press/v202/ni23a/ni23a.pdf" class="banner">PDF</a>
-                        
-                            <a target="_blank" href="https://metadiffuser.github.io" class="banner">Site</a>
                         
                     </div>
                 </div>
