@@ -6,6 +6,12 @@
     "google_icon": "stars"
   },
   {
+    "title": "Two papers accepted by IJCAI 2024:",
+    "desc": "\"ENOTO: Improving Offline-to-Online Reinforcement Learning with Q-Ensembles\", \"vMFER: von Mises-Fisher Experience Resampling Based on Uncertainty of Gradient Directions for Policy Improvement\"",
+    "date": "2024-04-21",
+    "google_icon": "rocket_launch"
+  },
+  {
     "title": "Two papers accepted by CVPR 2024:",
     "desc": "\"Generate Subgoal Images before Act: Unlocking the Chain-of-Thought Reasoning in Diffusion Model for Robot Manipulation with Multimodal Prompts\",\"Improving Unsupervised Hierarchical Representation with Reinforcement Learning\"",
     "date": "2024-02-28",
