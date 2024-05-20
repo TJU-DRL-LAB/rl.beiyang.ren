@@ -1,5 +1,29 @@
 [
   {
+    "name": "Exploiting counter-examples for active learning with partial labels",
+    "from": "Machine Learning, 2024 (MLJ): 2024",
+    "date": "2024",
+    "authors": "Fei Zhang, Yunjie Ye, Lei Feng, Zhongwen Rao, Jieming Zhu, Marcus Kalander, Chen Gong, Jianye Hao, Bo Han",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://link.springer.com/article/10.1007/s10994-023-06485-9"
+      }
+    ]
+  },
+  {
+    "name": "Learning from hierarchical structure of knowledge graph for recommendation",
+    "from": "ACM Trans. Inf. Syst. 42(1): 18:1-18:24 (2024): 2024",
+    "date": "2024",
+    "authors": "Yingrong Qin, Chen Gao, Shuangqing Wei, Yue Wang, Depeng Jin, Jian Yuan, Lin Zhang, Dong Li, Jianye Hao, Yong Li",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0004370223001947"
+      }
+    ]
+  },
+  {
     "name": "Pessimistic value iteration for multi-task data sharing in Offline Reinforcement Learning",
     "from": "Artificial Intelligence 326 (2024) 104048 (AIJ): 2023",
     "date": "2023",
@@ -34,6 +58,13 @@
         "url": "https://doi.org/10.1007/s10458-023-09600-1"
       }
     ]
+  },
+  {
+    "name": "ASN: action semantics network for multiagent reinforcement learning",
+    "from": "Auton. Agents Multi Agent Syst. 37(2): 45 (2023)",
+    "date": "2023",
+    "authors": "Tianpei Yang, Weixun Wang, Jianye Hao, Matthew E. Taylor, Yong Liu, Xiaotian Hao, Yujing Hu, Yingfeng Chen, Changjie Fan, Chunxu Ren, Ye Huang, Jiangcheng Zhu, Yang Gao",
+    "links": []
   },
   {
     "name": "A benchmark for automatic medical consultation system: frameworks, tasks and datasets.",

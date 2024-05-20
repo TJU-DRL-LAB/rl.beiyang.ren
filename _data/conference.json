@@ -1,5 +1,53 @@
 [
   {
+    "name": "EWEK-QA : Enhanced Web and Efficient Knowledge Graph Retrieval for Citation-based Question Answering Systems",
+    "from": "The 62nd Annual Meeting of the Association for Computational Linguistics (ACL): 2024",
+    "date": "2024",
+    "authors": "EWEK-QA : Enhanced Web and Efficient Knowledge Graph Retrieval for Citation-based Question Answering Systems, Mohammad Dehghan, Mohammad Ali Alomrani, Sunyam Bagga, David Alfonso-Hermelo, Khalil Bibi, Abbas Ghaddar, Yingxue Zhang, Xiaoguang Li, Jianye HAO, Qun Liu, Jimmy Lin, Boxing Chen, Prasanna Parthasarathi, Mahdi Biparva, Mehdi Rezagholizadeh",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "GraSS: Combining Graph Neural Networks with Expert Knowledge for SAT Solver Selection",
+    "from": "30th SIGKDD Conference on Knowledge Discovery and Data Mining (KDD): 2024",
+    "date": "2024",
+    "authors": "Zhanguang Zhang, Didier Chételat, Joseph Cotnareanu, Amur Ghose, Wenyi XIAO, Hui-Ling Zhen, Yingxue Zhang, Jianye HAO, Mark Coates, Mingxuan Yuan",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "DyPS: Dynamic Parameter Sharing in Multi-Agent Reinforcement Learning for Spatio-Temporal Resource Allocation",
+    "from": "30th SIGKDD Conference on Knowledge Discovery and Data Mining (KDD): 2024",
+    "date": "2024",
+    "authors": "Jingwei Wang, Qianyue Hao, Wenzhen Huang, Xiaochen FAN, Zhentao Tang, Bin Wang, Jianye HAO, Yong Li",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "The MMO Economist: AI Empowers Robust, Healthy, and Sustainable P2W MMO Economies",
+    "from": "The 33rd International World Wide Web Conferences (WWW): 2024",
+    "date": "2024",
+    "authors": "Shiwei Zhao, Xi Yuan, Runze Wu, Zhipeng Hu, Haoyu Liu, Kai Wang, Yujing Hu, Tangjie Lv, Changjie Fan, Xin Tong, Jiangze Han, Yan Zheng, Jianye Hao",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
     "name": "Rethinking Decision Transformer via Hierarchical Reinforcement Learning",
     "from": "The 41st International Conference on Machine Learning (ICML): 2024",
     "date": "2024",

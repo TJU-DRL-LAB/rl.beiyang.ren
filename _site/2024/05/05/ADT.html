@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    <title>Rethinking Decision Transformer via Hierarchical Reinforcement Learning</title>
+
+    
+<!--    <script type="text/x-mathjax-config">-->
+<!--    MathJax.Hub.Config({-->
+<!--        tex2jax: {-->
+<!--        skipTags: ['script', 'noscript', 'style', 'pre'],-->
+<!--        inlineMath: [['$','$']]-->
+<!--        }-->
+<!--    });-->
+
+<!--    </script>-->
+
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [
+                ['$', '$'],
+                ['\\(', '\\)']
+            ],
+            displayMath: [
+                ['$$', '$$'],
+                ["\\[", "\\]"]
+            ],
+            processEscapes: true
+        },
+        TeX: {
+            extensions: ["AMSmath.js", "AMSsymbols.js"],
+            equationNumbers: {
+                autoNumber: ["AMS"],
+                useLabelIds: true
+            },
+            Macros: {
+                hfill: "{}"
+					}
+        },
+        "HTML-CSS": {
+            linebreaks: {
+                automatic: true
+            },
+            availableFonts: ["TeX"],
+            scale: 110
+        },
+        SVG: {
+            linebreaks: {
+                automatic: true
+            }
+        }
+    });
+	</script>
+
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+            type="text/javascript"></script>
+
+
+    
+    <link rel="stylesheet"
+          href="https://fonts.loli.net/css?family=Manrope">
+    <link rel="stylesheet"
+          href="https://fonts.loli.net/css?family=Merriweather:900,900italic,300,300italic">
+    <link href="https://fonts.loli.net/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://fonts.loli.net/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <link href="https://fonts.loli.net/css?family=Lato:900,300" rel="stylesheet" type="text/css">
+    <link rel="stylesheet"
+          href="https://fonts.loli.net/css?family=Playfair+Display:400,900">
+
+    <link rel="stylesheet"
+          href="https://fonts.loli.net/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
+    <style>
+        body {
+            cursor: default;
+            padding: 0;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+    </style>
+    <link rel="stylesheet" href="/assets/css/header.css">
+    
+    <link rel="stylesheet" href="/assets/css/footer.css">
+    
+        <link rel="stylesheet" href="/assets/css/post.css">
+    
+
+    
+
+</head>
+<body>
+<script>
+  // Wait for the DOM to fully load
+  document.addEventListener("DOMContentLoaded", () => {
+    // JavaScript code to select all <a> tags with class != "inner"
+    const anchorTagsWithoutInnerClass = document.querySelectorAll('a:not(.inner)');
+
+    // Loop through the selected anchor tags and add the target="_blank" attribute
+    anchorTagsWithoutInnerClass.forEach(anchor => {
+      anchor.setAttribute('target', '_blank');
+    });
+  });
+
+</script>
+<section id="header">
+    <header>
+        <div class="logo">
+            <img src="/assets/image/logo.png" alt=""/>
+        </div>
+        <div class="action">
+            <div class="tab">
+                <a class="tab-item inner" href="/">HOME</a>
+                <a class="tab-item inner" href="/news">NEWS</a>
+                <a class="tab-item inner" href="/research">RESEARCH</a>
+                <!--                <a class="tab-item inner" href="/publications">PUBLICATIONS</a>-->
+                <div class="dropdown-menu">
+                    <span class="text">PUBLICATIONS</span>
+                    <div class="content">
+                        <div onclick="window.location.href ='/conference'" class="tab-item item">
+                            CONFERENCE
+                        </div>
+                        <div class="divider"></div>
+                        <div onclick="window.location.href ='/journal'" class="tab-item item">
+                            JOURNAL
+                        </div>
+                    </div>
+                </div>
+                <!--<a class="tab-item inner" href="/software">SOFTWARE</a>-->
+                <a class="tab-item inner" href="/team">TEAM</a>
+                <!--                <a class="tab-item inner" href="/ibbb">IBBB</a>-->
+                <!--                <a class="tab-item inner" href="/events">EVENTS</a>-->
+                <a class="tab-item inner" href="/contact">CONTACT</a>
+            </div>
+            <div style="display: none" class="contact" onclick="window.location.href='/contact'">
+                <span>Contact Us</span>
+            </div>
+            <div class="thin-menu">
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="menu-btn">
+                    <i class="material-icons">menu</i>
+                </label>
+                <ul class="menu">
+                    <li><a class="inner" href="/">HOME</a></li>
+                    <li><a class="inner" href="/news">NEWS</a></li>
+                    <li><a class="inner" href="/research">RESEARCH</a></li>
+                    <!--                    <li><a class="inner" href="/publications">PUBLICATIONS</a></li>-->
+                    <li><a class="inner" href="/conference">CONFERENCE</a></li>
+                    <li><a class="inner" href="/journal">JOURNAL</a></li>
+                    <!--<li><a class="inner" href="/software">SOFTWARE</a></li>-->
+                    <li><a class="inner" href="/team">TEAM</a></li>
+                    <!--                    <li><a class="inner" href="/ibbb">IBBB</a></li>-->
+                    <!--                    <li><a class="inner" href="/events">EVENTS</a></li>-->
+                    <li><a class="inner" href="/contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+</section>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']],
+      displayMath: [             // start/end delimiter pairs for display math
+        ['$$', '$$'],
+        ['\\[', '\\]']
+      ],
+      processEscapes: true
+    }
+  };
+</script>
+<section id="post">
+    <div class="post-body">
+        <div class="post-title">Rethinking Decision Transformer via Hierarchical Reinforcement Learning</div>
+        <div class="post-subtitle">
+            <span style="margin-right: 10px;color: #0076df;">Yi Ma</span>
+            May 05, 2024 </div>
+        <!-- for links -->
+        <div class="post-links">
+            
+                <a href="https://arxiv.org/abs/2311.00267" target="_blank" class="banner">
+                    
+                        
+                            <i class="material-icons" style="margin-right: 5px;">picture_as_pdf</i>
+                        
+                    
+                    PDF
+                </a>
+            
+                <a href="" target="_blank" class="banner">
+                    
+                        
+                            <img style="height: 1.3rem;margin-right: 5px;"
+                                 src="/assets/image/github-mark.svg" alt="">
+                        
+                    
+                    Code
+                </a>
+            
+        </div>
+        <div class="post-poster">
+            <img style="width: 100%; height: auto"
+                 src="/assets/image/research/ADT/ADT.png" alt="poster">
+        </div>
+        <div style="font-family: 'Merriweather',ui-serif;font-size: 18px; overflow-x: auto;">
+            <h1 id="rethinking-decision-transformer-via-hierarchical-reinforcement-learning">Rethinking Decision Transformer via Hierarchical Reinforcement Learning</h1>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>$Decision Transformer (DT) is an innovative algorithm leveraging recent advances of the transformer architecture in reinforcement learning (RL). However, a notable limitation of DT is its reliance on recalling trajectories from datasets, 
+losing the capability to seamlessly Stitch sub-optimal trajectories together. In this work we introduce a general sequence modeling framework for studying sequential decision making through the lens of Hierarchical RL. At the time of making decisions, a high-level policy first proposes an ideal prompt for the current state, a low-level policy subsequently generates an action conditioned on the given prompt.  We show DT emerges as a special case of this framework with certain choices of high-level and low-level policies, and discuss the potential failure of these choices.  Inspired by these observations, we study how to jointly optimize the high-level and low-level policies to enable the stitching ability,  which further leads to the development of new offline RL algorithms.  Our empirical results clearly show that the proposed algorithms significantly surpass DT on several control and navigation benchmarks. We hope our contributions can inspire the integration of transformer architectures within the field of RL.</p>
+
+<h2 id="autotuned-decision-transformer-adt">Autotuned Decision Transformer (ADT)</h2>
+
+<h3 id="definition-of-adt">Definition of ADT</h3>
+
+<p>Our algorithm is derived by considering a general framework that bridges transformer-based decision 
+models with hierarchical reinforcement learning (HRL). In particular, we use the following hierarchical  representation of policy</p>
+
+<p>$
+\pi(a | s) = \int_{\mathcal{P}} \pi^{h}(p | s) \cdot  \pi^{l} (a | s, p) dp\, ,
+$
+where $\mathcal{P}$ is a set of prompts. To make a decision, the high-level policy $\pi^h$ first 
+generates a prompt $p\in \mathcal{P}$, instructed by which the low-level policy $\pi^l$ returns an action conditioned on $p$.</p>
+
+<p><img src="/assets/image/research/ADT/ADT.png" alt="Untitled" /></p>
+
+<p>ADT jointly optimizes the hierarchical policies to overcomes the limitations of DT. An illustration 
+of ADT architecture is provided in the figure above.  Similar to DT, ADT applies a transformer model 
+for the low-level policy, it considers the following trajectory representation, 
+$
+\tau=\left(p_0, s_0, a_0, p_1, s_1, a_1, \ldots, p_T, s_T, a_T\right)
+$
+Here $p_i$ is the prompt generated by the high-level policy $p_i \sim \pi^h(\cdot | s_i)$, replacing 
+the return-to-go prompt used by DT.  That is, for each trajectory in the offline dataset, we relabel
+it by adding a prompt generated by the high-level policies for each transition. 
+Armed with this general hierarchical decision framework, we propose two algorithms that apply different 
+high-level prompting generation strategy while sharing a unified low-level policy optimization framework. 
+We learn a high-level policy $\pi_\omega\approx \pi^h$ with parameters $\phi$, and a low-level polic y $\pi_\theta \approx \pi^l$ with parameters $\theta$.</p>
+
+<h3 id="value-prompted-autotuned-decision-transformer-v-adt">Value-prompted Autotuned Decision Transformer (V-ADT)</h3>
+
+<p>Our first algorithm, \emph{Value-promped Autotuned Decision Transformer (V-ADT)}, uses scalar values as prompts. But unlike DT, it applies a more principled design of value prompts instead of return-to-go.<br />
+V-ADT aims to answer two questions: what is the maximum achievable value starting from a state $s$, and what action should be taken to achieve such a value?<br />
+The optimal value of this empirical MDP presented by the offline dataset is
+$
+V_{\mathcal{D}}^*(s)=\max _{a: \pi_{\mathcal{D}}(a \mid s)&gt;0} r(s, a)+\gamma \mathbb{E}_{s^{\prime} \sim P_{\mathcal{D}}(\cdot \mid s, a)}.
+$</p>
+
+<p>Let $Q_{\mathcal{D}}^*(s, a)$ be the corresponding state-action value. $V_{\mathcal{D}}^*$ 
+is known as the in-sample optimal value in offline RL. 
+We now describe how V-ADT jointly optimizes high and low level policies to facilitate stitching.</p>
+
+<h4 id="high-level-policy">High-Level policy</h4>
+
+<p>High-Level policy V-ADT adopts a deterministic policy $\pi_\omega: \mathcal{S} \rightarrow \mathbb{R}$, which predicts the in-sample optimal value $\pi
+_\omega \approx V_{\mathcal{D}}^*$. Since we already have an approximated in-sample optimal value $V_\phi$,
+we let $\pi_\omega=V_\phi$. This high-level policy offers two key advantages. 
+First, this approach efficiently facilitates information backpropagation towards earlier states on a trajectory, 
+addressing a major limitation of DT. This is achieved by using $V_{\mathcal{D}}^*$ as the value prompt,
+ensuring that we have precise knowledge of the maximum achievable return for any state.
+Making predictions conditioned on $R^*(s)$ is not enough for policy optimization, 
+since $R^*(s)=\max _{\tau \in \mathcal{T}(s)} R(\tau)$ only gives a lower bound on $V_{\mathcal{D}}^*(s)$ 
+and thus would be a weaker guidance (see Section 3.1 for detailed discussions). 
+Second, the definition of $V_{\mathcal{D}}^*$ exclusively focuses on the optimal value derived 
+from observed data and thus avoids out-of-distribution returns. This prevents the low-level policy 
+from making decisions conditioned on prompts that require extrapolation.</p>
+
+<h4 id="low-level-policy">Low-Level policy</h4>
+
+<p>Low-Level policy Directly training the model to predict the trajectory, as done in DT, is not suitable for our approach. This is because the action $a_t$ observed in the data may not necessarily correspond to the action at state $s_t$ that leads to the return $V_{\mathcal{D}}^*\left(s_t\right)$. However, the probability of selecting $a_t$ should be proportional to the value of this action. Thus, we use advantage-weighted regression to learn the low-level policy: given trajectory data, the objective is defined as
+$
+\mathcal{L}(\theta)=-\sum_{t=0}^T \exp \left(\frac{Q_\psi\left(s_t, a_t\right)-V_\phi\left(s_t\right)}{\alpha}\right) \log \pi_\theta\left(a_t \mid s_t, \pi_\omega\left(s_t\right)\right),
+$
+where $\alpha&gt;0$ is a hyper-parameter. The low-level policy takes the output of high-level policy as input. This guarantees no discrepancy between train and test value prompt used by the policies. We note that the only difference of this compared to the standard maximum log-likelihood objective for sequence modeling is to apply a weighting for each transition. One can easily implement this with trajectory data for a transformer. In practice we also observe that the tokenization scheme when processing the trajectory data affects the performance of ADT. Instead of treating the prompt $p_t$ as a single token as in DT, we find it is beneficial to concatenate $p_t$ and $s_t$ together and tokenize the concatenated vector.</p>
+
+<h3 id="goal-prompted-autotuned-decision-transformer-g-adt">Goal-prompted Autotuned Decision Transformer (G-ADT)</h3>
+
+<p>In HRL, the high-level policy often considers a latent action space. Typical choices of latent actions includes sub-goal, skills, and options. We consider goal-reaching problem as an example and use subgoals as latent actions, which leads to our second algorithm, Goal-promped Autotuned Decision Transformer (G-ADT). Let $\mathcal{G}$ be the goal space ${ }^3$. The goal-conditioned reward function $r(s, a, g)$ provides the reward of taking action $a$ at state $s$ for reaching the goal $g \in \mathcal{G}$. Let $V(s, g)$ be the universal value function defined by the goal-conditioned rewards. Similarly, we define $V_{\mathcal{D}}^*(s, g)$ and $Q_{\mathcal{D}}^*(s, a, g)$ the in-sample optimal universal value function. We also train $V_\phi \approx V_{\mathcal{D}}^*$ and $Q_\psi \approx Q_{\mathcal{D}}^*$ to approximate the universal value functions. We now describe how G-ADT jointly optimizes the policies.</p>
+
+<h4 id="high-level-policy-1">High-Level policy</h4>
+
+<p>G-ADT considers $\mathcal{P}=\mathcal{G}$ and uses a high-level policy $\pi_\omega: \mathcal{S} \rightarrow \mathcal{G}$. To find a shorter path, the high-level policy $\pi_\omega$ generates a sequence of sub-goals $g_t=\pi_\omega\left(s_t\right)$ that guides the learner step-by-step towards the final goal. We use a sub-goal that lies in $k$-steps further from the current state, where $k$ is a hyper-parameter of the algorithm tuned for each domain (Badrinath et al., 2023; Park et al., 2023). In particular, given trajectory data (4), the high-level policy learns the optimal $k$-steps jump using the recently proposed Hierarchical Implicit Q-learning (HIQL) algorithms:
+$
+\begin{aligned}
+&amp; \mathcal{L}(\phi)=-\sum_{t=0}^T \exp \left(\frac{\mathcal{A}_{\text {high }}}{\alpha}\right) \log \pi_\omega\left(s_{t+k} \mid s_t, g\right) <br />
+&amp; \mathcal{A}_{\text {high }}=\sum_{t^{\prime}=t}^{k-1} \gamma^{t^{\prime}-t} r\left(s_{t^{\prime}}, a_{t^{\prime}}, g\right)+\gamma^k V_\phi\left(s_{t+k}, g\right)-V_\phi\left(s_t, g\right)
+\end{aligned}
+$</p>
+
+<h4 id="low-level-policy-1">Low-Level policy</h4>
+
+<p>The low-level policy in G-ADT learns to reach the sub-goal generated by the high-level policy. GADT shares the same low-level policy objective as V-ADT. Given trajectory data, it considers the following
+$
+\mathcal{L}(\theta)=-\sum_{t=0}^T \exp \left(\frac{\mathcal{A}_{\text {low }}}{\alpha}\right) \cdot \log \pi_\theta\left(a_t \mid s_t, \pi_\omega\left(s_t\right)\right),
+$
+where $\mathcal{A}_{\text {low }}=Q_\psi\left(s_t, a_t, \pi_\omega\left(s_t\right)\right)-V_\phi\left(s_t, \pi_\omega\left(s_t\right)\right)$. Note that this is exactly the same as that in V-ADT except that the advantages $\mathcal{A_\text{low}}$ are computed by  universal value functions. G-ADT also applies the same tokenization method as V-ADT by first concatenating $\pi_\omega(s_t)$ and $s_t$ together. This concludes the description of the G-ADT algorithm.</p>
+
+<h2 id="experiments">Experiments</h2>
+
+<p>Table 1 and 2 present the performance of two variations of ADT evaluated on offline datasets. ADT significantly outperforms prior transformer-based decision making algorithms. Compared to DT and QLDT, two transformer-based algorithms for decision making, V-ADT  exhibits significant superiority especially on AntMaze and Kitchen which require the stitching ability to success. 
+Meanwhile,   Table 2 shows that G-ADT significantly outperforms WT, an algorithm that uses sub-goal as prompt for a transformer policy.  We note that ADT enjoys comparable performance with state-of-the-art offline RL methods. 
+For example, V-ADT outperforms all offline RL baselines in Mujoco problems.  In AntMaze and Kitchen, V-ADT matches the performance of IQL, and significantly outperforms TD3+BC and CQL. 
+Table 2 concludes with similar findings for G-ADT.</p>
+
+<p><img src="/assets/image/research/ADT/exp1.png" alt="Untitled" /></p>
+
+<p><img src="/assets/image/research/ADT/exp2.png" alt="Untitled" /></p>
+
+
+        </div>
+    </div>
+</section>
+
+<section id="footer">
+    <div class="footer-body">
+        <div class="footer-body-holder">
+            <div class="logos">
+                <div class="logo"
+                     style="background-image: url('/assets/image/logo-white.png');"></div>
+                <div class="text">
+                <span class="strong">
+                Deep Reinforcement Learning
+                </span>
+                    Laboratory
+                </div>
+            </div>
+            <div class="footer-divider"></div>
+            <div class="footer-actions">
+                <div class="action-item extra-margin">
+                    <div class="action-title">
+                        Contact Us
+                    </div>
+                    <div class="action-body action-item">
+                        <table style="border-spacing: 14px;border-collapse: collapse;user-select: text">
+                            <tr>
+                                <td style="width: 120px;vertical-align: top">
+                                    <i class="material-icons">location_on</i>
+                                </td>
+                                <td style="width: 550px;vertical-align: top">
+                                    天津市津南区海河教育园区雅观路135号天津大学软件学院55号楼A区
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="display: flex; align-items: center"><i class="material-icons">mail</i></td>
+                                <td>
+                                    <a class="hover-blue" href="mailto:jianye.hao@tju.edu.cn"
+                                       style="color: white;text-decoration: underline;">
+                                        jianye.hao@tju.edu.cn
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr style="display: none">
+                                <td>Phone:</td>
+                                <td>(+22) 123 - 4567 - 900</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+
+        <div>
+            <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+        </div>
+        <div>
+            <span>©️ TIANJIN UNIVERSITY-DEEP REINFORCEMENT LEARNING LAB</span>
+            <span style="margin-left: 25px;">ALL RIGHTS RESERVED</span><br/>
+        </div>
+    </div>
+</section>
+</body>
+</html>
