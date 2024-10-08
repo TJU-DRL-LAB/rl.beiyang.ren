@@ -1,5 +1,11 @@
 # RL LAB WEBSITE
 
+### Note
+
+```angular2html
+bundle install
+```
+
 ## requirement
 ```
 Jekyll 4.3.2

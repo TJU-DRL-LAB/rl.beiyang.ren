@@ -1,5 +1,41 @@
 [
   {
+    "name": "Bridging Evolutionary Algorithms and Reinforcement Learning: A Comprehensive Survey",
+    "from": "IEEE Transactions on Evolutionary Computation: 2024",
+    "date": "2024",
+    "authors": "Pengyi Li, Jianye Hao, Hongyao Tang, Xian Fu, Yan Zheng, Ke Tang",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://arxiv.org/pdf/2401.11963"
+      }
+    ]
+  },
+  {
+    "name": "WToE: Learning When to Explore in Multiagent Reinforcement Learning",
+    "from": "IEEE Transactions on Cybernetics, 54(8): 4789-4801 (2024): 2024",
+    "date": "2024",
+    "authors": "Shaokang Dong, Hangyu Mao, Shangdong Yang, Shengyu Zhu, Wenbin Li, Jianye Hao, Yang Gao",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "A survey on interpretable reinforcement learning",
+    "from": "Machine Learning, 2024 (MLJ): 2024",
+    "date": "2024",
+    "authors": "Claire Glanois, Paul Weng, Matthieu Zimmer, Dong Li, Tianpei Yang, Jianye Hao, Wulong Liu",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://link.springer.com/article/10.1007/s10994-023-06485-9"
+      }
+    ]
+  },
+  {
     "name": "Exploiting counter-examples for active learning with partial labels",
     "from": "Machine Learning, 2024 (MLJ): 2024",
     "date": "2024",

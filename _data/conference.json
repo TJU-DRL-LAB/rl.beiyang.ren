@@ -1,5 +1,113 @@
 [
   {
+    "name": "CleanDiffuser: An Easy-to-use Modularized Library for Diffusion Models in Decision Making",
+    "from": "The 38th Conference on Neural Information Processing Systems (NeurIPS Datasets and Benchmarks Track): 2024",
+    "date": "2024",
+    "authors": "Zibin Dong, Yifu Yuan, Jianye HAO, Fei Ni, Yi Ma, Pengyi Li, YAN ZHENG",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "PERIA: Perceive, Reason, Imagine, Act via Holistic Language and Vision Planning for Manipulation",
+    "from": "The 38th Conference on Neural Information Processing Systems (NeurIPS): 2024",
+    "date": "2024",
+    "authors": "Fei Ni, Jianye HAO, Shiguang Wu, Longxin Kou, Yifu Yuan, Zibin Dong, Jinyi Liu, MingZhi Li, YAN ZHENG, Yuzheng Zhuang",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "iVideoGPT: Interactive VideoGPTs are Scalable World Models",
+    "from": "The 38th Conference on Neural Information Processing Systems (NeurIPS): 2024",
+    "date": "2024",
+    "authors": "Jialong Wu, Shaofeng Yin, Ningya Feng, Xu He, Dong Li, Jianye HAO, Mingsheng Long",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Iteratively Refined Behavior Regularization for Offline Reinforcement Learning",
+    "from": "The 38th Conference on Neural Information Processing Systems (NeurIPS): 2024",
+    "date": "2024",
+    "authors": "Yi Ma, Jianye HAO, Xiaohan Hu, YAN ZHENG, Chenjun Xiao",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "FlexPlanner: Flexible 3D Floorplanning via Deep Reinforcement Learning in Hybrid Action Space with Multi-Modality Representation",
+    "from": "The 38th Conference on Neural Information Processing Systems (NeurIPS): 2024",
+    "date": "2024",
+    "authors": "Ruizhe Zhong, Xingbo Du, Shixiong Kai, Zhentao Tang, Siyuan Xu, Jianye HAO, Mingxuan Yuan, Junchi Yan",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Unlock the Intermittent Control Ability of Model Free Reinforcement Learning",
+    "from": "The 38th Conference on Neural Information Processing Systems (NeurIPS): 2024",
+    "date": "2024",
+    "authors": "Jiashun Liu, Jianye HAO, Xiaotian Hao, Yi Ma, YAN ZHENG, Yujing Hu, Tangjie Lv",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "DiffuserLite: Towards Real-time Diffusion Planning",
+    "from": "The 38th Conference on Neural Information Processing Systems (NeurIPS): 2024",
+    "date": "2024",
+    "authors": "Zibin Dong, Jianye HAO, Yifu Yuan, Fei Ni, Yitian Wang, Pengyi Li, YAN ZHENG",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "The Ladder in Chaos: Improving Policy Learning by Harnessing the Parameter Evolving Path in A Low-dimensional Space",
+    "from": "The 38th Conference on Neural Information Processing Systems (NeurIPS): 2024",
+    "date": "2024",
+    "authors": "Hongyao Tang, Min Zhang, Chen Chen, Jianye HAO",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Towards Next-Generation Logic Synthesis: A Scalable Neural Circuit Generation Framework",
+    "from": "The 38th Conference on Neural Information Processing Systems (NeurIPS): 2024",
+    "date": "2024",
+    "authors": "Zhihai Wang, Jie Wang, Qingyue Yang, Yinqi Bai, Xing Li, Lei Chen, Jianye HAO, Mingxuan Yuan, Bin Li, Yongdong Zhang, Feng Wu",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
     "name": "EWEK-QA : Enhanced Web and Efficient Knowledge Graph Retrieval for Citation-based Question Answering Systems",
     "from": "The 62nd Annual Meeting of the Association for Computational Linguistics (ACL): 2024",
     "date": "2024",

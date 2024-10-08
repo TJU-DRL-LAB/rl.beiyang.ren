@@ -1,5 +1,11 @@
 [
   {
+    "title": "Nine papers accepted by NeurIPS 2024:",
+    "desc": "\"PERlA: Perceive, Reason lmadine, Act via Holistic l anouage and vision Planning for Manipulation\", \"ivideoGpT: nteractive videoGPTs areScalable World Models\", \"iteraively Refined Behavior Reqularization for Offine Reinforcement Learning\", \"FlexPlanner: flexible 3DFloorplanning via Deep Reinforcement Learningin Hybrid Action Space with Multi-Modaity Representation\", \"Unlock the intermittent ControlAbility of ModelFree Reinforcement Learning\", \"Difuserlite: Towards Real-time Difusion Planning\", \"The Ladder in Chaos: mproving PolicyLearning by Harnessing the Parameter Evoling Path in A Low-dimensional Space\",\"owards Next-Generation Locic Synthesis: A scalableNeural circuit Generation Framework\", CleanDiffuser: An Easy-to-use Modularized library for Diffusion Models in Decision Making\"",
+    "date": "2024-09-26",
+    "google_icon": "campaign"
+  },
+  {
     "title": "Twelve papers accepted by ICML 2024:",
     "desc": "\"HarmonyDream: Task Harmonization Inside World Models\",\"Rethinking Decision Transformer via Hierarchical Reinforcement Learning\",\"Sample-Efficient Multiagent Reinforcement Learning with Reset Replay\",\"Improving Generalization in Offline Reinforcement Learning via Adversarial Data Splitting\",\"Imagine Big from Small: Unlock the Cognitive Generalization of Deep Reinforcement Learning from Simple Scenarios\",\"EvoRainbow: Combining Improvements in Evolutionary Reinforcement Learning for Policy Search\",\"A Circuit Domain Generalization Framework for Efficient Logic Synthesis in Chip Design\",\"KISA: A Unified Keyframe Identifier and Skill Annotator for Long-Horizon Robotics Demonstrations\",\"Value-Evolutionary-Based Reinforcement Learning\",\"Reinforcement Learning within Tree Search for Fast Macro Placement\",\"Towards General Algorithm Discovery for Combinatorial Optimization: Learning Symbolic Branching Policy from Bipartite Graph\", \"A Hierarchical Adaptive Multi-Task Reinforcement Learning Framework for Multiplier Circuit Design\"",
     "date": "2024-05-02",

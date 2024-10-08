@@ -30,9 +30,9 @@ total_json.append(result)
 
 # ----------------------------STUDENTS----------------------------------
 df = pd.read_excel("team_info.xlsx")
-type_dict = {1: "Ph.D. Students", 2: "Graduate Students"}
-year_dict = {1: "1st Year", 2: "2nd Year", 3: "3rd Year", 4: "4th Year"}
-loc_dict = {1: " Ph.D.", 2: " Master"}
+type_dict = {1: "Ph.D. Students", 2: "Graduate Students", 3: "Undergraduate Students"}
+year_dict = {1: "1st Year", 2: "2nd Year", 3: "3rd Year", 4: "4th Year", 5: "5th Year"}
+loc_dict = {1: " Ph.D.", 2: " Master", 3: " Undergraduate"}
 for type_index, type in type_dict.items():
     result = {"type": type, "item": []}
     for index, row in df.iterrows():
@@ -45,7 +45,7 @@ for type_index, type in type_dict.items():
             else:
                 link = row["个人主页链接"]
             item = {"name": row["姓名"],
-                    "desc": year_dict[2023 - row["入学年份"] + 1] + loc_dict[type_index] + "<br>"
+                    "desc": year_dict[2024 - row["入学年份"] + 1] + loc_dict[type_index] + "<br>"
                             + row["学院"], "img": img_path,
                     "link": link, "area": "Research Area: " + row["研究方向（英文）"]}
             result["item"].append(item)
@@ -104,7 +104,6 @@ for index, row in df.iterrows():
 print(result)
 
 total_json.append(result)
-
 
 json_str = json.dumps(total_json)
 with open("../_data/team.json", "w") as f:
