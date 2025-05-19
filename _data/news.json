@@ -1,5 +1,17 @@
 [
   {
+    "title": "Seven papers accepted by ICML 2025:",
+    "desc": "\"Trajectory World Models for Heterogeneous Environments\", \"MODULI: Unlocking Preference Generalization via Diffusion Models for Offline Multi-Objective Reinforcement Learning\", \"STAR: Learning Diverse Robot Skill Abstractions through Rotation-Augmented Vector Quantization\", \"Boosting Multi-Domain Fine-Tuning of Large Language Models through Evolving Interactions between Samples\", \"R*: Efficient Reward Design via Reward Structure Evolution and Parameter Alignment Optimization with Large Language Models\", \"Accelerating Large Language Model Reasoning via Speculative Search\", \"HyperTree Planning: Enhancing LLM Reasoning via Hierarchical Thinking\"",
+    "date": "2025-05-05",
+    "google_icon": "stars"
+  },
+  {
+    "title": "Eight papers accepted by ICLR 2025:",
+    "desc": "\"3D-AffordanceLLM: Harnessing Large Language Models for Open-Vocabulary Affordance Detection in 3D Worlds\", \"SPA-BENCH: A COMPREHENSIVE BENCHMARK FOR SMARTPHONE AGENT EVALUATION\", \"A Graph Enhanced Symbolic Discovery Framework For Efficient Logic Optimization\", \"Apollo-MILP: An Alternating Prediction-Correction Neural Solving Framework for Mixed-Integer Linear Programming\", \"LaMPlace: Learning to Optimize Cross-Stage Metrics in Macro Placement\", \"Differentiable Integer Linear Programming\", \"DistRL: An Asynchronous Distributed Reinforcement Learning Framework for On-Device Control Agent\", \"Lightweight Neural App Control\"",
+    "date": "2025-01-15",
+    "google_icon": "breaking_news"
+  },
+  {
     "title": "祝贺李鹏翼（博士生）获得2024年度国家自然科学基金青年学生基础研究项目(博士研究生)资助",
     "desc": "祝贺李鹏翼（博士生）获得2024年度国家自然科学基金青年学生基础研究项目(博士研究生)，获资助经费30万元",
     "date": "2024-12-05",
