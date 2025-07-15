@@ -1,5 +1,29 @@
 [
   {
+    "name": "EmbodiedScene: Towards Automated Generation of Diverse and Realistic Scenes for Embodied AI",
+    "from": "ICML 2025 Workshop WM Best Paper: 2025",
+    "date": "2025",
+    "authors": "Jinbin Qiao, Pengyi Li, Peilong Han, YAN ZHENG, Jianye HAO",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "One Demo Is All It Takes: Planning Domain Derivatifrom A Single Demonstration",
+    "from": "CVPR2025 Workshiop FMEA Best Paper Finalist: 2025",
+    "date": "2025",
+    "authors": "Jinbang Huang, Yixin Xiao, Zhanguang Zhang, Mark Coates, Jianye HA0, Yingxue Zhang",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
     "name": "War of Thoughts: Competition Stimulates Stronger Reasoning in Large Language Models",
     "from": "The 63rd Annual Meeting of the Association for Computational Linguistics (ACL Findings): 2025",
     "date": "2025",
