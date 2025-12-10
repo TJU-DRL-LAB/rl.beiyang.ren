@@ -1,0 +1,29 @@
+{
+  "main_page": {
+    "desc": "Our lab has several Ph.D. and Master positions. If you are interested in our research, please send us your CV. (jianye.hao@tju.edu.cn / yanzheng@tju.edu.cn / tanghongyao@tju.edu.cn) <br><br> 实验室长期接受优秀同学交流学习，攻读硕士/博士学位的同学加入。同时欢迎感兴趣学部（院）夏令营活动的同学进行邮件联系！",
+    "balance_wrap": true,
+    "poster": [
+        {
+            "image": "assets/image/index/metadiffuer.png",
+            "link": "https://arxiv.org/abs/2305.19923",
+            "title": "MetaDiffuser: Diffusion Model as Conditional Planner for Offline Meta-RL"
+        },
+        {
+            "image": "assets/image/index/re2.png",
+            "link": "https://openreview.net/pdf?id=FYZCHEtt6H0",
+            "title": "ERL-Re2: Efficient Evolutionary Reinforcement Learning with Shared State Representation and Individual Policy Representation"
+        },
+        {
+            "image": "assets/image/index/api.png",
+            "link": "https://openreview.net/pdf?id=OxNQXyZK-K8",
+            "title": "Boosting Multiagent Reinforcement Learning via Permutation Invariant and Permutation Equivariant Networks"
+        }
+    ],
+    "news": 4,
+    "post": 4
+  },
+  "publications": {
+    "show_index": false,
+    "previous": 2020
+  }
+}

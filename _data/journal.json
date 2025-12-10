@@ -1,5 +1,89 @@
 [
   {
+    "name": "ED2: environment dynamics decomposition world models for continuous control",
+    "from": "Visual Intelligence, Volume 3, Article 23 (2025), published 26 November 2025",
+    "date": "2025",
+    "authors": "Yifu Yuan, Hongyao Tang, Cong Wang, Yan Zheng & Jianye Hao",
+    "links": [
+      {
+        "name": "PDF",
+        "url": " https://doi.org/10.1007/s44267-025-00094-x"
+      }
+    ]
+  },
+  {
+    "name": "Unified and explainable molecular representation learning for imperfectly annotated data from the hypergraph view",
+    "from": "Nature Communications volume 16, Article number: 8717 (2025)",
+    "date": "2025",
+    "authors": "Bowen Wang, Junyou Li, Donghao Zhou, Lanqing Li, Jinpeng Li, Ercheng Wang, Jianye Hao, Liang Shi, Chengqiang Lu, Jiezhong Qiu, Tingjun Hou, Dongsheng Cao, Guangyong Chen, Pheng Ann Heng",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.1038/s41467-025-63730-6"
+      }
+    ]
+  },
+  {
+    "name": "Identifying potential risk genes for clear cell renal cell carcinoma with deep reinforcement learning",
+    "from": "Nature Communications volume 16, Article number: 3591 (2025)",
+    "date": "2025",
+    "authors": "Dazhi Lu, Yan Zheng, Xianyanling Yi, Jianye Hao, Xi Zeng, Lu Han, Zhigang Li, Shaoqing Jiao, Bei Jiang, Jianzhong Ai & Jiajie Peng",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.1038/s41467-025-58439-5"
+      }
+    ]
+  },
+  {
+    "name": "The rise and potential opportunities of large language model agents in bioinformatics and biomedicine",
+    "from": "Briefings in Bioinformatics, Volume 26, Issue 6, November 2025, bbaf601",
+    "date": "2025",
+    "authors": "Tiantian Yang, Yihang Xiao, Zhijie Bao, Jianye Hao, Jiajie Peng",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.1093/bib/bbaf601"
+      }
+    ]
+  },
+  {
+    "name": "Hierarchical task network-enhanced multi-agent reinforcement learning: Toward efficient cooperative strategies",
+    "from": "Neural Networks Volume 186, June 2025, 107254",
+    "date": "2025",
+    "authors": "Xuechen Mu, Hankz Hankui Zhuo, Chen Chen, Kai Zhang, Chao Yu, Jianye Hao",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.1016/j.neunet.2025.107254"
+      }
+    ]
+  },
+  {
+    "name": "MENTOR: Guiding Hierarchical Reinforcement Learning With Human Feedback and Dynamic Distance Constraint",
+    "from": "IEEE Transactions on Neural Networks and Learning Systems, VOL. 36, NO. 4, April 2025",
+    "date": "2025",
+    "authors": "Xinglin Zhou, Yifu Yuan, Shaofu Yang, Jianye Hao",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://doi.org/10.48550/arXiv.2402.14244"
+      }
+    ]
+  },
+  {
+    "name": "Robust Multiobjective Reinforcement Learning Considering Environmental Uncertainties",
+    "from": "IEEE Transactions on Neural Networks and Learning Systems ( Volume: 36, Issue: 4, April 2025)",
+    "date": "2025",
+    "authors": "Xiangkun He，Jianye Hao，Xu Chen，Jun Wang，Xuewu Ji，Chen Lv",
+    "links": [
+      {
+        "name": "PDF",
+        "url": "https://ieeexplore.ieee.org/document/10537218"
+      }
+    ]
+  },
+  {
     "name": "Bridging Evolutionary Algorithms and Reinforcement Learning: A Comprehensive Survey",
     "from": "IEEE Transactions on Evolutionary Computation: 2024",
     "date": "2024",

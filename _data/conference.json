@@ -1,5 +1,77 @@
 [
   {
+    "name": "AgentSwift: Efficient LLM Agent Design via Value-guided Hierarchical Search",
+    "from": "The 40th Annual AAAI Conference on Artificial Intelligence: 2026",
+    "date": "2025",
+    "authors": "Yu Li, Lehui Li, Zhihao Wu, Qingmin Liao, Jianye HAO, Kun Shao, Fengli Xu",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "OptiTree: Hierarchical Thoughts Generation with Tree Search for LLM Optimization Modeling",
+    "from": "The Thirty-Ninth Annual Conference on Neural Information Processing Systems: 2025",
+    "date": "2025",
+    "authors": "Haoyang Liu，Haoyang_Liu2, Jie Wang, Yuyang Cai, Xiongwei Han, Yufei Kuang, Jianye HAO",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Dynamic Configuration for Cutting Plane Separators via Reinforcement Learning on Incremental Graph",
+    "from": "The Thirty-Ninth Annual Conference on Neural Information Processing Systems: 2025",
+    "date": "2025",
+    "authors": "Mingxuan Ye，Mingxuan_Ye1, Jie Wang, Fangzhou Zhu, Zhihai Wang, Yufei Kuang, Xijun Li, Weilin Luo, Jianye HAO, Feng Wu",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Conditioning Matters: Training Diffusion Policies is Faster Than You Think",
+    "from": "The Thirty-Ninth Annual Conference on Neural Information Processing Systems: 2025",
+    "date": "2025",
+    "authors": "Zibin Dong, Yicheng Liu, Yinchuan Li, Hang Zhao, Jianye HAO",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Uncertainty-quantified Rollout Policy Adaptation for Unlabelled Cross-domain Video Temporal Grounding",
+    "from": "The Thirty-Ninth Annual Conference on Neural Information Processing Systems: 2025",
+    "date": "2025",
+    "authors": "Jian Hu，Jian_Hu4, Zixu Cheng, Shaogang Gong, Isabel Guan, Jianye HAO, Jun Wang, Kun Shao",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Succeed or Learn Slowly: Sample Efficient Off-Policy Reinforcement Learning for Mobile App Control",
+    "from": "The Thirty-Ninth Annual Conference on Neural Information Processing Systems: 2025",
+    "date": "2025",
+    "authors": "Georgios Papoudakis，Georgios_Papoudakis1, Thomas Coste, Jianye HAO, Jun Wang, Kun Shao",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
     "name": "EmbodiedScene: Towards Automated Generation of Diverse and Realistic Scenes for Embodied AI",
     "from": "ICML 2025 Workshop WM Best Paper: 2025",
     "date": "2025",

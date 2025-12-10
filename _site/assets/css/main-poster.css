@@ -34,7 +34,7 @@ section#poster {
 
 .carousel-slide {
     background: center no-repeat;
-    background-size: contain;
+    background-size: cover;
     min-width: 100%;
     min-height: 100%;
     display: flex;

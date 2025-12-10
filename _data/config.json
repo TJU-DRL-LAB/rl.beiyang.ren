@@ -4,19 +4,19 @@
     "balance_wrap": true,
     "poster": [
         {
-            "image": "assets/image/index/metadiffuer.png",
-            "link": "https://arxiv.org/abs/2305.19923",
-            "title": "MetaDiffuser: Diffusion Model as Conditional Planner for Offline Meta-RL"
+            "image": "assets/image/index/EmbodiedGen.png",
+            "link": "https://arxiv.org/html/2506.10600v1",
+            "title": "EmbodiedScene: Towards Automated Generation of Diverse and Realistic Scenes for Embodied AI"
         },
         {
-            "image": "assets/image/index/re2.png",
-            "link": "https://openreview.net/pdf?id=FYZCHEtt6H0",
-            "title": "ERL-Re2: Efficient Evolutionary Reinforcement Learning with Shared State Representation and Individual Policy Representation"
+            "image": "assets/image/index/Demonstration.png",
+            "link": "https://openreview.net/forum?id=kBzLqj2KRE",
+            "title": "One Demo Is All It Takes: Planning Domain Derivatifrom A Single Demonstration"
         },
         {
-            "image": "assets/image/index/api.png",
-            "link": "https://openreview.net/pdf?id=OxNQXyZK-K8",
-            "title": "Boosting Multiagent Reinforcement Learning via Permutation Invariant and Permutation Equivariant Networks"
+            "image": "assets/image/index/WoT.png",
+            "link": "https://aclanthology.org/2025.findings-acl.1118/",
+            "title": "War of Thoughts: Competition Stimulates Stronger Reasoning in Large Language Models"
         }
     ],
     "news": 4,
