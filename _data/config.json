@@ -9,9 +9,9 @@
             "title": "EmbodiedScene: Towards Automated Generation of Diverse and Realistic Scenes for Embodied AI"
         },
         {
-            "image": "assets/image/index/Demonstration.png",
-            "link": "https://openreview.net/forum?id=kBzLqj2KRE",
-            "title": "One Demo Is All It Takes: Planning Domain Derivatifrom A Single Demonstration"
+            "image": "assets/image/index/COLA.png",
+            "link": "https://openreview.net/pdf?id=Cldpn7H3NN",
+            "title": "COLA: Towards Efficient Multi-Objective Reinforcement Learning with Conflict Objective Regularization in Latent Space"
         },
         {
             "image": "assets/image/index/WoT.png",
