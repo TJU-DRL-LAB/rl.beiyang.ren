@@ -1,7 +1,7 @@
 [
   {
     "name": "COLA: Towards Efficient Multi-Objective Reinforcement Learning with Conflict Objective Regularization in Latent Space",
-    "from": "The Thirty-Ninth Annual Conference on Neural Information Processing Systems: 2025",
+    "from": "The 39th Annual Conference on Neural Information Processing Systems (NeurIPS): 2025",
     "date": "2025",
     "authors": "Pengyi Li, Hongyao Tang, Yifu Yuan, Jianye Hao, Zibin Dong, YAN ZHENG",
     "links": [
@@ -13,7 +13,7 @@
   },
   {
     "name": "AttentionPredictor: Temporal Patterns Matter for KV Cache Compression",
-    "from": "The Thirty-Ninth Annual Conference on Neural Information Processing Systems: 2025",
+    "from": "The 39th Annual Conference on Neural Information Processing Systems (NeurIPS): 2025",
     "date": "2025",
     "authors": "Qingyue Yang, Jie Wang, Xing Li, Zhihai Wang, Chen Chen, Lei Chen, Xianzhi Yu, Wulong Liu, Jianye HAO, Mingxuan Yuan, Bin Li",
     "links": [
@@ -25,7 +25,7 @@
   },
   {
     "name": "Accurate KV Cache Eviction via Anchor Direction Projection for Efficient LLM Inference",
-    "from": "The Thirty-Ninth Annual Conference on Neural Information Processing Systems: 2025",
+    "from": "The 39th Annual Conference on Neural Information Processing Systems (NeurIPS): 2025",
     "date": "2025",
     "authors": "Zijie Geng, Jie Wang, Ziqi Liu, Feng Ju, Yiming Li, Xing Li, Mingxuan Yuan, Jianye HAO, Defu Lian, Enhong Chen, Feng Wu",
     "links": [
@@ -37,7 +37,7 @@
   },
   {
     "name": "CORE: Collaborative Optimization with Reinforcement Learning and Evolutionary Algorithm for Floorplanning",
-    "from": "The Thirty-Ninth Annual Conference on Neural Information Processing Systems: 2025",
+    "from": "The 39th Annual Conference on Neural Information Processing Systems (NeurIPS): 2025",
     "date": "2025",
     "authors": "Pengyi Li, Shixiong Kai, Jianye HAO, Ruizhe Zhong, Hongyao Tang, Zhentao Tang, Mingxuan Yuan, Junchi Yan",
     "links": [
@@ -49,7 +49,7 @@
   },
   {
     "name": "High-Performance Arithmetic Circuit Optimization via Differentiable Architecture Search",
-    "from": "The Thirty-Ninth Annual Conference on Neural Information Processing Systems: 2025",
+    "from": "The 39th Annual Conference on Neural Information Processing Systems (NeurIPS): 2025",
     "date": "2025",
     "authors": "Xilin Xia, Jie Wang, Wanbo Zhang, Zhihai Wang, Mingxuan Yuan, Jianye HAO, Feng Wu",
     "links": [
@@ -61,7 +61,7 @@
   },
   {
     "name": "LogicTree: Improving Complex Reasoning of LLMs via Instantiated Multi-step Synthetic Logical Data",
-    "from": "The Thirty-Ninth Annual Conference on Neural Information Processing Systems: 2025",
+    "from": "The 39th Annual Conference on Neural Information Processing Systems (NeurIPS): 2025",
     "date": "2025",
     "authors": "Zehao Wang, Lin Yang, Jie Wang, Kehan Wang, Hanzhu Chen, Bin Wang, Jianye HAO, Defu Lian, Bin Li, Enhong Chen",
     "links": [
@@ -73,7 +73,7 @@
   },
   {
     "name": "LaRes: Evolutionary Reinforcement Learning with LLM-based Adaptive Reward Search",
-    "from": "The Thirty-Ninth Annual Conference on Neural Information Processing Systems: 2025",
+    "from": "The 39th Annual Conference on Neural Information Processing Systems (NeurIPS): 2025",
     "date": "2025",
     "authors": "Pengyi Li, Hongyao Tang, Jinbin Qiao, YAN ZHENG, Jianye HAO",
     "links": [
@@ -85,7 +85,7 @@
   },
   {
     "name": "OptiTree: Hierarchical Thoughts Generation with Tree Search for LLM Optimization Modeling",
-    "from": "The Thirty-Ninth Annual Conference on Neural Information Processing Systems: 2025",
+    "from": "The 39th Annual Conference on Neural Information Processing Systems (NeurIPS): 2025",
     "date": "2025",
     "authors": "Haoyang Liu, Jie Wang, Yuyang Cai, Xiongwei Han, Yufei Kuang, Jianye HAO",
     "links": [
@@ -97,7 +97,7 @@
   },
   {
     "name": "Dynamic Configuration for Cutting Plane Separators via Reinforcement Learning on Incremental Graph",
-    "from": "The Thirty-Ninth Annual Conference on Neural Information Processing Systems: 2025",
+    "from": "The 39th Annual Conference on Neural Information Processing Systems (NeurIPS): 2025",
     "date": "2025",
     "authors": "Mingxuan Ye, Jie Wang, Fangzhou Zhu, Zhihai Wang, Yufei Kuang, Xijun Li, Weilin Luo, Jianye HAO, Feng Wu",
     "links": [
@@ -109,7 +109,7 @@
   },
   {
     "name": "Conditioning Matters: Training Diffusion Policies is Faster Than You Think",
-    "from": "The Thirty-Ninth Annual Conference on Neural Information Processing Systems: 2025",
+    "from": "The 39th Annual Conference on Neural Information Processing Systems (NeurIPS): 2025",
     "date": "2025",
     "authors": "Zibin Dong, Yicheng Liu, Yinchuan Li, Hang Zhao, Jianye HAO",
     "links": [
@@ -121,7 +121,7 @@
   },
   {
     "name": "Uncertainty-quantified Rollout Policy Adaptation for Unlabelled Cross-domain Video Temporal Grounding",
-    "from": "The Thirty-Ninth Annual Conference on Neural Information Processing Systems: 2025",
+    "from": "The 39th Annual Conference on Neural Information Processing Systems (NeurIPS): 2025",
     "date": "2025",
     "authors": "Jian Hu，Jian_Hu4, Zixu Cheng, Shaogang Gong, Isabel Guan, Jianye HAO, Jun Wang, Kun Shao",
     "links": [
@@ -133,9 +133,21 @@
   },
   {
     "name": "Succeed or Learn Slowly: Sample Efficient Off-Policy Reinforcement Learning for Mobile App Control",
-    "from": "The Thirty-Ninth Annual Conference on Neural Information Processing Systems: 2025",
+    "from": "The 39th Annual Conference on Neural Information Processing Systems (NeurIPS): 2025",
     "date": "2025",
     "authors": "Georgios Papoudakis，Georgios_Papoudakis1, Thomas Coste, Jianye HAO, Jun Wang, Kun Shao",
+    "links": [
+      {
+        "name": "PDF",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "AgentSwift: Efficient LLM Agent Design via Value-guided Hierarchical Search",
+    "from": "The 40th Annual AAAI Conference on Artificial Intelligence (AAAI): 2026",
+    "date": "2025",
+    "authors": "Yu Li, Lehui Li, Zhihao Wu, Qingmin Liao, Jianye HAO, Kun Shao, Fengli Xu",
     "links": [
       {
         "name": "PDF",
